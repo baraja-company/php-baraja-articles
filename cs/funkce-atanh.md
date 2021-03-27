@@ -1,0 +1,32 @@
+PHP funkce atanh()
+================================
+
+> id: 59275599-981c-4936-8acc-9a624bddbdec
+> slugCS: funkce-atanh
+> publicationDate: 2019-09-11 10:04:03
+> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+
+Dostupnost ve verzích: `PHP 4.1.0`
+
+Inverse hyperbolic tangent
+
+
+Parametry
+--------------
+
+| Parametr | Datový typ | Výchozí hodnota | Poznámka |
+|-----|-----|-----|-----|
+| `$arg` | `float` |  | The argument to process |
+
+
+Návratové hodnoty
+----------------
+
+`float`
+
+Inverse hyperbolic tangent of arg
+
+Další zdroje
+------------
+
+https://php.net/manual/en/function.atanh.php
