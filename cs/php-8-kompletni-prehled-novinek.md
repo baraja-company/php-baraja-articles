@@ -1,10 +1,10 @@
 PHP 8 je venku - kompletní přehled novinek
 ================================
 
-> id: 8b6ce751-195f-41d2-82c6-1af4be3e86b5
+> id: "8b6ce751-195f-41d2-82c6-1af4be3e86b5"
 > slugCS: php-8-kompletni-prehled-novinek
-> publicationDate: 2020-11-26 11:53:54
-> mainCategoryId: 17545205-215b-4962-b910-0d67ad1e933a
+> publicationDate: "2020-11-26 11:53:54"
+> mainCategoryId: "17545205-215b-4962-b910-0d67ad1e933a"
 
 Dnes 26. listopadu 2020 byla po několika letech vydána nová hlavní verze PHP 8, která obsahuje tučnou sadu novinek. Jde o jednu z nějvětších aktualizací za poslední dobu, která si zaslouží speciální článek.
 

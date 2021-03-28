@@ -1,10 +1,10 @@
 Escapování znaků v řetězci v PHP
 ================================
 
-> id: 40f9361e-e286-4b5e-a0c0-1f6cda8106af
+> id: "40f9361e-e286-4b5e-a0c0-1f6cda8106af"
 > slugCS: escapovani
-> publicationDate: 2019-11-26 11:56:52
-> mainCategoryId: 6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070
+> publicationDate: "2019-11-26 11:56:52"
+> mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 
 Escapování slouží pro zápis znaků, které mají v různém kontextu různý význam.
 

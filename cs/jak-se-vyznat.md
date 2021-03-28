@@ -3,8 +3,8 @@ Jak se vyznat v PHP kódu
 
 > id: d8d452da-37b4-4502-a573-a27afe7ea37a
 > slugCS: jak-se-vyznat
-> publicationDate: 2020-04-11 18:45:23
-> mainCategoryId: 6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070
+> publicationDate: "2020-04-11 18:45:23"
+> mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 
 Většinu jazyků lze zapisovat různými způsoby, přičemž dosáhneme stejného výsledku. Zároveň jednou napsaný kód pravděpodobně budete po sobě někdy v budoucnu číst a opravovat nebo doplňovat o nové funkce.
 

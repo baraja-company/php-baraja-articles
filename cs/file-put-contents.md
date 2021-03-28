@@ -1,9 +1,9 @@
 File_put_contents
 ================================
 
-> id: 7ec781c6-e3db-484d-8a49-0b93ab8252b1
+> id: "7ec781c6-e3db-484d-8a49-0b93ab8252b1"
 > slugCS: file-put-contents
-> publicationDate: 2019-08-22 20:48:46
+> publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: c5cec8c4-2a75-4f51-87c7-4d3acac0616f
 
 Funkce **file_put_contents** je vhodná pro automatický zápis do souboru. Alternativně lze použít taky <a href="/fopen">fopen()</a>, kterou začátečníkům nedoporučuji.

@@ -1,10 +1,10 @@
 Ternární operátory v PHP (?:) - podmínka v jednom řádku
 ================================
 
-> id: 1191be9b-ff9d-4725-b0b4-17b60de2b935
+> id: "1191be9b-ff9d-4725-b0b4-17b60de2b935"
 > slugCS: ternarni-operator
 > perex: Ternární operátor umožňuje zapsat jednoduchou podmínku do jednoho řádku jako výraz.
-> publicationDate: 2019-11-26 11:59:18
+> publicationDate: "2019-11-26 11:59:18"
 > mainCategoryId: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
 
 Ternární operátor umožňuje zkrátit jednoduchou podmínku do jednoho řádku na místě, kde je rozepisování zbytečné, složité, nebo přímo nevhodné.

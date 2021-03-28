@@ -3,7 +3,7 @@ Stažení celého webu po odkazech v PHP
 
 > id: dd4abb8e-8f9b-4867-b98f-ff1c859d387a
 > slugCS: stazeni-celeho-webu-po-odkazech
-> publicationDate: 2019-11-06 17:41:30
+> publicationDate: "2019-11-06 17:41:30"
 > mainCategoryId: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
 
 Relativně často řeším úlohu stažení všech stránek v rámci jednoho webu nebo domény, protože s výsledky pak provádím různá měření, případně stránky používám pro fulltextové vyhledávání.

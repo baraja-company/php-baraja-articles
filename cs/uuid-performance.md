@@ -1,10 +1,10 @@
 UUID a výkon rozsáhlých aplikací
 ================================
 
-> id: 2f072ce8-13b1-41f6-b328-2bd3b416cdd2
+> id: "2f072ce8-13b1-41f6-b328-2bd3b416cdd2"
 > slugCS: uuid-performance
-> publicationDate: 2019-11-08 10:09:54
-> mainCategoryId: 95374429-e651-46bd-9149-15aa716f8207
+> publicationDate: "2019-11-08 10:09:54"
+> mainCategoryId: "95374429-e651-46bd-9149-15aa716f8207"
 
 Když se velikost databáze rozroste nad řádově miliony řádků, je vhodné začít řešit škálování aplikace a databázi rozdělit na více fyzických serverů.
 

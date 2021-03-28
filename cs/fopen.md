@@ -1,10 +1,10 @@
 PHP funkce fopen()
 ================================
 
-> id: 733ba757-1d5f-4717-a088-5ddabe730838
+> id: "733ba757-1d5f-4717-a088-5ddabe730838"
 > slugCS: fopen
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Funkce `fopen()` představuje low-level přístup k souborům na disku.
 

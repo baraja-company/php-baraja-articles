@@ -1,10 +1,10 @@
 PHP funkce gethostbyname()
 ================================
 
-> id: 2c648f70-7182-42db-a555-180cf92937ad
+> id: "2c648f70-7182-42db-a555-180cf92937ad"
 > slugCS: funkce-gethostbyname
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

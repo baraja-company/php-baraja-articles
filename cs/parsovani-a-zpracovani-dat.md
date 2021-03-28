@@ -1,9 +1,9 @@
 Parsování a zpracování dat v PHP
 ================================
 
-> id: 7dfc991d-a7ee-4e2b-8159-16cef1d27483
+> id: "7dfc991d-a7ee-4e2b-8159-16cef1d27483"
 > slugCS: parsovani-a-zpracovani-dat
-> publicationDate: 2017-10-15 09:54:02
+> publicationDate: "2017-10-15 09:54:02"
 > mainCategoryId: f1b0be9b-de09-4c8a-8338-dc285bed95ec
 
 > Tento článek bude pojednávat o metodách, jak v PHP zpracovávat data, ale zatím není hotový.

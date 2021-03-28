@@ -1,11 +1,11 @@
 Apostrofy a uvozovky
 ================================
 
-> id: 526ad995-3412-446e-bb56-9627dff8e29e
+> id: "526ad995-3412-446e-bb56-9627dff8e29e"
 > slugCS: apostrofy-a-uvozovky
 > perex: Použití uvozovek a apostrofů pro ohraničení řetězců v PHP. Escapování řetězců a řešení kontextů.
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1"
 
 Pro ohraničení řetězců je možné použít buď uvozovky nebo apostrofy. Já osobně preferuji pouze **apostrofy**, pokud nejde o speciální znak zalomení řádku nebo tabulátor.
 

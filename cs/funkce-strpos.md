@@ -1,9 +1,9 @@
 PHP funkce strpos - výskyt podřetězce v řetězci
 ================================
 
-> id: 4f7386ff-3ff4-4d62-ac65-97c78ef605e0
+> id: "4f7386ff-3ff4-4d62-ac65-97c78ef605e0"
 > slugCS: funkce-strpos
-> publicationDate: 2019-11-26 11:53:30
+> publicationDate: "2019-11-26 11:53:30"
 > mainCategoryId: f1b0be9b-de09-4c8a-8338-dc285bed95ec
 
 Funkce najde pozici prvního výskytu podřetězce v řetězci, což lidsky znamená, že ověří, jestli předaný řetězec obsahuje hledaný výraz a vrátí jeho pozici.

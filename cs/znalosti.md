@@ -3,8 +3,8 @@ Přehled znalostí o tvorbě webu
 
 > id: e5e9613c-66fe-4d5e-a686-a182aab8061a
 > slugCS: znalosti
-> publicationDate: 2019-09-11 10:07:07
-> mainCategoryId: 6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070
+> publicationDate: "2019-09-11 10:07:07"
+> mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 
 Umět vytvořit webové stránky stránky a pak se o ně komplexně starat není jenom tak. Na cestě čeká mnoho překážek a je dobré mít o každé věci aspoň základní představu. Když jsem začínal, tak jsem nevěděl, co všechno se vlastně naučit. Tato stránka slouží jako rozcestník tématy, které jsem si postupně musel nastudovat, abych byl schopen tvorbu webu pochopit a poradit si s většinou běžných situací.
 

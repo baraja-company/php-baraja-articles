@@ -1,10 +1,10 @@
 Césarova šifra - jak funguje
 ================================
 
-> id: 662dd627-c106-406e-ad6a-7ae9a492ad92
+> id: "662dd627-c106-406e-ad6a-7ae9a492ad92"
 > slugCS: cesarova-sifra
-> publicationDate: 2019-08-23 15:43:02
-> mainCategoryId: 3666a8a6-f2a3-405d-8263-bd53c4301fb3
+> publicationDate: "2019-08-23 15:43:02"
+> mainCategoryId: "3666a8a6-f2a3-405d-8263-bd53c4301fb3"
 
 > **Upozornění:** Tento článek byl napsán před mnoha lety a některé informace mohou být zastaralé, nebo nepravdivé. Při čtení na to, prosím, berte ohled.
 

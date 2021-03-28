@@ -3,9 +3,9 @@ Cykly a jejich druhy v PHP
 
 > id: e2927790-d0fb-4de5-9848-01fdd088464b
 > slugCS: cykly
-> perex: Cykl for, while, foreach a rekurze v PHP + vysvětlení rozdílů mezi cykly. Možnosti iterativního zpracování úloh.
-> publicationDate: 2020-04-11 18:56:34
-> mainCategoryId: 6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070
+> perex: "Cykl for, while, foreach a rekurze v PHP + vysvětlení rozdílů mezi cykly. Možnosti iterativního zpracování úloh."
+> publicationDate: "2020-04-11 18:56:34"
+> mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 
 Cykly v obecné rovině slouží k opakování stejného úseku kódu (obvykle nad množinou dat) Pro každý typ úlohy se hodí jiný typ cyklu, který se liší zejména významem a syntaxí. Důležité je také poznamenat, že všechny druhy cyklů jsou mezi sebou převoditelné, jenom se to nemusí vždycky z hlediska složitosti kódu a výpočetního času vyplatit.
 

@@ -1,10 +1,10 @@
 Úvod do studia PHP
 ================================
 
-> id: 66b7fd22-6195-4999-ad8d-b799afdc1876
+> id: "66b7fd22-6195-4999-ad8d-b799afdc1876"
 > slugCS: uvod
-> perex: Úvodní tutoriál do jazyka PHP, možnosti jazyka, informace o tvorbě webu v PHP.
-> publicationDate: 2019-09-29 19:25:06
+> perex: "Úvodní tutoriál do jazyka PHP, možnosti jazyka, informace o tvorbě webu v PHP."
+> publicationDate: "2019-09-29 19:25:06"
 > mainCategoryId: f4a34087-1b51-4761-8128-4459dfe83d8a
 
 Toto je online kurz studia jazyka PHP, který vznikl za účelem obecného vzdělání. Je k dispozici zdarma na tomto webu. Texty by neměly být použity v rámci jakéhokoli placeného kurzu bez písemného potvrzení. Použité ukázky z celého webu můžete použít bez dalšího omezení i ve Vaší aplikaci. [Všeobecné obchodní podmínky](https://baraja.cz/vseobecne-obchodni-podminky).

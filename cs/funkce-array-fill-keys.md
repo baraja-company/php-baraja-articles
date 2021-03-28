@@ -1,10 +1,10 @@
 PHP funkce array_fill_keys()
 ================================
 
-> id: 5cef21a3-ccbb-4872-8a3f-4402f988f07a
+> id: "5cef21a3-ccbb-4872-8a3f-4402f988f07a"
 > slugCS: funkce-array-fill-keys
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 59874540-664b-4474-9869-7e6742ab6051
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "59874540-664b-4474-9869-7e6742ab6051"
 
 Dostupnost ve verzích: `PHP 5.2.0`
 

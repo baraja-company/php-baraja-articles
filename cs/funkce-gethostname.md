@@ -1,10 +1,10 @@
 PHP funkce gethostname()
 ================================
 
-> id: 7b41e851-b1d1-4cf3-a8d1-16238f880a8a
+> id: "7b41e851-b1d1-4cf3-a8d1-16238f880a8a"
 > slugCS: funkce-gethostname
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.3.0`
 

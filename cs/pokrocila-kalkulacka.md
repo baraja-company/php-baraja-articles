@@ -3,7 +3,7 @@ Kalkulačka v PHP: Zpracování matematického výrazu jako řetězec
 
 > id: e6798758-031d-4e7c-b24e-1f77cf61558d
 > slugCS: pokrocila-kalkulacka
-> publicationDate: 2020-02-16 17:07:38
+> publicationDate: "2020-02-16 17:07:38"
 > mainCategoryId: c2134b23-9b10-46b3-aa54-e3996707255e
 
 Představte si, že stojíte před úlohou zpracování jednoduchého matematického příkladu, který Vám uživatel zadá jako textový řetězec třeba do pole pro vyhledávání. Typicky chce provést jednoduchou početní operaci s čísly. Článek popisuje myšlenkové postupy a konkrétní návod, jak na to.

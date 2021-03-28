@@ -3,8 +3,8 @@ PHP funkce forward_static_call()
 
 > id: caa37bf0-ad88-47ff-b647-045ff708660e
 > slugCS: funkce-forward-static-call
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.3.0`
 

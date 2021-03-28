@@ -4,8 +4,8 @@ Composer - kompletní přehled funkcí pro pokročilé
 > id: a74d8d59-91ce-4602-ad52-80cf89a647bd
 > slugCS: composer
 > perex: Composer je pokročilý správce balíků a závislostí pro vaše PHP aplikace. Článek popisuje jeho všechny výhody a možnosti použití.
-> publicationDate: 2020-03-10 20:18:19
-> mainCategoryId: 4f1d7d70-c5b0-45f1-b1d2-d03c22aa4154
+> publicationDate: "2020-03-10 20:18:19"
+> mainCategoryId: "4f1d7d70-c5b0-45f1-b1d2-d03c22aa4154"
 
 Jak už víte, tak [Composer](https://getcomposer.org/) je robustní správce balíků a závislostí pro PHP, přes který můžete elegantně spravovat stovky projektů najednou a distribuovat již jednou napsaný kód do všech aplikací současně.
 

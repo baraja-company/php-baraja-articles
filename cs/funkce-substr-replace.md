@@ -1,10 +1,10 @@
 PHP funkce substr_replace()
 ================================
 
-> id: 63d688c9-bdd6-43ed-a1e8-44815c4a9f8e
+> id: "63d688c9-bdd6-43ed-a1e8-44815c4a9f8e"
 > slugCS: funkce-substr-replace
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

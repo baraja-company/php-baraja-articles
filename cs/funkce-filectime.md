@@ -3,8 +3,8 @@ PHP funkce filectime()
 
 > id: f0794d26-873a-4b57-99f5-992af7e32ac7
 > slugCS: funkce-filectime
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

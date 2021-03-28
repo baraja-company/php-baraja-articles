@@ -1,10 +1,10 @@
 Objektově orientované programování v PHP
 ================================
 
-> id: 3e56e179-877c-43d5-9f2d-6f260142a8ea
+> id: "3e56e179-877c-43d5-9f2d-6f260142a8ea"
 > slugCS: oop-clanek
 > perex: Programování v objektech pro začátečníky i pokročilé. Návrhové vzory a jak programovat správně. Praktické návody a zkušenosti.
-> publicationDate: 2020-02-16 22:22:50
+> publicationDate: "2020-02-16 22:22:50"
 > mainCategoryId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
 
 Tato stránka slouží jako kompletní příručka OOP v PHP. Naučíte se všechny základní i pokročilé metody programování, prohlédnete si desítky příkladů a díky tomu budete psát ještě lepší kód a znovupoužitelné aplikace.

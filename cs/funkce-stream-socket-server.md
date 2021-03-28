@@ -3,8 +3,8 @@ PHP funkce stream_socket_server()
 
 > id: c86ca4ad-975f-4a8c-ac5b-6f59e5d10d0b
 > slugCS: funkce-stream-socket-server
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.0`
 

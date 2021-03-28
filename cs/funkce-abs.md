@@ -1,10 +1,10 @@
 PHP funkce abs()
 ================================
 
-> id: 98593615-ad35-4ae0-bbb3-81156a1a50de
+> id: "98593615-ad35-4ae0-bbb3-81156a1a50de"
 > slugCS: funkce-abs
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`, `PHP 5`, `PHP 7`
 

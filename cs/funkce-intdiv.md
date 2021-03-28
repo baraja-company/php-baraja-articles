@@ -1,10 +1,10 @@
 PHP funkce intdiv()
 ================================
 
-> id: 9f238534-9d28-4433-bbd0-02e143902a54
+> id: "9f238534-9d28-4433-bbd0-02e143902a54"
 > slugCS: funkce-intdiv
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 7.0`
 

@@ -3,8 +3,8 @@ Jak pojmenovat proměnné, funkce, metody a třídy
 
 > id: f70ac75d-422f-4696-88d5-9e1b843e060a
 > slugCS: jak-pojmenovat-veci-v-php
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1"
 
 Pro udržení pořádku v kódu je důležité zvolit jednoznačná pravidla, jak budeme odvozovat názvy. Tato stránka slouží jako přehled relativně oblíbených přístupů velkého množství programátorů, které používám i já sám, případně lidé, s kterými pracuji.
 

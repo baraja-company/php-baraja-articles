@@ -1,10 +1,10 @@
 PHP funkce Explode - rozdělení řetězce podle oddělovače
 ================================
 
-> id: 4dc7cec6-0e96-4a6b-aee8-32c8817ba11e
+> id: "4dc7cec6-0e96-4a6b-aee8-32c8817ba11e"
 > slugCS: explode
 > perex: Rozdělení řetězce na více částí podle oddělovače.
-> publicationDate: 2019-11-26 11:39:36
+> publicationDate: "2019-11-26 11:39:36"
 > mainCategoryId: f1b0be9b-de09-4c8a-8338-dc285bed95ec
 
 Explode slouží k snadnému rozdělení řetězce podle oddělovače.

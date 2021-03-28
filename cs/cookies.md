@@ -1,11 +1,11 @@
 Cookies v PHP
 ================================
 
-> id: 392dd88b-d2f5-4943-a993-01aaad7ccd32
+> id: "392dd88b-d2f5-4943-a993-01aaad7ccd32"
 > slugCS: cookies
-> perex: Cookies je krátká textová informace v paměti prohlížeče, kam můžeme v PHP zapisovat a označit si uživatele.
-> publicationDate: 2019-09-11 10:18:29
-> mainCategoryId: 2a1ef8bc-14aa-438a-87e7-5b3f9643f325
+> perex: "Cookies je krátká textová informace v paměti prohlížeče, kam můžeme v PHP zapisovat a označit si uživatele."
+> publicationDate: "2019-09-11 10:18:29"
+> mainCategoryId: "2a1ef8bc-14aa-438a-87e7-5b3f9643f325"
 
 > **Upozornění:** Tento článek byl napsán před mnoha lety a některé informace mohou být zastaralé, nebo nepravdivé. Při čtení na to, prosím, berte ohled.
 

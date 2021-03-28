@@ -1,10 +1,10 @@
 Globální proměnné v PHP
 ================================
 
-> id: 1cdfc51a-31f4-4a5d-81f6-cfd92f86a9d4
+> id: "1cdfc51a-31f4-4a5d-81f6-cfd92f86a9d4"
 > slugCS: globalni-promenna
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 0e39aee9-2818-480c-8081-e0c2d039bb24
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "0e39aee9-2818-480c-8081-e0c2d039bb24"
 
 Globální proměnné jsou kdykoli k dispozici v každé části aplikace a nemusíme je předávat.
 

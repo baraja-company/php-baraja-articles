@@ -1,11 +1,11 @@
 Informace o PHP a konfigurace serveru (phpinfo(), php.ini)
 ================================
 
-> id: 6f4a78c1-ca06-4619-9a28-a716a65a12a8
+> id: "6f4a78c1-ca06-4619-9a28-a716a65a12a8"
 > slugCS: info
-> perex: PHP info, informace o nastavení a konfiguraci webového serveru. Změna konfigurace přes php.ini
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 4f1d7d70-c5b0-45f1-b1d2-d03c22aa4154
+> perex: "PHP info, informace o nastavení a konfiguraci webového serveru. Změna konfigurace přes php.ini"
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "4f1d7d70-c5b0-45f1-b1d2-d03c22aa4154"
 
 Často potřebujeme o serveru zjistit co nejvíc informací, k tomu se výborně hodí nativní funkce `phpinfo()`:
 

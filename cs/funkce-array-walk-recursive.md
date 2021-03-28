@@ -3,8 +3,8 @@ PHP funkce array_walk_recursive()
 
 > id: e71c1de4-4333-4d8d-9160-8c0d30481f46
 > slugCS: funkce-array-walk-recursive
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 59874540-664b-4474-9869-7e6742ab6051
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "59874540-664b-4474-9869-7e6742ab6051"
 
 Dostupnost ve verzích: `PHP 5.0`
 

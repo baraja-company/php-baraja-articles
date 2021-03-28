@@ -3,8 +3,8 @@ Automatická minifikace PHP scriptu
 
 > id: f9225faf-f881-4f7d-8c0f-bab4cfea9cb9
 > slugCS: minifikace-scriptu
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 95374429-e651-46bd-9149-15aa716f8207
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "95374429-e651-46bd-9149-15aa716f8207"
 
 Občas potřebujeme zmenšit velký PHP script a stlačit jich několik do jednoho souboru. To se hodí třeba v případě, kdy vytváříme knihovnu, kterou budeme publikovat na internet a nechceme, aby nám do ní někdo zasahoval, nebo jde o užitečný script, který budeme často kopírovat a nechceme proto přenášet zbytečně mnoho dat.
 

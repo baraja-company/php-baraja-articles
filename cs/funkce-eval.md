@@ -1,10 +1,10 @@
 Funkce eval() v PHP
 ================================
 
-> id: 861deebf-ad95-4b12-90df-62664843147e
+> id: "861deebf-ad95-4b12-90df-62664843147e"
 > slugCS: funkce-eval
-> publicationDate: 2020-02-16 18:37:20
-> mainCategoryId: 3666a8a6-f2a3-405d-8263-bd53c4301fb3
+> publicationDate: "2020-02-16 18:37:20"
+> mainCategoryId: "3666a8a6-f2a3-405d-8263-bd53c4301fb3"
 
 Funkce `eval` slouží ke spuštění předaného řetězce jako PHP kódu.
 

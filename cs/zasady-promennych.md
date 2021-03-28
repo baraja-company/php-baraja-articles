@@ -1,10 +1,10 @@
 Zásady zápisu proměnných
 ================================
 
-> id: 4c8e631b-b305-4169-8885-4f9506155999
+> id: "4c8e631b-b305-4169-8885-4f9506155999"
 > slugCS: zasady-promennych
-> publicationDate: 2020-02-16 16:26:08
-> mainCategoryId: 0e39aee9-2818-480c-8081-e0c2d039bb24
+> publicationDate: "2020-02-16 16:26:08"
+> mainCategoryId: "0e39aee9-2818-480c-8081-e0c2d039bb24"
 
 Toto je druhý díl výukového seriálu o PHP. V tomto díle se podíváme na základní pravidla pro zápis proměnných.
 

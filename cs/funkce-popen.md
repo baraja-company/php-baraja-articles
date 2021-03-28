@@ -3,8 +3,8 @@ PHP funkce popen()
 
 > id: b49b0002-c900-4112-804e-89e046dd5de6
 > slugCS: funkce-popen
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

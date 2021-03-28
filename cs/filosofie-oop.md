@@ -3,8 +3,8 @@ Základní filosofie objektově orientovaného programování
 
 > id: c38214d9-8c92-4484-9c31-239d716f2545
 > slugCS: filosofie-oop
-> publicationDate: 2020-01-02 22:21:56
-> mainCategoryId: 3e45c55a-a4cd-4745-b1bb-0332702fefbf
+> publicationDate: "2020-01-02 22:21:56"
+> mainCategoryId: "3e45c55a-a4cd-4745-b1bb-0332702fefbf"
 
 Objektově orientované programování je paradigma, tedy pohled na to, jak programovat. Brzy sami uvidíte, že právě OOP přináší dost zásadní zjednodušení na všechny časté úlohy a potíže, které se při reálném programování řeší stále dokola.
 

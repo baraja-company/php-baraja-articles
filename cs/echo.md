@@ -4,8 +4,8 @@ Echo - výstup do zdrojového kódu
 > id: d6a1a7bf-03bf-49ea-9947-d4d6753ca6e4
 > slugCS: echo
 > perex: Echo - výpis řetězce do stránky a na standardní výstup. Možnosti escapování a HTTP hlaviček.
-> publicationDate: 2020-02-16 18:40:31
-> mainCategoryId: 6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070
+> publicationDate: "2020-02-16 18:40:31"
+> mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 
 Kontrukt `echo` slouží pro výpis proměnné nebo řetězce do zdrojového kódu.
 

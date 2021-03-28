@@ -1,10 +1,10 @@
 Úvod do objektově orientovaného programování v PHP
 ================================
 
-> id: 44a79461-dcfd-4dd0-b6fd-ba5db76db6de
+> id: "44a79461-dcfd-4dd0-b6fd-ba5db76db6de"
 > slugCS: uvod-do-oop
-> publicationDate: 2020-01-01 19:54:35
-> mainCategoryId: 3e45c55a-a4cd-4745-b1bb-0332702fefbf
+> publicationDate: "2020-01-01 19:54:35"
+> mainCategoryId: "3e45c55a-a4cd-4745-b1bb-0332702fefbf"
 
 Vítejte v prvním článku online kurzu OOP v PHP. Kompletní seznam článků najdete na <a href="/oop">přehledové stránce</a>.
 

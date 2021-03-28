@@ -3,8 +3,8 @@ PHP funkce php_logo_guid()
 
 > id: b5096d1f-71a1-4b64-9432-037a1a9eff67
 > slugCS: funkce-php-logo-guid
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

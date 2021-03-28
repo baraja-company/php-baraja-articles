@@ -1,9 +1,9 @@
 Include (skládání stránek z kousků)
 ================================
 
-> id: 4984832e-c11f-4e9e-8d3b-60561685389d
+> id: "4984832e-c11f-4e9e-8d3b-60561685389d"
 > slugCS: include-soubor
-> publicationDate: 2019-08-23 15:06:33
+> publicationDate: "2019-08-23 15:06:33"
 > mainCategoryId: c5cec8c4-2a75-4f51-87c7-4d3acac0616f
 
 PHP je původně šablonovací jazyk, který vznikl pro možnost jednoduchého skládání kusů stránek dohromady.

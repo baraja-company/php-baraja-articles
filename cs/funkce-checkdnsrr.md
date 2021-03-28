@@ -1,10 +1,10 @@
 PHP funkce checkdnsrr()
 ================================
 
-> id: 9e26c84c-6700-46c1-a87b-a1de4797244f
+> id: "9e26c84c-6700-46c1-a87b-a1de4797244f"
 > slugCS: funkce-checkdnsrr
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

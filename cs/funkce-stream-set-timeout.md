@@ -3,8 +3,8 @@ PHP funkce stream_set_timeout()
 
 > id: a6163d2c-53e7-43e6-b10c-962f09f52095
 > slugCS: funkce-stream-set-timeout
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.3.0`
 

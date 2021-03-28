@@ -1,10 +1,10 @@
 PHP funkce imagecropauto()
 ================================
 
-> id: 7e33e418-3e4b-4d6b-9500-540a986258d2
+> id: "7e33e418-3e4b-4d6b-9500-540a986258d2"
 > slugCS: funkce-imagecropauto
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.5.0`
 

@@ -1,10 +1,10 @@
 PHP funkce ob_get_status()
 ================================
 
-> id: 2eb99e32-7be9-49e2-a306-4c9c314bb7c4
+> id: "2eb99e32-7be9-49e2-a306-4c9c314bb7c4"
 > slugCS: funkce-ob-get-status
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.2.0`
 

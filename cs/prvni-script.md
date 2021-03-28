@@ -1,10 +1,10 @@
 Jak napsat první PHP script
 ================================
 
-> id: 2d6986dc-f24b-4ae5-b24c-d5bb9bf94512
+> id: "2d6986dc-f24b-4ae5-b24c-d5bb9bf94512"
 > slugCS: prvni-script
 > perex: Jak napsat první PHP script? Úvod do PHP pro začátečníky.
-> publicationDate: 2020-02-16 16:26:08
+> publicationDate: "2020-02-16 16:26:08"
 > mainCategoryId: f4a34087-1b51-4761-8128-4459dfe83d8a
 
 Než napíšeme náš první PHP script, tak si nejdříve musíme teoreticky vysvětlit, jak probíhá načítání stránky s použitím PHP.

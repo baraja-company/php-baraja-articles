@@ -3,8 +3,8 @@ PHP funkce disk_total_space()
 
 > id: ed42a289-8d8d-43a7-8678-10288653b13c
 > slugCS: funkce-disk-total-space
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.1.0`
 

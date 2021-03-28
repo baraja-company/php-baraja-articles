@@ -3,9 +3,9 @@ Datové typy v PHP
 
 > id: cd63818c-259a-484e-b006-86c35b362019
 > slugCS: datove-typy
-> perex: Datové typy v PHP: String, integer, float, boolean, pole (array), objekt a další.
-> publicationDate: 2019-08-23 15:44:28
-> mainCategoryId: 0e39aee9-2818-480c-8081-e0c2d039bb24
+> perex: "Datové typy v PHP: String, integer, float, boolean, pole (array), objekt a další."
+> publicationDate: "2019-08-23 15:44:28"
+> mainCategoryId: "0e39aee9-2818-480c-8081-e0c2d039bb24"
 
 Veškerá zpracovávaná data v PHP jsou určitého typu. Například celé číslo, řetězec nebo boolean (pravda / nepravda).
 

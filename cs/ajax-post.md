@@ -3,8 +3,8 @@ Zpracování ajaxových POST požadavků v PHP
 
 > id: c9c8fdb4-020d-4361-b425-4f4406a090ba
 > slugCS: ajax-post
-> publicationDate: 2019-11-01 09:56:02
-> mainCategoryId: 2a1ef8bc-14aa-438a-87e7-5b3f9643f325
+> publicationDate: "2019-11-01 09:56:02"
+> mainCategoryId: "2a1ef8bc-14aa-438a-87e7-5b3f9643f325"
 
 Při vývoji ajaxových Vue.js aplikací jsem po letech konečně definitivně zjistil, jak to s ajaxem v PHP přesně je a jak přijímat data metodou POST.
 

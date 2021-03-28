@@ -3,8 +3,8 @@ Proměnné proměnné
 
 > id: a0baeb3a-ab6e-4dd9-b1bc-b1872a12ee08
 > slugCS: promenna-promenna
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 0e39aee9-2818-480c-8081-e0c2d039bb24
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "0e39aee9-2818-480c-8081-e0c2d039bb24"
 
 > **Upozornění:** Tento článek byl napsán před mnoha lety a některé informace mohou být zastaralé, nebo nepravdivé. Při čtení na to, prosím, berte ohled.
 

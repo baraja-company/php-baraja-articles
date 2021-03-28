@@ -3,8 +3,8 @@ PHP funkce ip2long()
 
 > id: b66d5f9c-3038-4703-91f2-07053ee60cf3
 > slugCS: funkce-ip2long
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

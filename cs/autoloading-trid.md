@@ -3,8 +3,8 @@ Autoloading tříd v PHP
 
 > id: f6cd5762-261f-4153-b27b-075dd8b5ed13
 > slugCS: autoloading-trid
-> publicationDate: 2020-02-09 10:00:29
-> mainCategoryId: 3e45c55a-a4cd-4745-b1bb-0332702fefbf
+> publicationDate: "2020-02-09 10:00:29"
+> mainCategoryId: "3e45c55a-a4cd-4745-b1bb-0332702fefbf"
 
 Určitě to znáte, při programování PHP scriptů si rozdělíme kód na mnoho souborů a abychom měli k dispozici všechny části, tak je načteme sérií volání `include`, `require` nebo nejlépe `require_once`, což zaručí načtení právě jednou.
 

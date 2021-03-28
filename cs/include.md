@@ -1,9 +1,9 @@
 PHP Include - vložení souboru do stránky
 ================================
 
-> id: 7a53145c-8552-425d-b864-283f73a7a7de
+> id: "7a53145c-8552-425d-b864-283f73a7a7de"
 > slugCS: include
-> publicationDate: 2019-09-11 10:07:07
+> publicationDate: "2019-09-11 10:07:07"
 > mainCategoryId: c5cec8c4-2a75-4f51-87c7-4d3acac0616f
 
 Konstrukt `include` automaticky vkládá do aktuální stránky další soubory/script.

@@ -3,8 +3,8 @@ PHP funkce strcoll()
 
 > id: e59edebf-a82f-4ce7-8a2a-326b53e8fdeb
 > slugCS: funkce-strcoll
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0.5`
 

@@ -3,8 +3,8 @@ HTML formuláře - část v prohlížeči
 
 > id: cb0015c7-b7b6-41ac-8263-4068960e16b3
 > slugCS: formulare
-> perex: Zpracování formulářů v PHP, zejména možnosti odeslání získaných dat na server metodou GET a POST.
-> publicationDate: 2019-08-22 20:48:46
+> perex: "Zpracování formulářů v PHP, zejména možnosti odeslání získaných dat na server metodou GET a POST."
+> publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: a23332c0-a233-4093-abd7-85b1b00a383b
 
 Než budeme moci zpracovávat nějaká uživatelská data na straně serveru přes PHP, tak je musíme nejprve získat. To se dělá v prohlížeči přes HTML formuláře, které definují základní prvky k přijímání dat. Smyslem tohoto článku není představit veškeré možnosti formulářů, ale jen základní možnosti přijmutí dat a pochopení principu.

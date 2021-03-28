@@ -1,10 +1,10 @@
 End()
 ================================
 
-> id: 879c7c9a-a497-4080-865d-f15e6c9e8578
+> id: "879c7c9a-a497-4080-865d-f15e6c9e8578"
 > slugCS: end
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 - Podpora: PHP 4, PHP 5
 - Stručný popis: nastaví vnitřní ukazatel pole na jeho poslední prvek.

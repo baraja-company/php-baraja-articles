@@ -1,10 +1,10 @@
 Matematika v PHP
 ================================
 
-> id: 69a432ee-7635-46e2-bb21-8492cb62c4e6
+> id: "69a432ee-7635-46e2-bb21-8492cb62c4e6"
 > slugCS: matematika
-> perex: Matematika a matematické funkce v PHP. Definice čísel, operátorů a vhodné typy pro výpočty a ukládání čísel.
-> publicationDate: 2020-02-16 18:24:10
+> perex: "Matematika a matematické funkce v PHP. Definice čísel, operátorů a vhodné typy pro výpočty a ukládání čísel."
+> publicationDate: "2020-02-16 18:24:10"
 > mainCategoryId: c2134b23-9b10-46b3-aa54-e3996707255e
 
 Stejně jako v ostatních jazycích, tak i v PHP jsou čísla reprezentována ve dvojkové soustavě (soustava jedniček a nul), při některých matematických operacích proto může vycházet lehce odlišný výsledek, než bychom čekali. Tato stránka obsahuje přehled chování výpočtů v různých kontextech. Pro pochopení je potřeba aspoň základní znalost **číslicové techniky** a **číselných soustav**.

@@ -1,10 +1,10 @@
 Princip zapouzdření v OOP
 ================================
 
-> id: 54968a42-b678-4385-91ac-c13ba96c9b34
+> id: "54968a42-b678-4385-91ac-c13ba96c9b34"
 > slugCS: zapouzdreni
-> publicationDate: 2020-02-16 21:21:35
-> mainCategoryId: 3e45c55a-a4cd-4745-b1bb-0332702fefbf
+> publicationDate: "2020-02-16 21:21:35"
+> mainCategoryId: "3e45c55a-a4cd-4745-b1bb-0332702fefbf"
 
 Jeden z hlavních principů OOP je tzv. **princip zapouzdření**, který říká, že by se měly složité úlohy rozdělit na mnoho malých problémů, které umíme řešit samostatně a najednou. Zároveň nás jako uživatele nezajímá, jak se to stane a data (vnitřní stav) zůstanou izolována.
 

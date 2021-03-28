@@ -3,8 +3,8 @@ PHP funkce is_integer()
 
 > id: fbb6aa73-6ad9-4358-98a3-3d6b83f425ad
 > slugCS: funkce-is-integer
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 5bf11342-01a0-47e1-a6a8-c8c22bf92af9
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "5bf11342-01a0-47e1-a6a8-c8c22bf92af9"
 
 Dostupnost ve verzích: `PHP 4.0`
 

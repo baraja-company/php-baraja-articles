@@ -1,10 +1,10 @@
 PHP funkce fgetss()
 ================================
 
-> id: 39d98959-d30c-4757-8122-7768e5895484
+> id: "39d98959-d30c-4757-8122-7768e5895484"
 > slugCS: funkce-fgetss
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

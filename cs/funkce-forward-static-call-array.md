@@ -1,10 +1,10 @@
 PHP funkce forward_static_call_array()
 ================================
 
-> id: 9ee6e453-9d42-4b3b-9f41-16a8f558eec9
+> id: "9ee6e453-9d42-4b3b-9f41-16a8f558eec9"
 > slugCS: funkce-forward-static-call-array
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.3.0`
 

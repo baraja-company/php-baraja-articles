@@ -1,10 +1,10 @@
 Acosh
 ================================
 
-> id: 6098d2cd-243e-43a0-b7dd-44c21a403dfc
+> id: "6098d2cd-243e-43a0-b7dd-44c21a403dfc"
 > slugCS: acosh
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Podpora: PHP 4> = 4.1.0, PHP 5
 acosh - hyperbolický cosinus

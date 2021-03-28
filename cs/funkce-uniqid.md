@@ -1,10 +1,10 @@
 PHP funkce uniqid()
 ================================
 
-> id: 6871ccc8-590b-4cc9-ba18-d2aeab2b0838
+> id: "6871ccc8-590b-4cc9-ba18-d2aeab2b0838"
 > slugCS: funkce-uniqid
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

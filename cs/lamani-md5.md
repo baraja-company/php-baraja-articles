@@ -1,10 +1,10 @@
 Jak prolomit funkci `md5`
 ================================
 
-> id: 9e678fcc-3d5e-46a3-9c3f-c1eb3d1ad367
+> id: "9e678fcc-3d5e-46a3-9c3f-c1eb3d1ad367"
 > slugCS: lamani-md5
-> publicationDate: 2019-08-23 15:33:10
-> mainCategoryId: 3666a8a6-f2a3-405d-8263-bd53c4301fb3
+> publicationDate: "2019-08-23 15:33:10"
+> mainCategoryId: "3666a8a6-f2a3-405d-8263-bd53c4301fb3"
 
 MD5 je velmi často používaná funkce pro výpočet hashů.
 

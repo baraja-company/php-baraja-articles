@@ -3,8 +3,8 @@ Sessions - serverové cookies v PHP
 
 > id: ab782ff0-d5ba-4115-9ebb-ab37978a6527
 > slugCS: sessions
-> publicationDate: 2019-11-06 17:06:18
-> mainCategoryId: 2a1ef8bc-14aa-438a-87e7-5b3f9643f325
+> publicationDate: "2019-11-06 17:06:18"
+> mainCategoryId: "2a1ef8bc-14aa-438a-87e7-5b3f9643f325"
 
 Často potřebujeme do <a href="/cookies">cookies</a> uložit větší objem informací, nicméně maximální limit pro cookies je 4 kB, což není moc. Sessions tento problém řeší ukládáním dat na webový server a do prohlížeče klienta uloží jen krátký identifikátor, podle kterého pozná, jaká data patří jakému klientovi.
 

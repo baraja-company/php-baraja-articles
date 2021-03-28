@@ -3,8 +3,8 @@ PHP funkce get_headers()
 
 > id: c82bbb88-1150-48f6-921b-ede602aaf184
 > slugCS: funkce-get-headers
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.0`
 

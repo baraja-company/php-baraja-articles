@@ -1,10 +1,10 @@
 PHP funkce var_export()
 ================================
 
-> id: 162ded4a-1246-4bd0-b710-2ff64bfb16e1
+> id: "162ded4a-1246-4bd0-b710-2ff64bfb16e1"
 > slugCS: funkce-var-export
-> publicationDate: 2019-10-07 10:28:27
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-10-07 10:28:27"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupné od verze: `PHP 4.2.0`
 

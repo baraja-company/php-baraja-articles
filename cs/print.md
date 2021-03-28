@@ -1,10 +1,10 @@
 Print
 ================================
 
-> id: 23d672c5-b347-43b8-bd08-8ccb7ecca33f
+> id: "23d672c5-b347-43b8-bd08-8ccb7ecca33f"
 > slugCS: print
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 
 `print` - Výstup řetězce
 

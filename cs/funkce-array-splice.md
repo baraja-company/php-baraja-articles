@@ -1,10 +1,10 @@
 PHP funkce array_splice()
 ================================
 
-> id: 733af217-e55b-4fa4-a1d1-19a7b21f3ce9
+> id: "733af217-e55b-4fa4-a1d1-19a7b21f3ce9"
 > slugCS: funkce-array-splice
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 59874540-664b-4474-9869-7e6742ab6051
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "59874540-664b-4474-9869-7e6742ab6051"
 
 Dostupnost ve verzích: `PHP 4.0`
 

@@ -1,10 +1,10 @@
 PHP funkce doubleval()
 ================================
 
-> id: 171141aa-f7e2-4db4-b05a-e9715349389d
+> id: "171141aa-f7e2-4db4-b05a-e9715349389d"
 > slugCS: funkce-doubleval
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 (PHP 4.2.0, PHP 5)<br/>
 doubleval � Alias of floatval()

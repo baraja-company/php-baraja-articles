@@ -3,8 +3,8 @@ Proměnné v PHP
 
 > id: b89774e7-143c-4a8c-8dc6-3b3d2c78d5b7
 > slugCS: promenna
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 0e39aee9-2818-480c-8081-e0c2d039bb24
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "0e39aee9-2818-480c-8081-e0c2d039bb24"
 
 Tato stránka je kompletní shrnutí fungování proměnných v PHP. Text je psán mírně odborným stylem a začátečníci mu nemusí plně rozumět. Pokud vás zajímají úplné základy, tak si přečtěte <a href="/prvni-script">tutoriál pro začátečníky</a> a <a href="/zasady-promennych">zásady zápisu proměnných</a>.
 

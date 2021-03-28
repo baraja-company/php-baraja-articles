@@ -1,10 +1,10 @@
 Lokální proměnné v PHP
 ================================
 
-> id: 9c3fbf4e-8612-4599-8127-d66b9ec5e980
+> id: "9c3fbf4e-8612-4599-8127-d66b9ec5e980"
 > slugCS: lokalni-promenna
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 0e39aee9-2818-480c-8081-e0c2d039bb24
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "0e39aee9-2818-480c-8081-e0c2d039bb24"
 
 Lokální proměnné mají platnost jen uvnitř těla **<a href="/prikazy-a-funkce">funkce</a>** nebo **metody** (v objektovém programování).
 

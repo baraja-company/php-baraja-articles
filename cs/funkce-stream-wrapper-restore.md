@@ -1,10 +1,10 @@
 PHP funkce stream_wrapper_restore()
 ================================
 
-> id: 8c8eb0d7-5a79-4cf9-8700-e9c76c33f16e
+> id: "8c8eb0d7-5a79-4cf9-8700-e9c76c33f16e"
 > slugCS: funkce-stream-wrapper-restore
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.1.0`
 

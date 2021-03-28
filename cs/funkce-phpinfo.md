@@ -1,10 +1,10 @@
 PHP funkce phpinfo()
 ================================
 
-> id: 1d1dece3-e12b-45a0-84e3-ded92d509b03
+> id: "1d1dece3-e12b-45a0-84e3-ded92d509b03"
 > slugCS: funkce-phpinfo
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

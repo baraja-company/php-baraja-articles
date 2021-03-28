@@ -1,9 +1,9 @@
 Získání abecedy, pole čísel a intervalů
 ================================
 
-> id: 24f996b9-fc55-43bc-8015-093228d11577
+> id: "24f996b9-fc55-43bc-8015-093228d11577"
 > slugCS: abeceda-cisla-intervaly
-> publicationDate: 2019-08-22 20:48:46
+> publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
 
 Poměrně často potřebujeme mít k dispozici pole hodnot, které se odvozují velice jednoduchým algoritmem (třeba pole čísel od `$min` do `$max`), to lze vyřešit buď složitě:

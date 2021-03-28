@@ -3,8 +3,8 @@ PHP funkce atan()
 
 > id: dd342c9b-d0fc-446b-94a5-745fdee3767e
 > slugCS: funkce-atan
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

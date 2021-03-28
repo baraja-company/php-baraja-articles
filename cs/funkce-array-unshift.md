@@ -1,10 +1,10 @@
 PHP funkce array_unshift()
 ================================
 
-> id: 1933c5e2-c775-47ca-8887-48da5c101371
+> id: "1933c5e2-c775-47ca-8887-48da5c101371"
 > slugCS: funkce-array-unshift
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 59874540-664b-4474-9869-7e6742ab6051
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "59874540-664b-4474-9869-7e6742ab6051"
 
 Dostupnost ve verzích: `PHP 4.0`
 

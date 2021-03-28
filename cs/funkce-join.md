@@ -1,10 +1,10 @@
 PHP funkce join()
 ================================
 
-> id: 8f545dfa-4525-47ca-b291-d694747f8b03
+> id: "8f545dfa-4525-47ca-b291-d694747f8b03"
 > slugCS: funkce-join
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

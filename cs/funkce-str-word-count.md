@@ -3,8 +3,8 @@ PHP funkce str_word_count()
 
 > id: bc7b5409-dbb4-417e-824b-5e46a044f019
 > slugCS: funkce-str-word-count
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.3.0`
 

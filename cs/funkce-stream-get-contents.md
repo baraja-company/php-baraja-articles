@@ -1,10 +1,10 @@
 PHP funkce stream_get_contents()
 ================================
 
-> id: 3fd19ad5-566c-488b-bd67-e13be297c480
+> id: "3fd19ad5-566c-488b-bd67-e13be297c480"
 > slugCS: funkce-stream-get-contents
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.0`
 

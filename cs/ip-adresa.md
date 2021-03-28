@@ -1,11 +1,11 @@
 Zjištění IP adresy uživatele v PHP
 ================================
 
-> id: 1d6d761e-c139-4624-8c32-b0f2c131a831
+> id: "1d6d761e-c139-4624-8c32-b0f2c131a831"
 > slugCS: ip-adresa
-> perex: Zjištění IP adresy uživatele v PHP, ukládání IP adresy a ban uživatele. Ošetření VPN a uživatele za Proxy nebo NATem.
-> publicationDate: 2020-02-28 10:30:21
-> mainCategoryId: 3666a8a6-f2a3-405d-8263-bd53c4301fb3
+> perex: "Zjištění IP adresy uživatele v PHP, ukládání IP adresy a ban uživatele. Ošetření VPN a uživatele za Proxy nebo NATem."
+> publicationDate: "2020-02-28 10:30:21"
+> mainCategoryId: "3666a8a6-f2a3-405d-8263-bd53c4301fb3"
 
 V PHP lze IP adresu na základní úrovni detekovat velmi jednoduše:
 

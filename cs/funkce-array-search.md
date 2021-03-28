@@ -3,8 +3,8 @@ PHP funkce array_search()
 
 > id: d4edadb2-ba8b-4c7f-957e-98e148f4ffbf
 > slugCS: funkce-array-search
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 59874540-664b-4474-9869-7e6742ab6051
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "59874540-664b-4474-9869-7e6742ab6051"
 
 Dostupnost ve verzích: `PHP 4.0.5`
 

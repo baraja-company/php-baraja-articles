@@ -1,10 +1,10 @@
 Metody v OOP a předávání vstupů
 ================================
 
-> id: 843fbfb4-daf2-4c2e-9d94-28d494025b2e
+> id: "843fbfb4-daf2-4c2e-9d94-28d494025b2e"
 > slugCS: metody-a-predavani-vstupu
-> publicationDate: 2020-02-16 20:49:35
-> mainCategoryId: 3e45c55a-a4cd-4745-b1bb-0332702fefbf
+> publicationDate: "2020-02-16 20:49:35"
+> mainCategoryId: "3e45c55a-a4cd-4745-b1bb-0332702fefbf"
 
 Metody reprezentují chování objektu, protože umožňují pracovat jak s jeho vnitřním stavem, tak ovlivňovat objekty navzájem.
 

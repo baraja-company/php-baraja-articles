@@ -1,10 +1,10 @@
 PHP funkce log()
 ================================
 
-> id: 6b68b1b1-3ab3-4f91-b10c-afc67f3f4296
+> id: "6b68b1b1-3ab3-4f91-b10c-afc67f3f4296"
 > slugCS: funkce-log
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

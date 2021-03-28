@@ -1,10 +1,10 @@
 PHP funkce htmlspecialchars - escapování znaků
 ================================
 
-> id: 2c8a5ae5-af3a-415f-bda0-5d291cadbea2
+> id: "2c8a5ae5-af3a-415f-bda0-5d291cadbea2"
 > slugCS: funkce-htmlspecialchars
-> publicationDate: 2019-11-26 11:56:35
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-11-26 11:56:35"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4, 5, 7`.
 

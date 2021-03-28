@@ -3,8 +3,8 @@ PHP funkce pathinfo()
 
 > id: b3827a32-edc1-4057-8212-4d550b7a2fda
 > slugCS: funkce-pathinfo
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0.3`
 

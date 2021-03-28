@@ -1,10 +1,10 @@
 PHP funkce stream_filter_remove()
 ================================
 
-> id: 64f1e80b-27eb-4940-a0cf-ea6d97de2052
+> id: "64f1e80b-27eb-4940-a0cf-ea6d97de2052"
 > slugCS: funkce-stream-filter-remove
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.1.0`
 

@@ -1,10 +1,10 @@
 Htmlspecialchars
 ================================
 
-> id: 46f04729-3956-4889-bb40-58362cb46b2a
+> id: "46f04729-3956-4889-bb40-58362cb46b2a"
 > slugCS: htmlspecialchars
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 0743dd02-12d0-4766-ba42-8fd7e9c4ae8a
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "0743dd02-12d0-4766-ba42-8fd7e9c4ae8a"
 
 Htmlspecialchars() je funkce pro převod speciálních znaků na HTML entity.
 

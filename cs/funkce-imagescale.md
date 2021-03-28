@@ -1,10 +1,10 @@
 PHP funkce imagescale()
 ================================
 
-> id: 57134d08-36c4-417b-90ab-74becd2aa754
+> id: "57134d08-36c4-417b-90ab-74becd2aa754"
 > slugCS: funkce-imagescale
-> publicationDate: 2020-02-16 16:23:15
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2020-02-16 16:23:15"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.5.0`
 

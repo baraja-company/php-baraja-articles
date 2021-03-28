@@ -3,8 +3,8 @@ Dokumentační komentáře, česky nebo anglicky?
 
 > id: e5f1bf13-ab9e-4a70-a95c-77fb50aa4878
 > slugCS: dokumentacni-komentare
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1"
 
 Psaní dokumentace zdržuje a často ji už po vás nikdo nečte, proto je dobrým zvykem psát komentáře přímo do zdrojového kódu. Mnoho textu ovšem zbytečně zanáší kód, který se poté nemusí vejít najednou na monitor, což opět snižuje jeho čitelnost.
 

@@ -1,10 +1,10 @@
 PHP funkce is_double()
 ================================
 
-> id: 482d0bf5-00bd-43d9-877e-dbf39a2ff3fe
+> id: "482d0bf5-00bd-43d9-877e-dbf39a2ff3fe"
 > slugCS: funkce-is-double
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 5bf11342-01a0-47e1-a6a8-c8c22bf92af9
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "5bf11342-01a0-47e1-a6a8-c8c22bf92af9"
 
 Dostupnost ve verzích: `PHP 4.0`
 

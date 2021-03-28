@@ -1,10 +1,10 @@
 PHP funkce html_entity_decode()
 ================================
 
-> id: 54ac4951-8085-4cd8-9f75-114188fb6248
+> id: "54ac4951-8085-4cd8-9f75-114188fb6248"
 > slugCS: funkce-html-entity-decode
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.3.0`
 

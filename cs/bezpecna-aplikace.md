@@ -3,8 +3,8 @@ Bezpečná aplikace
 
 > id: cc4667a3-aea3-4e0a-b323-da31ab78e019
 > slugCS: bezpecna-aplikace
-> publicationDate: 2019-10-01 14:19:04
-> mainCategoryId: 3666a8a6-f2a3-405d-8263-bd53c4301fb3
+> publicationDate: "2019-10-01 14:19:04"
+> mainCategoryId: "3666a8a6-f2a3-405d-8263-bd53c4301fb3"
 
 Pokud to s vývojem webových aplikací myslíte aspoň trochu vážně a stránky budou později dostupné na internetu, je velmi důležité vyřešit zabezpečení.
 

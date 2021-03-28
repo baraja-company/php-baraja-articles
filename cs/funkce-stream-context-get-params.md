@@ -3,8 +3,8 @@ PHP funkce stream_context_get_params()
 
 > id: b90f9e56-2f37-46dc-963c-ce65abdab3c2
 > slugCS: funkce-stream-context-get-params
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.3.0`
 

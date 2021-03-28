@@ -3,8 +3,8 @@ PHP funkce constant()
 
 > id: cfd5a942-e9ab-45a7-9727-9ec5049b69d4
 > slugCS: funkce-constant
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0.4`
 

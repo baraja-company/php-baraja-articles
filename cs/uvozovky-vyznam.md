@@ -1,10 +1,10 @@
 Speciální význam uvozovek
 ================================
 
-> id: 2649942d-94d6-48c3-9c78-5a303165bf72
+> id: "2649942d-94d6-48c3-9c78-5a303165bf72"
 > slugCS: uvozovky-vyznam
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 
 V PHP lze často zaměnit uvozovky za apostrofy a docílíme stejného efektu. Někdy se dokonce používá kombinace uvozovek a apostrofů záměrně, abychom docílili různých výstupů a nemuseli jsme používat tzv. escapování.
 

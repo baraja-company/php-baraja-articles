@@ -1,10 +1,10 @@
 PHP funkce is_dir()
 ================================
 
-> id: 257cc0c1-c7da-4f9b-8c4a-21ecaba5dafd
+> id: "257cc0c1-c7da-4f9b-8c4a-21ecaba5dafd"
 > slugCS: funkce-is-dir
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

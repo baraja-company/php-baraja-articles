@@ -1,10 +1,10 @@
 Podmínky a větvení
 ================================
 
-> id: 2cea5541-6879-4763-a518-cb21bf9021dd
+> id: "2cea5541-6879-4763-a518-cb21bf9021dd"
 > slugCS: podminky
-> publicationDate: 2019-09-07 20:25:57
-> mainCategoryId: 6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070
+> publicationDate: "2019-09-07 20:25:57"
+> mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 
 > **Upozornění:** Tento článek byl napsán před mnoha lety a některé informace mohou být zastaralé, nebo nepravdivé. Při čtení na to, prosím, berte ohled.
 

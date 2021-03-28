@@ -3,8 +3,8 @@ PHP funkce strcspn()
 
 > id: fee9fe56-2de8-42e8-b035-1342b16333fa
 > slugCS: funkce-strcspn
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

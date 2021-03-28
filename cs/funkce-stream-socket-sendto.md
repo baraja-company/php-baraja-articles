@@ -1,10 +1,10 @@
 PHP funkce stream_socket_sendto()
 ================================
 
-> id: 4e137a2c-2235-4a88-af51-d1f0439b1c50
+> id: "4e137a2c-2235-4a88-af51-d1f0439b1c50"
 > slugCS: funkce-stream-socket-sendto
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.0`
 

@@ -1,10 +1,10 @@
 PHP funkce stream_socket_shutdown()
 ================================
 
-> id: 0c9f4815-0984-4020-a584-728a5ac93a84
+> id: "0c9f4815-0984-4020-a584-728a5ac93a84"
 > slugCS: funkce-stream-socket-shutdown
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.2.1`
 

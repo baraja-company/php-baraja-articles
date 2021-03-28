@@ -1,10 +1,10 @@
 PHP funkce substr_compare()
 ================================
 
-> id: 67b0a6e5-9779-4326-a489-53e114b777a5
+> id: "67b0a6e5-9779-4326-a489-53e114b777a5"
 > slugCS: funkce-substr-compare
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 5.0`
 

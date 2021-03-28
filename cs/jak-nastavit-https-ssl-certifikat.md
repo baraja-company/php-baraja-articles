@@ -1,10 +1,10 @@
 Jak nastavit HTTPS / SSL certifikát - kompletní příručka
 ================================
 
-> id: 0346a091-2b2c-494f-b2fb-573796d4fb46
+> id: "0346a091-2b2c-494f-b2fb-573796d4fb46"
 > slugCS: jak-nastavit-https-ssl-certifikat
-> publicationDate: 2019-09-16 09:01:35
-> mainCategoryId: 02d93aa8-ed83-460a-ab97-4de21118f019
+> publicationDate: "2019-09-16 09:01:35"
+> mainCategoryId: "02d93aa8-ed83-460a-ab97-4de21118f019"
 
 Při nasazování `https` protokolu na weby klientů jsem často narážel na různé potíže, které pramenily z nepochopení problematiky a přílišné složitosti pojmů.
 

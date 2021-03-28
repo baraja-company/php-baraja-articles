@@ -1,10 +1,10 @@
 PHP funkce strnatcmp()
 ================================
 
-> id: 7b258222-8db9-4686-837d-007acbe5deb9
+> id: "7b258222-8db9-4686-837d-007acbe5deb9"
 > slugCS: funkce-strnatcmp
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

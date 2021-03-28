@@ -1,10 +1,10 @@
 Regulární výrazy v PHP
 ================================
 
-> id: 32142161-6ace-4cfd-b472-b48031219e9b
+> id: "32142161-6ace-4cfd-b472-b48031219e9b"
 > slugCS: regex
-> perex: Regulární výrazy a jejich kompletní vysvětlení. Hledání podřetězce, pokročilé nahrazování a generování řetězců.
-> publicationDate: 2020-03-08 13:37:38
+> perex: "Regulární výrazy a jejich kompletní vysvětlení. Hledání podřetězce, pokročilé nahrazování a generování řetězců."
+> publicationDate: "2020-03-08 13:37:38"
 > mainCategoryId: f1b0be9b-de09-4c8a-8338-dc285bed95ec
 
 Regulární výrazy jsou nástroje, které umožňují jednoduše hledat, validovat, porovnávat, rozdělovat, skládat a nahrazovat řetězce podle masky (vzoru). Jedná se o velmi silný a elegantní nástroj pro pokročilou manipulaci s řetězci.

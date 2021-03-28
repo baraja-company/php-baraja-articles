@@ -1,9 +1,9 @@
 File_get_contents
 ================================
 
-> id: 6c8889f1-95e7-4540-9c3a-0225c6383954
+> id: "6c8889f1-95e7-4540-9c3a-0225c6383954"
 > slugCS: file-get-contents
-> publicationDate: 2019-09-11 10:18:03
+> publicationDate: "2019-09-11 10:18:03"
 > mainCategoryId: c5cec8c4-2a75-4f51-87c7-4d3acac0616f
 
 Funkce **file_get_contents** slouží pro načtení souboru a jeho obsahu vložení do proměnné. Tato funkce je podobná funkci <a href="/include">include</a>, ale narozdíl od include zvládá načítat vzdálené soubory na internetu a jejich obsah přenášet přes proměnné.

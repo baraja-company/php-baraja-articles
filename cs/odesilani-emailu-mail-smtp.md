@@ -1,11 +1,11 @@
 Odesílání e-mailů (funkce `mail()` a SMTP) v PHP
 ================================
 
-> id: 3051b5ea-9408-4aaa-8209-e3c527ef8ad2
+> id: "3051b5ea-9408-4aaa-8209-e3c527ef8ad2"
 > slugCS: odesilani-emailu-mail-smtp
-> perex: Možnosti odesílání e-mailů v PHP, funkce mail(), SMTP, hlavičky, konfigurace a Nette Mailer.
-> publicationDate: 2019-11-26 12:00:02
-> mainCategoryId: 02d93aa8-ed83-460a-ab97-4de21118f019
+> perex: "Možnosti odesílání e-mailů v PHP, funkce mail(), SMTP, hlavičky, konfigurace a Nette Mailer."
+> publicationDate: "2019-11-26 12:00:02"
+> mainCategoryId: "02d93aa8-ed83-460a-ab97-4de21118f019"
 
 V PHP máme v podstatě 2 možnosti, jak odesílat maily:
 

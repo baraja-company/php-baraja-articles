@@ -1,10 +1,10 @@
 PHP funkce getcwd()
 ================================
 
-> id: 27e2d657-fa74-4686-b802-d73056c97e36
+> id: "27e2d657-fa74-4686-b802-d73056c97e36"
 > slugCS: funkce-getcwd
-> publicationDate: 2019-09-11 10:04:04
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:04"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0`
 

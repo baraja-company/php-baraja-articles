@@ -1,10 +1,10 @@
 PHP funkce glob()
 ================================
 
-> id: 8c5ecbec-af3f-4ad5-8f3d-b8ff392f0d72
+> id: "8c5ecbec-af3f-4ad5-8f3d-b8ff392f0d72"
 > slugCS: funkce-glob
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.3.0`
 

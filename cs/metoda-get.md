@@ -3,8 +3,8 @@ Získání parametrů z URL metodou GET
 
 > id: bbf2cb2c-f7f7-4be9-a9cd-960014db0f51
 > slugCS: metoda-get
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 2a1ef8bc-14aa-438a-87e7-5b3f9643f325
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "2a1ef8bc-14aa-438a-87e7-5b3f9643f325"
 
 Však to znáte, máte otevřenou nějakou stránku, sledujete URL a vidíte otazník s nějakými parametry. Ještě nezkušený programátor si řekne, že to jsou samostatné soubory, ale ejhle. Zkuste vytvořit soubor co má v názvu otazník (nejde to). **To je právě důvod, proč vznikl tento článek**.
 

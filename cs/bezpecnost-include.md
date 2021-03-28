@@ -1,10 +1,10 @@
 Bezpečnost include v PHP a připojení souborů
 ================================
 
-> id: 820f8de6-ff1e-406c-8fe5-95080642656f
+> id: "820f8de6-ff1e-406c-8fe5-95080642656f"
 > slugCS: bezpecnost-include
-> publicationDate: 2019-08-22 20:48:46
-> mainCategoryId: 3666a8a6-f2a3-405d-8263-bd53c4301fb3
+> publicationDate: "2019-08-22 20:48:46"
+> mainCategoryId: "3666a8a6-f2a3-405d-8263-bd53c4301fb3"
 
 Často můžeme chtít připojit do stránky nějaký soubor, který máme někde jinde uložený na disku. Pokud zadáme jeho přesný název přímo do připojovací funkce, tak není co řešit.
 

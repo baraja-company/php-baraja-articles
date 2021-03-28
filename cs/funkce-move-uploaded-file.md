@@ -3,8 +3,8 @@ PHP funkce move_uploaded_file()
 
 > id: aa358b2e-0e8e-4110-9677-50fb7d4a3e30
 > slugCS: funkce-move-uploaded-file
-> publicationDate: 2019-09-11 10:04:03
-> mainCategoryId: 0eeab3a7-a54b-46db-a253-ca6100145648
+> publicationDate: "2019-09-11 10:04:03"
+> mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.0.3`
 
