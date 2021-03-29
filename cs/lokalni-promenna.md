@@ -1,5 +1,5 @@
 Lokální proměnné v PHP
-================================
+======================
 
 > id: "9c3fbf4e-8612-4599-8127-d66b9ec5e980"
 > slugCS: lokalni-promenna

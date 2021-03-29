@@ -1,5 +1,5 @@
 PHP funkce strip_tags()
-================================
+=======================
 
 > id: c69bf45e-93a8-4aac-a0c7-106c7eb9f29b
 > slugCS: funkce-strip-tags

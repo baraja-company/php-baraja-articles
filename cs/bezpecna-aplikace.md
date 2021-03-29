@@ -1,5 +1,5 @@
 Bezpečná aplikace
-================================
+=================
 
 > id: cc4667a3-aea3-4e0a-b323-da31ab78e019
 > slugCS: bezpecna-aplikace

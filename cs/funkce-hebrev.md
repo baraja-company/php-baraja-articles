@@ -1,5 +1,5 @@
 PHP funkce hebrev()
-================================
+===================
 
 > id: e10cefe5-208f-4945-9979-91d7a9a78a67
 > slugCS: funkce-hebrev

@@ -1,5 +1,5 @@
 PHP funkce dirname()
-================================
+====================
 
 > id: "5e3cd7db-939c-4a11-a7c7-f87faaf92b77"
 > slugCS: funkce-dirname

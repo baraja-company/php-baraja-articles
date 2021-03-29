@@ -1,5 +1,5 @@
 PHP funkce fileatime()
-================================
+======================
 
 > id: "9dedb891-534e-4b0d-ad64-89ed8d53d934"
 > slugCS: funkce-fileatime

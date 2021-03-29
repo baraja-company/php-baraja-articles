@@ -1,5 +1,5 @@
 PHP funkce natcasesort()
-================================
+========================
 
 > id: "198a216e-7ac5-4496-a598-30c374bbf158"
 > slugCS: funkce-natcasesort

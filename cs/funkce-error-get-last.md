@@ -1,5 +1,5 @@
 PHP funkce error_get_last()
-================================
+===========================
 
 > id: "2391a6e6-334b-4e8e-87ae-cf6ecb57c41d"
 > slugCS: funkce-error-get-last

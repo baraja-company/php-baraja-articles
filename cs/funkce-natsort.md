@@ -1,5 +1,5 @@
 PHP funkce natsort()
-================================
+====================
 
 > id: fdd6ab2b-382e-42ee-9d43-102b3a7eb631
 > slugCS: funkce-natsort

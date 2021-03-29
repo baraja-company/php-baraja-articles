@@ -1,5 +1,5 @@
 PHP funkce socket_set_timeout()
-================================
+===============================
 
 > id: "3afe8aaf-5ad8-4929-b0ef-ab8ac6d66328"
 > slugCS: funkce-socket-set-timeout

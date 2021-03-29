@@ -1,5 +1,5 @@
 PHP funkce str_word_count()
-================================
+===========================
 
 > id: bc7b5409-dbb4-417e-824b-5e46a044f019
 > slugCS: funkce-str-word-count

@@ -1,5 +1,5 @@
 PHP funkce import_request_variables()
-================================
+=====================================
 
 > id: ac7effde-4411-49c3-b93b-3ab04b0fbc2a
 > slugCS: funkce-import-request-variables

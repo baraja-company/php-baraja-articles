@@ -1,5 +1,5 @@
 PHP funkce ob_flush()
-================================
+=====================
 
 > id: "4bdf00e9-73ea-4242-b805-77bb0d76ad58"
 > slugCS: funkce-ob-flush

@@ -1,5 +1,5 @@
 PHP funkce rad2deg()
-================================
+====================
 
 > id: "1c32e347-5a47-4b64-bd6f-e5bd80d43541"
 > slugCS: funkce-rad2deg

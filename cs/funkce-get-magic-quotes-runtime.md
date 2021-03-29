@@ -1,5 +1,5 @@
 PHP funkce get_magic_quotes_runtime()
-================================
+=====================================
 
 > id: "23265175-ff0f-49b0-b4d5-4f7bcda17e0e"
 > slugCS: funkce-get-magic-quotes-runtime

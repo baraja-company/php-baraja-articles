@@ -1,5 +1,5 @@
 Jak nastavit HTTPS / SSL certifikát - kompletní příručka
-================================
+========================================================
 
 > id: "0346a091-2b2c-494f-b2fb-573796d4fb46"
 > slugCS: jak-nastavit-https-ssl-certifikat
@@ -66,7 +66,7 @@ V případě Apache to lze jednoduše docílit pomocí přesměrování v `.htac
 ```htaccess
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-	
+
 	RewriteCond %{HTTPS} !on
 	RewriteRule .? https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </IfModule>

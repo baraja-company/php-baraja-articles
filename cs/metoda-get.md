@@ -1,5 +1,5 @@
 Získání parametrů z URL metodou GET
-================================
+===================================
 
 > id: bbf2cb2c-f7f7-4be9-a9cd-960014db0f51
 > slugCS: metoda-get
@@ -19,7 +19,7 @@ Kód + vysvětlení
 Superglobální proměnná `$_GET` obsahuje klíče s parametry z URL adresy
 
 ```php
-echo $_GET['clanek'] ?? ''; 
+echo $_GET['clanek'] ?? '';
 ```
 
 Bezpečnost a hranice délky

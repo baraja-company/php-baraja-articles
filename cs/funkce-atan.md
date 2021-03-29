@@ -1,5 +1,5 @@
 PHP funkce atan()
-================================
+=================
 
 > id: dd342c9b-d0fc-446b-94a5-745fdee3767e
 > slugCS: funkce-atan

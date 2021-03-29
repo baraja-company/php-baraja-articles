@@ -1,5 +1,5 @@
 PHP funkce sleep()
-================================
+==================
 
 > id: f125cbbd-ce50-4ff2-913d-e25e03936d34
 > slugCS: funkce-sleep

@@ -1,5 +1,5 @@
 PHP funkce current()
-================================
+====================
 
 > id: b34059cd-9c40-4ef1-81e0-d21339137430
 > slugCS: funkce-current

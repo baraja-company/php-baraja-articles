@@ -1,5 +1,5 @@
 PHP funkce localeconv()
-================================
+=======================
 
 > id: ba98a788-6543-4763-ae8f-af22e937742c
 > slugCS: funkce-localeconv

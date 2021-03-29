@@ -1,5 +1,5 @@
 PHP funkce ucwords()
-================================
+====================
 
 > id: "5d5a5aaa-bb1a-4851-b067-369625e77f8a"
 > slugCS: funkce-ucwords

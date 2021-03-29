@@ -1,5 +1,5 @@
 PHP funkce microtime()
-================================
+======================
 
 > id: "8a29ed94-0dee-4788-a2ba-f0b474835262"
 > slugCS: funkce-microtime

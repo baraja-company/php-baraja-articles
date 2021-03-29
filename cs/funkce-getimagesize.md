@@ -1,5 +1,5 @@
 PHP funkce getimagesize - velikost obrázku
-================================
+==========================================
 
 > id: "9cfd63c7-a928-4640-9f13-5deccf73c7f2"
 > slugCS: funkce-getimagesize

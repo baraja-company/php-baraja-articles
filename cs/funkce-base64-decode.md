@@ -1,5 +1,5 @@
 PHP funkce base64_decode()
-================================
+==========================
 
 > id: a587925c-9696-42d8-93e0-e9db64747a6b
 > slugCS: funkce-base64-decode

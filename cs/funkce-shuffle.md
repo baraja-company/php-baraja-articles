@@ -1,5 +1,5 @@
 PHP funkce shuffle()
-================================
+====================
 
 > id: "70197aa9-0484-482d-8e59-83eddd175932"
 > slugCS: funkce-shuffle

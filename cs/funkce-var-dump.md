@@ -1,5 +1,5 @@
 PHP funkce var_dump()
-================================
+=====================
 
 > id: "3afb12dc-e91f-4126-9f64-e350449e095c"
 > slugCS: funkce-var-dump

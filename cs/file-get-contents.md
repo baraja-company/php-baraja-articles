@@ -1,5 +1,5 @@
 File_get_contents
-================================
+=================
 
 > id: "6c8889f1-95e7-4540-9c3a-0225c6383954"
 > slugCS: file-get-contents
@@ -15,7 +15,7 @@ Funkce lze použít buď pro načtení lokálního souboru z disku:
 
 ```php
 $news = file_get_contents('news.html');
- 
+
 echo 'Aktuální novinky:<br>' . $news;
 ```
 

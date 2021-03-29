@@ -1,5 +1,5 @@
 PHP funkce fgetc()
-================================
+==================
 
 > id: "9defd833-0c5a-47ea-a39e-e0a75324a1a4"
 > slugCS: funkce-fgetc

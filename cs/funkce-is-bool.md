@@ -1,5 +1,5 @@
 PHP funkce is_bool()
-================================
+====================
 
 > id: "297846d1-eaa4-488d-a8ee-d4da900cd369"
 > slugCS: funkce-is-bool

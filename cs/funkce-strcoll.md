@@ -1,5 +1,5 @@
 PHP funkce strcoll()
-================================
+====================
 
 > id: e59edebf-a82f-4ce7-8a2a-326b53e8fdeb
 > slugCS: funkce-strcoll

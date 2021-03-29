@@ -1,5 +1,5 @@
 Speciální význam uvozovek
-================================
+=========================
 
 > id: "2649942d-94d6-48c3-9c78-5a303165bf72"
 > slugCS: uvozovky-vyznam
@@ -71,7 +71,7 @@ Dobré návyky
 
 Obecně doporučuji k ohraničení čehokoli používat apostrofy (pokud je to možné), protože jejich výskyt v řetězcích je daleko menší, než právě uvozovek.
 
-PHP je navíc jazykem webovým, tj. používá se k generování HTML dokumentů, kde se uvozovky vyskytují hodně často právě z toho důvodu, že se generují i části HTML kódů. Osobně doporučuji, zvyknout si na striktní použití apostrofů úplně všude, protože pak si nemusíte pamatovat, do čeho zrovna uzavíráte. 
+PHP je navíc jazykem webovým, tj. používá se k generování HTML dokumentů, kde se uvozovky vyskytují hodně často právě z toho důvodu, že se generují i části HTML kódů. Osobně doporučuji, zvyknout si na striktní použití apostrofů úplně všude, protože pak si nemusíte pamatovat, do čeho zrovna uzavíráte.
 
 Chování uvozovek
 --------------------------

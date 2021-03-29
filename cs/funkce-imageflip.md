@@ -1,5 +1,5 @@
 PHP funkce imageflip()
-================================
+======================
 
 > id: "2ef1f7aa-7983-4527-861b-39f93c9b6633"
 > slugCS: funkce-imageflip

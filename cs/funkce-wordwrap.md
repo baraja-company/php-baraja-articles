@@ -1,5 +1,5 @@
 PHP funkce wordwrap()
-================================
+=====================
 
 > id: "2f2222d8-193f-422f-8d46-9f1c485abb12"
 > slugCS: funkce-wordwrap

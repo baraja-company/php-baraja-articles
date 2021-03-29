@@ -1,5 +1,5 @@
 PHP funkce is_resource()
-================================
+========================
 
 > id: "44ff97f3-22b6-4e35-a8be-a4ff5c79343a"
 > slugCS: funkce-is-resource

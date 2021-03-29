@@ -1,5 +1,5 @@
 PHP funkce mail()
-================================
+=================
 
 > id: "6536e2e2-38e1-4496-80ef-6c1c9a0b5be5"
 > slugCS: odesilani-emailu
@@ -18,7 +18,7 @@ Použití
 -------
 
 ```php
-mail ('jan@barasek.com', 'Předmět', 'Text emailu... '); 
+mail ('jan@barasek.com', 'Předmět', 'Text emailu... ');
 ```
 
 Prvním parametrem uvedeme adresu příjemce, druhým předmět a třetím text zprávy. Čtvrtý (nepovinný) parametr uvádí doplňující konfiguraci zprávy.

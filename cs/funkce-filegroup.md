@@ -1,5 +1,5 @@
 PHP funkce filegroup()
-================================
+======================
 
 > id: "6429ca80-161b-4299-9a0b-e7ac4b715923"
 > slugCS: funkce-filegroup

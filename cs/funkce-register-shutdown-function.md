@@ -1,5 +1,5 @@
 PHP funkce register_shutdown_function()
-================================
+=======================================
 
 > id: "1d74db45-e5a3-457c-8530-c4e52e9d4c06"
 > slugCS: funkce-register-shutdown-function

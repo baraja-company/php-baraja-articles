@@ -1,5 +1,5 @@
 PHP funkce parse_ini_file()
-================================
+===========================
 
 > id: d58e96e6-670d-422b-8a0d-b255a9d66692
 > slugCS: funkce-parse-ini-file

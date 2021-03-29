@@ -1,5 +1,5 @@
 Jak se vyznat v PHP kódu
-================================
+========================
 
 > id: d8d452da-37b4-4502-a573-a27afe7ea37a
 > slugCS: jak-se-vyznat

@@ -1,5 +1,5 @@
 PHP funkce decoct()
-================================
+===================
 
 > id: e181a9fa-6d39-4cf3-b180-aa165c8cd0cf
 > slugCS: funkce-decoct

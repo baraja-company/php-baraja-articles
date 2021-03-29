@@ -1,5 +1,5 @@
 PHP funkce strtok()
-================================
+===================
 
 > id: c76927b3-7df7-4fc2-86d2-a11d72cdd863
 > slugCS: funkce-strtok

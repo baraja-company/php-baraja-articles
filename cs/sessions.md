@@ -1,5 +1,5 @@
 Sessions - serverové cookies v PHP
-================================
+==================================
 
 > id: ab782ff0-d5ba-4115-9ebb-ab37978a6527
 > slugCS: sessions

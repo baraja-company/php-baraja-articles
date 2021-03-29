@@ -1,5 +1,5 @@
 PHP funkce strrpos()
-================================
+====================
 
 > id: c2d989c9-94bc-4f21-838a-b9465065d4a9
 > slugCS: funkce-strrpos

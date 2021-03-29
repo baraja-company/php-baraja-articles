@@ -1,5 +1,5 @@
 PHP funkce explode()
-================================
+====================
 
 > id: a1ea6a22-7673-4cac-8624-1aa48194bf8b
 > slugCS: funkce-explode

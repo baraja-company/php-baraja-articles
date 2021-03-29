@@ -1,5 +1,5 @@
 PHP 8 je venku - kompletní přehled novinek
-================================
+==========================================
 
 > id: "8b6ce751-195f-41d2-82c6-1af4be3e86b5"
 > slugCS: php-8-kompletni-prehled-novinek
@@ -297,7 +297,7 @@ Implementace samotného attributu pak může vypadat třeba takto:
 class Inject
 {
     public $value;
- 
+
     public function __construct($value)
     {
         $this->value = $value;
@@ -359,10 +359,10 @@ Jde jen o syntaktický cukr, který se bude hodit pro rychlou a jednoduchou defi
 Například původní entita:
 
 ```php
-final class User 
+final class User
 {
     public string $name;
- 
+
     public function __construct(
         string $name,
     ) {
@@ -374,7 +374,7 @@ final class User
 Lze zkrátit jenom na:
 
 ```php
-final class User 
+final class User
 {
     public function __construct(
         public string $name

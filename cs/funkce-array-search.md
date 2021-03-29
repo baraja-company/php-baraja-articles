@@ -1,5 +1,5 @@
 PHP funkce array_search()
-================================
+=========================
 
 > id: d4edadb2-ba8b-4c7f-957e-98e148f4ffbf
 > slugCS: funkce-array-search

@@ -1,5 +1,5 @@
 PHP funkce imagecrop()
-================================
+======================
 
 > id: a7d425ff-567c-4e71-b019-23b818a68320
 > slugCS: funkce-imagecrop

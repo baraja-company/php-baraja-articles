@@ -1,5 +1,5 @@
 PHP funkce get_headers()
-================================
+========================
 
 > id: c82bbb88-1150-48f6-921b-ede602aaf184
 > slugCS: funkce-get-headers

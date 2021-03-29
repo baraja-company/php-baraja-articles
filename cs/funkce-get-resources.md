@@ -1,5 +1,5 @@
 PHP funkce get_resources()
-================================
+==========================
 
 > id: a3b44e91-1d53-40e5-84cb-8815dc58b2f9
 > slugCS: funkce-get-resources

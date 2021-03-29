@@ -1,5 +1,5 @@
 GitHub Actions - nejlepší CI pro rok 2021
-================================
+=========================================
 
 > id: c1fe3b77-a506-4f20-bf1e-90ee82817c7d
 > slugCS: github-actions-nejlepsi-ci-pro-rok-2021

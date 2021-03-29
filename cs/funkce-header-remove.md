@@ -1,5 +1,5 @@
 PHP funkce header_remove()
-================================
+==========================
 
 > id: a4848e25-e57f-41ee-9336-4e3c508430e2
 > slugCS: funkce-header-remove

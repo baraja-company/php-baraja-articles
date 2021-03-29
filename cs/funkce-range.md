@@ -1,5 +1,5 @@
 PHP funkce range()
-================================
+==================
 
 > id: b8a6d78a-2b24-40c2-96ac-fb1f999ad340
 > slugCS: funkce-range

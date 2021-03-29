@@ -1,5 +1,5 @@
 PHP funkce unserialize()
-================================
+========================
 
 > id: "2a898eba-4e92-4d6b-ac54-618ff790cde7"
 > slugCS: funkce-unserialize

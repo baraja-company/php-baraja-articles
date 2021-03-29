@@ -1,5 +1,5 @@
 PHP funkce gethostbynamel()
-================================
+===========================
 
 > id: c2632b3d-10b9-4b19-912f-b88a4307d5a3
 > slugCS: funkce-gethostbynamel

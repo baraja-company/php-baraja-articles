@@ -1,5 +1,5 @@
 PHP funkce strspn()
-================================
+===================
 
 > id: "03d42f61-2887-452b-9be3-2ddda936c17d"
 > slugCS: funkce-strspn

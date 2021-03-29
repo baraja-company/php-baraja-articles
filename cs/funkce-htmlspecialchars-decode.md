@@ -1,5 +1,5 @@
 PHP funkce htmlspecialchars_decode()
-================================
+====================================
 
 > id: c2fef686-4c02-4698-9963-49d76435cf7f
 > slugCS: funkce-htmlspecialchars-decode

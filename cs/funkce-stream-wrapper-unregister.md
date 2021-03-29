@@ -1,5 +1,5 @@
 PHP funkce stream_wrapper_unregister()
-================================
+======================================
 
 > id: a6e34a40-b405-49c5-a33d-c210684f4b7c
 > slugCS: funkce-stream-wrapper-unregister

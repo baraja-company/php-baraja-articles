@@ -1,5 +1,5 @@
 PHP funkce min()
-================================
+================
 
 > id: "439d3979-9c1d-45fd-8c23-aad6fc841bd1"
 > slugCS: funkce-min

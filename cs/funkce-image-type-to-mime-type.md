@@ -1,5 +1,5 @@
 PHP funkce image_type_to_mime_type()
-================================
+====================================
 
 > id: c02c40df-b44d-43cb-b5ed-9e3350d8bd27
 > slugCS: funkce-image-type-to-mime-type

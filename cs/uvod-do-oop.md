@@ -1,5 +1,5 @@
 Úvod do objektově orientovaného programování v PHP
-================================
+==================================================
 
 > id: "44a79461-dcfd-4dd0-b6fd-ba5db76db6de"
 > slugCS: uvod-do-oop

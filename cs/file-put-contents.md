@@ -1,5 +1,5 @@
 File_put_contents
-================================
+=================
 
 > id: "7ec781c6-e3db-484d-8a49-0b93ab8252b1"
 > slugCS: file-put-contents

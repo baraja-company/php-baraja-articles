@@ -1,5 +1,5 @@
 Hashování řetězců a hesel
-================================
+=========================
 
 > id: "7978bee8-62cc-4770-b15b-a8d08d1dcf34"
 > slugCS: hashovani
@@ -34,7 +34,7 @@ echo sha1($password);
 ```
 
 > **Pozor:** Funkce`md5()` ani `sha1()` není vhodná k hashování hesel, protože je výpočetně jednoduché původní heslo odhalit, nebo si hesla aspoň předpočítat. Mnohem lepší je použít `bcrypt`, který pro hashování hesel vznikl.
-> 
+>
 > Web <a href="https://www.md5cracker.com/">md5cracker.com</a> obsahuje databázi kontrolních součtů (hashů), zkuste vyhledat třeba hash: `79c2b46ce2594ecbcb5b73e928345492`, jak je vidět, tak čisté `md5()` není zas tak bezpečné pro častá slova a hesla.
 
 Jediné správné řešení: `Bcrypt + salt`

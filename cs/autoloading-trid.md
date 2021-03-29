@@ -1,5 +1,5 @@
 Autoloading tříd v PHP
-================================
+======================
 
 > id: f6cd5762-261f-4153-b27b-075dd8b5ed13
 > slugCS: autoloading-trid

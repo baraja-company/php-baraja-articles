@@ -1,5 +1,5 @@
 PHP funkce sort()
-================================
+=================
 
 > id: "78603af1-ebf1-436b-b450-e9bca744ae11"
 > slugCS: funkce-sort

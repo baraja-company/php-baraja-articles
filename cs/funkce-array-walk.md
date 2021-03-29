@@ -1,5 +1,5 @@
 PHP funkce array_walk()
-================================
+=======================
 
 > id: "9a37b2cc-6123-404b-ad12-8c430cbf1f14"
 > slugCS: funkce-array-walk

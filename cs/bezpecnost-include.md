@@ -1,5 +1,5 @@
 Bezpečnost include v PHP a připojení souborů
-================================
+============================================
 
 > id: "820f8de6-ff1e-406c-8fe5-95080642656f"
 > slugCS: bezpecnost-include
@@ -38,7 +38,7 @@ Proč nenačítat nerelevantní soubory?
 
 - Uživatel načte soubor, kam nemá veřejnost přístup a dostane se k němu jen server.
 - Načtení nějakého jiného PHP scriptu může vyvolat nečekanou akci nebo chybovou hlášku, která může napovědět, jak web funguje a pomoci k dalším útokům.
-- Načtení jiného souboru nemusí vyvolat pouze jeho přidání do dokumentu, ale také jeho spuštění. 
+- Načtení jiného souboru nemusí vyvolat pouze jeho přidání do dokumentu, ale také jeho spuštění.
 
 Whitelist a validace vstupu
 --------------------------

@@ -1,5 +1,5 @@
 PHP funkce getlastmod()
-================================
+=======================
 
 > id: c474fb13-78bf-4646-b1ce-c823932eb47e
 > slugCS: funkce-getlastmod

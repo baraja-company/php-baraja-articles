@@ -1,5 +1,5 @@
 PHP funkce decbin()
-================================
+===================
 
 > id: c7756068-dc0b-4e93-acb9-054aae318cba
 > slugCS: funkce-decbin

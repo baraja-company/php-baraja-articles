@@ -1,5 +1,5 @@
 PHP funkce set_magic_quotes_runtime()
-================================
+=====================================
 
 > id: b3fe4ec8-0e75-4359-87ba-a42762631f2e
 > slugCS: funkce-set-magic-quotes-runtime

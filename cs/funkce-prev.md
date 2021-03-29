@@ -1,5 +1,5 @@
 PHP funkce prev()
-================================
+=================
 
 > id: "4c8edc85-e7ea-458b-98f1-955a8febd6e1"
 > slugCS: funkce-prev

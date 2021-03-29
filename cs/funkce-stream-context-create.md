@@ -1,5 +1,5 @@
 PHP funkce stream_context_create()
-================================
+==================================
 
 > id: "813becd1-4e37-4294-8481-c40d23cf40fb"
 > slugCS: funkce-stream-context-create

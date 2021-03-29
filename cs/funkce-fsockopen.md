@@ -1,5 +1,5 @@
 PHP funkce fsockopen()
-================================
+======================
 
 > id: "42b0b00e-f3ce-48bd-960d-c269dd41b700"
 > slugCS: funkce-fsockopen

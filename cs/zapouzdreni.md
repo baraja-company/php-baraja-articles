@@ -1,5 +1,5 @@
 Princip zapouzdření v OOP
-================================
+=========================
 
 > id: "54968a42-b678-4385-91ac-c13ba96c9b34"
 > slugCS: zapouzdreni

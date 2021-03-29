@@ -1,5 +1,5 @@
 PHP funkce number_format()
-================================
+==========================
 
 > id: "8e1bd6cc-f9dc-4292-b6f2-e25ebaddc8af"
 > slugCS: funkce-number-format

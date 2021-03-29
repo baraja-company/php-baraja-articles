@@ -1,5 +1,5 @@
 Dokumentační komentáře, česky nebo anglicky?
-================================
+============================================
 
 > id: e5f1bf13-ab9e-4a70-a95c-77fb50aa4878
 > slugCS: dokumentacni-komentare

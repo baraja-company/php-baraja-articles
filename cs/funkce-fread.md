@@ -1,5 +1,5 @@
 PHP funkce fread()
-================================
+==================
 
 > id: "94fdfbf9-def6-4966-8a08-426def5cb15c"
 > slugCS: funkce-fread

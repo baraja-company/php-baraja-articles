@@ -1,5 +1,5 @@
 PHP funkce stream_select()
-================================
+==========================
 
 > id: "5dd24afa-fcf3-4ce5-8ee4-f8267d7efb02"
 > slugCS: funkce-stream-select

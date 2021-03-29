@@ -1,5 +1,5 @@
 PHP funkce atanh()
-================================
+==================
 
 > id: "59275599-981c-4936-8acc-9a624bddbdec"
 > slugCS: funkce-atanh

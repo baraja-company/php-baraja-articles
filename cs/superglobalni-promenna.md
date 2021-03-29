@@ -1,5 +1,5 @@
 Superglobální proměnné
-================================
+======================
 
 > id: bc2107ee-6551-4559-8c02-9cecdf98d33b
 > slugCS: superglobalni-promenna

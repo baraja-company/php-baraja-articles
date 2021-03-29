@@ -1,5 +1,5 @@
 PHP funkce ignore_user_abort()
-================================
+==============================
 
 > id: "87e66193-e092-4b60-88bd-c096b1206983"
 > slugCS: funkce-ignore-user-abort

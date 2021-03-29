@@ -1,5 +1,5 @@
 PHP funkce is_finite()
-================================
+======================
 
 > id: df72fd97-ba01-44fe-b423-b52e2356a5a2
 > slugCS: funkce-is-finite

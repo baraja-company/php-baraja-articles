@@ -1,5 +1,5 @@
 PHP funkce is_file()
-================================
+====================
 
 > id: c2584fa6-19c9-47af-b29c-9dcbf026b21e
 > slugCS: funkce-is-file

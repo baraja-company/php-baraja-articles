@@ -1,5 +1,5 @@
 PHP funkce strpbrk()
-================================
+====================
 
 > id: b946804b-8340-493e-87cc-a951fc8bc65f
 > slugCS: funkce-strpbrk

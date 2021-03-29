@@ -1,5 +1,5 @@
 PHP funkce max()
-================================
+================
 
 > id: d8900b9a-e9c4-42bb-a5dc-a7337eea7cb7
 > slugCS: funkce-max

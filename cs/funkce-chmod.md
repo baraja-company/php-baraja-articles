@@ -1,5 +1,5 @@
 PHP funkce chmod()
-================================
+==================
 
 > id: bf778176-8523-4fc2-9a6a-7d08badb1deb
 > slugCS: funkce-chmod

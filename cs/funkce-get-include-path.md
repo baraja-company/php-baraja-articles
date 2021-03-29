@@ -1,5 +1,5 @@
 PHP funkce get_include_path()
-================================
+=============================
 
 > id: "592e7c76-55f7-4bac-9d06-e46a2b0f9062"
 > slugCS: funkce-get-include-path

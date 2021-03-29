@@ -1,5 +1,5 @@
 PHP funkce bindec()
-================================
+===================
 
 > id: "629d807b-e65a-4206-9034-cd8670ded1ad"
 > slugCS: funkce-bindec

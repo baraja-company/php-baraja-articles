@@ -1,5 +1,5 @@
 PHP funkce stream_context_get_params()
-================================
+======================================
 
 > id: b90f9e56-2f37-46dc-963c-ce65abdab3c2
 > slugCS: funkce-stream-context-get-params

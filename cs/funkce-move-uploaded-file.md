@@ -1,5 +1,5 @@
 PHP funkce move_uploaded_file()
-================================
+===============================
 
 > id: aa358b2e-0e8e-4110-9677-50fb7d4a3e30
 > slugCS: funkce-move-uploaded-file

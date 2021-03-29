@@ -1,5 +1,5 @@
 PHP funkce strtolower()
-================================
+=======================
 
 > id: cd7deb87-53e6-41f4-9b7a-9975e164c750
 > slugCS: funkce-strtolower

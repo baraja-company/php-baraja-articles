@@ -1,5 +1,5 @@
 PHP funkce settype()
-================================
+====================
 
 > id: a337adcc-da55-4a87-84c8-a206c8a5acc0
 > slugCS: funkce-settype

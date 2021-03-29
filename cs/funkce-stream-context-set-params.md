@@ -1,5 +1,5 @@
 PHP funkce stream_context_set_params()
-================================
+======================================
 
 > id: a959ea53-3402-4919-9ebf-f386e1b824b0
 > slugCS: funkce-stream-context-set-params

@@ -1,5 +1,5 @@
 PHP funkce disk_total_space()
-================================
+=============================
 
 > id: ed42a289-8d8d-43a7-8678-10288653b13c
 > slugCS: funkce-disk-total-space

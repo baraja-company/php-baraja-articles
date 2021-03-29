@@ -1,5 +1,5 @@
 PHP funkce substr_compare()
-================================
+===========================
 
 > id: "67b0a6e5-9779-4326-a489-53e114b777a5"
 > slugCS: funkce-substr-compare

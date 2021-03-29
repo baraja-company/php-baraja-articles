@@ -1,5 +1,5 @@
 PHP funkce strrchr()
-================================
+====================
 
 > id: "1d467cb8-f0f5-40a0-900a-e2591eb9605e"
 > slugCS: funkce-strrchr

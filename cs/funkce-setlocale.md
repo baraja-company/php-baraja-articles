@@ -1,5 +1,5 @@
 PHP funkce setlocale()
-================================
+======================
 
 > id: "7b94a46f-a7d9-4e65-80e5-b1b99db5e148"
 > slugCS: funkce-setlocale

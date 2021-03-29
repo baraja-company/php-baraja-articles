@@ -1,5 +1,5 @@
 PHP funkce stream_filter_remove()
-================================
+=================================
 
 > id: "64f1e80b-27eb-4940-a0cf-ea6d97de2052"
 > slugCS: funkce-stream-filter-remove

@@ -1,5 +1,5 @@
 PHP funkce time_nanosleep()
-================================
+===========================
 
 > id: "481733e0-3060-4750-b1e8-c3ef63988d0a"
 > slugCS: funkce-time-nanosleep

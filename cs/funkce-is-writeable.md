@@ -1,5 +1,5 @@
 PHP funkce is_writeable()
-================================
+=========================
 
 > id: d7ee06da-e4bf-4bbc-a4cc-ec4974be00ae
 > slugCS: funkce-is-writeable

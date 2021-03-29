@@ -1,5 +1,5 @@
 Přehled znalostí o tvorbě webu
-================================
+==============================
 
 > id: e5e9613c-66fe-4d5e-a686-a182aab8061a
 > slugCS: znalosti

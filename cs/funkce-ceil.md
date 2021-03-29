@@ -1,5 +1,5 @@
 PHP funkce ceil()
-================================
+=================
 
 > id: "14d9b6d3-3e76-4bdf-8c1e-6bee9bf76331"
 > slugCS: funkce-ceil

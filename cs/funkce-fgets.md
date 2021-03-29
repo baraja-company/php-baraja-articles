@@ -1,5 +1,5 @@
 PHP funkce fgets()
-================================
+==================
 
 > id: e8e2483e-02fc-410b-8e02-f46d73069db0
 > slugCS: funkce-fgets

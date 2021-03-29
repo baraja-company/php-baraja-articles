@@ -1,5 +1,5 @@
 Jak prolomit funkci `md5`
-================================
+=========================
 
 > id: "9e678fcc-3d5e-46a3-9c3f-c1eb3d1ad367"
 > slugCS: lamani-md5

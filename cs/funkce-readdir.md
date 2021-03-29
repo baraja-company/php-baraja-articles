@@ -1,5 +1,5 @@
 PHP funkce readdir()
-================================
+====================
 
 > id: "3f7538f0-d1f2-4938-a58e-0086cba907b3"
 > slugCS: funkce-readdir

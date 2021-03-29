@@ -1,5 +1,5 @@
 PHP funkce floatval()
-================================
+=====================
 
 > id: "59308ef4-23a4-49bd-a92a-3f6487b7b202"
 > slugCS: funkce-floatval

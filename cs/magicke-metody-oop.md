@@ -1,5 +1,5 @@
 Magické metody v PHP
-================================
+====================
 
 > id: "4b1c9887-c5fa-4398-be3a-29c963616b8b"
 > slugCS: magicke-metody-oop

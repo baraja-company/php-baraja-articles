@@ -1,5 +1,5 @@
 PHP funkce quoted_printable_decode()
-================================
+====================================
 
 > id: b709f47e-eea8-449e-9044-5fec24e3acf2
 > slugCS: funkce-quoted-printable-decode

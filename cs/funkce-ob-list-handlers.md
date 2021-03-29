@@ -1,5 +1,5 @@
 PHP funkce ob_list_handlers()
-================================
+=============================
 
 > id: "7be89d03-94e9-4bb7-b454-2e0561eb073c"
 > slugCS: funkce-ob-list-handlers

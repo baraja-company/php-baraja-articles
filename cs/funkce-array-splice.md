@@ -1,5 +1,5 @@
 PHP funkce array_splice()
-================================
+=========================
 
 > id: "733af217-e55b-4fa4-a1d1-19a7b21f3ce9"
 > slugCS: funkce-array-splice

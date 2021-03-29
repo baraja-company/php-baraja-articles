@@ -1,5 +1,5 @@
 PHP funkce php_egg_logo_guid()
-================================
+==============================
 
 > id: a970aa79-6e70-4791-acd5-13abf7adcfa2
 > slugCS: funkce-php-egg-logo-guid

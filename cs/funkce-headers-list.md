@@ -1,5 +1,5 @@
 PHP funkce headers_list()
-================================
+=========================
 
 > id: "57348dac-95d1-45eb-926f-18d653821de6"
 > slugCS: funkce-headers-list

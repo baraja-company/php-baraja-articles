@@ -1,5 +1,5 @@
 PHP funkce getmxrr()
-================================
+====================
 
 > id: "95f29209-27d7-4514-9488-30e26b3fdabc"
 > slugCS: funkce-getmxrr

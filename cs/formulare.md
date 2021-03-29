@@ -1,5 +1,5 @@
 HTML formuláře - část v prohlížeči
-================================
+==================================
 
 > id: cb0015c7-b7b6-41ac-8263-4068960e16b3
 > slugCS: formulare
@@ -91,7 +91,7 @@ Velké textové pole
 Vzniklo pro zadávání víceřádkového textu. Zadává se také:
 
 - `cols` ~ počet sloupců
-- `rows` ~ počet řádků 
+- `rows` ~ počet řádků
 
 ```html
 <textarea name="article" cols="40" rows="6">

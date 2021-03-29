@@ -1,5 +1,5 @@
 PHP funkce stream_wrapper_register()
-================================
+====================================
 
 > id: "97f1df5d-d5d6-4cb9-83c2-3b85e7247597"
 > slugCS: funkce-stream-wrapper-register

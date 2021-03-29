@@ -1,5 +1,5 @@
 PHP funkce ini_alter()
-================================
+======================
 
 > id: "9dc051d2-c783-4f78-b159-451b15bc94f3"
 > slugCS: funkce-ini-alter

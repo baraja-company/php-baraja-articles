@@ -1,5 +1,5 @@
 PHP funkce similar_text()
-================================
+=========================
 
 > id: "9eed8734-b132-4203-9ccb-c09889d0c023"
 > slugCS: funkce-similar-text

@@ -1,5 +1,5 @@
 PHP funkce closedir()
-================================
+=====================
 
 > id: "355eeb1f-09c2-441b-be5a-4c5641a1134f"
 > slugCS: funkce-closedir

@@ -1,5 +1,5 @@
 PHP funkce convert_uuencode()
-================================
+=============================
 
 > id: eb6489c6-374d-4996-b131-363c1ea700cf
 > slugCS: funkce-convert-uuencode

@@ -1,5 +1,5 @@
 PHP funkce metaphone()
-================================
+======================
 
 > id: "95b5f0a7-0140-41bf-ab46-b5a712207209"
 > slugCS: funkce-metaphone

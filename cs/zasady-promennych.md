@@ -1,5 +1,5 @@
 Zásady zápisu proměnných
-================================
+========================
 
 > id: "4c8e631b-b305-4169-8885-4f9506155999"
 > slugCS: zasady-promennych
@@ -8,7 +8,7 @@ Zásady zápisu proměnných
 
 Toto je druhý díl výukového seriálu o PHP. V tomto díle se podíváme na základní pravidla pro zápis proměnných.
 
-Tato stránka slouží jen jako rychlý přehled. Pokud hledáte podrobný odborný popis všech vlastností, tak jsem napsal <a href="/promenna">samostatný článek</a>. 
+Tato stránka slouží jen jako rychlý přehled. Pokud hledáte podrobný odborný popis všech vlastností, tak jsem napsal <a href="/promenna">samostatný článek</a>.
 
 Základní syntaxe
 --------------------------
@@ -117,7 +117,7 @@ Některé proměnné jsou dostupné už v okamžiku spuštění scriptu (a můž
 Použití je následovné:
 
 ```php
-$a = $_GET['a']; 
+$a = $_GET['a'];
 
 echo $a;
 ```
@@ -128,7 +128,7 @@ Tento script vypíše do zdrojového kódu to, co má v URL adrese za otazníkem
 > Pozor, tato ukázka není bezpečná! Pokud by nečestný návštěvník do URL adresy předal například HTML kód, tak bude vložen do stránky a vykonán. Výpis musíme proto vždy ošetřit, k tomu se používá funkce `htmlspecialchars()`.
 
 ```php
-$a = $_GET['a']; 
+$a = $_GET['a'];
 
 echo htmlspecialchars($a);
 ```
@@ -138,7 +138,7 @@ echo htmlspecialchars($a);
 
 ```php
 if (isset($_GET['a'])) {
-	$a = $_GET['a']; 
+	$a = $_GET['a'];
 
 	echo htmlspecialchars($a);
 } else {
@@ -165,9 +165,9 @@ Propojení textových vstupů (řetězců)
 Také můžeme snadno propojit 2 textové vstupy (řetězce). Dělá se to pomocí operátoru tečky. Propojovat můžete v proměnné nebo při výpisu.
 
 ```php
-$a = 'pes'; 
-$b = 'kočka'; 
- 
+$a = 'pes';
+$b = 'kočka';
+
 echo $a . ' a ' . $b;
 ```
 

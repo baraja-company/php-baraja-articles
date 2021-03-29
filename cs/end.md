@@ -1,5 +1,5 @@
 End()
-================================
+=====
 
 > id: "879c7c9a-a497-4080-865d-f15e6c9e8578"
 > slugCS: end
@@ -32,15 +32,15 @@ echo end([
 	'apple',
 	'banana',
 	'cranberry',
-]); // vypíše cranberry  
+]); // vypíše cranberry
 ```
 
 ```php
 $a = [];
-$a[1] = 1; 
-$a[0] = 0; 
+$a[1] = 1;
+$a[0] = 0;
 
-echo end($a); // vypíše 0 
+echo end($a); // vypíše 0
 ```
 
 Parametry

@@ -1,5 +1,5 @@
 PHP funkce addslashes()
-================================
+=======================
 
 > id: "46868fcc-e07c-4c5e-98fb-2307b0ba71e8"
 > slugCS: funkce-addslashes

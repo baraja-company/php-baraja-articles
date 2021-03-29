@@ -1,5 +1,5 @@
 PHP funkce call_user_method_array()
-================================
+===================================
 
 > id: "66b36057-c8bb-4476-a348-ab74091b6d14"
 > slugCS: funkce-call-user-method-array

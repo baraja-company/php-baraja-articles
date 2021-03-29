@@ -1,5 +1,5 @@
 Mergování velkých polí v PHP
-================================
+============================
 
 > id: ccfb3f47-c8a0-4d0f-aa29-18d4c1775725
 > slugCS: mergovani-velkeho-pole

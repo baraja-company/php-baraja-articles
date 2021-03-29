@@ -1,5 +1,5 @@
 PHP funkce fmod()
-================================
+=================
 
 > id: "70a42e8b-2b8b-4ba3-986f-c5b8463fdc59"
 > slugCS: funkce-fmod

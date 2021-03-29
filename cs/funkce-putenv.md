@@ -1,5 +1,5 @@
 PHP funkce putenv()
-================================
+===================
 
 > id: c9386f4a-35ae-4985-8dab-051c3c77e1c0
 > slugCS: funkce-putenv

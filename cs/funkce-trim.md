@@ -1,5 +1,5 @@
 PHP funkce trim()
-================================
+=================
 
 > id: a8b76833-94a0-4757-bdef-b480e0aa8d03
 > slugCS: funkce-trim

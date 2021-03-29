@@ -95,7 +95,7 @@ $a = "php";				// definice proměnné
 echo "Mám rád " . $a;	// Vypíše: Mám rád php
 ```
 
-**Echo** má také zkrácenou syntaxi, kdy je možné následně za otvíracím php tagem použít jen znak rovnítka. 
+**Echo** má také zkrácenou syntaxi, kdy je možné následně za otvíracím php tagem použít jen znak rovnítka.
 
 ```php
 Ahoj <?=$jmeno;?>!

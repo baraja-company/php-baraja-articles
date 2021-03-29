@@ -1,5 +1,5 @@
 PHP funkce get_meta_tags()
-================================
+==========================
 
 > id: d1dbc4f7-44ef-458e-b9d3-d88690b9b733
 > slugCS: funkce-get-meta-tags

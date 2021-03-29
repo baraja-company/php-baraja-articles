@@ -1,5 +1,5 @@
 PHP funkce set_file_buffer()
-================================
+============================
 
 > id: "4da411ce-7a76-418a-97cf-e4f221863b8b"
 > slugCS: funkce-set-file-buffer

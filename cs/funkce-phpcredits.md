@@ -1,5 +1,5 @@
 PHP funkce phpcredits()
-================================
+=======================
 
 > id: af123c32-ed38-4acb-8727-27f2399c3905
 > slugCS: funkce-phpcredits

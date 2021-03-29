@@ -1,5 +1,5 @@
 PHP funkce fputcsv()
-================================
+====================
 
 > id: c718ddd4-d5ce-4c3e-bbd8-2f4989d19b00
 > slugCS: funkce-fputcsv

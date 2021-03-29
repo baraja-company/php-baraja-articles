@@ -1,5 +1,5 @@
 PHP funkce strrev()
-================================
+===================
 
 > id: "1f8f969c-dec2-4222-b64a-6bcd3140e62f"
 > slugCS: funkce-strrev

@@ -1,5 +1,5 @@
 PHP funkce imagescale()
-================================
+=======================
 
 > id: "57134d08-36c4-417b-90ab-74becd2aa754"
 > slugCS: funkce-imagescale

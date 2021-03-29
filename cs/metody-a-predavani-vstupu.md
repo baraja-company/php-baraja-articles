@@ -1,5 +1,5 @@
 Metody v OOP a předávání vstupů
-================================
+===============================
 
 > id: "843fbfb4-daf2-4c2e-9d94-28d494025b2e"
 > slugCS: metody-a-predavani-vstupu

@@ -1,5 +1,5 @@
 PHP funkce stream_get_transports()
-================================
+==================================
 
 > id: "8e108caa-babc-40d2-bd64-bb478e58ffe7"
 > slugCS: funkce-stream-get-transports

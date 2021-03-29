@@ -1,5 +1,5 @@
 PHP funkce rtrim()
-================================
+==================
 
 > id: e8b81e57-fadb-417e-a67f-ee895fbaa043
 > slugCS: funkce-rtrim

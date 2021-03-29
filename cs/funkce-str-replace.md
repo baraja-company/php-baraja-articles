@@ -1,5 +1,5 @@
 PHP funkce str_replace()
-================================
+========================
 
 > id: bda3769f-76b8-4458-9c75-178979c73cad
 > slugCS: funkce-str-replace

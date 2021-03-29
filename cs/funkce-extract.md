@@ -1,5 +1,5 @@
 PHP funkce extract()
-================================
+====================
 
 > id: a4d0614f-a0c0-497f-873b-5674d782770c
 > slugCS: funkce-extract

@@ -1,5 +1,5 @@
 Formuláře, zpracování formulářů v PHP
-================================
+=====================================
 
 > id: d1871a8d-bcfe-408d-ac12-6b827633f77e
 > slugCS: formulare-2
@@ -29,7 +29,7 @@ Základem je HTML formulář, jak ho udělat se dočtete <a href="/formulare">v 
 Pro začátek předpokládejme jednoduchý formulář pro zadání jména uživatele:
 
 ```html
-<form action="welcome.php" method="GET"> 
+<form action="welcome.php" method="GET">
    Zadejte jméno: <input type="text" name="username">
    <input type="submit" value="odeslat">
 </form>

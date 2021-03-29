@@ -1,5 +1,5 @@
 Paginator a stránkování výpisu výsledků v PHP
-================================
+=============================================
 
 > id: a1450160-e320-414a-8266-128465632e94
 > slugCS: paginator
@@ -83,7 +83,7 @@ $pole = [...];
 $start = 20;
 $limit = 10;
 for ($i = $start; ($i <= $start + $limit && isset($pole[$i])); $i++) {
-     
+
 	// tady se nějak vypisují data
 
 }
@@ -105,7 +105,7 @@ foreach ($pole as $prvek) {
 	}
 
 	// tady se nějak vypisují data
-	
+
 	$iterator++;
 	if ($iterator >= $start + $limit) break;
 }

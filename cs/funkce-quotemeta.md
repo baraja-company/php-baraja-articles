@@ -1,5 +1,5 @@
 PHP funkce quotemeta()
-================================
+======================
 
 > id: d48157e6-6a5e-4b69-be5b-98d527397abc
 > slugCS: funkce-quotemeta

@@ -1,5 +1,5 @@
 PHP funkce is_infinite()
-================================
+========================
 
 > id: fd063735-48fc-421c-be9b-61a7caa704c0
 > slugCS: funkce-is-infinite

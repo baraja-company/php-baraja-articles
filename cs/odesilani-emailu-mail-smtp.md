@@ -1,5 +1,5 @@
 Odesílání e-mailů (funkce `mail()` a SMTP) v PHP
-================================
+================================================
 
 > id: "3051b5ea-9408-4aaa-8209-e3c527ef8ad2"
 > slugCS: odesilani-emailu-mail-smtp

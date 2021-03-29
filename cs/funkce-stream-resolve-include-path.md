@@ -1,5 +1,5 @@
 PHP funkce stream_resolve_include_path()
-================================
+========================================
 
 > id: "51bee0cc-4cd9-4e1b-a7a5-35c4381b7934"
 > slugCS: funkce-stream-resolve-include-path

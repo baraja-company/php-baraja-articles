@@ -1,5 +1,5 @@
 PHP funkce checkdnsrr()
-================================
+=======================
 
 > id: "9e26c84c-6700-46c1-a87b-a1de4797244f"
 > slugCS: funkce-checkdnsrr

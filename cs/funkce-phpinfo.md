@@ -1,5 +1,5 @@
 PHP funkce phpinfo()
-================================
+====================
 
 > id: "1d1dece3-e12b-45a0-84e3-ded92d509b03"
 > slugCS: funkce-phpinfo

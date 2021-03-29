@@ -1,5 +1,5 @@
 PHP funkce lstat()
-================================
+==================
 
 > id: "9deef082-98ec-4d2b-8599-133f107f5155"
 > slugCS: funkce-lstat

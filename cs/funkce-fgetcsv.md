@@ -1,5 +1,5 @@
 PHP funkce fgetcsv()
-================================
+====================
 
 > id: "84a4c227-67ec-457b-87a4-09f07828cb5c"
 > slugCS: funkce-fgetcsv

@@ -1,5 +1,5 @@
 PHP funkce strtr()
-================================
+==================
 
 > id: "0c5fa08a-8809-4a50-857b-8e7d6aa07e85"
 > slugCS: funkce-strtr

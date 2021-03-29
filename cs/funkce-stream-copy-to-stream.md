@@ -1,5 +1,5 @@
 PHP funkce stream_copy_to_stream()
-================================
+==================================
 
 > id: "2a32e374-fa9c-4c8a-93dc-3b5eb907cdb5"
 > slugCS: funkce-stream-copy-to-stream

@@ -1,5 +1,5 @@
 PHP funkce debug_zval_dump()
-================================
+============================
 
 > id: "5726d255-19f6-4989-9120-51f4c20d3944"
 > slugCS: funkce-debug-zval-dump

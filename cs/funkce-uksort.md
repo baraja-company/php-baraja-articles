@@ -1,5 +1,5 @@
 PHP funkce uksort()
-================================
+===================
 
 > id: f1e763db-68e3-4e86-809b-bc4b04b82d63
 > slugCS: funkce-uksort

@@ -1,5 +1,5 @@
 PHP funkce acosh()
-================================
+==================
 
 > id: "153ddb5b-61a8-4434-a7c1-28a09126fb59"
 > slugCS: funkce-acosh

@@ -1,5 +1,5 @@
 PHP funkce fileperms()
-================================
+======================
 
 > id: "3d00c93e-fb53-464a-a7ee-5df15e7103ff"
 > slugCS: funkce-fileperms

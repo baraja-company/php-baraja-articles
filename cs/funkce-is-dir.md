@@ -1,5 +1,5 @@
 PHP funkce is_dir()
-================================
+===================
 
 > id: "257cc0c1-c7da-4f9b-8c4a-21ecaba5dafd"
 > slugCS: funkce-is-dir

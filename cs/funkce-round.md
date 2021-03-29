@@ -1,5 +1,5 @@
 PHP funkce round()
-================================
+==================
 
 > id: "7c38379c-cfd2-47ba-93e4-4e770809dfdd"
 > slugCS: funkce-round

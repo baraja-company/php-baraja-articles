@@ -1,5 +1,5 @@
 PHP funkce is_numeric()
-================================
+=======================
 
 > id: "469daef5-645c-44b8-ae3c-14c9a0fce6bd"
 > slugCS: funkce-is-numeric

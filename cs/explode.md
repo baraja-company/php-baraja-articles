@@ -1,5 +1,5 @@
 PHP funkce Explode - rozdělení řetězce podle oddělovače
-================================
+=======================================================
 
 > id: "4dc7cec6-0e96-4a6b-aee8-32c8817ba11e"
 > slugCS: explode
@@ -120,10 +120,10 @@ Příklad parsování IP adresy
 --------------------------
 
 ```php
-$ip = '10.0.0.138'; 
-$parser = explode('.', $ip); 
-echo $parser[0]; // vypíše "10" 
-echo $parser[1]; // vypíše "0"; 
+$ip = '10.0.0.138';
+$parser = explode('.', $ip);
+echo $parser[0]; // vypíše "10"
+echo $parser[1]; // vypíše "0";
 ```
 
 V proměnné `$ip` je vstupní řetězec, který je parsován podle oddělovače `.`, návratem je pole. Parsování probíhá až do konce řetězce, pokud není stanoven limit.
@@ -138,12 +138,12 @@ Parametry
 | 3 | int    | Limit parsování. Jedná se o nepovinný parametr. Příklad:
 
 ```php
-$text = 'PHP je můj nejoblíbenější jazyk!'; 
+$text = 'PHP je můj nejoblíbenější jazyk!';
 $parser = explode(' ', $text, 1);
 
-echo $parser[0]; // vypíše první slovo 
-echo $parser[1]; // vypíše zbytek textu 
-echo $parser[2]; // nevypíše nic, protože byl nastaven limit! 
+echo $parser[0]; // vypíše první slovo
+echo $parser[1]; // vypíše zbytek textu
+echo $parser[2]; // nevypíše nic, protože byl nastaven limit!
 ```
 
 Návratové hodnoty
@@ -169,28 +169,28 @@ Při použití záporného **limitu** se uvede počet prvků od konce řetězce.
 Příklad:
 
 ```php
-$str = 'one|two|three|four'; 
- 
-// kladný limit 
-print_r(explode('|', $str, 2)); 
- 
-// záporný limit (od PHP 5.1) 
-print_r(explode('|', $str, -1)); 
+$str = 'one|two|three|four';
+
+// kladný limit
+print_r(explode('|', $str, 2));
+
+// záporný limit (od PHP 5.1)
+print_r(explode('|', $str, -1));
 ```
 
 Návratem budou následující pole:
 
 ```php
-Array 
-( 
-    [0] => one 
-    [1] => two|three|four 
+Array
+(
+    [0] => one
+    [1] => two|three|four
 )
 
-Array 
-( 
-    [0] => one 
-    [1] => two 
-    [2] => three 
+Array
+(
+    [0] => one
+    [1] => two
+    [2] => three
 )
 ```

@@ -1,5 +1,5 @@
 PHP funkce array_push()
-================================
+=======================
 
 > id: b87285c5-15ec-4d50-9cea-93248727550c
 > slugCS: funkce-array-push

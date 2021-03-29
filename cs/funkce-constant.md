@@ -1,5 +1,5 @@
 PHP funkce constant()
-================================
+=====================
 
 > id: cfd5a942-e9ab-45a7-9727-9ec5049b69d4
 > slugCS: funkce-constant

@@ -1,5 +1,5 @@
 PHP funkce openlog()
-================================
+====================
 
 > id: ba2edc19-0df8-4eef-b8df-b8a0bb8aa9f1
 > slugCS: funkce-openlog

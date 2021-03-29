@@ -1,5 +1,5 @@
 Dědičnost a viditelnost v OOP
-================================
+=============================
 
 > id: "71896a55-dcfd-4bb6-9f53-64f22b1514eb"
 > slugCS: dedicnost-a-viditelnost
@@ -79,7 +79,7 @@ final class ContactPresenter extends BasePresenter
       // vykreslovací logika
       echo $this->link('Homepage:default', []);
    }
-   
+
    public function link(string $route, array $params = []): string
    {
       return 'https://baraja.cz';

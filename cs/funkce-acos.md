@@ -1,5 +1,5 @@
 PHP funkce acos()
-================================
+=================
 
 > id: "94dfdeaa-3a05-43ce-aad3-e973c9cc4000"
 > slugCS: funkce-acos

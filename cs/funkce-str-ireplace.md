@@ -1,5 +1,5 @@
 PHP funkce str_ireplace()
-================================
+=========================
 
 > id: e345edcc-0c33-4cf0-b99d-e14898a4e564
 > slugCS: funkce-str-ireplace

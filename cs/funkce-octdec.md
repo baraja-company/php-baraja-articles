@@ -1,5 +1,5 @@
 PHP funkce octdec()
-================================
+===================
 
 > id: "4fb6ab27-c0ac-4dd0-b61e-0dcffb307a15"
 > slugCS: funkce-octdec

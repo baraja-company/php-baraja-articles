@@ -1,5 +1,5 @@
 PHP funkce htmlentities()
-================================
+=========================
 
 > id: "6317d03b-4990-4ba5-979e-cdaf583c589a"
 > slugCS: funkce-htmlentities

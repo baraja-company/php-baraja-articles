@@ -1,5 +1,5 @@
 PHP funkce md5()
-================================
+================
 
 > id: "4ecea3f3-d93e-4c7f-b2a0-ed8dd254291f"
 > slugCS: funkce-md5

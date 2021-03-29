@@ -1,5 +1,5 @@
 PHP funkce money_format()
-================================
+=========================
 
 > id: eb7649d0-1509-45f6-a35a-33812fe68758
 > slugCS: funkce-money-format

@@ -1,5 +1,5 @@
 PHP funkce stream_socket_server()
-================================
+=================================
 
 > id: c86ca4ad-975f-4a8c-ac5b-6f59e5d10d0b
 > slugCS: funkce-stream-socket-server

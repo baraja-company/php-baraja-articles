@@ -1,5 +1,5 @@
 PHP funkce connection_status()
-================================
+==============================
 
 > id: fd79f980-3995-4e21-8c63-25d0590f8df0
 > slugCS: funkce-connection-status

@@ -1,5 +1,5 @@
 Zpracování ajaxových POST požadavků v PHP
-================================
+=========================================
 
 > id: c9c8fdb4-020d-4361-b425-4f4406a090ba
 > slugCS: ajax-post

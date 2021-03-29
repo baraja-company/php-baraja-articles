@@ -1,5 +1,5 @@
 PHP funkce filetype()
-================================
+=====================
 
 > id: c11a3af6-ef35-44de-b171-f22eb58ed6d1
 > slugCS: funkce-filetype

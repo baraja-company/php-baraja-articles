@@ -1,5 +1,5 @@
 Apostrofy a uvozovky
-================================
+====================
 
 > id: "526ad995-3412-446e-bb56-9627dff8e29e"
 > slugCS: apostrofy-a-uvozovky
@@ -132,7 +132,7 @@ Nekonzistence kódování znaků a datových typů
 Nezřídka se setkávám s konstrukcí ve smyslu:
 
 ```php
-echo "{$returnCode}" . self::CRLF; 
+echo "{$returnCode}" . self::CRLF;
 ```
 
 Kterou je lepší zapsat spíše jako:

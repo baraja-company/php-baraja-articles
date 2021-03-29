@@ -1,5 +1,5 @@
 PHP funkce array_merge()
-================================
+========================
 
 > id: b6f27bc4-d565-4a43-91b4-c5083596cc03
 > slugCS: funkce-array-merge

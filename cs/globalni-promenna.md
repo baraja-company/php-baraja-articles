@@ -1,5 +1,5 @@
 Globální proměnné v PHP
-================================
+=======================
 
 > id: "1cdfc51a-31f4-4a5d-81f6-cfd92f86a9d4"
 > slugCS: globalni-promenna

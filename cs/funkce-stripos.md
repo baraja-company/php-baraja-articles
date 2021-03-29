@@ -1,5 +1,5 @@
 PHP funkce stripos()
-================================
+====================
 
 > id: "93bcf683-be6f-4cfa-84ee-69b04af69604"
 > slugCS: funkce-stripos

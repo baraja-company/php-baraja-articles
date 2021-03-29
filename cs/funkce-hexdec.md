@@ -1,5 +1,5 @@
 PHP funkce hexdec()
-================================
+===================
 
 > id: "40915730-1068-45e2-84ec-146edba4af66"
 > slugCS: funkce-hexdec

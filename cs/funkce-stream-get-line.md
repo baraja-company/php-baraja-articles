@@ -1,5 +1,5 @@
 PHP funkce stream_get_line()
-================================
+============================
 
 > id: "164a0ff1-9be1-4ef0-8494-577d1e0b55a0"
 > slugCS: funkce-stream-get-line

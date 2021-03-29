@@ -1,5 +1,5 @@
 PHP funkce nl2br()
-================================
+==================
 
 > id: cbbf888a-9af2-49b2-984e-2d836b1337be
 > slugCS: funkce-nl2br

@@ -1,5 +1,5 @@
 PHP funkce getopt()
-================================
+===================
 
 > id: "395c12a9-688f-436c-9dbd-95612e36b28e"
 > slugCS: funkce-getopt

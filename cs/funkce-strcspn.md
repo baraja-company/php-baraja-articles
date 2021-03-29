@@ -1,5 +1,5 @@
 PHP funkce strcspn()
-================================
+====================
 
 > id: fee9fe56-2de8-42e8-b035-1342b16333fa
 > slugCS: funkce-strcspn

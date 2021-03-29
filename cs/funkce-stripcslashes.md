@@ -1,5 +1,5 @@
 PHP funkce stripcslashes()
-================================
+==========================
 
 > id: "52545257-8f73-4271-abbe-25f9bd11cb8b"
 > slugCS: funkce-stripcslashes

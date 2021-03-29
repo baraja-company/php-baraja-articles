@@ -1,5 +1,5 @@
 Informace o PHP a konfigurace serveru (phpinfo(), php.ini)
-================================
+==========================================================
 
 > id: "6f4a78c1-ca06-4619-9a28-a716a65a12a8"
 > slugCS: info

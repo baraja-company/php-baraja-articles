@@ -1,5 +1,5 @@
 PHP funkce connection_aborted()
-================================
+===============================
 
 > id: ea4409fe-49e1-4fc3-ae06-04150ee11010
 > slugCS: funkce-connection-aborted

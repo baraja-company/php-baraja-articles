@@ -1,5 +1,5 @@
 Zpracování náhledových obrázků a meta informací z Vimea
-================================
+=======================================================
 
 > id: "8b8cbef0-210a-4883-be07-5004e8f43739"
 > slugCS: zpracovani-nahledovych-obrazku-z-vimea

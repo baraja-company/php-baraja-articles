@@ -1,5 +1,5 @@
 PHP online kurz pro začátečníky
-================================
+===============================
 
 > id: "10ecc1cc-8d49-4882-8ecf-114ad74902df"
 > slugCS: zacatek
@@ -36,12 +36,12 @@ Základní software
 - Pro začátek stačí lepší **textový editor** se zvýrazňováním syntaxe. Světově nejlepší je asi <a href="https://www.sublimetext.com">Sublime Text</a> (který nabízí pokročilou práci s jakýmkoli textem v mnoha formátech, práci s více kurzory, regulárními výrazy a obecně jde o víceúčelový nástroj nejen na programování). V minulosti jsem používal český editor <a href="https://www.pspad.com/cz/">PSpad</a> (který momentálně vnímám jako hodně zastaralý a pro moderní weby nedostačující), část lidí používá ještě <a href="https://www.slunecnice.cz/sw/notepad/">Notepad++</a>.
 - Pokud to s vývojem myslíte vážně, tak doporučuji spíše použít celé vývojové prostředí. V práci používám <a href="https://www.jetbrains.com/phpstorm/">PhpStorm</a>, který vnímám jako nejlepší editor pro psaní kódu, který byl kdy naprogramován.
 - **Webový server**, který umí PHP, MySql databázi a umožňuje konfigurovat své nastavení. Za momentálně nejlepší volbu pro Windows pokládám <a href="https://www.apachefriends.org/download.html">Xampp</a>, což je předem připravený balíček.
-	
+
 `Linux (zejména webový server):`
 - Jakýkoli prohlížeč, třeba <a href="https://www.google.com/chrome">Google Chrome</a> nebo Firefox.
 - V Ubuntu používám <a href="https://www.sublimetext.com">Sublime Text</a>, oba jsou pro začátek dostačující.
 - Instalace **webového serveru** je proti Windows náročnější. V Ubuntu pro to je například program <a href="https://wiki.ubuntu.cz/servery/apache_s_mysql_a_php">Tasksel</a>, který se ovládá Terminálem.
-- Pokud instalujete linuxový server, tak stojí také za zvážení technologie <a href="https://www.nginx.com/resources/wiki/">Ngnix</a>.			
+- Pokud instalujete linuxový server, tak stojí také za zvážení technologie <a href="https://www.nginx.com/resources/wiki/">Ngnix</a>.
 
 `Mac:`
 - Na Macu se programuje skvěle, vychází uživateli vstříc.

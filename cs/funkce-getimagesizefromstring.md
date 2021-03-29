@@ -1,5 +1,5 @@
 PHP funkce getimagesizefromstring()
-================================
+===================================
 
 > id: b5c567bd-5bcf-4ccd-baae-fa5994f7b2df
 > slugCS: funkce-getimagesizefromstring

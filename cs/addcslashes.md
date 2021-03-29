@@ -1,5 +1,5 @@
 Addcslashes
-================================
+===========
 
 > id: "48278937-b1c5-479b-bac2-9b1ec552df4c"
 > slugCS: addcslashes

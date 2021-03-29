@@ -1,5 +1,5 @@
 PHP funkce fclose()
-================================
+===================
 
 > id: b3724c46-cbdf-44a9-998a-6d51ed22b3c2
 > slugCS: funkce-fclose

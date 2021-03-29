@@ -1,5 +1,5 @@
 Composer - kompletní přehled funkcí pro pokročilé
-================================
+=================================================
 
 > id: a74d8d59-91ce-4602-ad52-80cf89a647bd
 > slugCS: composer

@@ -1,5 +1,5 @@
 PHP funkce fileowner()
-================================
+======================
 
 > id: "64e4aa1d-2b93-406f-982d-dc98ff1ab042"
 > slugCS: funkce-fileowner

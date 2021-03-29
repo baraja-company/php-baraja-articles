@@ -1,5 +1,5 @@
 PHP funkce gettimeofday()
-================================
+=========================
 
 > id: "30d09f0c-d4ea-4717-9d52-a674c79f0342"
 > slugCS: funkce-gettimeofday

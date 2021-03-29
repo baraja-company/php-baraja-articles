@@ -1,5 +1,5 @@
 PHP funkce ksort()
-================================
+==================
 
 > id: "6276cc87-4ed5-4b18-81a0-7395b96a2d8d"
 > slugCS: funkce-ksort

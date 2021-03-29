@@ -1,5 +1,5 @@
 PHP funkce sys_getloadavg()
-================================
+===========================
 
 > id: f6f28ae4-5623-4442-a6f8-6e6b46394504
 > slugCS: funkce-sys-getloadavg

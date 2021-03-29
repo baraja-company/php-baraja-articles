@@ -1,5 +1,5 @@
 Ternární operátory v PHP (?:) - podmínka v jednom řádku
-================================
+=======================================================
 
 > id: "1191be9b-ff9d-4725-b0b4-17b60de2b935"
 > slugCS: ternarni-operator

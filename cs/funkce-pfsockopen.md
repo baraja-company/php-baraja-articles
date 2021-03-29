@@ -1,5 +1,5 @@
 PHP funkce pfsockopen()
-================================
+=======================
 
 > id: b6337b9c-928e-4f81-8322-0fb6434b433f
 > slugCS: funkce-pfsockopen

@@ -1,5 +1,5 @@
 PHP funkce implode()
-================================
+====================
 
 > id: e69cb651-79da-43ec-81fb-11afa2a19c77
 > slugCS: funkce-implode

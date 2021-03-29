@@ -1,5 +1,5 @@
 PHP funkce diskfreespace()
-================================
+==========================
 
 > id: ee0ab4c4-8115-4fd8-a514-3009fc5b0f66
 > slugCS: funkce-diskfreespace

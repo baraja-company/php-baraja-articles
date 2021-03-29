@@ -1,5 +1,5 @@
 Objektově orientované programování v PHP
-================================
+========================================
 
 > id: "3e56e179-877c-43d5-9f2d-6f260142a8ea"
 > slugCS: oop-clanek

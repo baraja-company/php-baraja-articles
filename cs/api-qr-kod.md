@@ -1,5 +1,5 @@
 Generátor QR kódů - API
-================================
+=======================
 
 > id: a9b1804f-438b-49fe-86e7-5a1b30a07210
 > slugCS: api-qr-kod
@@ -25,7 +25,7 @@ Můžeme nastavit 3 parametry:
 - Adresu (URL ke stránce, telefoní číslo, ...)
 
 > TIP: Pokud existuje mobilní verze webu, tak odkazujte raději na tu.
-> 
+>
 > Ve většině případů bude váš QR kód zpracovávat mobilní telefon.
 
 Velmi jednoduše si pro vkládání můžeme napsat vlastní funkci:

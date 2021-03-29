@@ -1,5 +1,5 @@
 PHP funkce ob_get_length()
-================================
+==========================
 
 > id: c01f5ff2-e66a-4ff5-b2b2-b831112130ff
 > slugCS: funkce-ob-get-length

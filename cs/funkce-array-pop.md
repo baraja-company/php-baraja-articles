@@ -1,5 +1,5 @@
 PHP funkce array_pop()
-================================
+======================
 
 > id: f1093ab2-b4b4-4db8-a240-f03fba6c581e
 > slugCS: funkce-array-pop

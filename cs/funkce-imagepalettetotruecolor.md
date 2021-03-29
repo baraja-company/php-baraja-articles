@@ -1,5 +1,5 @@
 PHP funkce imagepalettetotruecolor()
-================================
+====================================
 
 > id: "69c10264-64d2-4168-86f1-27322f47d113"
 > slugCS: funkce-imagepalettetotruecolor

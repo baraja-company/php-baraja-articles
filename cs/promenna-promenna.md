@@ -1,5 +1,5 @@
 Proměnné proměnné
-================================
+=================
 
 > id: a0baeb3a-ab6e-4dd9-b1bc-b1872a12ee08
 > slugCS: promenna-promenna

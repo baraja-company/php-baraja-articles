@@ -1,5 +1,5 @@
 PHP funkce bin2hex()
-================================
+====================
 
 > id: "2f81b162-bcb3-44e3-bde2-51276a5c99aa"
 > slugCS: funkce-bin2hex

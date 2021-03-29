@@ -1,5 +1,5 @@
 PHP funkce inet_ntop()
-================================
+======================
 
 > id: "5fbd9ea5-910a-40ff-acf3-8906ee44b9a3"
 > slugCS: funkce-inet-ntop

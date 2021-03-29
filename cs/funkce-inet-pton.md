@@ -1,5 +1,5 @@
 PHP funkce inet_pton()
-================================
+======================
 
 > id: "778a69b4-b148-48ae-9e63-f4c3ad47340c"
 > slugCS: funkce-inet-pton

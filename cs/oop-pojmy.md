@@ -1,5 +1,5 @@
 Vysvětlení pojmů Objektově orientovaného programování
-================================
+=====================================================
 
 > id: b574127d-38c2-4a44-ab4f-458f60c66ad9
 > slugCS: oop-pojmy

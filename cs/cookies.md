@@ -1,5 +1,5 @@
 Cookies v PHP
-================================
+=============
 
 > id: "392dd88b-d2f5-4943-a993-01aaad7ccd32"
 > slugCS: cookies

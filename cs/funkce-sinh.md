@@ -1,5 +1,5 @@
 PHP funkce sinh()
-================================
+=================
 
 > id: "4d44ac67-5d8d-413e-a23a-cf81859d494e"
 > slugCS: funkce-sinh

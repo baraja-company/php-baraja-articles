@@ -1,5 +1,5 @@
 PHP funkce header()
-================================
+===================
 
 > id: cf7f8ad4-5038-4519-bd1c-712028a494a5
 > slugCS: funkce-header

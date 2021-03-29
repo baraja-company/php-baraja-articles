@@ -1,5 +1,5 @@
 Kalkulačka v PHP: Zpracování matematického výrazu jako řetězec
-================================
+==============================================================
 
 > id: e6798758-031d-4e7c-b24e-1f77cf61558d
 > slugCS: pokrocila-kalkulacka

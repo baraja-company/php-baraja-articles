@@ -1,5 +1,5 @@
 PHP funkce fileinode()
-================================
+======================
 
 > id: "17dbf5ae-684f-4c72-bf07-3124ca3bf339"
 > slugCS: funkce-fileinode

@@ -1,5 +1,5 @@
 PHP funkce stream_socket_get_name()
-================================
+===================================
 
 > id: b732a473-ed8b-468f-921e-e1016a9dc946
 > slugCS: funkce-stream-socket-get-name

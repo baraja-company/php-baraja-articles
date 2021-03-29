@@ -1,5 +1,5 @@
 PHP funkce substr_replace()
-================================
+===========================
 
 > id: "63d688c9-bdd6-43ed-a1e8-44815c4a9f8e"
 > slugCS: funkce-substr-replace

@@ -1,5 +1,5 @@
 PHP funkce get_cfg_var()
-================================
+========================
 
 > id: "26548a4b-5cf2-4058-94a4-ce4216ef86e5"
 > slugCS: funkce-get-cfg-var

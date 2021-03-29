@@ -1,5 +1,5 @@
 PHP funkce array_fill_keys()
-================================
+============================
 
 > id: "5cef21a3-ccbb-4872-8a3f-4402f988f07a"
 > slugCS: funkce-array-fill-keys

@@ -1,5 +1,5 @@
 PHP funkce stream_filter_append()
-================================
+=================================
 
 > id: "884e9069-ed27-407c-8320-e0aed9a01466"
 > slugCS: funkce-stream-filter-append

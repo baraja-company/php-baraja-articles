@@ -1,5 +1,5 @@
 PHP funkce highlight_file()
-================================
+===========================
 
 > id: "4f004290-2dfa-46a4-8075-4fd318714de4"
 > slugCS: funkce-highlight-file

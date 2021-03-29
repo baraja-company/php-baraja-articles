@@ -1,5 +1,5 @@
 PHP funkce chroot()
-================================
+===================
 
 > id: "6203cece-e3f2-4554-bc47-ffe7006bed12"
 > slugCS: funkce-chroot

@@ -1,5 +1,5 @@
 PHP funkce substr_count()
-================================
+=========================
 
 > id: fc7bdcab-0040-4c03-9923-1dbfabc6e503
 > slugCS: funkce-substr-count

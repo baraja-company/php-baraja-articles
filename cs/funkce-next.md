@@ -1,5 +1,5 @@
 PHP funkce next()
-================================
+=================
 
 > id: b32ca1e3-93e4-46a5-9e00-695c52eb91a9
 > slugCS: funkce-next

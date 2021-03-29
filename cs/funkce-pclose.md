@@ -1,5 +1,5 @@
 PHP funkce pclose()
-================================
+===================
 
 > id: dd52fa6f-c280-4639-a71c-665b0dcf7691
 > slugCS: funkce-pclose

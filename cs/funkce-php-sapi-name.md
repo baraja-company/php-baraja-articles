@@ -1,5 +1,5 @@
 PHP funkce php_sapi_name()
-================================
+==========================
 
 > id: "0e464054-1f92-43fb-890b-5ea233d6c571"
 > slugCS: funkce-php-sapi-name

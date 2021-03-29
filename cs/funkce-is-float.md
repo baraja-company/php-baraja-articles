@@ -1,5 +1,5 @@
 PHP funkce is_float()
-================================
+=====================
 
 > id: "033fd8e2-24b3-44c1-bed1-cfb847743460"
 > slugCS: funkce-is-float

@@ -1,5 +1,5 @@
 PHP funkce stream_context_get_options()
-================================
+=======================================
 
 > id: "4942027d-2e71-4ddf-a9af-2485e1cf6769"
 > slugCS: funkce-stream-context-get-options

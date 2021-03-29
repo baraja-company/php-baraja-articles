@@ -1,5 +1,5 @@
 PHP funkce php_ini_scanned_files()
-================================
+==================================
 
 > id: b1e9471e-1af6-476f-be1f-0a7c46c5823e
 > slugCS: funkce-php-ini-scanned-files

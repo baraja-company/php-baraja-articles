@@ -1,5 +1,5 @@
 PHP funkce addcslashes()
-================================
+========================
 
 > id: caa941b6-05e0-426f-97b7-f969c7874638
 > slugCS: funkce-addcslashes

@@ -1,5 +1,5 @@
 PHP funkce str_shuffle()
-================================
+========================
 
 > id: "86105db7-3c8b-4376-804c-0a237aa2b1e8"
 > slugCS: funkce-str-shuffle

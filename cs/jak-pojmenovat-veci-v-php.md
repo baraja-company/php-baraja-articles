@@ -1,5 +1,5 @@
 Jak pojmenovat proměnné, funkce, metody a třídy
-================================
+===============================================
 
 > id: f70ac75d-422f-4696-88d5-9e1b843e060a
 > slugCS: jak-pojmenovat-veci-v-php
@@ -129,7 +129,7 @@ class User
 	 * @var string
 	 */
 	public $username;
-	
+
 	/**
 	 * @var string
 	 */

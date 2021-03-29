@@ -1,5 +1,5 @@
 PHP funkce stream_socket_shutdown()
-================================
+===================================
 
 > id: "0c9f4815-0984-4020-a584-728a5ac93a84"
 > slugCS: funkce-stream-socket-shutdown

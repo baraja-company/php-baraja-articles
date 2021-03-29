@@ -1,5 +1,5 @@
 PHP funkce set_time_limit()
-================================
+===========================
 
 > id: f96d7fe5-89df-4368-ae3f-aca700a982d5
 > slugCS: funkce-set-time-limit

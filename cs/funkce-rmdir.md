@@ -1,5 +1,5 @@
 PHP funkce rmdir()
-================================
+==================
 
 > id: f6a4cded-c9e1-47be-b0a9-87367badf151
 > slugCS: funkce-rmdir

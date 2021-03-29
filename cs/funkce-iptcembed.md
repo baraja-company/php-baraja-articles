@@ -1,5 +1,5 @@
 PHP funkce iptcembed()
-================================
+======================
 
 > id: "809d2b67-f45d-4555-a074-c5dfa6873eca"
 > slugCS: funkce-iptcembed

@@ -1,5 +1,5 @@
 PHP funkce getenv()
-================================
+===================
 
 > id: "08a550b5-efb4-4fa4-89f5-a655600363e2"
 > slugCS: funkce-getenv

@@ -1,5 +1,5 @@
 PHP funkce is_null()
-================================
+====================
 
 > id: edab91a4-5183-4c15-a9b3-448abc0db235
 > slugCS: funkce-is-null

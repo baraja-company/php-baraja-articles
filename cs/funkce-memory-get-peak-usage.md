@@ -1,5 +1,5 @@
 PHP funkce memory_get_peak_usage()
-================================
+==================================
 
 > id: a3a5f2b2-21e3-4d2e-8c1d-3a8af523b652
 > slugCS: funkce-memory-get-peak-usage

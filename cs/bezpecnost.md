@@ -1,5 +1,5 @@
 Bezpečnost PHP aplikací
-================================
+=======================
 
 > id: d33ac8fe-6daf-4e1f-95e5-82ed9d25fdb8
 > slugCS: bezpecnost

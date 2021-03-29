@@ -1,5 +1,5 @@
 Htmlspecialchars
-================================
+================
 
 > id: "46f04729-3956-4889-bb40-58362cb46b2a"
 > slugCS: htmlspecialchars

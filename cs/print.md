@@ -1,5 +1,5 @@
 Print
-================================
+=====
 
 > id: "23d672c5-b347-43b8-bd08-8ccb7ecca33f"
 > slugCS: print
@@ -40,7 +40,7 @@ Příklad
 ```php
 print "ahoj světe";
 
-print "print umí vypsati více řádkový text.Ale pozor na HTML značku 
+print "print umí vypsati více řádkový text.Ale pozor na HTML značku
 , ta se totiž nevypíše. Od toho je funkce <a href="/nl2br">Nl2br</a>.";
 
 // Ukázka spojení s proměnnou

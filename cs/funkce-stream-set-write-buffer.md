@@ -1,5 +1,5 @@
 PHP funkce stream_set_write_buffer()
-================================
+====================================
 
 > id: f59b327a-3bb0-40bc-b9fb-8a8d1c5dcda0
 > slugCS: funkce-stream-set-write-buffer

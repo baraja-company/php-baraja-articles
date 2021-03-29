@@ -1,5 +1,5 @@
 PHP funkce var_export()
-================================
+=======================
 
 > id: "162ded4a-1246-4bd0-b710-2ff64bfb16e1"
 > slugCS: funkce-var-export

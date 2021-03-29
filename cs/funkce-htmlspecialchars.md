@@ -1,5 +1,5 @@
 PHP funkce htmlspecialchars - escapování znaků
-================================
+==============================================
 
 > id: "2c8a5ae5-af3a-415f-bda0-5d291cadbea2"
 > slugCS: funkce-htmlspecialchars

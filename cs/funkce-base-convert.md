@@ -1,5 +1,5 @@
 PHP funkce base_convert()
-================================
+=========================
 
 > id: cfff45b7-a388-4675-b58d-e35c45b1ece6
 > slugCS: funkce-base-convert

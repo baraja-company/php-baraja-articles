@@ -1,5 +1,5 @@
 PHP funkce stream_socket_enable_crypto()
-================================
+========================================
 
 > id: fb15ad4f-83e8-4d78-96ba-389292a9987e
 > slugCS: funkce-stream-socket-enable-crypto

@@ -1,5 +1,5 @@
 PHP funkce zend_logo_guid()
-================================
+===========================
 
 > id: "180db505-820c-43dc-bc26-005d2226ea17"
 > slugCS: funkce-zend-logo-guid

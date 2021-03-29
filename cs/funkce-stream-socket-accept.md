@@ -1,5 +1,5 @@
 PHP funkce stream_socket_accept()
-================================
+=================================
 
 > id: de5a0476-2f97-4962-9f94-a40f13c12327
 > slugCS: funkce-stream-socket-accept

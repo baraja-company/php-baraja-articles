@@ -1,5 +1,5 @@
 PHP funkce gethostname()
-================================
+========================
 
 > id: "7b41e851-b1d1-4cf3-a8d1-16238f880a8a"
 > slugCS: funkce-gethostname

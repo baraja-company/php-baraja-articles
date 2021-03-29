@@ -1,5 +1,5 @@
 PHP funkce reset()
-================================
+==================
 
 > id: "5d4e9b29-c211-459c-b3f1-9f7c002a3f7f"
 > slugCS: funkce-reset

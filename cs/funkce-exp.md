@@ -1,5 +1,5 @@
 PHP funkce exp()
-================================
+================
 
 > id: f77ddd7c-3f43-4fe3-9a03-4a5e97fa2c74
 > slugCS: funkce-exp

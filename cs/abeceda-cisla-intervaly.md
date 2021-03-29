@@ -1,5 +1,5 @@
 Získání abecedy, pole čísel a intervalů
-================================
+=======================================
 
 > id: "24f996b9-fc55-43bc-8015-093228d11577"
 > slugCS: abeceda-cisla-intervaly

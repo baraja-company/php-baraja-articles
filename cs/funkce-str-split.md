@@ -1,5 +1,5 @@
 PHP funkce str_split()
-================================
+======================
 
 > id: "32f08691-047b-4b91-b626-e3ba88a4ba79"
 > slugCS: funkce-str-split

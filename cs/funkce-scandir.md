@@ -1,5 +1,5 @@
 PHP funkce scandir()
-================================
+====================
 
 > id: c4da3f63-82a0-424c-90d8-eecd1e5577d2
 > slugCS: funkce-scandir

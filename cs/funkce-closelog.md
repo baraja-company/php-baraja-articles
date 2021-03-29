@@ -1,5 +1,5 @@
 PHP funkce closelog()
-================================
+=====================
 
 > id: "00e48f52-911e-4508-897e-46dbe0ba52d2"
 > slugCS: funkce-closelog

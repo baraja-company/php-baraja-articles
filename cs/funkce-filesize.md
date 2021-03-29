@@ -1,5 +1,5 @@
 PHP funkce filesize()
-================================
+=====================
 
 > id: "122e6a48-60e3-4c5e-8b22-57406ddd4851"
 > slugCS: funkce-filesize

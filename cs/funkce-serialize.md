@@ -1,5 +1,5 @@
 PHP funkce serialize()
-================================
+======================
 
 > id: bfb18be6-3d30-432f-a55e-66f1f771fcef
 > slugCS: funkce-serialize

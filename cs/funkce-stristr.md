@@ -1,5 +1,5 @@
 PHP funkce stristr()
-================================
+====================
 
 > id: "7966a56b-2add-421a-9bea-887e83a1ed71"
 > slugCS: funkce-stristr

@@ -1,5 +1,5 @@
 PHP funkce ob_get_contents()
-================================
+============================
 
 > id: bcd88347-97e1-475c-839f-e3ee36705634
 > slugCS: funkce-ob-get-contents

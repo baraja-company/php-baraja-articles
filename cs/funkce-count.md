@@ -1,5 +1,5 @@
 PHP funkce count()
-================================
+==================
 
 > id: "5a07a47e-4e88-4d7c-8c1d-d6818aea0d8b"
 > slugCS: funkce-count

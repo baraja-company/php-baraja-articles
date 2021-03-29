@@ -1,5 +1,5 @@
 PHP funkce strripos()
-================================
+=====================
 
 > id: "99f63413-4594-4a2d-8cc2-dc78e5622534"
 > slugCS: funkce-strripos

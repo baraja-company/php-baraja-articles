@@ -1,5 +1,5 @@
 PHP funkce get_html_translation_table()
-================================
+=======================================
 
 > id: b1c948c8-9a7c-4359-ab15-446b76c37293
 > slugCS: funkce-get-html-translation-table

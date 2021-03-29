@@ -1,5 +1,5 @@
 PHP funkce ezmlm_hash()
-================================
+=======================
 
 > id: "33ec1142-6093-451a-b8cb-35d30444d97d"
 > slugCS: funkce-ezmlm-hash

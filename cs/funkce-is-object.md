@@ -1,5 +1,5 @@
 PHP funkce is_object()
-================================
+======================
 
 > id: f8ff4957-615a-49c9-ac35-765b95d95999
 > slugCS: funkce-is-object

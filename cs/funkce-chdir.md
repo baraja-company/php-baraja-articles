@@ -1,5 +1,5 @@
 PHP funkce chdir()
-================================
+==================
 
 > id: d0f2e1dd-5fb4-4c3b-9829-acf3caeacc9d
 > slugCS: funkce-chdir

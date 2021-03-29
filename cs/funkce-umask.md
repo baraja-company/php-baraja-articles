@@ -1,5 +1,5 @@
 PHP funkce umask()
-================================
+==================
 
 > id: a8367c75-5190-4055-a7bd-6e37ade7020f
 > slugCS: funkce-umask

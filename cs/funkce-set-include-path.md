@@ -1,5 +1,5 @@
 PHP funkce set_include_path()
-================================
+=============================
 
 > id: "6d83081c-fd56-4c6b-80fc-ab5ef2d2faa1"
 > slugCS: funkce-set-include-path

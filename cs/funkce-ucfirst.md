@@ -1,5 +1,5 @@
 PHP funkce ucfirst()
-================================
+====================
 
 > id: "3d7a57bd-1380-443a-a68b-d3c4767ec8aa"
 > slugCS: funkce-ucfirst

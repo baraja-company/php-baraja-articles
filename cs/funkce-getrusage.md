@@ -1,5 +1,5 @@
 PHP funkce getrusage()
-================================
+======================
 
 > id: c19b63b6-232b-46f5-ade7-996308d5464f
 > slugCS: funkce-getrusage

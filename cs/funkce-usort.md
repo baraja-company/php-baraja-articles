@@ -1,5 +1,5 @@
 PHP funkce usort()
-================================
+==================
 
 > id: "34e70aad-f369-4d43-87fb-9f3b7287c97e"
 > slugCS: funkce-usort

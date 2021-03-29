@@ -1,5 +1,5 @@
 PHP funkce restore_include_path()
-================================
+=================================
 
 > id: e2f087c2-c483-4e3a-a01a-aa3b691dedbf
 > slugCS: funkce-restore-include-path

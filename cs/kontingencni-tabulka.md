@@ -1,5 +1,5 @@
 Kontingenční tabulka v PHP
-================================
+==========================
 
 > id: "9bdc1004-8f06-48ec-8f56-8707fad5cef7"
 > slugCS: kontingencni-tabulka

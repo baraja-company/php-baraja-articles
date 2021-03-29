@@ -1,5 +1,5 @@
 PHP funkce is_executable()
-================================
+==========================
 
 > id: "82158ff1-6183-4678-87ef-1ae379b50eaf"
 > slugCS: funkce-is-executable

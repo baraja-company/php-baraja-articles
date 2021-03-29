@@ -1,5 +1,5 @@
 PHP funkce stream_socket_pair()
-================================
+===============================
 
 > id: "0d18c258-9192-462e-9b2e-46bb95e76867"
 > slugCS: funkce-stream-socket-pair

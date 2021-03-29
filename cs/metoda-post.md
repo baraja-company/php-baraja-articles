@@ -1,5 +1,5 @@
 Přijmutí dat metodou POST
-================================
+=========================
 
 > id: c2f273fa-7730-4521-82d0-1b3096269fac
 > slugCS: metoda-post
@@ -14,7 +14,7 @@ Zdroj
 Zdroják se od metody <a href="/metoda-get">GET</a> až tolik neliší. Je to skoro to samé, akorát se parametry nezobrazují v URL, ale je vidět jen jméno souboru.
 
 ```php
-echo $_POST['clanek'] ?? ''; 
+echo $_POST['clanek'] ?? '';
 ```
 
 Charakteristika, výhody a nevýhody

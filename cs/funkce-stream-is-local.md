@@ -1,5 +1,5 @@
 PHP funkce stream_is_local()
-================================
+============================
 
 > id: d8b13267-39ce-495b-9a3d-54e1b1e6f6f7
 > slugCS: funkce-stream-is-local

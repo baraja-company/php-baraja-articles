@@ -1,5 +1,5 @@
 PHP funkce php_logo_guid()
-================================
+==========================
 
 > id: b5096d1f-71a1-4b64-9432-037a1a9eff67
 > slugCS: funkce-php-logo-guid

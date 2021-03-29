@@ -1,5 +1,5 @@
 PHP funkce chgrp()
-================================
+==================
 
 > id: "51b3675b-5ae5-44ed-b9b0-b8faf684b19f"
 > slugCS: funkce-chgrp

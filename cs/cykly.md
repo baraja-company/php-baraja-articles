@@ -1,5 +1,5 @@
 Cykly a jejich druhy v PHP
-================================
+==========================
 
 > id: e2927790-d0fb-4de5-9848-01fdd088464b
 > slugCS: cykly
@@ -171,7 +171,7 @@ function factorial(int $n)
    if ($n === 0) {
       return 1;
    }
-   
+
    return $n * factorial($n - 1);
 }
 ```
@@ -191,11 +191,11 @@ To samé můžeme přepsat na použití cyklů:
 function factorial(int $n)
 {
     $result = 1;
-    
+
     for ($i = $n; $i > 0; $i--) {
         $result *= $i;
     }
-    
+
     return $result;
  }
 ```
@@ -212,7 +212,7 @@ Například hážeme kostkou, dokud nepadne číslo `6`. Implementace svádí po
 ```php
 while (true) {
    $value = rand(1, 6);
-   
+
    if ($value === 6) {
       echo 'Padla hodnota ' . $value;
       break;
@@ -229,7 +229,7 @@ Pokud přesáhneme počet průběhů, je slušnost o tom vývojáře informovat 
 ```php
 for ($i = 0; $i <= 1000; $i++) {
    $value = rand(1, 6);
-   
+
    if ($value === 6) {
       echo 'Padla hodnota ' . $value;
       break;

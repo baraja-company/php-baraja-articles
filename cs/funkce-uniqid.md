@@ -1,5 +1,5 @@
 PHP funkce uniqid()
-================================
+===================
 
 > id: "6871ccc8-590b-4cc9-ba18-d2aeab2b0838"
 > slugCS: funkce-uniqid

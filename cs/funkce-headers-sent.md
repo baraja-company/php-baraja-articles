@@ -1,5 +1,5 @@
 PHP funkce headers_sent()
-================================
+=========================
 
 > id: "3cf42d2b-7dcd-418d-a5d6-d3674a8aa23c"
 > slugCS: funkce-headers-sent

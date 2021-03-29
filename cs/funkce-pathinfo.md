@@ -1,5 +1,5 @@
 PHP funkce pathinfo()
-================================
+=====================
 
 > id: b3827a32-edc1-4057-8212-4d550b7a2fda
 > slugCS: funkce-pathinfo

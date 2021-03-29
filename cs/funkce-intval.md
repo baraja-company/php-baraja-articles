@@ -1,5 +1,5 @@
 PHP funkce intval()
-================================
+===================
 
 > id: "870a74d9-8dce-4897-8b14-ea35732e4f12"
 > slugCS: funkce-intval

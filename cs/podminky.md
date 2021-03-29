@@ -1,5 +1,5 @@
 Podmínky a větvení
-================================
+==================
 
 > id: "2cea5541-6879-4763-a518-cb21bf9021dd"
 > slugCS: podminky
@@ -19,17 +19,17 @@ Příklad:
 
 ```php
 if (hodnota   operace   hodnota) {
-	// Toto se spustí, pokud podmínka platí 
-} else { 
+	// Toto se spustí, pokud podmínka platí
+} else {
 	// Toto se spustí, pokud podmínka neplatí
-} 
+}
 ```
 
 Nemusíme vždy definovat obě varianty (někdy to je naprosto zbytečné). Můžeme totiž definovat situaci v případě, že jen podmínka platí. To se dělá takto:
 
 ```php
 if (hodnota   operace   hodnota) {
-	// Toto se spustí, pokud podmínka platí 
+	// Toto se spustí, pokud podmínka platí
 }
 ```
 
@@ -50,13 +50,13 @@ Reálná ukázka
 --------------------------
 
 ```php
-$a = 5; 
-$b = 3; 
-if ($a === $b) { 
-	// blok, který se vypíše, pokud se $a rovná $b 
-} else { 
-	// blok, který se vypíše, pokud se $a NErovná $b 
-} 
+$a = 5;
+$b = 3;
+if ($a === $b) {
+	// blok, který se vypíše, pokud se $a rovná $b
+} else {
+	// blok, který se vypíše, pokud se $a NErovná $b
+}
 ```
 
 Vnořené podmínky
@@ -65,19 +65,19 @@ Vnořené podmínky
 Bohužel je výstupem pouze hodnota `true` (platí) a `false` (neplatí). Pokud tedy chceme brát v potaz více možností, tak musíme vložit více podmínek do sebe. Tomu se říká **vnořená podmínka**. Vnořená je z toho důvodu, že jedním z řešení podmínky je právě další podmínka.
 
 ```php
-$a = 5;         // levá kapsa 
-$b = 3;         // pravá kapsa 
-$kapsa = true;  // mám kapsu? 
- 
-if ($kapsa === true) { 
- 
-	if ($a > $b) { 
-		echo 'V levé kapse je více'; 
-	} else { 
-		echo 'V pravé kapse je více'; 
-	} 
- 
-} else { 
-	echo 'Nemáš kapsu'; 
-} 
+$a = 5;         // levá kapsa
+$b = 3;         // pravá kapsa
+$kapsa = true;  // mám kapsu?
+
+if ($kapsa === true) {
+
+	if ($a > $b) {
+		echo 'V levé kapse je více';
+	} else {
+		echo 'V pravé kapse je více';
+	}
+
+} else {
+	echo 'Nemáš kapsu';
+}
 ```

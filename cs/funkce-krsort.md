@@ -1,5 +1,5 @@
 PHP funkce krsort()
-================================
+===================
 
 > id: "465a2a08-4d17-433c-a7d6-a447de76d938"
 > slugCS: funkce-krsort

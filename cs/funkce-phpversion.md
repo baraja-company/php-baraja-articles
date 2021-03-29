@@ -1,5 +1,5 @@
 PHP funkce phpversion()
-================================
+=======================
 
 > id: "9f5d1018-f604-453c-91f3-062e8d9c32b3"
 > slugCS: funkce-phpversion

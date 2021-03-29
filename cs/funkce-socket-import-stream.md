@@ -1,5 +1,5 @@
 PHP funkce socket_import_stream()
-================================
+=================================
 
 > id: "66df3410-f4e9-4c93-b4e3-240517c5c2f1"
 > slugCS: funkce-socket-import-stream

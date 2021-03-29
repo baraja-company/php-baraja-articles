@@ -1,5 +1,5 @@
 PHP funkce is_string()
-================================
+======================
 
 > id: "30c2afb3-b78a-4618-adae-5c1cc75b31d1"
 > slugCS: funkce-is-string

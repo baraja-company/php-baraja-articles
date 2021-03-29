@@ -1,5 +1,5 @@
 PHP funkce cosh()
-================================
+=================
 
 > id: "12cf069e-79f9-4aba-8fef-79ba4a8b6ec4"
 > slugCS: funkce-cosh

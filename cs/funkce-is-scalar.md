@@ -1,5 +1,5 @@
 PHP funkce is_scalar()
-================================
+======================
 
 > id: b791a763-52ae-429f-bedb-a3c8aec73bb1
 > slugCS: funkce-is-scalar

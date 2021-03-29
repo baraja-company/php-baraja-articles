@@ -1,5 +1,5 @@
 PHP funkce strnatcasecmp()
-================================
+==========================
 
 > id: c25a49d0-e60d-40b7-b346-e4a11bacea28
 > slugCS: funkce-strnatcasecmp

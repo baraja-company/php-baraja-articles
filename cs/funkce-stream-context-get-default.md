@@ -1,5 +1,5 @@
 PHP funkce stream_context_get_default()
-================================
+=======================================
 
 > id: c520e68b-a442-4c9f-bacf-d4b3baea0bd0
 > slugCS: funkce-stream-context-get-default

@@ -1,5 +1,5 @@
 PHP funkce forward_static_call_array()
-================================
+======================================
 
 > id: "9ee6e453-9d42-4b3b-9f41-16a8f558eec9"
 > slugCS: funkce-forward-static-call-array

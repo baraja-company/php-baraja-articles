@@ -1,5 +1,5 @@
 PHP funkce is_readable()
-================================
+========================
 
 > id: "5af5f677-b9d2-4086-b383-4111a9e28e35"
 > slugCS: funkce-is-readable

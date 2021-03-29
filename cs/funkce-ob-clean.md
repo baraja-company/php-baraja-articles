@@ -1,5 +1,5 @@
 PHP funkce ob_clean()
-================================
+=====================
 
 > id: aa0cf623-82ce-4067-9d3a-aad937d0c1bf
 > slugCS: funkce-ob-clean

@@ -1,5 +1,5 @@
 PHP funkce array_slice()
-================================
+========================
 
 > id: df678ab7-3929-4833-9223-0afdca5f94d9
 > slugCS: funkce-array-slice

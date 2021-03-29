@@ -1,5 +1,5 @@
 PHP funkce sin()
-================================
+================
 
 > id: a5a80bcd-7c47-49c8-b95c-f0fc3e4a2601
 > slugCS: funkce-sin

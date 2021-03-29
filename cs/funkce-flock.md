@@ -1,5 +1,5 @@
 PHP funkce flock()
-================================
+==================
 
 > id: "19bac5b5-20b3-44be-8e79-6f626449fa4c"
 > slugCS: funkce-flock

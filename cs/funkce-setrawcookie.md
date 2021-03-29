@@ -1,5 +1,5 @@
 PHP funkce setrawcookie()
-================================
+=========================
 
 > id: d0a01c83-2bec-47e4-b852-34d851efd4d9
 > slugCS: funkce-setrawcookie

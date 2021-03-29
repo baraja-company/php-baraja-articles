@@ -1,5 +1,5 @@
 PHP funkce stream_supports_lock()
-================================
+=================================
 
 > id: d135db38-ad9a-4fd6-aed4-8577e5940d8f
 > slugCS: funkce-stream-supports-lock

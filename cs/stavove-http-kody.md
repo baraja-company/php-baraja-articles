@@ -1,9 +1,9 @@
 Stavové HTTP kódy
-================================
+=================
 
 > id: "97800bb6-004c-4bdb-b126-f87e77cc5120"
 > slugCS: stavove-http-kody
-> publicationDate: "2021-03-28 11:28:47"
+> publicationDate: "2021-03-29 22:17:03"
 > mainCategoryId: "2a1ef8bc-14aa-438a-87e7-5b3f9643f325"
 
 Při HTTP komunikaci se přenáší tzv. `stavové kódy`, což je informace o tom, jak přenos proběhl. Určitě víte, že kód `200` znamená úspěch a kód `404` neexistující stránku.
@@ -18,7 +18,7 @@ Stavové kódy se dělí do několika skupin podle jejich prefixu.
 | `100` | Pokračovat |
 | `101` | Přepnout protokol |
 
-2xx Úspěch 
+2xx Úspěch
 ----------
 
 | Kód   | Význam |
@@ -31,7 +31,7 @@ Stavové kódy se dělí do několika skupin podle jejich prefixu.
 | `205` | Obnovit obsah |
 | `206` | Částečný obsah |
 
-3xx Přesměrování 
+3xx Přesměrování
 ----------------
 
 | Kód   | Význam |

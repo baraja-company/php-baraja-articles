@@ -1,5 +1,5 @@
 PHP funkce filectime()
-================================
+======================
 
 > id: f0794d26-873a-4b57-99f5-992af7e32ac7
 > slugCS: funkce-filectime

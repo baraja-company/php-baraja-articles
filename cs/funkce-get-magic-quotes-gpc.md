@@ -1,5 +1,5 @@
 PHP funkce get_magic_quotes_gpc()
-================================
+=================================
 
 > id: d82356a3-5233-4705-bdd1-4481eb5373e3
 > slugCS: funkce-get-magic-quotes-gpc

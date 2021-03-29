@@ -1,5 +1,5 @@
 PHP funkce opendir()
-================================
+====================
 
 > id: "9f9a1934-6b93-4105-ad55-59ab43dc74df"
 > slugCS: funkce-opendir

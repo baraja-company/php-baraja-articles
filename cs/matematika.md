@@ -1,5 +1,5 @@
 Matematika v PHP
-================================
+================
 
 > id: "69a432ee-7635-46e2-bb21-8492cb62c4e6"
 > slugCS: matematika

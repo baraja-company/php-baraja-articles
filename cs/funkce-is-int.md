@@ -1,5 +1,5 @@
 PHP funkce is_int()
-================================
+===================
 
 > id: cbefa63f-6c0a-4a4e-873e-9e95147ae14f
 > slugCS: funkce-is-int

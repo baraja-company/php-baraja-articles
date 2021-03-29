@@ -1,5 +1,5 @@
 PHP funkce is_uploaded_file()
-================================
+=============================
 
 > id: "181740c7-b978-4b4e-8725-583f8937506f"
 > slugCS: funkce-is-uploaded-file

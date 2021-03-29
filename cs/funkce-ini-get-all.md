@@ -1,5 +1,5 @@
 PHP funkce ini_get_all()
-================================
+========================
 
 > id: "4276139a-34ff-4e6b-b504-8a44cbbe4e73"
 > slugCS: funkce-ini-get-all

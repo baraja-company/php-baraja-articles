@@ -1,5 +1,5 @@
 PHP funkce tanh()
-================================
+=================
 
 > id: "2be60437-c0f5-497a-a20c-c96d40c33da0"
 > slugCS: funkce-tanh

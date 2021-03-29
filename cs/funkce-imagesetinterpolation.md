@@ -1,5 +1,5 @@
 PHP funkce imagesetinterpolation()
-================================
+==================================
 
 > id: "67682117-61eb-4ed2-8315-491f526b2621"
 > slugCS: funkce-imagesetinterpolation

@@ -1,5 +1,5 @@
 PHP funkce setcookie()
-================================
+======================
 
 > id: f3d57a13-921b-4d45-b2ac-8dbd44cf1a89
 > slugCS: funkce-setcookie

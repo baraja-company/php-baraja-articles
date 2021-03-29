@@ -1,5 +1,5 @@
 PHP funkce feof()
-================================
+=================
 
 > id: c4aa27f7-01d2-43b7-b244-03405a1ae38f
 > slugCS: funkce-feof

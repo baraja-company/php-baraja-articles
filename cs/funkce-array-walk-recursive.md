@@ -1,5 +1,5 @@
 PHP funkce array_walk_recursive()
-================================
+=================================
 
 > id: e71c1de4-4333-4d8d-9160-8c0d30481f46
 > slugCS: funkce-array-walk-recursive

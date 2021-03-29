@@ -1,5 +1,5 @@
 Zvýrazňování syntaxe PHP kódu funkcí highlight_string()
-================================
+=======================================================
 
 > id: "72338b08-9e4d-45c0-a5d2-7f8ee705ae93"
 > slugCS: funkce-highlight-string

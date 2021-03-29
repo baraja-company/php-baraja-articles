@@ -1,5 +1,5 @@
 PHP funkce md5_file()
-================================
+=====================
 
 > id: f9c5cb89-edd7-4f88-9012-ece19409515d
 > slugCS: funkce-md5-file

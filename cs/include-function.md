@@ -1,5 +1,5 @@
 Konstrukt `include`
-================================
+===================
 
 > id: "881cc6ef-b1dc-4a71-ab22-d1943ce8095b"
 > slugCS: include-function
@@ -73,7 +73,7 @@ echo 'A ' . $color . ' ' . $fruit; // A green apple
 > VAROVÁNÍ: Následující zápis není možný, obsah proměnných přenášejte tím, že je definujete!
 
 ```php
-include 'soubor.php?parametr=neco'; 
+include 'soubor.php?parametr=neco';
 ```
 
 Návratové hodnoty
@@ -84,8 +84,8 @@ Návratové hodnoty
 **POZNÁMKA:** Umožňuje porovnat obsah souboru, je to ale bezpečnostní riziko. Na pořadí závorek záleží! Příklad:
 
 ```php
-if ((include 'soubor.php') == 'OK') { 
-    echo 'Hodnota je "OK"'; 
+if ((include 'soubor.php') == 'OK') {
+    echo 'Hodnota je "OK"';
 }
 ```
 
@@ -99,16 +99,16 @@ if ((include 'soubor.php') == 'OK') {
 Příklad:
 
 ```php
-$string = get_include_contents('somefile.php'); 
- 
-function get_include_contents($filename) { 
-    if (is_file($filename)) { 
-        ob_start(); 
-        include $filename; 
-        return ob_get_clean(); 
-    } 
-    return false; 
-} 
+$string = get_include_contents('somefile.php');
+
+function get_include_contents($filename) {
+    if (is_file($filename)) {
+        ob_start();
+        include $filename;
+        return ob_get_clean();
+    }
+    return false;
+}
 ```
 
 Poznámky a tipy ostatních vývojářů

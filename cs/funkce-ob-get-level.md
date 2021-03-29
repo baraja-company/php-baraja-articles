@@ -1,5 +1,5 @@
 PHP funkce ob_get_level()
-================================
+=========================
 
 > id: b61c7f2e-093b-41cd-891b-771e6cf5d1f8
 > slugCS: funkce-ob-get-level

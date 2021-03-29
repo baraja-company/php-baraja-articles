@@ -1,5 +1,5 @@
 Základní filosofie objektově orientovaného programování
-================================
+=======================================================
 
 > id: c38214d9-8c92-4484-9c31-239d716f2545
 > slugCS: filosofie-oop

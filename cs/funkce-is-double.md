@@ -1,5 +1,5 @@
 PHP funkce is_double()
-================================
+======================
 
 > id: "482d0bf5-00bd-43d9-877e-dbf39a2ff3fe"
 > slugCS: funkce-is-double

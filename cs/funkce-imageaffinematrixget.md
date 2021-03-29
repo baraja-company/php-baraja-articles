@@ -1,5 +1,5 @@
 PHP funkce imageaffinematrixget()
-================================
+=================================
 
 > id: f6c5dc12-4323-4f8d-a787-80ada3bdd13c
 > slugCS: funkce-imageaffinematrixget

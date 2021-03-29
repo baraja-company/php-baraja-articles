@@ -1,5 +1,5 @@
 PHP funkce stream_socket_recvfrom()
-================================
+===================================
 
 > id: "1f707e7f-06e7-4a89-8931-60d12e052726"
 > slugCS: funkce-stream-socket-recvfrom

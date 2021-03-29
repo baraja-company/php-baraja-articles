@@ -1,5 +1,5 @@
 PHP funkce disk_free_space()
-================================
+============================
 
 > id: "14fa7b0f-f3d7-47dd-812d-66770777d81a"
 > slugCS: funkce-disk-free-space

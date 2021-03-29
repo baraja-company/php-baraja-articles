@@ -1,5 +1,5 @@
 PHP funkce readfile()
-================================
+=====================
 
 > id: e98818bd-3b2f-4b36-983d-c3fd507d3ce3
 > slugCS: funkce-readfile

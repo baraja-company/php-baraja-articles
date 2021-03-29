@@ -1,5 +1,5 @@
 PHP funkce cli_get_process_title()
-================================
+==================================
 
 > id: "8741b52f-9cb7-4b42-a435-6e6e9ca43b0c"
 > slugCS: funkce-cli-get-process-title

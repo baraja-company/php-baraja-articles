@@ -1,5 +1,5 @@
 PHP funkce compact()
-================================
+====================
 
 > id: e3f2786a-c15e-4af1-b52f-52439d4e54c5
 > slugCS: funkce-compact

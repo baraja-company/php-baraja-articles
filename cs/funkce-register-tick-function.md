@@ -1,5 +1,5 @@
 PHP funkce register_tick_function()
-================================
+===================================
 
 > id: "9be6f817-3c51-4959-90c5-0eeee00e240a"
 > slugCS: funkce-register-tick-function

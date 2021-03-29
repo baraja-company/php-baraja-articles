@@ -1,5 +1,5 @@
 PHP funkce usleep()
-================================
+===================
 
 > id: "3cea5734-d8a3-4bf3-b608-1fb7f295fe36"
 > slugCS: funkce-usleep

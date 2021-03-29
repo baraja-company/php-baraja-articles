@@ -1,5 +1,5 @@
 PHP funkce time_sleep_until()
-================================
+=============================
 
 > id: "9255b025-ba8c-4e6f-81aa-7efb7a71864b"
 > slugCS: funkce-time-sleep-until

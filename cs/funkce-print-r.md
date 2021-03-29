@@ -1,5 +1,5 @@
 PHP funkce print_r()
-================================
+====================
 
 > id: "91a2909b-d1ac-4180-b859-ef776ccbfcaf"
 > slugCS: funkce-print-r

@@ -1,5 +1,5 @@
 PHP funkce hypot()
-================================
+==================
 
 > id: "2d5ec9c9-2622-44e5-93bc-04281da806cb"
 > slugCS: funkce-hypot

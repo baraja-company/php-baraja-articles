@@ -1,5 +1,5 @@
 PHP funkce sha1()
-================================
+=================
 
 > id: c78c5fb5-5ab4-4fac-b044-995d3306aaef
 > slugCS: funkce-sha1

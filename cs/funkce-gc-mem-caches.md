@@ -1,5 +1,5 @@
 PHP funkce gc_mem_caches()
-================================
+==========================
 
 > id: "7575b36b-144b-4a7b-ab03-6e96599b55e8"
 > slugCS: funkce-gc-mem-caches

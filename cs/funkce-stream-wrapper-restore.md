@@ -1,5 +1,5 @@
 PHP funkce stream_wrapper_restore()
-================================
+===================================
 
 > id: "8c8eb0d7-5a79-4cf9-8700-e9c76c33f16e"
 > slugCS: funkce-stream-wrapper-restore

@@ -1,5 +1,5 @@
 Práce se soubory
-================================
+================
 
 > id: "12330cfb-5729-419a-b2e4-cb3d1db998cc"
 > slugCS: prace-se-soubory

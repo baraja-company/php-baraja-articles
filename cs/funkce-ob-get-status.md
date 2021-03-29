@@ -1,5 +1,5 @@
 PHP funkce ob_get_status()
-================================
+==========================
 
 > id: "2eb99e32-7be9-49e2-a306-4c9c314bb7c4"
 > slugCS: funkce-ob-get-status

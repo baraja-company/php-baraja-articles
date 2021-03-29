@@ -1,5 +1,5 @@
 PHP funkce in_array()
-================================
+=====================
 
 > id: "5ac6d514-0da6-4951-8a33-14042b2f4a10"
 > slugCS: funkce-in-array

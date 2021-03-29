@@ -1,5 +1,5 @@
 PHP funkce strptime()
-================================
+=====================
 
 > id: ed1276e2-0c36-48fb-ad8f-f6a55302cc6b
 > slugCS: funkce-strptime

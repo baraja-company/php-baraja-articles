@@ -1,5 +1,5 @@
 PHP funkce basename()
-================================
+=====================
 
 > id: "15963179-1fea-461e-996a-45d1bd83ac45"
 > slugCS: funkce-basename

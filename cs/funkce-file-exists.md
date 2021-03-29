@@ -1,5 +1,5 @@
 PHP funkce file_exists()
-================================
+========================
 
 > id: "49446f2d-4091-420e-b5d2-3023c2861fe0"
 > slugCS: funkce-file-exists

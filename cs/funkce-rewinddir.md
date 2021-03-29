@@ -1,5 +1,5 @@
 PHP funkce rewinddir()
-================================
+======================
 
 > id: "8a4a3495-0d66-4819-9fe6-b0c4d35c4e81"
 > slugCS: funkce-rewinddir

@@ -1,5 +1,5 @@
 Jak napsat první PHP script
-================================
+===========================
 
 > id: "2d6986dc-f24b-4ae5-b24c-d5bb9bf94512"
 > slugCS: prvni-script

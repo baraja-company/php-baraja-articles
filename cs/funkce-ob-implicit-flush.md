@@ -1,5 +1,5 @@
 PHP funkce ob_implicit_flush()
-================================
+==============================
 
 > id: "51727933-087e-474f-9376-55bfecbdb99d"
 > slugCS: funkce-ob-implicit-flush

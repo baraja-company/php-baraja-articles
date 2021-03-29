@@ -1,5 +1,5 @@
 PHP funkce header_register_callback()
-================================
+=====================================
 
 > id: a7ab61c6-41fc-4ce5-b4bc-ba3ea34f15ee
 > slugCS: funkce-header-register-callback

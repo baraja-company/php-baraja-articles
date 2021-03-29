@@ -1,5 +1,5 @@
 PHP funkce dns_check_record()
-================================
+=============================
 
 > id: c055d0c2-4606-4bfe-b37f-c956913215fe
 > slugCS: funkce-dns-check-record

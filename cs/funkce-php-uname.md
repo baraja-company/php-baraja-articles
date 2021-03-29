@@ -1,5 +1,5 @@
 PHP funkce php_uname()
-================================
+======================
 
 > id: "1423d7e5-a7b5-49fa-95b3-ce82943ee788"
 > slugCS: funkce-php-uname

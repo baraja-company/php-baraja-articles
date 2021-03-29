@@ -1,5 +1,5 @@
 PHP funkce stream_set_timeout()
-================================
+===============================
 
 > id: a6163d2c-53e7-43e6-b10c-962f09f52095
 > slugCS: funkce-stream-set-timeout

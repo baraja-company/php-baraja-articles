@@ -1,5 +1,5 @@
 PHP funkce convert_cyr_string()
-================================
+===============================
 
 > id: dfc5524c-2fba-4959-abd7-c5f27c641086
 > slugCS: funkce-convert-cyr-string

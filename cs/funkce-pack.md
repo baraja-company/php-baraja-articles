@@ -1,5 +1,5 @@
 PHP funkce pack()
-================================
+=================
 
 > id: c3f6c522-a6aa-40e4-872b-5ff01d03fd1c
 > slugCS: funkce-pack

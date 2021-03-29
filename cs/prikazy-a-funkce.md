@@ -1,5 +1,5 @@
 Příkazy, klíčová slova a funkce v PHP
-================================
+=====================================
 
 > id: "96a00928-4410-479d-ada0-612de21cdacd"
 > slugCS: prikazy-a-funkce

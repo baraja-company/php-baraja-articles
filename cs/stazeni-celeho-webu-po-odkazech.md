@@ -1,5 +1,5 @@
 Stažení celého webu po odkazech v PHP
-================================
+=====================================
 
 > id: dd4abb8e-8f9b-4867-b98f-ff1c859d387a
 > slugCS: stazeni-celeho-webu-po-odkazech

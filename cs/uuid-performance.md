@@ -68,7 +68,7 @@ Při prvních pokusech jsem jako primární klíč (ID) používal `varchar(36)`
 > MySql databáze (a i mnohé další) neumí `varchar`, `char` ani jiné datové typy vyjadřující řetězec použít jako primární klíč efektivně.
 > V některých databázích existuje datový typ `GUID`, který je na ukládání UUID přímo vytvořen. Pokud tento typ použít nemůžete, existuje vhodná náhrada ve formě `binary(16)`.
 
-Při fyzickém zkoumání databáze se pak ID reprezentuje v HEX formátu (protože binární formát nelze zobrazit), místo hezkého ID `726c67c4-e5eb-4a4c-8fcc-031da5d6f3c6` pak uvidíte jen `726C67C4E5EB4A4C8FCC031DA5D6F3C6`, což v INSERT dotazu vypadá třeba jako  `'?kYߟKg2c;'`.
+Při fyzickém zkoumání databáze se pak ID reprezentuje v HEX formátu (protože binární formát nelze zobrazit), místo hezkého ID `726c67c4-e5eb-4a4c-8fcc-031da5d6f3c6` pak uvidíte jen `726C67C4E5EB4A4C8FCC031DA5D6F3C6`, což v INSERT dotazu vypadá třeba jako  `'?kYߟKg2c;'`.
 
 Převod původních dat z `varchar(36)` na `binary(16)`
 ----------------------------------------------------

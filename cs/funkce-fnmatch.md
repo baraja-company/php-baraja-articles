@@ -1,5 +1,5 @@
 PHP funkce fnmatch()
-================================
+====================
 
 > id: "80c9e5c8-ce91-482f-93ea-94cc753c6804"
 > slugCS: funkce-fnmatch

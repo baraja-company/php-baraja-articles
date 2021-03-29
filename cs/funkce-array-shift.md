@@ -1,5 +1,5 @@
 PHP funkce array_shift()
-================================
+========================
 
 > id: "4c49bea8-8a65-4bc0-9201-51f9b70b8e11"
 > slugCS: funkce-array-shift

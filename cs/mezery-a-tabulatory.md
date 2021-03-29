@@ -1,5 +1,5 @@
 Odsazení kódu pomocí mezer a tabulátorů
-================================
+=======================================
 
 > id: "116f19ed-3753-498d-bb9e-e0f93b88c347"
 > slugCS: mezery-a-tabulatory

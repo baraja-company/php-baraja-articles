@@ -1,5 +1,5 @@
 PHP funkce lcfirst()
-================================
+====================
 
 > id: "7689d7fa-f0cd-4ff5-b0a1-f7d3ddb8cef5"
 > slugCS: funkce-lcfirst

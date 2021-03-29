@@ -1,5 +1,5 @@
 PHP funkce stream_set_chunk_size()
-================================
+==================================
 
 > id: "49cfe6ae-10c7-4b3f-ad08-b6877ee6bc26"
 > slugCS: funkce-stream-set-chunk-size

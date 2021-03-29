@@ -1,5 +1,5 @@
 PHP funkce flush()
-================================
+==================
 
 > id: b50e6f75-4d38-49f9-b5f0-34a30278fe10
 > slugCS: funkce-flush

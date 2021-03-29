@@ -1,5 +1,5 @@
 PHP funkce strval()
-================================
+===================
 
 > id: "8252ea13-5943-44dc-834e-85c852e4d85c"
 > slugCS: funkce-strval

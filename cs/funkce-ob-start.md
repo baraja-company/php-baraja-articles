@@ -1,5 +1,5 @@
 PHP funkce ob_start()
-================================
+=====================
 
 > id: b2d74b3d-6ed4-453f-af14-d00c23d40c88
 > slugCS: funkce-ob-start

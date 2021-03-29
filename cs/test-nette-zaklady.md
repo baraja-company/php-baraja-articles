@@ -1,5 +1,5 @@
 Test základních Nette znalostí
-================================
+==============================
 
 > id: d137c177-503c-4e84-8709-0e65b0ce6060
 > slugCS: test-nette-zaklady
@@ -31,7 +31,7 @@ Hranice úspěšnosti: 15 bodů
 
 
 5.	Napiš úsek kódu, který v `Presenteru` vytvoří akci `delete`, která bude přijímat ID položky jako integer a bude mazat řádek z tabulky `question` podle zadaného ID. Po úspěšném smazání vypíše hlášku "Otázka byla smazána" a přesměruje na akci `list`.
-	
+
 Pod otázka za bod navíc: Pokud mazání z nějakého důvodu selže, tak nevyhodí fatální chybu, ale uživatele o tom informuje také hláškou (flash message).
 
 6.	Když vytvářím Nette formulář, tak z něj je komponenta. Co je Nette komponenta?
@@ -67,7 +67,7 @@ $questions = $this->db->questions()->fetchAll();
 - Jakým způsobem vypíšeme texty všech otázek jako odrážkový seznam?
 - Jak předáme data z tabulky do Latte šablony?
 - Jaká Latte makra budeme potřebovat pro výpis položek? Uveď konkrétní implementaci vypsání sloupců `id` a `name` ve formátu:
-	
+
 	*1024: Jak se máte?*
 	*1025: Co jste měli dnes k obědu?*
 
@@ -119,7 +119,7 @@ Symbolicky zapsáno (ukázka v PHP, přelož do Latte):
 ```php
 foreach ($questions as $question) {
    echo $question->id; // ID otázky
-   echo $question->question; // text otázky 
+   echo $question->question; // text otázky
 }
 ```
 

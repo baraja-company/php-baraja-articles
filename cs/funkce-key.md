@@ -1,5 +1,5 @@
 PHP funkce key()
-================================
+================
 
 > id: ab9a57bb-1796-451e-a310-6e61a23acb82
 > slugCS: funkce-key

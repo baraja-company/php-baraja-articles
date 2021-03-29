@@ -1,5 +1,5 @@
 PHP funkce parse_ini_string()
-================================
+=============================
 
 > id: "82a91c92-38e8-4a37-a4b4-26f52755f240"
 > slugCS: funkce-parse-ini-string

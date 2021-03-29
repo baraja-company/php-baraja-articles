@@ -1,5 +1,5 @@
 PHP funkce iptcparse()
-================================
+======================
 
 > id: a768ebe8-827c-40cf-b56e-f5661e665091
 > slugCS: funkce-iptcparse

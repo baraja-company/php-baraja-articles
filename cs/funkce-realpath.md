@@ -1,5 +1,5 @@
 PHP funkce realpath()
-================================
+=====================
 
 > id: "28a7eaf9-5c2e-4933-b701-5637ea0857ab"
 > slugCS: funkce-realpath

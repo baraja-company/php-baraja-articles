@@ -1,5 +1,5 @@
 PHP funkce php_strip_whitespace()
-================================
+=================================
 
 > id: "8420ca89-7498-43c2-a4fa-8a7f6aa093cf"
 > slugCS: funkce-php-strip-whitespace

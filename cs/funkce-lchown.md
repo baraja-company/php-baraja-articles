@@ -1,5 +1,5 @@
 PHP funkce lchown()
-================================
+===================
 
 > id: "17248cdb-e1ca-4782-8ac2-29dcf430505e"
 > slugCS: funkce-lchown

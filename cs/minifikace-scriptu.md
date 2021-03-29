@@ -1,5 +1,5 @@
 Automatická minifikace PHP scriptu
-================================
+==================================
 
 > id: f9225faf-f881-4f7d-8c0f-bab4cfea9cb9
 > slugCS: minifikace-scriptu

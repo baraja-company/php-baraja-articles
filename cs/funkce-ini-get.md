@@ -1,5 +1,5 @@
 PHP funkce ini_get()
-================================
+====================
 
 > id: "0bacc4f9-5742-4a7d-ab5f-8c98c4e85f94"
 > slugCS: funkce-ini-get

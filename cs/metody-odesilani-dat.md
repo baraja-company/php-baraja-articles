@@ -1,5 +1,5 @@
 Metody odesílání dat (GET a POST)
-================================
+=================================
 
 > id: "32f9083f-7cb1-469f-911a-765df059123d"
 > slugCS: metody-odesilani-dat
@@ -69,11 +69,11 @@ Formulář se dělá v HTML, nikoli v PHP. Může být i na obyčejné HTML str�
 Pro ukázku nám může posloužit formulář pro přijmutí 2 čísel, odeslaný metodou GET:
 
 ```html
-<form action="script.php" method="get"> 
+<form action="script.php" method="get">
 	První číslo: <input type="text" name="x">
-	Druhé číslo: <input type="text" name="y"> 
-	
-	<input type="submit" value="Sečíst čísla"> 
+	Druhé číslo: <input type="text" name="y">
+
+	<input type="submit" value="Sečíst čísla">
 </form>
 ```
 
@@ -92,7 +92,7 @@ Nyní máme již hotový HTML formulář a odesíláme ho na `script.php`, kter�
 
 `https://________.com/script.php?x=5&y=3`
 
-**script.php** 
+**script.php**
 
 ```php
 $x = $_GET['x'];	// 5

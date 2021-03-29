@@ -1,5 +1,5 @@
 PHP funkce gethostbyaddr()
-================================
+==========================
 
 > id: e2373557-0c48-4c28-93c5-7a5657ccd859
 > slugCS: funkce-gethostbyaddr

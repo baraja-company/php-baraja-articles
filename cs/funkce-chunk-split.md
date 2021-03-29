@@ -1,5 +1,5 @@
 PHP funkce chunk_split()
-================================
+========================
 
 > id: b10d60e0-115b-47a8-b4fc-b3c77e242594
 > slugCS: funkce-chunk-split

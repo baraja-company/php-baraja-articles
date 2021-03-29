@@ -1,5 +1,5 @@
 PHP funkce stream_filter_prepend()
-================================
+==================================
 
 > id: a9f6d6d8-32ac-4846-a15d-c357f9dc1e26
 > slugCS: funkce-stream-filter-prepend

@@ -1,5 +1,5 @@
 PHP funkce gettype()
-================================
+====================
 
 > id: ea1107b4-1a9f-497f-8e75-9e17ce4ca4c4
 > slugCS: funkce-gettype

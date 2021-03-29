@@ -1,5 +1,5 @@
 Instalace PHP do počítače (Windows) - VertrigoServer
-================================
+====================================================
 
 > id: faf44d7f-ddbe-4b5a-9e3f-88e2da6aaca1
 > slugCS: instalace-vertigo

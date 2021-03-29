@@ -1,5 +1,5 @@
 PHP funkce log()
-================================
+================
 
 > id: "6b68b1b1-3ab3-4f91-b10c-afc67f3f4296"
 > slugCS: funkce-log

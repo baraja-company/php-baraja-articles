@@ -1,5 +1,5 @@
 PHP funkce glob()
-================================
+=================
 
 > id: "8c5ecbec-af3f-4ad5-8f3d-b8ff392f0d72"
 > slugCS: funkce-glob

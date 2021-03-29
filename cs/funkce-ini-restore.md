@@ -1,5 +1,5 @@
 PHP funkce ini_restore()
-================================
+========================
 
 > id: fd329e19-b33a-4348-9fc2-4b49cf5ce1f8
 > slugCS: funkce-ini-restore

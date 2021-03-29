@@ -1,5 +1,5 @@
 PHP funkce strnatcmp()
-================================
+======================
 
 > id: "7b258222-8db9-4686-837d-007acbe5deb9"
 > slugCS: funkce-strnatcmp

@@ -1,5 +1,5 @@
 PHP funkce crypt()
-================================
+==================
 
 > id: "77708b7c-6927-4b35-91b4-d6b54be09a3b"
 > slugCS: funkce-crypt

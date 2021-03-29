@@ -1,5 +1,5 @@
 Jak funguje Captcha (opisovací obrázek)
-================================
+=======================================
 
 > id: "9cf191e4-a49b-407b-b16e-21de7224ac43"
 > slugCS: captcha
@@ -43,12 +43,12 @@ Vyzkoušejte si několikrát obnovit stránku a uvidíte, že se kód pokaždé 
 Zdrojový kód jsem vyřešil pomocí PHPGD knihovny, která je k dispozici prakticky na každé instalaci PHP a na každém hostingu:
 
 ```php
-Header("Content-type: image/png"); 
-$obr = ImageCreate(100, 35); 
+Header("Content-type: image/png");
+$obr = ImageCreate(100, 35);
 $pozadi = ImageColorAllocate ($obr, 219, 28, 49); //definice barvy pozadí
 $bila = ImageColorAllocate ($obr, 255, 255, 255); //definice bílé barvy pro text
-$styl = array ($pozadi); 
-ImageSetStyle ($obr, $styl); 
+$styl = array ($pozadi);
+ImageSetStyle ($obr, $styl);
   $nahodne_cislo = rand(11111,99999); //losování náhodného čísla dlouhého 5 znaků
   imagestring($obr, 5, 25, 10, $nahodne_cislo, $bila); //funkce pro vykreslení textu (v tomto případě čísla)
 ImagePNG($obr); //vygenerování obrázku do paměti a vykreslení

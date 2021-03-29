@@ -1,5 +1,5 @@
 PHP funkce count_chars()
-================================
+========================
 
 > id: e48cf8d3-a048-4e33-961e-aa6a04e122e7
 > slugCS: funkce-count-chars

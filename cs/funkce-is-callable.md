@@ -1,5 +1,5 @@
 PHP funkce is_callable()
-================================
+========================
 
 > id: f5195404-44c1-455d-85a0-31f75c3a5103
 > slugCS: funkce-is-callable

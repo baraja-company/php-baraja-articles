@@ -1,5 +1,5 @@
 PHP funkce uasort()
-================================
+===================
 
 > id: "37101595-dc1f-4502-a610-044aa02abcd9"
 > slugCS: funkce-uasort
