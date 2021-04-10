@@ -2,7 +2,9 @@ Superglobální proměnné
 ======================
 
 > id: bc2107ee-6551-4559-8c02-9cecdf98d33b
-> slugCS: superglobalni-promenna
+> slug:
+> 	cs: superglobalni-promenna
+> 
 > publicationDate: "2019-11-01 09:29:46"
 > mainCategoryId: "0e39aee9-2818-480c-8081-e0c2d039bb24"
 

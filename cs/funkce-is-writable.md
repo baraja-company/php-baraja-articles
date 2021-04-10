@@ -2,7 +2,9 @@ PHP funkce is_writable()
 ========================
 
 > id: "3c6a998d-321a-4a39-bcaa-bb55b186382a"
-> slugCS: funkce-is-writable
+> slug:
+> 	cs: funkce-is-writable
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

@@ -2,7 +2,9 @@ Vícekrokový formulář
 ====================
 
 > id: "2abacddd-8a6b-4d25-a387-603fc7abc333"
-> slugCS: vicekrokovy-formular
+> slug:
+> 	cs: vicekrokovy-formular
+> 
 > publicationDate: "2019-09-16 09:30:19"
 > mainCategoryId: a23332c0-a233-4093-abd7-85b1b00a383b
 

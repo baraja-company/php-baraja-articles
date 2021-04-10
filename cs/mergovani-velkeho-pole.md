@@ -2,7 +2,9 @@ Mergování velkých polí v PHP
 ============================
 
 > id: ccfb3f47-c8a0-4d0f-aa29-18d4c1775725
-> slugCS: mergovani-velkeho-pole
+> slug:
+> 	cs: mergovani-velkeho-pole
+> 
 > publicationDate: "2020-02-06 09:32:08"
 > mainCategoryId: "95374429-e651-46bd-9149-15aa716f8207"
 

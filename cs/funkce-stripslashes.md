@@ -2,7 +2,9 @@ PHP funkce stripslashes()
 =========================
 
 > id: "046de1a0-7c34-4e3f-b875-ef49b82a4289"
-> slugCS: funkce-stripslashes
+> slug:
+> 	cs: funkce-stripslashes
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

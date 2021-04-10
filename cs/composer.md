@@ -2,7 +2,9 @@ Composer - kompletní přehled funkcí pro pokročilé
 =================================================
 
 > id: a74d8d59-91ce-4602-ad52-80cf89a647bd
-> slugCS: composer
+> slug:
+> 	cs: composer
+> 
 > perex: Composer je pokročilý správce balíků a závislostí pro vaše PHP aplikace. Článek popisuje jeho všechny výhody a možnosti použití.
 > publicationDate: "2020-03-10 20:18:19"
 > mainCategoryId: "4f1d7d70-c5b0-45f1-b1d2-d03c22aa4154"

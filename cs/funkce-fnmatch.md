@@ -2,7 +2,9 @@ PHP funkce fnmatch()
 ====================
 
 > id: "80c9e5c8-ce91-482f-93ea-94cc753c6804"
-> slugCS: funkce-fnmatch
+> slug:
+> 	cs: funkce-fnmatch
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

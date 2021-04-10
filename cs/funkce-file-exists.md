@@ -2,7 +2,9 @@ PHP funkce file_exists()
 ========================
 
 > id: "49446f2d-4091-420e-b5d2-3023c2861fe0"
-> slugCS: funkce-file-exists
+> slug:
+> 	cs: funkce-file-exists
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

@@ -2,7 +2,9 @@ PHP funkce str_replace()
 ========================
 
 > id: bda3769f-76b8-4458-9c75-178979c73cad
-> slugCS: funkce-str-replace
+> slug:
+> 	cs: funkce-str-replace
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

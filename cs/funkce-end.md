@@ -2,7 +2,9 @@ PHP funkce end()
 ================
 
 > id: "30dd1be2-0a2f-412e-ac86-a5aa05751391"
-> slugCS: funkce-end
+> slug:
+> 	cs: funkce-end
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

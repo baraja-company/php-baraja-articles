@@ -2,7 +2,9 @@ Zásady zápisu proměnných
 ========================
 
 > id: "4c8e631b-b305-4169-8885-4f9506155999"
-> slugCS: zasady-promennych
+> slug:
+> 	cs: zasady-promennych
+> 
 > publicationDate: "2020-02-16 16:26:08"
 > mainCategoryId: "0e39aee9-2818-480c-8081-e0c2d039bb24"
 

@@ -2,7 +2,9 @@ Příkazy, klíčová slova a funkce v PHP
 =====================================
 
 > id: "96a00928-4410-479d-ada0-612de21cdacd"
-> slugCS: prikazy-a-funkce
+> slug:
+> 	cs: prikazy-a-funkce
+> 
 > publicationDate: "2019-09-11 10:18:03"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 

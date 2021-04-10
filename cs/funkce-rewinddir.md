@@ -2,7 +2,9 @@ PHP funkce rewinddir()
 ======================
 
 > id: "8a4a3495-0d66-4819-9fe6-b0c4d35c4e81"
-> slugCS: funkce-rewinddir
+> slug:
+> 	cs: funkce-rewinddir
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

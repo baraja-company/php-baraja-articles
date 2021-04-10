@@ -2,7 +2,9 @@ PHP funkce cli_get_process_title()
 ==================================
 
 > id: "8741b52f-9cb7-4b42-a435-6e6e9ca43b0c"
-> slugCS: funkce-cli-get-process-title
+> slug:
+> 	cs: funkce-cli-get-process-title
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

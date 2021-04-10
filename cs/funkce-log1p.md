@@ -2,7 +2,9 @@ PHP funkce log1p()
 ==================
 
 > id: "42a6505a-4f82-4c37-8541-429111c21bca"
-> slugCS: funkce-log1p
+> slug:
+> 	cs: funkce-log1p
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

@@ -2,7 +2,9 @@ PHP funkce quoted_printable_encode()
 ====================================
 
 > id: d6b7320f-9df1-4bb2-8fe1-a7a736885122
-> slugCS: funkce-quoted-printable-encode
+> slug:
+> 	cs: funkce-quoted-printable-encode
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

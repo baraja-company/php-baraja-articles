@@ -2,7 +2,9 @@ PHP funkce key()
 ================
 
 > id: ab9a57bb-1796-451e-a310-6e61a23acb82
-> slugCS: funkce-key
+> slug:
+> 	cs: funkce-key
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

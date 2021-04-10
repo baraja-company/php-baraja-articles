@@ -2,7 +2,9 @@ PHP funkce stream_context_get_options()
 =======================================
 
 > id: "4942027d-2e71-4ddf-a9af-2485e1cf6769"
-> slugCS: funkce-stream-context-get-options
+> slug:
+> 	cs: funkce-stream-context-get-options
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

@@ -2,7 +2,9 @@ PHP funkce error_get_last()
 ===========================
 
 > id: "2391a6e6-334b-4e8e-87ae-cf6ecb57c41d"
-> slugCS: funkce-error-get-last
+> slug:
+> 	cs: funkce-error-get-last
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

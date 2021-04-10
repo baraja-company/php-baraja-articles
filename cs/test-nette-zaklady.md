@@ -2,7 +2,9 @@ Test základních Nette znalostí
 ==============================
 
 > id: d137c177-503c-4e84-8709-0e65b0ce6060
-> slugCS: test-nette-zaklady
+> slug:
+> 	cs: test-nette-zaklady
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "28a2aef7-7490-43a9-add7-80d8a051f8a9"
 

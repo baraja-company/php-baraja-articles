@@ -2,7 +2,9 @@ PHP funkce ob_get_clean()
 =========================
 
 > id: "2bcb7478-b41e-484e-82d9-e216497f092d"
-> slugCS: funkce-ob-get-clean
+> slug:
+> 	cs: funkce-ob-get-clean
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

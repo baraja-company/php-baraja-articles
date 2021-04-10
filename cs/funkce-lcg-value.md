@@ -2,7 +2,9 @@ PHP funkce lcg_value()
 ======================
 
 > id: "21f3b6e6-92bf-4c50-8a0a-00c037b44c76"
-> slugCS: funkce-lcg-value
+> slug:
+> 	cs: funkce-lcg-value
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

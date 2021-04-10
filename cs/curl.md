@@ -2,7 +2,9 @@ cURL v PHP - stahování dat přes URL
 ===================================
 
 > id: "0bd1aed6-460d-4b63-9afe-f5087d1c6046"
-> slugCS: curl
+> slug:
+> 	cs: curl
+> 
 > perex: Knihovna cURL je robustní PHP knihovna pro pokročilou HTTP komunikaci.
 > publicationDate: "2020-02-15 22:14:32"
 > mainCategoryId: "02d93aa8-ed83-460a-ab97-4de21118f019"

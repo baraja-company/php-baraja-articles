@@ -2,7 +2,9 @@ Json v PHP - zpracování, generování a formátování
 =================================================
 
 > id: "07729429-7201-4b3a-b991-4a66f9251161"
-> slugCS: json
+> slug:
+> 	cs: json
+> 
 > perex: JSON je datový typ pro předávání složitých datových struktur přes textový řetězec typicky jako API pro javascript.
 > publicationDate: "2019-11-26 11:32:43"
 > mainCategoryId: e45491db-b548-471d-97b4-3e23610c5da9

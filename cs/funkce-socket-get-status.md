@@ -2,7 +2,9 @@ PHP funkce socket_get_status()
 ==============================
 
 > id: "4db2246a-a323-4ea9-a5ec-7de9e85a993d"
-> slugCS: funkce-socket-get-status
+> slug:
+> 	cs: funkce-socket-get-status
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

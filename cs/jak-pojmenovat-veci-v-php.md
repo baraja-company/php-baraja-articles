@@ -2,7 +2,9 @@ Jak pojmenovat proměnné, funkce, metody a třídy
 ===============================================
 
 > id: f70ac75d-422f-4696-88d5-9e1b843e060a
-> slugCS: jak-pojmenovat-veci-v-php
+> slug:
+> 	cs: jak-pojmenovat-veci-v-php
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1"
 

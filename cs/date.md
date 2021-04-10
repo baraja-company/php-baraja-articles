@@ -2,7 +2,9 @@ PHP funkce date(), datum a čas
 ==============================
 
 > id: "9b0ec1c7-3431-4d7d-9bcc-6093285f14f1"
-> slugCS: date
+> slug:
+> 	cs: date
+> 
 > perex: "Zjištění data a času, aktuální datum, formátování data a času a převod tvaru."
 > publicationDate: "2019-09-11 10:14:16"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"

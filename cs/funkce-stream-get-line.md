@@ -2,7 +2,9 @@ PHP funkce stream_get_line()
 ============================
 
 > id: "164a0ff1-9be1-4ef0-8494-577d1e0b55a0"
-> slugCS: funkce-stream-get-line
+> slug:
+> 	cs: funkce-stream-get-line
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

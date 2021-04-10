@@ -2,7 +2,9 @@ PHP funkce stream_get_meta_data()
 =================================
 
 > id: "087739c8-3d8b-45ec-8490-e0f19ab57db5"
-> slugCS: funkce-stream-get-meta-data
+> slug:
+> 	cs: funkce-stream-get-meta-data
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

@@ -2,7 +2,9 @@ PHP funkce ucwords()
 ====================
 
 > id: "5d5a5aaa-bb1a-4851-b067-369625e77f8a"
-> slugCS: funkce-ucwords
+> slug:
+> 	cs: funkce-ucwords
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

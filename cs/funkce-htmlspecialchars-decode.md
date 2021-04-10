@@ -2,7 +2,9 @@ PHP funkce htmlspecialchars_decode()
 ====================================
 
 > id: c2fef686-4c02-4698-9963-49d76435cf7f
-> slugCS: funkce-htmlspecialchars-decode
+> slug:
+> 	cs: funkce-htmlspecialchars-decode
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

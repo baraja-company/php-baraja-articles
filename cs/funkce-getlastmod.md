@@ -2,7 +2,9 @@ PHP funkce getlastmod()
 =======================
 
 > id: c474fb13-78bf-4646-b1ce-c823932eb47e
-> slugCS: funkce-getlastmod
+> slug:
+> 	cs: funkce-getlastmod
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

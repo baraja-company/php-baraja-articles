@@ -2,7 +2,9 @@ PHP funkce is_scalar()
 ======================
 
 > id: b791a763-52ae-429f-bedb-a3c8aec73bb1
-> slugCS: funkce-is-scalar
+> slug:
+> 	cs: funkce-is-scalar
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "5bf11342-01a0-47e1-a6a8-c8c22bf92af9"
 

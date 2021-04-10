@@ -2,7 +2,9 @@ PHP funkce call_user_method()
 =============================
 
 > id: "547179e6-6711-449b-b0c5-8e34f91eab9a"
-> slugCS: funkce-call-user-method
+> slug:
+> 	cs: funkce-call-user-method
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

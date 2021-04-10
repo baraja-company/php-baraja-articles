@@ -2,7 +2,9 @@ PHP funkce gethostbynamel()
 ===========================
 
 > id: c2632b3d-10b9-4b19-912f-b88a4307d5a3
-> slugCS: funkce-gethostbynamel
+> slug:
+> 	cs: funkce-gethostbynamel
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

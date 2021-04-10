@@ -2,7 +2,9 @@ PHP funkce ignore_user_abort()
 ==============================
 
 > id: "87e66193-e092-4b60-88bd-c096b1206983"
-> slugCS: funkce-ignore-user-abort
+> slug:
+> 	cs: funkce-ignore-user-abort
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

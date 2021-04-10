@@ -2,7 +2,9 @@ Proměnné v PHP
 ==============
 
 > id: b89774e7-143c-4a8c-8dc6-3b3d2c78d5b7
-> slugCS: promenna
+> slug:
+> 	cs: promenna
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "0e39aee9-2818-480c-8081-e0c2d039bb24"
 

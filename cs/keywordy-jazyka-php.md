@@ -2,8 +2,10 @@ Keywordy jazyka PHP
 ===================
 
 > id: d58620d7-57a0-410a-ba73-31a1f9d984fb
-> slugCS: keywordy-jazyka-php
-> publicationDate: "2021-03-29 22:17:03"
+> slug:
+> 	cs: keywordy-jazyka-php
+> 
+> publicationDate: "2021-04-10 18:59:21"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 
 Skoro všechny programovací jazyky se skládají z tzv. `klíčových slov` (anglicky `keywords`), což jsou speciální výrazy jazyka, které mají speciální význam.

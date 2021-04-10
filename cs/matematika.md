@@ -2,7 +2,9 @@ Matematika v PHP
 ================
 
 > id: "69a432ee-7635-46e2-bb21-8492cb62c4e6"
-> slugCS: matematika
+> slug:
+> 	cs: matematika
+> 
 > perex: "Matematika a matematické funkce v PHP. Definice čísel, operátorů a vhodné typy pro výpočty a ukládání čísel."
 > publicationDate: "2020-02-16 18:24:10"
 > mainCategoryId: c2134b23-9b10-46b3-aa54-e3996707255e

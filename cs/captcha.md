@@ -2,7 +2,9 @@ Jak funguje Captcha (opisovací obrázek)
 =======================================
 
 > id: "9cf191e4-a49b-407b-b16e-21de7224ac43"
-> slugCS: captcha
+> slug:
+> 	cs: captcha
+> 
 > perex: "Captcha je druh obrázku, který ověří, že uživatel není robot a chrání webovou aplikaci. Možnosti implementace v PHP."
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "1f73dcfa-92a9-4738-ab30-8cbfb00ad23b"

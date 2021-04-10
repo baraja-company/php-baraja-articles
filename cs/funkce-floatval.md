@@ -2,7 +2,9 @@ PHP funkce floatval()
 =====================
 
 > id: "59308ef4-23a4-49bd-a92a-3f6487b7b202"
-> slugCS: funkce-floatval
+> slug:
+> 	cs: funkce-floatval
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

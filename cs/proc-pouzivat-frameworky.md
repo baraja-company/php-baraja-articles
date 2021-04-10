@@ -2,7 +2,9 @@ Proč a jak používat frameworky a knihovny
 =========================================
 
 > id: "5ea6cdde-f67c-4f3f-8871-37b27ee8e23a"
-> slugCS: proc-pouzivat-frameworky
+> slug:
+> 	cs: proc-pouzivat-frameworky
+> 
 > publicationDate: "2020-02-16 22:13:46"
 > mainCategoryId: "3e45c55a-a4cd-4745-b1bb-0332702fefbf"
 

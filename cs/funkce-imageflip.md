@@ -2,7 +2,9 @@ PHP funkce imageflip()
 ======================
 
 > id: "2ef1f7aa-7983-4527-861b-39f93c9b6633"
-> slugCS: funkce-imageflip
+> slug:
+> 	cs: funkce-imageflip
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

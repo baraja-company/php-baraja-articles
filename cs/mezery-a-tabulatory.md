@@ -2,7 +2,9 @@ Odsazení kódu pomocí mezer a tabulátorů
 =======================================
 
 > id: "116f19ed-3753-498d-bb9e-e0f93b88c347"
-> slugCS: mezery-a-tabulatory
+> slug:
+> 	cs: mezery-a-tabulatory
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1"
 

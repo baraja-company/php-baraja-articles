@@ -2,7 +2,9 @@ File_get_contents
 =================
 
 > id: "6c8889f1-95e7-4540-9c3a-0225c6383954"
-> slugCS: file-get-contents
+> slug:
+> 	cs: file-get-contents
+> 
 > publicationDate: "2019-09-11 10:18:03"
 > mainCategoryId: c5cec8c4-2a75-4f51-87c7-4d3acac0616f
 

@@ -2,7 +2,9 @@ Podobná čísla - jak ho poznat
 =============================
 
 > id: d1d911d1-a6cd-4a69-af17-e90ad1d95b6d
-> slugCS: podobne-cisla
+> slug:
+> 	cs: podobne-cisla
+> 
 > publicationDate: "2019-08-23 15:49:48"
 > mainCategoryId: "1f73dcfa-92a9-4738-ab30-8cbfb00ad23b"
 

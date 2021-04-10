@@ -2,7 +2,9 @@ PHP funkce sleep()
 ==================
 
 > id: f125cbbd-ce50-4ff2-913d-e25e03936d34
-> slugCS: funkce-sleep
+> slug:
+> 	cs: funkce-sleep
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

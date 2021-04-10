@@ -2,7 +2,9 @@ PHP funkce acos()
 =================
 
 > id: "94dfdeaa-3a05-43ce-aad3-e973c9cc4000"
-> slugCS: funkce-acos
+> slug:
+> 	cs: funkce-acos
+> 
 > publicationDate: "2020-02-16 16:41:10"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

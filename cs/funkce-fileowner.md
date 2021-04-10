@@ -2,7 +2,9 @@ PHP funkce fileowner()
 ======================
 
 > id: "64e4aa1d-2b93-406f-982d-dc98ff1ab042"
-> slugCS: funkce-fileowner
+> slug:
+> 	cs: funkce-fileowner
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

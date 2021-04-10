@@ -2,7 +2,9 @@ PHP 8 je venku - kompletní přehled novinek
 ==========================================
 
 > id: "8b6ce751-195f-41d2-82c6-1af4be3e86b5"
-> slugCS: php-8-kompletni-prehled-novinek
+> slug:
+> 	cs: php-8-kompletni-prehled-novinek
+> 
 > publicationDate: "2020-11-26 11:53:54"
 > mainCategoryId: "17545205-215b-4962-b910-0d67ad1e933a"
 

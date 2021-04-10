@@ -2,7 +2,9 @@ PHP funkce gettimeofday()
 =========================
 
 > id: "30d09f0c-d4ea-4717-9d52-a674c79f0342"
-> slugCS: funkce-gettimeofday
+> slug:
+> 	cs: funkce-gettimeofday
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

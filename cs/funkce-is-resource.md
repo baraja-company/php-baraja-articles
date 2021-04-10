@@ -2,7 +2,9 @@ PHP funkce is_resource()
 ========================
 
 > id: "44ff97f3-22b6-4e35-a8be-a4ff5c79343a"
-> slugCS: funkce-is-resource
+> slug:
+> 	cs: funkce-is-resource
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

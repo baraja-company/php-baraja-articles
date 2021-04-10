@@ -2,7 +2,9 @@ PHP funkce dl()
 ===============
 
 > id: f25b7380-37f0-4e45-8df8-ecfa6df64415
-> slugCS: funkce-dl
+> slug:
+> 	cs: funkce-dl
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

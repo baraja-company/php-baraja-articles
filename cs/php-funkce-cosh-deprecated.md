@@ -2,8 +2,10 @@ PHP funkce cosh()
 =================
 
 > id: "12b49def-1f39-4136-8dda-a157f62ff0ae"
-> slugCS: php-funkce-cosh-deprecated
-> publicationDate: "2021-03-29 22:17:03"
+> slug:
+> 	cs: php-funkce-cosh-deprecated
+> 
+> publicationDate: "2021-04-10 18:59:20"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
 Dostupnost ve verzích: `PHP 4.1.0`

@@ -2,7 +2,9 @@ PHP funkce asin()
 =================
 
 > id: "1600d7ac-45a7-476c-be94-5c336d78ca0e"
-> slugCS: funkce-asin
+> slug:
+> 	cs: funkce-asin
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

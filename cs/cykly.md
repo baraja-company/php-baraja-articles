@@ -2,7 +2,9 @@ Cykly a jejich druhy v PHP
 ==========================
 
 > id: e2927790-d0fb-4de5-9848-01fdd088464b
-> slugCS: cykly
+> slug:
+> 	cs: cykly
+> 
 > perex: "Cykl for, while, foreach a rekurze v PHP + vysvětlení rozdílů mezi cykly. Možnosti iterativního zpracování úloh."
 > publicationDate: "2020-04-11 18:56:34"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"

@@ -2,7 +2,9 @@ PHP online kurz pro začátečníky
 ===============================
 
 > id: "10ecc1cc-8d49-4882-8ecf-114ad74902df"
-> slugCS: zacatek
+> slug:
+> 	cs: zacatek
+> 
 > perex: "Výuka PHP online, kurz pro začátečníky. Naučíte se programovat v PHP přímo od senior vývojáře."
 > publicationDate: "2020-02-09 14:27:47"
 > mainCategoryId: f4a34087-1b51-4761-8128-4459dfe83d8a

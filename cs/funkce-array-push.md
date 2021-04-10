@@ -2,7 +2,9 @@ PHP funkce array_push()
 =======================
 
 > id: b87285c5-15ec-4d50-9cea-93248727550c
-> slugCS: funkce-array-push
+> slug:
+> 	cs: funkce-array-push
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "59874540-664b-4474-9869-7e6742ab6051"
 

@@ -2,7 +2,9 @@ Práce se soubory
 ================
 
 > id: "12330cfb-5729-419a-b2e4-cb3d1db998cc"
-> slugCS: prace-se-soubory
+> slug:
+> 	cs: prace-se-soubory
+> 
 > publicationDate: "2020-02-16 16:30:05"
 > mainCategoryId: c5cec8c4-2a75-4f51-87c7-4d3acac0616f
 

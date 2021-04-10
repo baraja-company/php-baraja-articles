@@ -2,7 +2,9 @@ PHP funkce arsort()
 ===================
 
 > id: eb154476-1086-45c3-91e0-8850229bc5fc
-> slugCS: funkce-arsort
+> slug:
+> 	cs: funkce-arsort
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

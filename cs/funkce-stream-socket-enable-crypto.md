@@ -2,7 +2,9 @@ PHP funkce stream_socket_enable_crypto()
 ========================================
 
 > id: fb15ad4f-83e8-4d78-96ba-389292a9987e
-> slugCS: funkce-stream-socket-enable-crypto
+> slug:
+> 	cs: funkce-stream-socket-enable-crypto
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

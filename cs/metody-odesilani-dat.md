@@ -2,7 +2,9 @@ Metody odesílání dat (GET a POST)
 =================================
 
 > id: "32f9083f-7cb1-469f-911a-765df059123d"
-> slugCS: metody-odesilani-dat
+> slug:
+> 	cs: metody-odesilani-dat
+> 
 > perex: "Metoda GET a POST, získávání dat z formuláře a URL. Komunikace přes API a zpracování dat."
 > publicationDate: "2019-11-26 11:38:32"
 > mainCategoryId: "2a1ef8bc-14aa-438a-87e7-5b3f9643f325"

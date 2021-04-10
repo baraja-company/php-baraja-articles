@@ -2,7 +2,9 @@ PHP funkce stream_context_set_default()
 =======================================
 
 > id: c82e7f18-09ba-4363-a895-26cb462e0495
-> slugCS: funkce-stream-context-set-default
+> slug:
+> 	cs: funkce-stream-context-set-default
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

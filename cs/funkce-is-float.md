@@ -2,7 +2,9 @@ PHP funkce is_float()
 =====================
 
 > id: "033fd8e2-24b3-44c1-bed1-cfb847743460"
-> slugCS: funkce-is-float
+> slug:
+> 	cs: funkce-is-float
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "5bf11342-01a0-47e1-a6a8-c8c22bf92af9"
 

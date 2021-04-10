@@ -2,7 +2,9 @@ Speciální význam uvozovek
 =========================
 
 > id: "2649942d-94d6-48c3-9c78-5a303165bf72"
-> slugCS: uvozovky-vyznam
+> slug:
+> 	cs: uvozovky-vyznam
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 

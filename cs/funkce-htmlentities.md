@@ -2,7 +2,9 @@ PHP funkce htmlentities()
 =========================
 
 > id: "6317d03b-4990-4ba5-979e-cdaf583c589a"
-> slugCS: funkce-htmlentities
+> slug:
+> 	cs: funkce-htmlentities
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

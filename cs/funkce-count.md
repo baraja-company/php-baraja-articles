@@ -2,7 +2,9 @@ PHP funkce count()
 ==================
 
 > id: "5a07a47e-4e88-4d7c-8c1d-d6818aea0d8b"
-> slugCS: funkce-count
+> slug:
+> 	cs: funkce-count
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

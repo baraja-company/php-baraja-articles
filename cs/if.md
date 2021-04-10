@@ -2,7 +2,9 @@ Podmínky v PHP - IF() {...} - možnosti větvení
 ==============================================
 
 > id: "3e4b81bb-a8bb-4e99-8842-e76f1658a371"
-> slugCS: if
+> slug:
+> 	cs: if
+> 
 > perex: "Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu."
 > publicationDate: "2019-11-26 11:55:09"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"

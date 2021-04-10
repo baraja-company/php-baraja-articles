@@ -2,7 +2,9 @@ PHP funkce rad2deg()
 ====================
 
 > id: "1c32e347-5a47-4b64-bd6f-e5bd80d43541"
-> slugCS: funkce-rad2deg
+> slug:
+> 	cs: funkce-rad2deg
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

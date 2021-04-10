@@ -2,7 +2,9 @@ PHP funkce ob_start()
 =====================
 
 > id: b2d74b3d-6ed4-453f-af14-d00c23d40c88
-> slugCS: funkce-ob-start
+> slug:
+> 	cs: funkce-ob-start
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

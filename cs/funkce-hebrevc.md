@@ -2,7 +2,9 @@ PHP funkce hebrevc()
 ====================
 
 > id: a6fcaf1b-abfc-4d21-a8b1-48a1ed5f2a25
-> slugCS: funkce-hebrevc
+> slug:
+> 	cs: funkce-hebrevc
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

@@ -2,7 +2,9 @@ PHP funkce substr()
 ===================
 
 > id: f74977bc-9004-4210-84a1-b8d0e8352795
-> slugCS: funkce-substr
+> slug:
+> 	cs: funkce-substr
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

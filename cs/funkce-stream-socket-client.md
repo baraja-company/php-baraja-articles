@@ -2,7 +2,9 @@ PHP funkce stream_socket_client()
 =================================
 
 > id: "8cc53341-41bc-4f68-ab07-ac46576f9bfc"
-> slugCS: funkce-stream-socket-client
+> slug:
+> 	cs: funkce-stream-socket-client
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

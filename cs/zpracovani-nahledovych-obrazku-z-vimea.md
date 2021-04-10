@@ -2,7 +2,9 @@ Zpracování náhledových obrázků a meta informací z Vimea
 =======================================================
 
 > id: "8b8cbef0-210a-4883-be07-5004e8f43739"
-> slugCS: zpracovani-nahledovych-obrazku-z-vimea
+> slug:
+> 	cs: zpracovani-nahledovych-obrazku-z-vimea
+> 
 > publicationDate: "2020-09-19 17:32:31"
 > mainCategoryId: a0143f3c-ac75-46dc-a514-d3c9417ded4e
 

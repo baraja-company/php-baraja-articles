@@ -2,7 +2,9 @@ Hashování řetězců a hesel
 =========================
 
 > id: "7978bee8-62cc-4770-b15b-a8d08d1dcf34"
-> slugCS: hashovani
+> slug:
+> 	cs: hashovani
+> 
 > perex: "Hash není šifra! Metody hashování dat a hesel. MD5, SHA1, Bcrypt. Ověření hesla."
 > publicationDate: "2019-09-11 10:13:30"
 > mainCategoryId: "3666a8a6-f2a3-405d-8263-bd53c4301fb3"

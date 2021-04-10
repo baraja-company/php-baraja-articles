@@ -2,7 +2,9 @@ PHP funkce decbin()
 ===================
 
 > id: c7756068-dc0b-4e93-acb9-054aae318cba
-> slugCS: funkce-decbin
+> slug:
+> 	cs: funkce-decbin
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

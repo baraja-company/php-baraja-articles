@@ -2,7 +2,9 @@ PHP funkce log10()
 ==================
 
 > id: "7d4bd008-5edd-4d91-9848-4c090dee4e7e"
-> slugCS: funkce-log10
+> slug:
+> 	cs: funkce-log10
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

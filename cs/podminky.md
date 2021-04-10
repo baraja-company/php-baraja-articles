@@ -2,7 +2,9 @@ Podmínky a větvení
 ==================
 
 > id: "2cea5541-6879-4763-a518-cb21bf9021dd"
-> slugCS: podminky
+> slug:
+> 	cs: podminky
+> 
 > publicationDate: "2019-09-07 20:25:57"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 

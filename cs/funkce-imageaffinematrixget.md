@@ -2,7 +2,9 @@ PHP funkce imageaffinematrixget()
 =================================
 
 > id: f6c5dc12-4323-4f8d-a787-80ada3bdd13c
-> slugCS: funkce-imageaffinematrixget
+> slug:
+> 	cs: funkce-imageaffinematrixget
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

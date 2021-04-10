@@ -2,7 +2,9 @@ Kontingenční tabulka v PHP
 ==========================
 
 > id: "9bdc1004-8f06-48ec-8f56-8707fad5cef7"
-> slugCS: kontingencni-tabulka
+> slug:
+> 	cs: kontingencni-tabulka
+> 
 > publicationDate: "2019-11-13 22:00:05"
 > mainCategoryId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
 

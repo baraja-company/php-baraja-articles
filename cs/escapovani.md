@@ -2,7 +2,9 @@ Escapování znaků v řetězci v PHP
 ================================
 
 > id: "40f9361e-e286-4b5e-a0c0-1f6cda8106af"
-> slugCS: escapovani
+> slug:
+> 	cs: escapovani
+> 
 > publicationDate: "2019-11-26 11:56:52"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 

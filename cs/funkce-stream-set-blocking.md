@@ -2,7 +2,9 @@ PHP funkce stream_set_blocking()
 ================================
 
 > id: "1b06582b-7e6d-4a2e-bf35-ead2ccc2cb76"
-> slugCS: funkce-stream-set-blocking
+> slug:
+> 	cs: funkce-stream-set-blocking
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

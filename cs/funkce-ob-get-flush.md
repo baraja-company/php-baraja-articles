@@ -2,7 +2,9 @@ PHP funkce ob_get_flush()
 =========================
 
 > id: "584a23b2-0317-426d-bcfe-401fdd23877c"
-> slugCS: funkce-ob-get-flush
+> slug:
+> 	cs: funkce-ob-get-flush
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

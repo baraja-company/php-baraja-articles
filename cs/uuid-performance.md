@@ -2,7 +2,9 @@ UUID a výkon rozsáhlých aplikací
 ================================
 
 > id: "2f072ce8-13b1-41f6-b328-2bd3b416cdd2"
-> slugCS: uuid-performance
+> slug:
+> 	cs: uuid-performance
+> 
 > publicationDate: "2019-11-08 10:09:54"
 > mainCategoryId: "95374429-e651-46bd-9149-15aa716f8207"
 

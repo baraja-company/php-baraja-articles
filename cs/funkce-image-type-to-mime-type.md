@@ -2,7 +2,9 @@ PHP funkce image_type_to_mime_type()
 ====================================
 
 > id: c02c40df-b44d-43cb-b5ed-9e3350d8bd27
-> slugCS: funkce-image-type-to-mime-type
+> slug:
+> 	cs: funkce-image-type-to-mime-type
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

@@ -2,8 +2,10 @@ Stavové HTTP kódy
 =================
 
 > id: "97800bb6-004c-4bdb-b126-f87e77cc5120"
-> slugCS: stavove-http-kody
-> publicationDate: "2021-03-29 22:17:03"
+> slug:
+> 	cs: stavove-http-kody
+> 
+> publicationDate: "2021-04-10 18:59:21"
 > mainCategoryId: "2a1ef8bc-14aa-438a-87e7-5b3f9643f325"
 
 Při HTTP komunikaci se přenáší tzv. `stavové kódy`, což je informace o tom, jak přenos proběhl. Určitě víte, že kód `200` znamená úspěch a kód `404` neexistující stránku.

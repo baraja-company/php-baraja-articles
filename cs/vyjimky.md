@@ -2,7 +2,9 @@ Výjimky a jejich odchycení v PHP
 ================================
 
 > id: "61b0f178-bb1c-4166-9e8a-af49de2e2a8c"
-> slugCS: vyjimky
+> slug:
+> 	cs: vyjimky
+> 
 > publicationDate: "2020-02-16 22:18:18"
 > mainCategoryId: "3e45c55a-a4cd-4745-b1bb-0332702fefbf"
 

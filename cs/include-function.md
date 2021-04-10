@@ -2,7 +2,9 @@ Konstrukt `include`
 ===================
 
 > id: "881cc6ef-b1dc-4a71-ab22-d1943ce8095b"
-> slugCS: include-function
+> slug:
+> 	cs: include-function
+> 
 > publicationDate: "2019-09-11 10:14:16"
 > mainCategoryId: c5cec8c4-2a75-4f51-87c7-4d3acac0616f
 

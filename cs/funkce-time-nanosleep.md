@@ -2,7 +2,9 @@ PHP funkce time_nanosleep()
 ===========================
 
 > id: "481733e0-3060-4750-b1e8-c3ef63988d0a"
-> slugCS: funkce-time-nanosleep
+> slug:
+> 	cs: funkce-time-nanosleep
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

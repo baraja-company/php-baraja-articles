@@ -2,7 +2,9 @@ PHP funkce str_repeat()
 =======================
 
 > id: b9749c0e-3003-4b92-846e-40654974d273
-> slugCS: funkce-str-repeat
+> slug:
+> 	cs: funkce-str-repeat
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

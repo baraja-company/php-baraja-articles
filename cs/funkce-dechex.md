@@ -2,7 +2,9 @@ PHP funkce dechex()
 ===================
 
 > id: a94d0bfd-64ab-4d48-899d-f9b1caf2212e
-> slugCS: funkce-dechex
+> slug:
+> 	cs: funkce-dechex
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

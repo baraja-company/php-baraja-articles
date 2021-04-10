@@ -2,7 +2,9 @@ PHP funkce flock()
 ==================
 
 > id: "19bac5b5-20b3-44be-8e79-6f626449fa4c"
-> slugCS: funkce-flock
+> slug:
+> 	cs: funkce-flock
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

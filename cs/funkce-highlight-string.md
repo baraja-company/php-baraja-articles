@@ -2,7 +2,9 @@ Zvýrazňování syntaxe PHP kódu funkcí highlight_string()
 =======================================================
 
 > id: "72338b08-9e4d-45c0-a5d2-7f8ee705ae93"
-> slugCS: funkce-highlight-string
+> slug:
+> 	cs: funkce-highlight-string
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "5a538abc-5464-4707-9211-ea86885c80d4"
 

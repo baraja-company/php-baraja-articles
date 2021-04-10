@@ -2,7 +2,9 @@ Konfigurace spojení s Baraja Doctrine
 =====================================
 
 > id: fbd0961a-53fe-4713-8526-82e36bd1fb9b
-> slugCS: konfigurace-spojeni-s-baraja-doctrine
+> slug:
+> 	cs: konfigurace-spojeni-s-baraja-doctrine
+> 
 > publicationDate: "2020-09-10 11:38:44"
 > mainCategoryId: "818d311a-0f58-4df7-a9a4-da7d21489dd6"
 

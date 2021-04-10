@@ -2,7 +2,9 @@ PHP funkce natcasesort()
 ========================
 
 > id: "198a216e-7ac5-4496-a598-30c374bbf158"
-> slugCS: funkce-natcasesort
+> slug:
+> 	cs: funkce-natcasesort
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

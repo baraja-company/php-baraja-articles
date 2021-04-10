@@ -2,7 +2,9 @@ HTML formuláře - část v prohlížeči
 ==================================
 
 > id: cb0015c7-b7b6-41ac-8263-4068960e16b3
-> slugCS: formulare
+> slug:
+> 	cs: formulare
+> 
 > perex: "Zpracování formulářů v PHP, zejména možnosti odeslání získaných dat na server metodou GET a POST."
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: a23332c0-a233-4093-abd7-85b1b00a383b

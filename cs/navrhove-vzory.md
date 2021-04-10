@@ -2,7 +2,9 @@ Návrhové vzory v PHP
 ====================
 
 > id: c22b3e54-bb66-4196-a998-f4b62b9308b2
-> slugCS: navrhove-vzory
+> slug:
+> 	cs: navrhove-vzory
+> 
 > publicationDate: "2020-02-13 10:32:29"
 > mainCategoryId: "3e45c55a-a4cd-4745-b1bb-0332702fefbf"
 

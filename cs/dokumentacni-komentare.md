@@ -2,7 +2,9 @@ Dokumentační komentáře, česky nebo anglicky?
 ============================================
 
 > id: e5f1bf13-ab9e-4a70-a95c-77fb50aa4878
-> slugCS: dokumentacni-komentare
+> slug:
+> 	cs: dokumentacni-komentare
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1"
 

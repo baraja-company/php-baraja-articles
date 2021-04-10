@@ -2,7 +2,9 @@ PHP funkce cos()
 ================
 
 > id: "754c7aa8-75ec-44f7-b8cb-1380177183a2"
-> slugCS: funkce-cos
+> slug:
+> 	cs: funkce-cos
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

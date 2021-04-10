@@ -2,7 +2,9 @@ Generátor QR kódů - API
 =======================
 
 > id: a9b1804f-438b-49fe-86e7-5a1b30a07210
-> slugCS: api-qr-kod
+> slug:
+> 	cs: api-qr-kod
+> 
 > publicationDate: "2019-09-11 10:04:00"
 > mainCategoryId: "8598ac8d-7a70-4e2a-be9a-9f4f9ecee935"
 

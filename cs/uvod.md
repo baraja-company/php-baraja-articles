@@ -2,7 +2,9 @@
 ==================
 
 > id: "66b7fd22-6195-4999-ad8d-b799afdc1876"
-> slugCS: uvod
+> slug:
+> 	cs: uvod
+> 
 > perex: "Úvodní tutoriál do jazyka PHP, možnosti jazyka, informace o tvorbě webu v PHP."
 > publicationDate: "2019-09-29 19:25:06"
 > mainCategoryId: f4a34087-1b51-4761-8128-4459dfe83d8a

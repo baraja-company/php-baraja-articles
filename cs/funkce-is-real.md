@@ -2,7 +2,9 @@ PHP funkce is_real()
 ====================
 
 > id: "81c92070-3988-4e95-b0da-00450c028405"
-> slugCS: funkce-is-real
+> slug:
+> 	cs: funkce-is-real
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "5bf11342-01a0-47e1-a6a8-c8c22bf92af9"
 

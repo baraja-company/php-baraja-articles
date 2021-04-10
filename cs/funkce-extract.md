@@ -2,7 +2,9 @@ PHP funkce extract()
 ====================
 
 > id: a4d0614f-a0c0-497f-873b-5674d782770c
-> slugCS: funkce-extract
+> slug:
+> 	cs: funkce-extract
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

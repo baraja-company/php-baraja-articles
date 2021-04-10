@@ -2,7 +2,9 @@ PHP funkce ob_implicit_flush()
 ==============================
 
 > id: "51727933-087e-474f-9376-55bfecbdb99d"
-> slugCS: funkce-ob-implicit-flush
+> slug:
+> 	cs: funkce-ob-implicit-flush
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

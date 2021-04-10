@@ -2,7 +2,9 @@ PHP funkce get_meta_tags()
 ==========================
 
 > id: d1dbc4f7-44ef-458e-b9d3-d88690b9b733
-> slugCS: funkce-get-meta-tags
+> slug:
+> 	cs: funkce-get-meta-tags
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

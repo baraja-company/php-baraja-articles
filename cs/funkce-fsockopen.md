@@ -2,7 +2,9 @@ PHP funkce fsockopen()
 ======================
 
 > id: "42b0b00e-f3ce-48bd-960d-c269dd41b700"
-> slugCS: funkce-fsockopen
+> slug:
+> 	cs: funkce-fsockopen
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

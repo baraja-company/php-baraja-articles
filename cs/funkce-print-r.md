@@ -2,7 +2,9 @@ PHP funkce print_r()
 ====================
 
 > id: "91a2909b-d1ac-4180-b859-ef776ccbfcaf"
-> slugCS: funkce-print-r
+> slug:
+> 	cs: funkce-print-r
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

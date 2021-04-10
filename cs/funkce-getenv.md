@@ -2,7 +2,9 @@ PHP funkce getenv()
 ===================
 
 > id: "08a550b5-efb4-4fa4-89f5-a655600363e2"
-> slugCS: funkce-getenv
+> slug:
+> 	cs: funkce-getenv
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

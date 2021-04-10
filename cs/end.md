@@ -2,7 +2,9 @@ End()
 =====
 
 > id: "879c7c9a-a497-4080-865d-f15e6c9e8578"
-> slugCS: end
+> slug:
+> 	cs: end
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

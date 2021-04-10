@@ -2,7 +2,9 @@ PHP funkce memory_get_usage()
 =============================
 
 > id: fdf5801a-0d01-457d-ba99-8994201acdb2
-> slugCS: funkce-memory-get-usage
+> slug:
+> 	cs: funkce-memory-get-usage
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: ab12b253-41a0-4bf3-9019-956608d7d534
 

@@ -2,7 +2,9 @@ PHP funkce imagecrop()
 ======================
 
 > id: a7d425ff-567c-4e71-b019-23b818a68320
-> slugCS: funkce-imagecrop
+> slug:
+> 	cs: funkce-imagecrop
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

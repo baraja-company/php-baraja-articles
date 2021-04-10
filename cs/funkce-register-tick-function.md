@@ -2,7 +2,9 @@ PHP funkce register_tick_function()
 ===================================
 
 > id: "9be6f817-3c51-4959-90c5-0eeee00e240a"
-> slugCS: funkce-register-tick-function
+> slug:
+> 	cs: funkce-register-tick-function
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

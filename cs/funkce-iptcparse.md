@@ -2,7 +2,9 @@ PHP funkce iptcparse()
 ======================
 
 > id: a768ebe8-827c-40cf-b56e-f5661e665091
-> slugCS: funkce-iptcparse
+> slug:
+> 	cs: funkce-iptcparse
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

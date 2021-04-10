@@ -2,7 +2,9 @@ PHP funkce mail()
 =================
 
 > id: "6536e2e2-38e1-4496-80ef-6c1c9a0b5be5"
-> slugCS: odesilani-emailu
+> slug:
+> 	cs: odesilani-emailu
+> 
 > publicationDate: "2019-09-16 08:51:41"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

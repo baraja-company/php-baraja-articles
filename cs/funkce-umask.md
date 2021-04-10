@@ -2,7 +2,9 @@ PHP funkce umask()
 ==================
 
 > id: a8367c75-5190-4055-a7bd-6e37ade7020f
-> slugCS: funkce-umask
+> slug:
+> 	cs: funkce-umask
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

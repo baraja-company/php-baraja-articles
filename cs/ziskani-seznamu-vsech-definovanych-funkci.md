@@ -2,8 +2,10 @@ Získání seznamu všech definovaných funkcí
 =========================================
 
 > id: "99ed7887-33c8-44d7-b0cb-ac37b2336f48"
-> slugCS: ziskani-seznamu-vsech-definovanych-funkci
-> publicationDate: "2021-03-29 22:17:03"
+> slug:
+> 	cs: ziskani-seznamu-vsech-definovanych-funkci
+> 
+> publicationDate: "2021-04-10 18:59:21"
 > mainCategoryId: f611e5d3-ed7b-4fe9-84ca-9271fc2bd2e3
 
 Občas se nám může hodit získat seznam všech dostupných funkcí na aktuálním prostředí. Je to zejména v případě, kdy spravujeme server někoho jiného a potřebujeme se trochu zorientovat.

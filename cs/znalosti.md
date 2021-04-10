@@ -2,7 +2,9 @@ Přehled znalostí o tvorbě webu
 ==============================
 
 > id: e5e9613c-66fe-4d5e-a686-a182aab8061a
-> slugCS: znalosti
+> slug:
+> 	cs: znalosti
+> 
 > publicationDate: "2019-09-11 10:07:07"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 

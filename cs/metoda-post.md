@@ -2,7 +2,9 @@ Přijmutí dat metodou POST
 =========================
 
 > id: c2f273fa-7730-4521-82d0-1b3096269fac
-> slugCS: metoda-post
+> slug:
+> 	cs: metoda-post
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "2a1ef8bc-14aa-438a-87e7-5b3f9643f325"
 

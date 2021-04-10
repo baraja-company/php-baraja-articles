@@ -2,7 +2,9 @@ Sessions - serverové cookies v PHP
 ==================================
 
 > id: ab782ff0-d5ba-4115-9ebb-ab37978a6527
-> slugCS: sessions
+> slug:
+> 	cs: sessions
+> 
 > publicationDate: "2019-11-06 17:06:18"
 > mainCategoryId: "2a1ef8bc-14aa-438a-87e7-5b3f9643f325"
 

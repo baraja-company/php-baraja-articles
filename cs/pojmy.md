@@ -2,7 +2,9 @@ Základní pojmy vývojářů
 =======================
 
 > id: "762ac987-34ec-45cc-a791-dc3137a998f2"
-> slugCS: pojmy
+> slug:
+> 	cs: pojmy
+> 
 > perex: Základní pojmy vývojářů ohledně jazyka PHP. Seznámení s oblastí a orientace v problematice.
 > publicationDate: "2016-12-31 13:59:03"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"

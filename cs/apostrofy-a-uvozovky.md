@@ -2,7 +2,9 @@ Apostrofy a uvozovky
 ====================
 
 > id: "526ad995-3412-446e-bb56-9627dff8e29e"
-> slugCS: apostrofy-a-uvozovky
+> slug:
+> 	cs: apostrofy-a-uvozovky
+> 
 > perex: Použití uvozovek a apostrofů pro ohraničení řetězců v PHP. Escapování řetězců a řešení kontextů.
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1"

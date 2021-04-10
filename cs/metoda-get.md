@@ -2,7 +2,9 @@ Získání parametrů z URL metodou GET
 ===================================
 
 > id: bbf2cb2c-f7f7-4be9-a9cd-960014db0f51
-> slugCS: metoda-get
+> slug:
+> 	cs: metoda-get
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "2a1ef8bc-14aa-438a-87e7-5b3f9643f325"
 

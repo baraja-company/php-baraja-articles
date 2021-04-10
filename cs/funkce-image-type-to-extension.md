@@ -2,7 +2,9 @@ PHP funkce image_type_to_extension()
 ====================================
 
 > id: "4f473f84-0f1b-41f8-987e-999819f8564f"
-> slugCS: funkce-image-type-to-extension
+> slug:
+> 	cs: funkce-image-type-to-extension
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

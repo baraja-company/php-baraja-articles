@@ -2,7 +2,9 @@ Formuláře, zpracování formulářů v PHP
 =====================================
 
 > id: d1871a8d-bcfe-408d-ac12-6b827633f77e
-> slugCS: formulare-2
+> slug:
+> 	cs: formulare-2
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: a23332c0-a233-4093-abd7-85b1b00a383b
 

@@ -2,7 +2,9 @@ PHP funkce current()
 ====================
 
 > id: b34059cd-9c40-4ef1-81e0-d21339137430
-> slugCS: funkce-current
+> slug:
+> 	cs: funkce-current
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

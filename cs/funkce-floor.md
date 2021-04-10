@@ -2,7 +2,9 @@ PHP funkce floor()
 ==================
 
 > id: c3cb630f-0580-4544-9340-b5b2d7c3c591
-> slugCS: funkce-floor
+> slug:
+> 	cs: funkce-floor
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

@@ -2,7 +2,9 @@ PHP funkce uasort()
 ===================
 
 > id: "37101595-dc1f-4502-a610-044aa02abcd9"
-> slugCS: funkce-uasort
+> slug:
+> 	cs: funkce-uasort
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

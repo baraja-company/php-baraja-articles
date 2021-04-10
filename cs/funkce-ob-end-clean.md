@@ -2,7 +2,9 @@ PHP funkce ob_end_clean()
 =========================
 
 > id: "5acd88fb-ec0d-4122-bbcd-38377e3b9394"
-> slugCS: funkce-ob-end-clean
+> slug:
+> 	cs: funkce-ob-end-clean
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

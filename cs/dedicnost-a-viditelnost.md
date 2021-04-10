@@ -2,7 +2,9 @@ Dědičnost a viditelnost v OOP
 =============================
 
 > id: "71896a55-dcfd-4bb6-9f53-64f22b1514eb"
-> slugCS: dedicnost-a-viditelnost
+> slug:
+> 	cs: dedicnost-a-viditelnost
+> 
 > publicationDate: "2020-02-16 22:17:05"
 > mainCategoryId: "3e45c55a-a4cd-4745-b1bb-0332702fefbf"
 

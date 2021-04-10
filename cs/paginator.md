@@ -2,7 +2,9 @@ Paginator a stránkování výpisu výsledků v PHP
 =============================================
 
 > id: a1450160-e320-414a-8266-128465632e94
-> slugCS: paginator
+> slug:
+> 	cs: paginator
+> 
 > perex: Stránkování dlouhého seznamu položek. Jak řešit omezení počtu vypsaných položek a vypočítat stránkování.
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1

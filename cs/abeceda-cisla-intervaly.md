@@ -2,7 +2,9 @@ Získání abecedy, pole čísel a intervalů
 =======================================
 
 > id: "24f996b9-fc55-43bc-8015-093228d11577"
-> slugCS: abeceda-cisla-intervaly
+> slug:
+> 	cs: abeceda-cisla-intervaly
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
 

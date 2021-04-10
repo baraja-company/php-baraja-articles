@@ -2,7 +2,9 @@ PHP funkce socket_import_stream()
 =================================
 
 > id: "66df3410-f4e9-4c93-b4e3-240517c5c2f1"
-> slugCS: funkce-socket-import-stream
+> slug:
+> 	cs: funkce-socket-import-stream
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

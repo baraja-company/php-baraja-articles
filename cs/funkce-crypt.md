@@ -2,7 +2,9 @@ PHP funkce crypt()
 ==================
 
 > id: "77708b7c-6927-4b35-91b4-d6b54be09a3b"
-> slugCS: funkce-crypt
+> slug:
+> 	cs: funkce-crypt
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

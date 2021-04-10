@@ -2,7 +2,9 @@ Automatická minifikace PHP scriptu
 ==================================
 
 > id: f9225faf-f881-4f7d-8c0f-bab4cfea9cb9
-> slugCS: minifikace-scriptu
+> slug:
+> 	cs: minifikace-scriptu
+> 
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "95374429-e651-46bd-9149-15aa716f8207"
 

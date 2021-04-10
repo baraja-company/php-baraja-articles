@@ -2,7 +2,9 @@ PHP funkce fmod()
 =================
 
 > id: "70a42e8b-2b8b-4ba3-986f-c5b8463fdc59"
-> slugCS: funkce-fmod
+> slug:
+> 	cs: funkce-fmod
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

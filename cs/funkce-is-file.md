@@ -2,7 +2,9 @@ PHP funkce is_file()
 ====================
 
 > id: c2584fa6-19c9-47af-b29c-9dcbf026b21e
-> slugCS: funkce-is-file
+> slug:
+> 	cs: funkce-is-file
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

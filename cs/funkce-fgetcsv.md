@@ -2,7 +2,9 @@ PHP funkce fgetcsv()
 ====================
 
 > id: "84a4c227-67ec-457b-87a4-09f07828cb5c"
-> slugCS: funkce-fgetcsv
+> slug:
+> 	cs: funkce-fgetcsv
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

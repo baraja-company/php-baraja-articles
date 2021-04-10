@@ -2,7 +2,9 @@ GitHub Actions - nejlepší CI pro rok 2021
 =========================================
 
 > id: c1fe3b77-a506-4f20-bf1e-90ee82817c7d
-> slugCS: github-actions-nejlepsi-ci-pro-rok-2021
+> slug:
+> 	cs: github-actions-nejlepsi-ci-pro-rok-2021
+> 
 > perex: "Protože už nějaký čas vyvíjíte webové aplikace, určitě jste si všimli, že se pro vás celá řada věcí rutinně opakuje, i když by nemusela. Velmi často jde o technickou správu projektů, verzování souborů, automatická kontrola kódu, zpracování různých dat, nebo třeba deploy na server a bezpečnostní věci kolem toho."
 > publicationDate: "2021-02-07 15:46:39"
 > mainCategoryId: "3666a8a6-f2a3-405d-8263-bd53c4301fb3"

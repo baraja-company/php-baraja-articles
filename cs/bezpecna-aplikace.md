@@ -2,7 +2,9 @@ Bezpečná aplikace
 =================
 
 > id: cc4667a3-aea3-4e0a-b323-da31ab78e019
-> slugCS: bezpecna-aplikace
+> slug:
+> 	cs: bezpecna-aplikace
+> 
 > publicationDate: "2019-10-01 14:19:04"
 > mainCategoryId: "3666a8a6-f2a3-405d-8263-bd53c4301fb3"
 

@@ -2,7 +2,9 @@ PHP funkce stream_wrapper_register()
 ====================================
 
 > id: "97f1df5d-d5d6-4cb9-83c2-3b85e7247597"
-> slugCS: funkce-stream-wrapper-register
+> slug:
+> 	cs: funkce-stream-wrapper-register
+> 
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 

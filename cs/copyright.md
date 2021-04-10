@@ -2,7 +2,9 @@ Copyright
 =========
 
 > id: "131d7203-09c6-4291-b14f-e64fe279b83e"
-> slugCS: copyright
+> slug:
+> 	cs: copyright
+> 
 > publicationDate: "2020-03-07 19:09:57"
 > mainCategoryId: "8598ac8d-7a70-4e2a-be9a-9f4f9ecee935"
 

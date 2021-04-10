@@ -2,7 +2,9 @@ PHP funkce round()
 ==================
 
 > id: "7c38379c-cfd2-47ba-93e4-4e770809dfdd"
-> slugCS: funkce-round
+> slug:
+> 	cs: funkce-round
+> 
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
