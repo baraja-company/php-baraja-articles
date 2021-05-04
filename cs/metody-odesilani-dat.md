@@ -57,9 +57,9 @@ K ověření existence proměnné slouží funkce `isset()`.
 
 ```php
 if (isset($_GET['jmeno'])) {
-	echo 'Vaše jméno: ' . htmlspecialchars($_GET['jmeno']);
+    echo 'Vaše jméno: ' . htmlspecialchars($_GET['jmeno']);
 } else {
-	echo 'Nebylo zadáno žádné jméno.';
+    echo 'Nebylo zadáno žádné jméno.';
 }
 ```
 
@@ -72,10 +72,10 @@ Pro ukázku nám může posloužit formulář pro přijmutí 2 čísel, odeslan�
 
 ```html
 <form action="script.php" method="get">
-	První číslo: <input type="text" name="x">
-	Druhé číslo: <input type="text" name="y">
+    První číslo: <input type="text" name="x">
+    Druhé číslo: <input type="text" name="y">
 
-	<input type="submit" value="Sečíst čísla">
+    <input type="submit" value="Sečíst čísla">
 </form>
 ```
 
@@ -107,12 +107,12 @@ Správně bychom měli nejprve ověřit, že obě formulářová pole byla vypln
 
 ```php
 if (isset($_GET['x']) && isset($_GET['y'])) {
-	$x = $_GET['x'];	// 5
-	$y = $_GET['y'];	// 3
+    $x = $_GET['x'];	// 5
+    $y = $_GET['y'];	// 3
 
-	echo $x + $y;		// vypíše 8
+    echo $x + $y;		// vypíše 8
 } else {
-	echo 'Formulář nebyl správně vyplněn.';
+    echo 'Formulář nebyl správně vyplněn.';
 }
 ```
 

@@ -41,13 +41,13 @@ Základní kopyto HTML stránky asi už znáte:
 ```html
 <!DOCTYPE HTML>
 <html>
-	<head>
-	<title>Můj první PHP script</title>
-	<meta charset="UTF-8">
-	</head>
-	<body>
+    <head>
+    <title>Můj první PHP script</title>
+    <meta charset="UTF-8">
+    </head>
+    <body>
 
-	</body>
+    </body>
 </html>
 ```
 
@@ -63,7 +63,7 @@ V současné době je nejlepší použít zápis s `<?php` a `?>`.
 
 ```php
 <?php
-	// tady bude PHP kód
+    // tady bude PHP kód
 ?>
 ```
 
@@ -76,15 +76,15 @@ Obalovací značky můžeme umístit na libovolné místo v HTML kódu, třeba d
 ```html
 <!DOCTYPE HTML>
 <html>
-	<head>
-	<title>Můj první PHP script</title>
-	<meta charset="UTF-8">
-	</head>
-	<body>
-	<?php
-		// tady bude PHP kód
-	?>
-	</body>
+    <head>
+    <title>Můj první PHP script</title>
+    <meta charset="UTF-8">
+    </head>
+    <body>
+    <?php
+        // tady bude PHP kód
+    ?>
+    </body>
 </html>
 ```
 

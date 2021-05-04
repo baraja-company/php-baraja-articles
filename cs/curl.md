@@ -26,12 +26,11 @@ V PHP pro to neexistuje přímá implementace, ale můžeme si napsat jednoducho
 
 ```php
 /**
- * @return bool
  * @author Jan Barášek
  */
 function isCurl(): bool
 {
-	return \stripos($_SERVER['HTTP_USER_AGENT'], 'curl') !== false;
+    return \stripos($_SERVER['HTTP_USER_AGENT'], 'curl') !== false;
 }
 ```
 

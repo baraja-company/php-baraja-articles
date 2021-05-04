@@ -23,7 +23,7 @@ Popis
 
 ```php
 if (logický výrok) {
-	// konstrukt
+    // konstrukt
 }
 ```
 
@@ -36,9 +36,9 @@ $x = 10;
 $y = 5;
 
 if ($x > $y) {
-	// Tato část scriptu se spustí, pokud podmínka platí
+    // Tato část scriptu se spustí, pokud podmínka platí
 } else {
-	// Tato část scriptu se spustí, pokud podmínka neplatí
+    // Tato část scriptu se spustí, pokud podmínka neplatí
 }
 ```
 
@@ -112,9 +112,9 @@ $x = 3;
 
 ```php
 if (výraz):
-	konstrukt;
-	konstrukt;
-	konstrukt;
+    konstrukt;
+    konstrukt;
+    konstrukt;
 endif;
 ```
 
@@ -229,9 +229,9 @@ $a = 'Kočka';
 $b = 'kočka';
 
 if ($a === $b) {
-	// Pokud jsou řetězce stejné
+    // Pokud jsou řetězce stejné
 } else {
-	// Pokud jsou řetězce různé
+    // Pokud jsou řetězce různé
 }
 ```
 
@@ -245,15 +245,15 @@ $a = '';
 $b = null;
 
 if ($a == $b) {
-	// Bude vyhodnoceno jako TRUE, protože
-	// dojde k převodu datového typu.
+    // Bude vyhodnoceno jako TRUE, protože
+    // dojde k převodu datového typu.
 }
 
 if ($a === $b) {
-	// Provede mnohem přísnější validaci
-	// a neprojde, protože jde o jiný
-	// obsah a jiný datový typ, proto se
-	// tento kód nikdy nespustí.
+    // Provede mnohem přísnější validaci
+    // a neprojde, protože jde o jiný
+    // obsah a jiný datový typ, proto se
+    // tento kód nikdy nespustí.
 }
 ```
 
@@ -264,7 +264,7 @@ $password = '81dc9bdb52d04dc20036dbd8313ed055'; // 1234
 $userPassword = ' 1234   ';
 
 if (md5(trim($userPassword)) === $password) {
-	// Funkce trim() provede automatické odmazání mezer.
+    // Funkce trim() provede automatické odmazání mezer.
 }
 ```
 

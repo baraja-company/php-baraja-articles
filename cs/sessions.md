@@ -41,9 +41,9 @@ Pozor: Session nemusí vždy existovat (například pokud jde o nově přicháze
 
 ```php
 if (isset($_SESSION['user']) && $_SESSION['user']) {
-	echo 'Přihlášený uživatel: ' . $_SESSION['user'];
+    echo 'Přihlášený uživatel: ' . $_SESSION['user'];
 } else {
-	echo 'Nikdo není přihlášený.';
+    echo 'Nikdo není přihlášený.';
 }
 ```
 

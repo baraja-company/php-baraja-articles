@@ -153,7 +153,7 @@ Existenci prvku pole bychom měli vždy ověřit funkcí `isset()`:
 
 ```php
 if (isset($x[$n])) {
-	echo $x[$n];
+    echo $x[$n];
 }
 ```
 

@@ -51,8 +51,8 @@ Poměrně hodně informací o nastavení serveru můžeme zjistit přímo za bě
 Vypsání všech existujících hodnot uděláme jednoduše:
 
 ```php
-foreach ($_SERVER as $key => $value {
-	echo $key . ': ' . $value . '<br>';
+foreach ($_SERVER as $key => $value) {
+    echo $key . ': ' . $value . '<br>';
 }
 ```
 
@@ -74,16 +74,16 @@ Pokud chceme například zjistit, jak maximálně velký soubor můžeme uploado
  */
 public static function getMaxUploadFileSize(): int
 {
-	$maxUpload = min(
-		ini_get('post_max_size'),
-		ini_get('upload_max_filesize')
-	);
+    $maxUpload = min(
+        ini_get('post_max_size'),
+        ini_get('upload_max_filesize')
+    );
 
-	if (strncmp($maxUpload, 'M', 1) === 0) {
-		return (int) str_replace('M', '', $maxUpload);
-	}
+    if (strncmp($maxUpload, 'M', 1) === 0) {
+        return (int) str_replace('M', '', $maxUpload);
+    }
 
-	return (int) $maxUpload;
+    return (int) $maxUpload;
 }
 ```
 

@@ -29,13 +29,13 @@ Při vykreslování kódu odsazeného tabulátory do HTML stránky je zvykem tab
 
 ```php
 $code = '<?php
-	$a = 5+3;
-	$b = 4;
-	if ($a > $b) {
-		echo $a . " > " . $b;
-	} else {
-		echo $b . " <= " . $a;
-	}
+    $a = 5+3;
+    $b = 4;
+    if ($a > $b) {
+        echo $a . " > " . $b;
+    } else {
+        echo $b . " <= " . $a;
+    }
 ?>';
 
 echo str_replace("\t", '&nbsp;', $code);

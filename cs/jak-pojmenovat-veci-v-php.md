@@ -50,9 +50,9 @@ A následně vykreslíme v šabloně:
 ```html
 <table>
 <?php
-	foreach ($data['cisla'] as $cislo) {
-		echo '<tr><td>' . $cislo . '</td></tr>';
-	}
+    foreach ($data['cisla'] as $cislo) {
+        echo '<tr><td>' . $cislo . '</td></tr>';
+    }
 ?>
 </table>
 ```
@@ -74,7 +74,7 @@ Protože poté můžeme hodnoty jednoduše iterovat jednotným číslem:
 
 ```php
 foreach ($numbers as $number) {
-	// zpracování čísel
+    // zpracování čísel
 }
 ```
 
@@ -126,37 +126,22 @@ Příklad:
 ```php
 class User
 {
+    public string $username;
 
-	/**
-	 * @var string
-	 */
-	public $username;
+    public string $password;
 
-	/**
-	 * @var string
-	 */
-	public $password;
-
-	/**
-	 * @var string
-	 */
-	public $role;
-
+    public string $role;
 }
 
 class Users
 {
+    /** @var User[] */
+    public array $users;
 
-	/**
-	 * @var User[]
-	 */
-	public $users;
-
-	public function addUser(User $user)
-	{
-		$this->users = array_push($this->users, $user);
-	}
-
+    public function addUser(User $user): void
+    {
+        $this->users = array_push($this->users, $user);
+    }
 }
 ```
 

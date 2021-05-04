@@ -87,14 +87,14 @@ $a = '';
 $b = null;
 
 if ($a == $b) {
-	// Bude vyhodnoceno jako TRUE, protože
-	// dojde k převodu datového typu.
+    // Bude vyhodnoceno jako TRUE, protože
+    // dojde k převodu datového typu.
 }
 
 if ($a === $b) {
-	// Provede mnohem přísnější validaci
-	// a neprojde, protože jde o jiný
-	// obsah a jiný datový typ, proto se
-	// tento kód nikdy nespustí.
+    // Provede mnohem přísnější validaci
+    // a neprojde, protože jde o jiný
+    // obsah a jiný datový typ, proto se
+    // tento kód nikdy nespustí.
 }
 ```

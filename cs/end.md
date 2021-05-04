@@ -31,9 +31,9 @@ Příklad
 
 ```php
 echo end([
-	'apple',
-	'banana',
-	'cranberry',
+    'apple',
+    'banana',
+    'cranberry',
 ]); // vypíše cranberry
 ```
 

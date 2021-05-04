@@ -34,9 +34,9 @@ Pozor: Cookies nemusí vždy existovat (například pokud jde o nově přicháze
 
 ```php
 if (isset($_COOKIE['user']) && $_COOKIE['user']) {
-	echo 'Přihlášený uživatel: ' . $_COOKIE['user'];
+    echo 'Přihlášený uživatel: ' . $_COOKIE['user'];
 } else {
-	echo 'Nikdo není přihlášený.';
+    echo 'Nikdo není přihlášený.';
 }
 ```
 
@@ -53,8 +53,8 @@ Nebo případně projít cyklem a získat všechny klíče a hodnoty:
 
 ```php
 foreach($_COOKIE as $key => $value) {
-	echo $key . ': ' . $value;	// vypíšeme klíč a hodnotu
-	echo '<br>';				// zalomíme řádek
+    echo $key . ': ' . $value;	// vypíšeme klíč a hodnotu
+    echo '<br>';				// zalomíme řádek
 }
 ```
 

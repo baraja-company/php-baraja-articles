@@ -140,11 +140,11 @@ echo htmlspecialchars($a);
 
 ```php
 if (isset($_GET['a'])) {
-	$a = $_GET['a'];
+    $a = $_GET['a'];
 
-	echo htmlspecialchars($a);
+    echo htmlspecialchars($a);
 } else {
-	echo 'Proměnná "a" neexistuje!';
+    echo 'Proměnná "a" neexistuje!';
 }
 ```
 
