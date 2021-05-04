@@ -15,21 +15,39 @@ V PHP lze IP adresu na základní úrovni detekovat velmi jednoduše:
 echo 'Víte že, vaše IP adresa je ' . $_SERVER['REMOTE_ADDR'] . '?';
 ```
 
-> **Pozor:** Zjištění IP adresy jako klíče pole `$_SERVER['REMOTE_ADDR']` je možné pouze v případě, že bylo PHP voláno z prohlížeče. V client režimu (například spuštění z Terminálu cronem) není IP adresa k dispozici (dává to smysl, protože nebyl položen žádný request).
+> **Pozor:** Zjištění IP adresy jako klíče pole `$_SERVER['REMOTE_ADDR']` je možné pouze v případě, že bylo PHP voláno z prohlížeče. V CLI režimu (například spuštění z Terminálu cronem) není IP adresa k dispozici (dává to smysl, protože se nevykonává žádný síťový request).
 
 Spolehlivé zjištění IP adresy
 -----------------------------
 
+Po dlouhých letech vývoje jsem nakonec zůstal u této implementace:
+
 ```php
 function getIp(): string
 {
-    $ip = null;
-
-    if (isset($_SERVER['REMOTE_ADDR'])) {
-        $ip = filter_var($_SERVER['REMOTE_ADDR'], FILTER_VALIDATE_IP, FILTER_FLAG_IPV4);
+    if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) { // Cloudflare support
+        $ip = $_SERVER['HTTP_CF_CONNECTING_IP'];
+    } elseif (isset($_SERVER['REMOTE_ADDR']) === true) {
+        $ip = $_SERVER['REMOTE_ADDR'];
+        if ($ip === '127.0.0.1') {
+            if (isset($_SERVER['HTTP_X_REAL_IP'])) {
+                $ip = $_SERVER['HTTP_X_REAL_IP'];
+            } elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+                $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+            }
+        }
+    } else {
+        $ip = '127.0.0.1';
+    }
+    if (in_array($ip, ['::1', '0.0.0.0', 'localhost'], true)) {
+        $ip = '127.0.0.1';
+    }
+    $filter = filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV4);
+    if ($filter === false) {
+        $ip = '127.0.0.1';
     }
 
-    return is_string($ip) ? $ip : '127.0.0.1';
+    return $ip;
 }
 ```
 
@@ -39,24 +57,22 @@ Mnohem lepší tedy je:
 echo 'Víte že, vaše IP adresa je ' . getIp() . '?';
 ```
 
-Pokud se IP podaří zjistit, nebo je pouze IPv6, nebo jde o CLI režim (například cron), vrací se `127.0.0.1` (localhost).
+Pokud se IP podaří zjistit rovnou, nebo je pouze IPv6, nebo jde o CLI režim (například cron), vrací se `127.0.0.1` (localhost).
 
-Implementace zohledňující hlavičky `X-Forwarded-For` a `X-Real-IP` je přímo v PHP extrémně nebezpečná, protože může snadno dojít k modifikaci dat a útočník může podstrčit falešnou IP adresu a tím například zobrazit administraci, nebo aktivovat Debug mód webu (Nette Tracy).
+Implementace zohledňující hlavičky `X-Forwarded-For` a `X-Real-IP` je přímo v PHP extrémně nebezpečná, protože může snadno dojít k modifikaci dat a útočník může podstrčit falešnou IP adresu a tím například zobrazit administraci, nebo aktivovat Debug mód webu (Nette Tracy). Na druhou stranu některé proxované requesty musíme přijímat (například při proxování provozu přes službu Cloudflare, nebo při běhu Apache a Ngnix na jednom stroji, kdy se volají lokálně hned po sobě).
 
-Jediné správné řešení je zajistit na Apache (pomocí `RemoteIP` rozšíření) a v Nginx přes `remote_ip` rozšíření, aby se `X-Forwarded-For` nastavovalo ze skutečné IP adresy návštěvníka a nebylo možné IP adresu nastavit HTTP hlavičkou.
+V případě příméh přístupu uživatele k serveru existuje jen jediné správné řešení, a to zajistit na Apache (pomocí `RemoteIP` rozšíření) a v Nginx přes `remote_ip` rozšíření, aby se `X-Forwarded-For` nastavovalo ze skutečné IP adresy návštěvníka a nebylo možné IP adresu nastavit HTTP hlavičkou.
 
-Do pole `$_SERVER['REMOTE_ADDR']` se automaticky dostává správná IP adresa a nemusíme to řešit.
-
-Ošetření výstupu funkcí `is_string($ip)` je velmi zásadní, protože proměnná `$ip` nemusela být definována (v CLI režimu bude proměnná `null`), případně může být IP adresa nevalidní (například na localhostu může být hodnotu `::1` a pak by proměnná byla `false`). Tento zápis podmínky oba případy řeší.
+Do pole `$_SERVER['REMOTE_ADDR']` se automaticky dostává správná IP adresa (tedy IP adresa, ze které přišel request přímo na PHP) a nemusíme to řešit.
 
 Přístup uživatele přes proxy
 ----------------------------
 
-Často se stává, že uživatel přistupuje přes proxy. Poté je skutečná IP adresa uložena v proměnné `$_SERVER["HTTP_X_FORWARDED_FOR"]`.
+Často se stává, že uživatel přistupuje přes proxy. Poté je skutečná IP adresa uložena v proměnné `$_SERVER['HTTP_X_FORWARDED_FOR']`.
 
 Tento případ může nastat například v okamžiku, kdy je routing na serveru vyřešen metodou `Ngnix -> Apache -> PHP`, kdy `Ngnix` slouží jako reverzní proxy před `Apache`. V takovém případě PHP vidí jen IP adresu v rámci interní sítě (obvykle ve tvaru `127.0.0.*`).
 
-Takto se může chovat například služba `Cloudflare` a je potřeba si dávat pozor, jestli pracujeme s IP adresou skutečného uživatele, nebo proxy serveru. Za mě je nejlepší způsob stáhle použití funkce `getIp()`, která je uvedena na začátku článku.
+Takto se může chovat například služba **Cloudflare** a je potřeba si dávat pozor, jestli pracujeme s IP adresou skutečného uživatele, nebo proxy serveru. Za mě je nejlepší způsob stáhle použití funkce `getIp()`, která je uvedena na začátku článku. Detekci Cloudflare můžeme zajistit ověřením existence klíče `$_SERVER['HTTP_CF_CONNECTING_IP']`, který se v každém proxovaném requestu automaticky přenáší.
 
 Ukládání IP adresy
 ------------------
