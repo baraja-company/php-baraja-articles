@@ -13,6 +13,9 @@ Poměrně často potřebujeme mít k dispozici pole hodnot, které se odvozují 
 ```php
 getNumbers(10, 100);
 
+/**
+ * @return int[]
+ */
 function getNumbers(int $min, int $max): array
 {
 	$numbers = [];

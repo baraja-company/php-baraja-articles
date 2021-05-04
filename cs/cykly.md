@@ -168,7 +168,7 @@ Tedy, dojde k postupnému vynásobení řady čísel od `1` až po číslo, u kt
 Rekurzivně to lze řešit velice elegantně:
 
 ```php
-function factorial(int $n)
+function factorial(int $n): int
 {
    if ($n === 0) {
       return 1;
@@ -181,7 +181,7 @@ function factorial(int $n)
 Případně ještě kratší implementace s použitím ternárního operátoru:
 
 ```php
-function factorial(int $n)
+function factorial(int $n): int
 {
     return $n === 0 ? 1 : $n * factorial($n - 1);
 }
@@ -190,7 +190,7 @@ function factorial(int $n)
 To samé můžeme přepsat na použití cyklů:
 
 ```php
-function factorial(int $n)
+function factorial(int $n): int
 {
     $result = 1;
 

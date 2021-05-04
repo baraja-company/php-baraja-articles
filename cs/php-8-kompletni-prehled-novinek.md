@@ -298,9 +298,9 @@ Implementace samotného attributu pak může vypadat třeba takto:
 #[Attribute]
 class Inject
 {
-    public $value;
+    public string $value;
 
-    public function __construct($value)
+    public function __construct(string $value)
     {
         $this->value = $value;
     }

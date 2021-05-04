@@ -101,9 +101,11 @@ Between, získání řetězce mezi dvěma řetězci
 Často potřebujeme získat řetězec, který je ohraničen dvěma jinými řetězci. Přímo v PHP na to žádná funkce neexistuje, ale můžeme si jí napsat sami:
 
 ```php
-function between($left, $right, $data) {
+function between(string $left, string $right, string $data): string
+{
    $l = explode($left, $data);
    $r = explode($right, $l[1]);
+
    return $r[0];
 }
 ```

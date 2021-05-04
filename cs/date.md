@@ -161,12 +161,9 @@ Ve starších verzích si musíme funkci implementovat sami:
 
 ```php
 /**
- * @param int|null $year
- * @param int|null $month
- * @return int
  * @author Jan Barášek
  */
-function getFirstDayPosition(int $year = null, int $month = null): int
+function getFirstDayPosition(?int $year = null, ?int $month = null): int
 {
     $day = (int) date('w', strtotime($year . '-' . $month . '-1')) - 1;
 

@@ -69,7 +69,6 @@ Pokud chceme například zjistit, jak maximálně velký soubor můžeme uploado
 
 ```php
 /**
- * @return int
  * @author Jan Barášek
  */
 public static function getMaxUploadFileSize(): int

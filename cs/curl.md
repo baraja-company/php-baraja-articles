@@ -25,12 +25,9 @@ Detekce cURL módu v requestu
 V PHP pro to neexistuje přímá implementace, ale můžeme si napsat jednoduchou funkci sami:
 
 ```php
-/**
- * @author Jan Barášek
- */
 function isCurl(): bool
 {
-    return \stripos($_SERVER['HTTP_USER_AGENT'], 'curl') !== false;
+    return str_contains($_SERVER['HTTP_USER_AGENT'] ?? '', 'curl');
 }
 ```
 

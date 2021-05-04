@@ -84,10 +84,9 @@ Ve starších verzích PHP (před verzí `7.0`) se ještě nepoužívaly datové
 ```php
 /**
  * @author      Jan Barášek <jan@barasek.com>
- * @license     Public domain
+ * @license     MIT
  * @link        https://php.baraja.cz
  * @param       float[] $numbers
- * @return      float
  */
 function average(array $numbers): float
 {

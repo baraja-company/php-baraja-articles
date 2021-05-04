@@ -103,13 +103,15 @@ Příklad:
 ```php
 $string = get_include_contents('somefile.php');
 
-function get_include_contents($filename) {
+function get_include_contents(string $filename): ?string
+{
     if (is_file($filename)) {
         ob_start();
-        include $filename;
+        include (string) $filename;
         return ob_get_clean();
     }
-    return false;
+
+    return null;
 }
 ```
 

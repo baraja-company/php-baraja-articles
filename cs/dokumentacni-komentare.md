@@ -20,18 +20,15 @@ Pokud se například funkce jmenuje `getUserProfileById($id)`, tak je křišťá
  * Alternativni regularni vyraz:
  * /^(((?=(?>.*?(::))(?!.+\3)))\3?|([\dA-F]{1,4}(\3|:(?!$)|$)|\2))
    (?4){5}((?4){2}|((2[0-4]|1\d|[1-9])?\d|25[0-5])(\.(?7)){3})\z/i
- * @author Jan Barasek [30. 8. 2016]
- *
- * @param string $value
- * @return boolean
+ * @author Jan Barasek
  */
-function is_ip_v6($value)
+function isIpV6(string $value): bool
 {
-   if (strpos($value, ":")) {
-      if (filter_var($value, FILTER_VALIDATE_IP, FILTER_FLAG_IPV6)) return TRUE;
-      return FALSE;
+   if (str_contains($value, ':')) {
+      return (bool) filter_var($value, FILTER_VALIDATE_IP, FILTER_FLAG_IPV6);
    }
-   return FALSE;
+
+   return false;
 }
 ```
 

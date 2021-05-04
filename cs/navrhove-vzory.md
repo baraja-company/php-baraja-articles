@@ -31,18 +31,13 @@ Konkrétní příklad (hodně zjednodušuji):
 ```php
 class CategoryController
 {
-
-    /**
-     * @var CategoryManager
-     */
-    public $categoryManager;
+    public CategoryManager $categoryManager;
 
     public function actionDetail(string $id): void
     {
         $this->template->id = $id;
         $this->template->category = $this->categoryManager->getById($id);
     }
-
 }
 ```
 

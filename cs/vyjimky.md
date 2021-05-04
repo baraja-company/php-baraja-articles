@@ -36,6 +36,7 @@ function backup(): bool
    if (copy('c:/oldfile', 'd:/newfile')) {
       return unlink('c:/oldfile');
    }
+
    return false;
 }
 ```
@@ -76,6 +77,7 @@ function backup(): void
          throw new \Exception('Can nto remove old file.');
       }
    }
+
    throw new \Exception('Can not copy backup files.');
 }
 ```

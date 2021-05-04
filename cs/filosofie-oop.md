@@ -46,25 +46,24 @@ Pokud například implementujeme aplikaci na správu obsahu, dává smysl si cel
 Příklad konkrétní implementace:
 
 ```php
-class Article {
-    /** @var Author */
-    private $author;
+class Article
+{
+    private Author $author;
 
     /** @var Category[] */
-    private $categories;
+    private array $categories;
 
-    /** @var string */
-    private $title;
+    private string $title;
 }
 
-class Author {
-    /** @var string */
-    private $name;
+class Author
+{
+    private string $name;
 }
 
-class Category {
-    /** @var string */
-    private $name;
+class Category
+{
+    private string $name;
 }
 ```
 

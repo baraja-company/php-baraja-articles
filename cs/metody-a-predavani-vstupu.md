@@ -23,12 +23,9 @@ V rámci syntaxe jazyka si definujme třídu pro kočku:
 ```php
 class Cat
 {
+    public string $name;
 
-    /** @var string */
-    public $name;
-
-    /** @var string */
-    public $sound = 'Mňau';
+    public string $sound = 'Mňau';
 }
 ```
 
@@ -45,12 +42,9 @@ Co když ale budeme chtít zvuk při vypsání určitým způsobem formátovat? 
 ```php
 class Cat
 {
+    public string $name;
 
-    /** @var string */
-    public $name;
-
-    /** @var string */
-    public $sound = 'Mňau';
+    public string $sound = 'Mňau';
 
     public function getFormattedSound(): string
     {
@@ -85,12 +79,9 @@ Praktický příklad:
 ```php
 class Cat
 {
+    public string $name;
 
-    /** @var string */
-    public $name;
-
-    /** @var string */
-    public $sound;
+    public string $sound;
 
     public function __construct(string $name, string $sound)
     {
@@ -132,9 +123,7 @@ Zjednodušený příklad:
 ```php
 class Cat
 {
-
-    /** @var string */
-    public $name;
+    public string $name;
 
     public function __construct(string $name)
     {
@@ -182,9 +171,7 @@ Příklad implementace:
 ```php
 class Cat
 {
-
-    /** @var string */
-    public $name;
+    public string $name;
 
     public function __construct(string $name)
     {

@@ -62,10 +62,8 @@ Jenom pro úplnost uvedu kompletní podobu validačního pravidla pro e-maily ta
 ```php
 /**
  * Finds whether a string is a valid email address.
- * @param  string
- * @return bool
  */
-public static function isEmail($value)
+public static function isEmail(string $value): bool
 {
    $atom = "[-a-z0-9!#$%&'*+/=?^_`{|}~]"; // RFC 5322 unquoted characters in local-part
    $alpha = "a-z\x80-\xFF"; // superset of IDN
@@ -125,7 +123,8 @@ V takovém případě se držím poučky:
 Proto si formát automaticky přizpůsobíme. Nejprve využijeme rozparsování řetězce na jednotlivé části a poté jej podle čísel závorek zase složíme:
 
 ```php
-function formatPhoneNumber($phoneNumber) {
+function formatPhoneNumber(string $phoneNumber): int
+{
    return (int) preg_replace(
       '/^(\+\d{3})\s*(\d{3})\s*(\d{3})\s*(\d{3})$/',
       '$2$3$4',
@@ -182,7 +181,7 @@ echo $result;
 Já si tímto způsobem generuji například matematické příklady v Nette v Presenteru a je to možné s opravdovou lehkostí:
 
 ```php
-public function actionRegex()
+public function actionRegex(): void
 {
    $lexer = new Lexer('\d{1,3}[\+\-\*\/]');
    $parser = new Parser($lexer, new Scope(), new Scope());

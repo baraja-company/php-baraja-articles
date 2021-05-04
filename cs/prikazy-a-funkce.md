@@ -82,12 +82,13 @@ $z = 5;
 
 function prvniFunkce(int $x, int $y): int
 {
-   return $x - $y;   // toto by vrátilo rozdíl čísel
+   return $x - $y; // toto by vrátilo rozdíl čísel
 }
 
-function druhaFunkce() {
-   return $z;        // toto vrátí chybu, protože proměnná $z
-                     // není uvnitř funkce definována
+function druhaFunkce(): mixed
+{
+   return $z; // toto vrátí chybu, protože proměnná $z
+              // není uvnitř funkce definována
 }
 ```
 

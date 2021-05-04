@@ -40,12 +40,9 @@ Příklad definice třídy:
 ```php
 class Article
 {
+    public string $title;
 
-    /** @var string */
-    public $title;
-
-    /** @var string|null */
-    public $autor;
+    public ?string $autor = null;
 }
 ```
 
@@ -64,8 +61,7 @@ Tento kód definuje třídu `Article` s dvěma property (`title` a `author`). Ko
 Kód:
 
 ```php
-/** @var string */
-public $title;
+public string $title;
 ```
 
 znamená definici tzv. `properties`, což je vlastnost třídy `Article`. Můžeme si to představit třeba tak, že `Article` je druh pole a `title` je jeho index, do kterého můžeme zapisovat hodnotu. Každá property musí mít definovanou přístupnost (`public`, `protected` nebo `private`), později si vysvětlíme, co které nastavení znamená. Pokud nevíte, jakou přístupnost v konkrétním případě vybrat, dejte `public`.

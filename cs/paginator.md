@@ -16,7 +16,7 @@ Kolik máme k dispozici výsledků
 
 Na začátku musíme zjistit, kolik máme vůbec k dispozici výsledků. Pokud data pochází z databáze, tak je lze velice efektivně spočítat následujícím SQL příkazem:
 
-```php
+```sql
 SELECT COUNT(*) FROM tabulka
 ```
 
@@ -37,7 +37,7 @@ Omezení počtu výsledků
 
 Další problém je omezení počtu výsledků. Pokud jsou data v databázi, tak stačí do SQL příkazu vložit parametr `LIMIT`:
 
-```php
+```sql
 SELECT * FROM tabulka WHERE (cokoli) LIMIT 10
 ```
 
@@ -52,11 +52,12 @@ $pole = [...];
 $iterator = 0;
 $limit = 10;
 foreach ($pole as $prvek) {
-
-	// tady se nějak vypisují data
+	// tady se vypisují data
 
 	$iterator++;
-	if ($iterator >= $limit) break; // Zastaví cykl, až proběhne 10x
+	if ($iterator >= $limit) {
+	    break; // Zastaví cykl, až proběhne 10x
+	}
 }
 ```
 
@@ -68,7 +69,7 @@ Když jsme na první stránce, je to celkem jednoduché, to stačí pouze za pom
 
 V SQL na to máme opět elegantní zápis:
 
-```php
+```sql
 SELECT * FROM tabulka WHERE (cokoli) LIMIT 10 OFFSET 20
 ```
 
@@ -85,9 +86,7 @@ $pole = [...];
 $start = 20;
 $limit = 10;
 for ($i = $start; ($i <= $start + $limit && isset($pole[$i])); $i++) {
-
-	// tady se nějak vypisují data
-
+	// tady se vypisují data
 }
 ```
 
@@ -141,10 +140,11 @@ $a[1] = 1; // první prvek
 $a[2] = $a[1] + $d; // druhý prvek
 $a[3] = $a[1] + 2 * $d;
 $a[3] = $a[2] + $d;
-$a[$n] = $a[1] + ($n-1) * $d; // n-tý prvek
+$a[$n] = $a[1] + ($n - 1) * $d; // n-tý prvek
 
-function getAritmeticItem($start, $step, $n) {
-	return $start + ($n-1) * $step;
+function getAritmeticItem(int $start, int $step, int $n): int
+{
+	return $start + ($n - 1) * $step;
 }
 ```
 
@@ -158,10 +158,11 @@ $a[2] = $a[1] * $q; // druhý prvek
 $a[3] = $a[1] * $q * $q;
 $a[3] = $a[1] * pow($q, 2);
 $a[3] = $a[2] * $q;
-$a[$n] = $a[1] * pow($q, $n-1); // n-tý prvek
+$a[$n] = $a[1] * pow($q, $n - 1); // n-tý prvek
 
-function getGeometricItem($start, $step, $q) {
-	return $start * pow($q, $step-1);
+function getGeometricItem(int $start, int $step, int $q): int
+{
+	return $start * pow($q, $step - 1);
 }
 ```
 

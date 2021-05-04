@@ -23,7 +23,8 @@ Když ale definujeme vlastní funkci, tak se chování lehce změní:
 ```php
 $x = 5;
 
-function mojeFunkce() {
+function mojeFunkce(): int
+{
     $x = 3;
 
     echo $x; // vypíše 3
@@ -40,7 +41,8 @@ Pokud chceme do funkce předat hodnotu z okolního kódu, tak ji musíme zavolat
 ```php
 echo mojeFunkce(5);	// vypíše 6
 
-function mojeFunkce($x) {
+function mojeFunkce(int $x): int
+{
     return $x + 1;
 }
 ```
@@ -54,7 +56,8 @@ Hodnoty se do funkcí dostávají za pomoci parametrů. Pokud chcete do funkce p
 $x = 5;
 $y = 3;
 
-function soucet($x, $y) {
+function soucet(int $x, int $y): int
+{
     return $x + $y;
 }
 

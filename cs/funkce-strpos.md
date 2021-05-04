@@ -21,16 +21,29 @@ Parametry
 | `$needle`   | `mixed`    | *povinné*       | Pokud není řetězec, převede se na číslo (integer) a použije se jako pořadová hodnota znaku. |
 | `$offset`   | `int`      | `0`             | Pokud je nastavena nějaká hodnota, funkce nejprve odpočítá uvedený počet znaků od začátku řetězece a až poté začne vyhledávat. Na rozdíl od funkce `strrpos` a `strripos` nemůže být offset záporný. |
 
+Výskyt řetězce v textu - aktualizace PHP 8
+------------------------------------------
+
+Od PHP 8 existuje nativní způsob, jak ověřit existence řetězce v textu. Dělá se to velmi jednoduše nativní funkcí `str_contains`:
+
+```php
+if (str_contains('jan@barasek.com', '@')) {
+    // E-mail obsahuje zavináč
+}
+```
+
 Výskyt řetězce v textu
 ----------------------
 
-Často potřebujeme zjistit, jestli text obsahuje určitý řetězec. Bohužel v PHP neexistuje funkce `constains`, ale můžeme si ji snadno napsat sami:
+> **Pozor:** Funkce `str_contains` je od PHP 8 nativní součást jazyka.
+
+Často potřebujeme zjistit, jestli text obsahuje určitý řetězec. Až do verze PHP 8 neexistovala funkce `str_contains`, proto se předtím implementovala takto:
 
 ```php
 /**
  * Obsahuje $haystack řetězec $needle?
  */
-function contains(string $haystack, string $needle): bool
+function str_contains(string $haystack, string $needle): bool
 {
     return strpos($haystack, $needle) !== false;
 }

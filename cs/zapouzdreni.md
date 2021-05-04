@@ -59,11 +59,7 @@ Například mějme objekt reprezentující bankovní účet, na který chceme vk
 ```php
 class BankAccount
 {
-
-    /**
-     * @var int
-     */
-    private $sum;
+    private int $sum;
 
     public function __construct(int $startSum)
     {
@@ -78,7 +74,6 @@ class BankAccount
     public function pay(int $price): void
     {
         $newSum = $this->sum - $price;
-
         if ($newSum < 0) {
             throw new \Exception('Tolik peněz nemáte!');
         }
@@ -90,7 +85,6 @@ class BankAccount
     {
         $this->sum += $money;
     }
-
 }
 ```
 

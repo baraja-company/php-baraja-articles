@@ -33,7 +33,7 @@ Můžeme nastavit 3 parametry:
 Velmi jednoduše si pro vkládání můžeme napsat vlastní funkci:
 
 ```php
-function getQrCode(string $url, int $size = 128, $charset = 'UTF-8'): string
+function getQrCode(string $url, int $size = 128, string $charset = 'UTF-8'): string
 {
     $size = $size < 16 ? 16 : ($size > 2048 ? 2048 : $size);
 

@@ -69,7 +69,8 @@ Běžné formátování Jsonu přes PHP nemá žádné další nastavení a mus�
 Tato funkce umí již základní formátování a stačí ji jen pozměnit:
 
 ```php
-function prettyJsonPrint($json) {
+function prettyJsonPrint(string $json): string
+{
     $result = '';
     $level = 0;
     $in_quotes = false;
@@ -192,7 +193,8 @@ Naformátuje jako:
 To lze implementovat následující funkcí:
 
 ```php
-function jsonColorFormater($json, $indentation = "\t") {
+function jsonColorFormater(string $json, string $indentation = "\t"): string
+{
     $crl = 0;
     $ss = false;
     $buffer = '';
