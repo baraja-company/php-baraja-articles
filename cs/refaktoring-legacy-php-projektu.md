@@ -79,7 +79,7 @@ Kontrolu formátování kódu lze provádět i automaticky, připravil jsem k to
 Jak opravit Coding Style u rozsáhlých projektů
 ----------------------------------------------
 
-U rozsáhlých projektů dopiručuji automatické formátování kódu provádět postupně po modulech, protože si tím můžete v Gitu zařídit ohromné množství konfliktů. Nejlepší strategií proto je jediným velkým commitem opravit co možná nejvíc řádků, tento commit pushnout přímo do masteru a poté distribuovat změnu do ostatních větví.
+U rozsáhlých projektů doporučuji automatické formátování kódu provádět postupně po modulech, protože si tím můžete v Gitu zařídit ohromné množství konfliktů. Nejlepší strategií proto je jediným velkým commitem opravit co možná nejvíc řádků, tento commit pushnout přímo do masteru a poté distribuovat změnu do ostatních větví.
 
 Pokud jsou konflikty příliš velké, dává smysl nejprve zformátovat kód na masteru, a poté ještě jednou v každé velké větvi, kde je hodně změn. Velmi mnoho změněných řádků se mezi sebou vyruší (provede se fast-forward), takže budete řešit jen velmi málo konfliktů, nebo někdy i žádné konflikty.
 
