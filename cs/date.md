@@ -71,6 +71,8 @@ Tabulka povolených formátovacích značek
 | `A`  | Indikátor dopoledne/odpoledne (AM/PM)
 | `a`  | Indikátor dopoledne/odpoledne (am/pm)
 | `P` | Rozdíl oproti Greenwich time (GMT) s oddělovačem mezi hodinami a minutami (přidáno v PHP 5.1.3), například: `+02:00`
+| `g` | Hodina v 12-hodinovém formátu (1-12)
+| `G` | Hodina v 24-hodinovém formátu (0-23)
 
 Formátování času pro sitemapu
 ---------------------------------
