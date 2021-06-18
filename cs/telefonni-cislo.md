@@ -12,6 +12,17 @@ V PHP neexistuje jednoduchý způsob, jak validovat a formátovat telefonní č�
 
 Cílem je zkontrolovat formát telefonního čísla, případně ho převést na základní kanonický tvar (který je vždy validní).
 
+Instalace
+---------
+
+Jednoduše composerem:
+
+```
+$ composer require baraja-core/phone-number
+```
+
+Nebo si balík [Stáhněte na GitHubu](https://github.com/baraja-core/phone-number).
+
 Jak knihovnu použít
 ----------
 
