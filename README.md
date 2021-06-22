@@ -1,7 +1,7 @@
 PHP Manual content
 ==================
 
-Toto je oficiální obsahový repositář webu (php.baraja.cz)[https://php.baraja.cz]. Najdete zde konfigurační soubory, které jsou použity pro statické generování obsahu. Také si můžete přečíst a editovat obsahy všech stránek.
+Toto je oficiální obsahový repositář webu [php.baraja.cz](https://php.baraja.cz). Najdete zde konfigurační soubory, které jsou použity pro statické generování obsahu. Také si můžete přečíst a editovat obsahy všech stránek.
 
 Příspěvky do obsahu
 -------------------
