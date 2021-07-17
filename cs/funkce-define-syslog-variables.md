@@ -22,10 +22,3 @@ Návratové hodnoty
 ----------------
 
 `void`
-
-
-
-Další zdroje
-------------
-
-https://php.net/manual/en/function.define-syslog-variables.php
