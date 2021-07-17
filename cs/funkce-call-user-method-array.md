@@ -27,10 +27,3 @@ Návratové hodnoty
 ----------------
 
 `mixed`
-
-
-
-Další zdroje
-------------
-
-https://php.net/manual/en/function.call-user-method-array.php
