@@ -26,8 +26,3 @@ Návratové hodnoty
 ----------------
 
 Instance objektu `Directory`.
-
-Další zdroje
-------------
-
-https://php.net/manual/en/class.dir.php
