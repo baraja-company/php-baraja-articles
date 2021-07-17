@@ -27,8 +27,3 @@ Návratové hodnoty
 `bool`
 
 true on success or false on failure.
-
-Další zdroje
-------------
-
-https://php.net/manual/en/function.set-magic-quotes-runtime.php
