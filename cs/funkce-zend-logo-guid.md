@@ -21,8 +21,3 @@ Návratové hodnoty
 `string`
 
 PHPE9568F35-D428-11d2-A769-00AA001ACF42.
-
-Další zdroje
-------------
-
-https://php.net/manual/en/function.zend-logo-guid.php
