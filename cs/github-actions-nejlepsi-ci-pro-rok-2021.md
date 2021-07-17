@@ -127,7 +127,7 @@ GitHub na rozdíl od jiných hostingů pro repositáře podporuje tzv. GitHub Ap
 
 Já osobně používám a vám doporučuji:
 
-- [Dependabot](https://github.com/marketplace/dependabot-preview) - automatická kontrola závislostí například v Composeru, když vyjde nová verze balíků, které používáte a je kompatibilní, automaticky pošle pull request
+- [Dependabot](https://dependabot.com) - automatická kontrola závislostí například v Composeru, když vyjde nová verze balíků, které používáte a je kompatibilní, automaticky pošle pull request
 - [Codecov](https://github.com/marketplace/codecov) - kontroluje pokrytí kódu automatickými testy a grafiky vykresluje, které části kódu nebyly ještě pokryty
 - [Snyk](https://github.com/marketplace/snyk) - automatická kontrola bezpečnostních zranitelností
 - [Imgbot](https://github.com/apps/imgbot) - automatická optimalizace datové velikosti obrázků
