@@ -30,8 +30,3 @@ Návratové hodnoty
 `bool`
 
 Returns TRUE on success or FALSE on failure.
-
-Další zdroje
-------------
-
-https://php.net/manual/en/function.set-socket-blocking.php
