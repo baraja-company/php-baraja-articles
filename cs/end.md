@@ -20,11 +20,11 @@ Funkce `end()` nastavuje vnitřní ukazatel array na poslední prvek a vrací je
 Podobné funkce
 --------------------------
 
-- <a href="/current">current()</a>
-- <a href="/each">each()</a>
-- <a href="/prev">prev()</a>
+- `current()`
+- `each()`
+- `prev()`
 - <a href="/reset">reset()</a>
-- <a href="/next">next()</a>
+- `next()`
 
 Příklad
 --------------------------
