@@ -1,7 +1,7 @@
 Složitost algoritmů
 ===================
 
-> id: bbfe35c3-3a8c-4fe5-a9bd-5cff0fc234e0
+> id: f0baa25a-4cff-4d3d-b758-5e03f4a8c69c
 > slug:
 >   cs: slozitost-algoritmu
 > 
