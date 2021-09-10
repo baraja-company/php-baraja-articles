@@ -1,13 +1,13 @@
 PHP Manual content
 ==================
 
-Toto je oficiální obsahový repositář webu [php.baraja.cz](https://php.baraja.cz). Najdete zde konfigurační soubory, které jsou použity pro statické generování obsahu. Také si můžete přečíst a editovat obsahy všech stránek.
+This is the official content repository of the website [php.baraja.cz](https://php.baraja.cz). Here you will find the configuration files that are used for static content generation. You can also read and edit the content of all pages.
 
-Příspěvky do obsahu
--------------------
+Contributions to the content
+----------------------------
 
-Do obsahu webu může každý přispívat. Pokud máte účet na GitHuhu, tak po kliknutí na ikonku tužky (v detailu článku) můžete editovat obsah všech článků a požádat o začlenění změn. Obsah článku je uložen ve formátu markdown. Při editaci dávejte pozor na pravopis a faktickou správnost. Editovat obsah konkrétního článku můžete také kliknutím na tlačítko `Navrhnout změnu` v detailu každého článku přímo na webu.
+Anyone can contribute to the content of the site. If you have a GitHuh account, you can edit the content of all articles and request to incorporate changes by clicking on the pencil icon (in the article details). Article content is saved in markdown format. Please pay attention to spelling and factual accuracy when editing. You can also edit the content of a specific article by clicking the `Suggest Change` button in the details of each article directly on the site.
 
-Většina požadavků o změnu bude chválena nebo zamítnuta do 5 pracovních dnů.
+Most change requests will be approved or rejected within 5 working days.
 
-Děkuji za všechny příspěvky.
+Thank you for all contributions.
