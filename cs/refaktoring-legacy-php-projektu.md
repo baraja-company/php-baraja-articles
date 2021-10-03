@@ -39,7 +39,7 @@ Každý refaktoring je velká sázka, která se nemusí vyplatit.
 
 Vždycky dlouho předtím, než se do refaktoringu pouštím, zajišťuji stabilní prostředí.
 
-Pro stabilitu potřebujete zejména **funkční logování chyb**. Pro jednoduché projekty stačí <a href="https://tracy.nette.org">Tracy</a>, která loguje chyby do HTML souboru. U pokročilejších projektů přichází v úvahu nástroje typu <a href="https://sentry.io">Sentry</a> nebo <a href="https://rollbar.com">Rollbar</a>. Osobně používám Tracy na všech projektech, další nástroje podle typu projektu.
+Pro stabilitu potřebujete zejména **funkční logování chyb**. Pro jednoduché projekty stačí <a href="https://tracy.nette.org">Tracy</a>, která loguje chyby do HTML souboru. U pokročilejších projektů přichází v úvahu nástroje typu <a href="https://sentry.io/welcome/">Sentry</a> nebo <a href="https://rollbar.com">Rollbar</a>. Osobně používám Tracy na všech projektech, další nástroje podle typu projektu.
 
 Zhruba měsíc před refaktoringem začínám sledovat chyby a tvořím si tabulku známých chyb, na které se později zaměřím. Důležité je vždy vědět, které chyby přinesl refaktoring, a které už projekt obsahoval v minulosti. Pomůže to pak lépe obhájit výsledky práce před zadavatelem.
 

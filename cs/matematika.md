@@ -38,7 +38,7 @@ $y = 7.5;
 echo 14.0 - $x - $y; // vypíše 0
 ```
 
-Obecně o této problematice pojednává <a href="http://vtm.e15.cz/proc-pocitacum-delaji-problemy-desetinna-cisla">samostatný článek na webu VTM.e15.cz: Proč počítačům dělají problémy desetinná čísla</a>, případně obecně o <a href="https://cs.wikipedia.org/wiki/Pohyblivá_řádová_čárka">plovoucí řádové čárce na Wikipedii</a>.
+Obecně o této problematice pojednává <a href="https://vtm.zive.cz/clanky/proc-pocitacum-delaji-problemy-desetinna-cisla/sc-870-a-185672/default.aspx">samostatný článek na webu VTM.e15.cz: Proč počítačům dělají problémy desetinná čísla</a>, případně obecně o <a href="https://cs.wikipedia.org/wiki/Pohyblivá_řádová_čárka">plovoucí řádové čárce na Wikipedii</a>.
 
 > Obecně je dobré po výpočtu výsledek zaokrouhlit, nebo se desetinným číslům úplně vyhnout. Například cenu nebudeme ukládat v korunách (jako 14.90), ale v haléřích (jako 1490) a poté s ní pracovat přesně. O zaokrouhlování pojednává další kapitola článku.
 

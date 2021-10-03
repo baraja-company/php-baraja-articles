@@ -48,4 +48,4 @@ Podrobné použití API v PHP
 
 Pokud hledáte podrobné použití cUrlu, doporučuji si přečíst <a href="https://www.php.net/manual/en/book.curl.php">oficiální dokumentaci</a>, která je vždy aktuální.
 
-Pro běžné použití existuje knihovna <a href="https://guzzle.readthedocs.io/en/stable/">**Guzzle**</a>, která řeší
+Pro běžné použití existuje knihovna <a href="https://docs.guzzlephp.org/en/stable/">**Guzzle**</a>, která řeší

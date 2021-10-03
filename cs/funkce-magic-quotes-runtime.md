@@ -19,9 +19,3 @@ Parametry
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
 | `$new_setting` | ??? |  |  |
-
-
-Další zdroje
-------------
-
-https://www.php.net/manual/en/function.magic-quotes-runtime.php

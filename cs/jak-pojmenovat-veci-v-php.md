@@ -4,7 +4,7 @@ Jak pojmenovat proměnné, funkce, metody a třídy
 > id: f70ac75d-422f-4696-88d5-9e1b843e060a
 > slug:
 > 	cs: jak-pojmenovat-veci-v-php
-> 
+>
 > publicationDate: "2019-08-22 20:48:46"
 > mainCategoryId: "0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1"
 
@@ -164,7 +164,7 @@ App\Model;      // Takto se jmenuje obecný model
 App\Model\Math; // Takto se jmenuje model pracující s matematikou
 ```
 
-Pro správně nastavený autoloading tříd je dobré dodržovat <a href="http://jakpsatphp.cz/PSR4/">standard PSR-4</a>.
+Pro správně nastavený autoloading tříd je dobré dodržovat <a href="https://jakpsatphp.cz/PSR4/">standard PSR-4</a>.
 
 Vlastní konvence (třeba ve firemním týmu)
 -----------------------------------------

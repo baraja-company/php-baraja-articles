@@ -4,7 +4,7 @@ Composer - kompletní přehled funkcí pro pokročilé
 > id: a74d8d59-91ce-4602-ad52-80cf89a647bd
 > slug:
 > 	cs: composer
-> 
+>
 > perex: Composer je pokročilý správce balíků a závislostí pro vaše PHP aplikace. Článek popisuje jeho všechny výhody a možnosti použití.
 > publicationDate: "2020-03-10 20:18:19"
 > mainCategoryId: "4f1d7d70-c5b0-45f1-b1d2-d03c22aa4154"
@@ -176,7 +176,7 @@ Velmi často za chybu může nastavení přímo v projektovém `composer.json`, 
 }
 ```
 
-Změnu [musíte provést přímo v souboru](https://stackoverflow.com/a/35538178/9183782). V případě globálního projektu (ještě před instalací nebo při globální závislosti) lze verzi Composeru vnutit příkazem: `composer config -g platform.php 7.2.14` (přepínač `-g` znamená `global`).
+Změnu **musíte provést přímo v souboru**. V případě globálního projektu (ještě před instalací nebo při globální závislosti) lze verzi Composeru vnutit příkazem: `composer config -g platform.php 7.2.14` (přepínač `-g` znamená `global`).
 
 V některých případech chceme nainstalovat nejnovější verze balíků a ignorovat nastavení lokálního prostředí. V takovém případě lze použít pokročilý příkaz:
 
@@ -232,7 +232,7 @@ Zaverzování Vendoru vnímám jako určitou formu "jistoty". Pokud jsou soubory
 Vlastní Composer balíky
 -----------------------
 
-V rámci Composeru můžete vytvářet vlastní balíky, a to buď veřejně dostupné (registrují se na [Packagist](https://packagist.org/)), nebo privátní (musíte mít vlastní balíkový server, například [Satis](https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md)).
+V rámci Composeru můžete vytvářet vlastní balíky, a to buď veřejně dostupné (registrují se na [Packagist](https://packagist.org/)), nebo privátní (musíte mít vlastní balíkový server, například [Satis](https://getcomposer.org/doc/articles/handling-private-packages.md)).
 
 Problematika zakládání, správy, vývoje a verzování balíků je velmi komplexní a vznikne pro to samostný článek.
 

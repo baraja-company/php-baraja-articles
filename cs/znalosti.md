@@ -4,7 +4,7 @@ Přehled znalostí o tvorbě webu
 > id: e5e9613c-66fe-4d5e-a686-a182aab8061a
 > slug:
 > 	cs: znalosti
-> 
+>
 > publicationDate: "2019-09-11 10:07:07"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 
@@ -15,7 +15,7 @@ Správa serveru
 
 > Webový server je počítač, na kterém běží web. Když si uživatel prohlíží stránku, tak mu ji posílá webový server.
 >
-> V současné době (2020) již nemá smysl pořizovat free hosting, pokud to s webem myslíme aspoň trochu vážně. Server lze <a href="https://hosting.wedos.com/cs/webhosting.html?affd=59644">pronajmout již od 30 korun měsíčně</a>.
+> V současné době (2021) již nemá smysl pořizovat free hosting, pokud to s webem myslíme aspoň trochu vážně. Server lze **pronajmout již od 50 korun měsíčně**.
 
 - Instalace serveru (liší se na Windows a Linuxu)
 - Konfigurace serveru

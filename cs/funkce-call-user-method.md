@@ -28,10 +28,3 @@ Návratové hodnoty
 ----------------
 
 `mixed`
-
-
-
-Další zdroje
-------------
-
-https://www.php.net/manual/en/function.call-user-method.php

@@ -4,7 +4,7 @@ PHP online kurz pro začátečníky
 > id: "10ecc1cc-8d49-4882-8ecf-114ad74902df"
 > slug:
 > 	cs: zacatek
-> 
+>
 > perex: "Výuka PHP online, kurz pro začátečníky. Naučíte se programovat v PHP přímo od senior vývojáře."
 > publicationDate: "2020-02-09 14:27:47"
 > mainCategoryId: f4a34087-1b51-4761-8128-4459dfe83d8a
@@ -23,7 +23,7 @@ Do začátku zajistěte tyto věci:
 - Mozek, je to hodně o přemýšlení,
 - Počítač (případně server), kde můžete spouštět vaše scripty,
 - Hodí se znalost matematiky nebo nějakého technického oboru,
-- Vhodné studijní materiály (třeba tento web a <a href="https://php.net">oficiální manuál</a>),
+- Vhodné studijní materiály (třeba tento web a <a href="https://www.php.net">oficiální manuál</a>),
 - Základní znalost HTML a CSS,
 - Hodí se aspoň základní znalost angličtiny (většina materiálů je jenom v angličtině, třeba oficiální manuál a webová fóra),
 - Výhodou je znalost jiného programovacího jazyka (hodně podobné je C/C++, z kterého PHP vychází),
@@ -48,7 +48,11 @@ Základní software
 `Mac:`
 - Na Macu se programuje skvěle, vychází uživateli vstříc.
 - Pro vývoj na MacBooku Pro používám <a href="https://www.jetbrains.com/phpstorm/">PhpStorm</a>, který vnímám jako nejlepší vývojové prostředí, pro úpravu běžných textových souborů zase <a href="https://www.sublimetext.com">Sublime Text</a>, který si výborně poradí s velkými soubory.
-- Server jsem si nainstaloval sám přes **Terminál**, což může být pro začátečníky náročné, ale existuje nástroj <a href="https://www.mamp.info/en/">Mamp</a>, ve kterém zvládnete všechny věci naklikat myší.
+- Server jsem si nainstaloval sám přes **Terminál**, což může být pro začátečníky náročné, ale existuje nástroj **Mamp**, ve kterém zvládnete všechny věci naklikat myší.
+
+`Seniorní doporučení:`
+
+Od roku 2020 se začíná ukazovat, že všechny problémy s provozem PHP a celých aplikací lze snadno vyřešit prostřednictvím Docker kontejnerů. Když se naučíte s Dockerem pracovat, ušetříte stovky hodin v budoucnosti a snadno začleníte nováčky do stávajícího projektu.
 
 Díly seriálu
 ------------

@@ -21,8 +21,3 @@ Návratové hodnoty
 `string`
 
 PHPE9568F34-D428-11d2-A769-00AA001ACF42.
-
-Další zdroje
-------------
-
-https://www.php.net/manual/en/function.php-logo-guid.php
