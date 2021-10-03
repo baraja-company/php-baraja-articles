@@ -4,7 +4,7 @@ Generátor QR kódů - API
 > id: a9b1804f-438b-49fe-86e7-5a1b30a07210
 > slug:
 > 	cs: api-qr-kod
-> 
+>
 > publicationDate: "2019-09-11 10:04:00"
 > mainCategoryId: "8598ac8d-7a70-4e2a-be9a-9f4f9ecee935"
 
@@ -14,10 +14,10 @@ QR kódy lze snadno vygenerovat prostým vložením obrázku na serverech Googlu
 
 Například:
 
-<img src="https://chart.apis.google.com/chart?cht=qr&chs=100x100&choe=UTF-8&chld=H%7C0&chl=https://php.baraja.cz">
+<img src="https://chart.apis.google.com/chart?cht=qr&chs=100x100&choe=UTF-8&chld=H%7C0&chl=https://php.baraja.cz" alt="QR code">
 
 ```html
-<img src="https://chart.apis.google.com/chart?cht=qr&chs=100x100&choe=UTF-8&chld=H%7C0&chl=https://php.baraja.cz">
+<img src="https://chart.apis.google.com/chart?cht=qr&chs=100x100&choe=UTF-8&chld=H%7C0&chl=https://php.baraja.cz" alt="QR code">
 ```
 
 Můžeme nastavit 3 parametry:

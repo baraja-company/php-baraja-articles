@@ -208,7 +208,7 @@ Od 1. ledna 1970 se každou sekundu přičte jednička a tím získáme obrovsk�
 Problém roku 2038
 --------------------------
 
-<h1 id="universalTime" style="background: #222; margin-top: 32px; padding: 32px; color: white; text-align: center; border-radius: 3px;">Načítám...</h1>
+<h2 id="universalTime" style="background: #222; margin-top: 32px; padding: 32px; color: white; text-align: center; border-radius: 3px;">Načítám...</h1>
 
 <script>
 	setInterval(function() {
