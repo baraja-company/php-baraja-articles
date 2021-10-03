@@ -4,7 +4,7 @@ PHP funkce strpos - výskyt podřetězce v řetězci
 > id: "4f7386ff-3ff4-4d62-ac65-97c78ef605e0"
 > slug:
 > 	cs: funkce-strpos
-> 
+>
 > publicationDate: "2019-11-26 11:53:30"
 > mainCategoryId: f1b0be9b-de09-4c8a-8338-dc285bed95ec
 
@@ -67,4 +67,4 @@ Funkce vždy vrátí pozici řetězce jako celé číslo (`int`), nebo hodnotu `
 Další zdroje
 ------------
 
-[Oficiální manuál](https://php.net/manual/en/function.strpos.php)
+[Oficiální manuál](https://www.php.net/manual/en/function.strpos.php)

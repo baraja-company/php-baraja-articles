@@ -4,7 +4,7 @@ PHP funkce money_format()
 > id: eb7649d0-1509-45f6-a35a-33812fe68758
 > slug:
 > 	cs: funkce-money-format
-> 
+>
 > publicationDate: "2019-09-11 10:04:00"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -35,4 +35,4 @@ emitting E_WARNING.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.money-format.php
+https://www.php.net/manual/en/function.money-format.php

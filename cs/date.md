@@ -4,7 +4,7 @@ PHP funkce date(), datum a čas
 > id: "9b0ec1c7-3431-4d7d-9bcc-6093285f14f1"
 > slug:
 > 	cs: date
-> 
+>
 > perex: "Zjištění data a času, aktuální datum, formátování data a času a převod tvaru."
 > publicationDate: "2019-09-11 10:14:16"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
@@ -178,7 +178,7 @@ Protože modifikátor `w` vrací výstup v americkém formátu, tak číslo dne 
 Posuny v čase / převod formátování a validace data
 --------------------------------------------------
 
-Často potřebujeme přeskočit o relativní čas (třeba o + 5 dnů), nebo z textového vstupu uživatele vytáhnout datum tak, aby byl validní. K tomu slouží funkce <a href="https://php.net/manual/en/function.strtotime.php">strtotime()</a>, která povoluje následující syntaxi:
+Často potřebujeme přeskočit o relativní čas (třeba o + 5 dnů), nebo z textového vstupu uživatele vytáhnout datum tak, aby byl validní. K tomu slouží funkce <a href="https://www.php.net/manual/en/function.strtotime.php">strtotime()</a>, která povoluje následující syntaxi:
 
 ```php
 echo strtotime('now');

@@ -4,7 +4,7 @@ PHP funkce php_strip_whitespace()
 > id: "8420ca89-7498-43c2-a4fa-8a7f6aa093cf"
 > slug:
 > 	cs: funkce-php-strip-whitespace
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -38,4 +38,4 @@ prior behavior, see bug report
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.php-strip-whitespace.php
+https://www.php.net/manual/en/function.php-strip-whitespace.php

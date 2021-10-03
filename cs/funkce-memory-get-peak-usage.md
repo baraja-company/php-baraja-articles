@@ -4,7 +4,7 @@ PHP funkce memory_get_peak_usage()
 > id: a3a5f2b2-21e3-4d2e-8c1d-3a8af523b652
 > slug:
 > 	cs: funkce-memory-get-peak-usage
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: ab12b253-41a0-4bf3-9019-956608d7d534
 
@@ -31,4 +31,4 @@ the memory peak in bytes.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.memory-get-peak-usage.php
+https://www.php.net/manual/en/function.memory-get-peak-usage.php

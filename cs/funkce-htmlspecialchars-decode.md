@@ -4,7 +4,7 @@ PHP funkce htmlspecialchars_decode()
 > id: c2fef686-4c02-4698-9963-49d76435cf7f
 > slug:
 > 	cs: funkce-htmlspecialchars-decode
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ the decoded string.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.htmlspecialchars-decode.php
+https://www.php.net/manual/en/function.htmlspecialchars-decode.php

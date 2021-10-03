@@ -4,7 +4,7 @@ PHP funkce header()
 > id: cf7f8ad4-5038-4519-bd1c-712028a494a5
 > slug:
 > 	cs: funkce-header
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -31,4 +31,4 @@ Nevrací nic.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.header.php
+https://www.php.net/manual/en/function.header.php

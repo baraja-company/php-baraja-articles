@@ -4,7 +4,7 @@ PHP funkce fgets()
 > id: e8e2483e-02fc-410b-8e02-f46d73069db0
 > slug:
 > 	cs: funkce-fgets
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -36,4 +36,4 @@ If an error occurs, returns false.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.fgets.php
+https://www.php.net/manual/en/function.fgets.php

@@ -4,7 +4,7 @@ PHP funkce range()
 > id: b8a6d78a-2b24-40c2-96ac-fb1f999ad340
 > slug:
 > 	cs: funkce-range
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -35,4 +35,4 @@ be from high to low.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.range.php
+https://www.php.net/manual/en/function.range.php

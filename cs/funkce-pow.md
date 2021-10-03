@@ -4,7 +4,7 @@ PHP funkce pow()
 > id: d9e40a77-2795-488a-96fb-bbee14075822
 > slug:
 > 	cs: funkce-pow
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -35,4 +35,4 @@ If the power cannot be computed false will be returned instead.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.pow.php
+https://www.php.net/manual/en/function.pow.php

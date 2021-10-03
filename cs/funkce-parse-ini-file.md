@@ -4,7 +4,7 @@ PHP funkce parse_ini_file()
 > id: d58e96e6-670d-422b-8a0d-b255a9d66692
 > slug:
 > 	cs: funkce-parse-ini-file
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -34,4 +34,4 @@ and false on failure.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.parse-ini-file.php
+https://www.php.net/manual/en/function.parse-ini-file.php

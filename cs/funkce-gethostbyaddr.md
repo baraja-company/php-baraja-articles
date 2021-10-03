@@ -4,7 +4,7 @@ PHP funkce gethostbyaddr()
 > id: e2373557-0c48-4c28-93c5-7a5657ccd859
 > slug:
 > 	cs: funkce-gethostbyaddr
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ on failure.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.gethostbyaddr.php
+https://www.php.net/manual/en/function.gethostbyaddr.php

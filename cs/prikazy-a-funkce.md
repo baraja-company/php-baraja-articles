@@ -4,7 +4,7 @@ Příkazy, klíčová slova a funkce v PHP
 > id: "96a00928-4410-479d-ada0-612de21cdacd"
 > slug:
 > 	cs: prikazy-a-funkce
-> 
+>
 > publicationDate: "2019-09-11 10:18:03"
 > mainCategoryId: "6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070"
 
@@ -13,7 +13,7 @@ Každý PHP script se skládá z příkazů a funkcí, dohromady se tomu říká
 Příkazy
 --------------------------
 
-Příkazy (<a href="https://php.net/manual/en/reserved.keywords.php">v angličtině se jim říká **keywords**</a>) jsou již předprogramované části jazyka, jsou rezervované přímo pro svůj účel, můžeme je ihned použít za libovolné situace (nevyžadují další speciální knihovny nebo instalaci) a skládají se z nich základy všech scriptů.
+Příkazy (<a href="https://www.php.net/manual/en/reserved.keywords.php">v angličtině se jim říká **keywords**</a>) jsou již předprogramované části jazyka, jsou rezervované přímo pro svůj účel, můžeme je ihned použít za libovolné situace (nevyžadují další speciální knihovny nebo instalaci) a skládají se z nich základy všech scriptů.
 
 Například <a href="/echo">výpis řetězce do HTML kódu</a>:
 

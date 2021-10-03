@@ -4,7 +4,7 @@ PHP funkce inet_pton()
 > id: "778a69b4-b148-48ae-9e63-f4c3ad47340c"
 > slug:
 > 	cs: funkce-inet-pton
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ address
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.inet-pton.php
+https://www.php.net/manual/en/function.inet-pton.php

@@ -4,7 +4,7 @@ PHP funkce call_user_func_array()
 > id: "1d688393-c5a2-486c-9688-041a6b046eeb"
 > slug:
 > 	cs: funkce-call-user-func-array
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ the function result, or false on error.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.call-user-func-array.php
+https://www.php.net/manual/en/function.call-user-func-array.php

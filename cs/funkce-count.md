@@ -4,7 +4,7 @@ PHP funkce count()
 > id: "5a07a47e-4e88-4d7c-8c1d-d6818aea0d8b"
 > slug:
 > 	cs: funkce-count
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -46,4 +46,4 @@ empty array. Use isset to test if a variable is set.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.count.php
+https://www.php.net/manual/en/function.count.php

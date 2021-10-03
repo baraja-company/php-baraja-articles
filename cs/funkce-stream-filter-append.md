@@ -4,7 +4,7 @@ PHP funkce stream_filter_append()
 > id: "884e9069-ed27-407c-8320-e0aed9a01466"
 > slug:
 > 	cs: funkce-stream-filter-append
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -35,4 +35,4 @@ instance during a call to stream_filter_remove.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.stream-filter-append.php
+https://www.php.net/manual/en/function.stream-filter-append.php

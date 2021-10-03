@@ -4,7 +4,7 @@ PHP funkce setlocale()
 > id: "7b94a46f-a7d9-4e65-80e5-b1b99db5e148"
 > slug:
 > 	cs: funkce-setlocale
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -46,4 +46,4 @@ what the system setlocale function returns.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.setlocale.php
+https://www.php.net/manual/en/function.setlocale.php

@@ -4,7 +4,7 @@ PHP funkce constant()
 > id: cfd5a942-e9ab-45a7-9727-9ec5049b69d4
 > slug:
 > 	cs: funkce-constant
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -80,9 +80,9 @@ Další zdroje
 ------------
 
 
-- https://php.net/manual/en/php-user-filter.filter.php
-- https://php.net/manual/en/php-user-filter.oncreate.php
-- https://php.net/manual/en/php-user-filter.onclose.php
+- https://www.php.net/manual/en/php-user-filter.filter.php
+- https://www.php.net/manual/en/php-user-filter.oncreate.php
+- https://www.php.net/manual/en/php-user-filter.onclose.php
 /
     public function onClose()
     {

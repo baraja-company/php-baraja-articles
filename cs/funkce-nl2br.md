@@ -4,7 +4,7 @@ PHP funkce nl2br()
 > id: cbbf888a-9af2-49b2-984e-2d836b1337be
 > slug:
 > 	cs: funkce-nl2br
-> 
+>
 > publicationDate: "2020-02-16 18:48:19"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -75,4 +75,4 @@ Změny ve verzích
 Další zdroje
 ------------
 
-[Oficiální dokumentace nl2br()](https://php.net/manual/en/function.nl2br.php)
+[Oficiální dokumentace nl2br()](https://www.php.net/manual/en/function.nl2br.php)

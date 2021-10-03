@@ -4,7 +4,7 @@ PHP funkce stream_filter_prepend()
 > id: a9f6d6d8-32ac-4846-a15d-c357f9dc1e26
 > slug:
 > 	cs: funkce-stream-filter-prepend
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -35,4 +35,4 @@ instance during a call to stream_filter_remove.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.stream-filter-prepend.php
+https://www.php.net/manual/en/function.stream-filter-prepend.php

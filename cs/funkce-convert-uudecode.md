@@ -4,7 +4,7 @@ PHP funkce convert_uudecode()
 > id: e16f6ada-d1ca-4fa5-8258-634c380d2220
 > slug:
 > 	cs: funkce-convert-uudecode
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -31,4 +31,4 @@ the decoded data as a string.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.convert-uudecode.php
+https://www.php.net/manual/en/function.convert-uudecode.php

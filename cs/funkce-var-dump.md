@@ -4,7 +4,7 @@ PHP funkce var_dump()
 > id: "3afb12dc-e91f-4126-9f64-e350449e095c"
 > slug:
 > 	cs: funkce-var-dump
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -50,4 +50,4 @@ array(3) {
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.var-dump.php
+https://www.php.net/manual/en/function.var-dump.php

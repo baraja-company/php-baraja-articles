@@ -4,7 +4,7 @@ PHP funkce hebrev()
 > id: e10cefe5-208f-4945-9979-91d7a9a78a67
 > slug:
 > 	cs: funkce-hebrev
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ the visual string.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.hebrev.php
+https://www.php.net/manual/en/function.hebrev.php

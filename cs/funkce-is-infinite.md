@@ -4,7 +4,7 @@ PHP funkce is_infinite()
 > id: fd063735-48fc-421c-be9b-61a7caa704c0
 > slug:
 > 	cs: funkce-is-infinite
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -31,4 +31,4 @@ true if val is infinite, else false.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.is-infinite.php
+https://www.php.net/manual/en/function.is-infinite.php

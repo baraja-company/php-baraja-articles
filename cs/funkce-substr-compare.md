@@ -4,7 +4,7 @@ PHP funkce substr_compare()
 > id: "67b0a6e5-9779-4326-a489-53e114b777a5"
 > slug:
 > 	cs: funkce-substr-compare
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -41,4 +41,4 @@ false.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.substr-compare.php
+https://www.php.net/manual/en/function.substr-compare.php

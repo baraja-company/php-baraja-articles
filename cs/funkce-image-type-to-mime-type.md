@@ -4,7 +4,7 @@ PHP funkce image_type_to_mime_type()
 > id: c02c40df-b44d-43cb-b5ed-9e3350d8bd27
 > slug:
 > 	cs: funkce-image-type-to-mime-type
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -108,4 +108,4 @@ IMAGETYPE_TIFF_MM (motorola byte order)
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.image-type-to-mime-type.php
+https://www.php.net/manual/en/function.image-type-to-mime-type.php

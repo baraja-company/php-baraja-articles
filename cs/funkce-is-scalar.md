@@ -4,7 +4,7 @@ PHP funkce is_scalar()
 > id: b791a763-52ae-429f-bedb-a3c8aec73bb1
 > slug:
 > 	cs: funkce-is-scalar
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "5bf11342-01a0-47e1-a6a8-c8c22bf92af9"
 
@@ -38,4 +38,4 @@ Vrátí `true`, pokud je vstup skalární. V ostatních případech `false`.
 Další zdroje
 ------------
 
-[Oficiální dokumentace](https://php.net/manual/en/function.is-scalar.php)
+[Oficiální dokumentace](https://www.php.net/manual/en/function.is-scalar.php)

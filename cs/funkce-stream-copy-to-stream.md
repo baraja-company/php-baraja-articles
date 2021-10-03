@@ -4,7 +4,7 @@ PHP funkce stream_copy_to_stream()
 > id: "2a32e374-fa9c-4c8a-93dc-3b5eb907cdb5"
 > slug:
 > 	cs: funkce-stream-copy-to-stream
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -34,4 +34,4 @@ the total count of bytes copied.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.stream-copy-to-stream.php
+https://www.php.net/manual/en/function.stream-copy-to-stream.php

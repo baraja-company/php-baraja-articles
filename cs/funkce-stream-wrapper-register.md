@@ -4,7 +4,7 @@ PHP funkce stream_wrapper_register()
 > id: "97f1df5d-d5d6-4cb9-83c2-3b85e7247597"
 > slug:
 > 	cs: funkce-stream-wrapper-register
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -37,4 +37,4 @@ protocol already has a handler.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.stream-wrapper-register.php
+https://www.php.net/manual/en/function.stream-wrapper-register.php

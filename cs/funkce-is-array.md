@@ -4,7 +4,7 @@ PHP funkce is_array()
 > id: "6716d2b6-3914-497c-9ec5-4275b1991d86"
 > slug:
 > 	cs: funkce-is-array
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "5bf11342-01a0-47e1-a6a8-c8c22bf92af9"
 
@@ -32,4 +32,4 @@ false otherwise.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.is-array.php
+https://www.php.net/manual/en/function.is-array.php

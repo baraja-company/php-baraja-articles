@@ -4,7 +4,7 @@ PHP funkce array_walk()
 > id: "9a37b2cc-6123-404b-ad12-8c430cbf1f14"
 > slug:
 > 	cs: funkce-array-walk
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "59874540-664b-4474-9869-7e6742ab6051"
 
@@ -33,4 +33,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.array-walk.php
+https://www.php.net/manual/en/function.array-walk.php

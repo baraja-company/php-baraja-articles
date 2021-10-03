@@ -4,7 +4,7 @@ PHP funkce explode()
 > id: a1ea6a22-7673-4cac-8624-1aa48194bf8b
 > slug:
 > 	cs: funkce-explode
-> 
+>
 > perex: Rozdělení řetězce na více částí podle oddělovače.
 > publicationDate: "2019-09-11 10:59:21"
 > mainCategoryId: f1b0be9b-de09-4c8a-8338-dc285bed95ec
@@ -45,4 +45,4 @@ foreach ($items as $item) {
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.explode.php
+https://www.php.net/manual/en/function.explode.php

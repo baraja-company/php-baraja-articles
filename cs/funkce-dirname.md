@@ -4,7 +4,7 @@ PHP funkce dirname()
 > id: "5e3cd7db-939c-4a11-a7c7-f87faaf92b77"
 > slug:
 > 	cs: funkce-dirname
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -36,4 +36,4 @@ path with any trailing
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.dirname.php
+https://www.php.net/manual/en/function.dirname.php

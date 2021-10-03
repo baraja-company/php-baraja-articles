@@ -4,7 +4,7 @@ PHP funkce ini_get_all()
 > id: "4276139a-34ff-4e6b-b504-8a44cbbe4e73"
 > slug:
 > 	cs: funkce-ini-get-all
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -51,4 +51,4 @@ why access shows the appropriate bitmask values.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.ini-get-all.php
+https://www.php.net/manual/en/function.ini-get-all.php

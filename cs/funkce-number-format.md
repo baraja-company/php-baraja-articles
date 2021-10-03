@@ -4,7 +4,7 @@ PHP funkce number_format()
 > id: "8e1bd6cc-f9dc-4292-b6f2-e25ebaddc8af"
 > slug:
 > 	cs: funkce-number-format
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -34,4 +34,4 @@ A formatted version of number.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.number-format.php
+https://www.php.net/manual/en/function.number-format.php

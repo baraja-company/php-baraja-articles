@@ -4,7 +4,7 @@ PHP funkce strnatcasecmp()
 > id: c25a49d0-e60d-40b7-b346-e4a11bacea28
 > slug:
 > 	cs: funkce-strnatcasecmp
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -35,4 +35,4 @@ str2, and 0 if they are equal.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.strnatcasecmp.php
+https://www.php.net/manual/en/function.strnatcasecmp.php

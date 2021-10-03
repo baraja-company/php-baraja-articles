@@ -4,7 +4,7 @@ PHP funkce phpversion()
 > id: "9f5d1018-f604-453c-91f3-062e8d9c32b3"
 > slug:
 > 	cs: funkce-phpversion
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -34,4 +34,4 @@ the extension isn't enabled.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.phpversion.php
+https://www.php.net/manual/en/function.phpversion.php

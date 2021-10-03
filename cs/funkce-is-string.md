@@ -4,7 +4,7 @@ PHP funkce is_string()
 > id: "30c2afb3-b78a-4618-adae-5c1cc75b31d1"
 > slug:
 > 	cs: funkce-is-string
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "5bf11342-01a0-47e1-a6a8-c8c22bf92af9"
 
@@ -32,4 +32,4 @@ false otherwise.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.is-string.php
+https://www.php.net/manual/en/function.is-string.php

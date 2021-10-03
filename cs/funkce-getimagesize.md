@@ -4,7 +4,7 @@ PHP funkce getimagesize - velikost obrázku
 > id: "9cfd63c7-a928-4640-9f13-5deccf73c7f2"
 > slug:
 > 	cs: funkce-getimagesize
-> 
+>
 > publicationDate: "2019-11-26 11:56:18"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -71,4 +71,4 @@ On failure, false is returned.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.getimagesize.php
+https://www.php.net/manual/en/function.getimagesize.php

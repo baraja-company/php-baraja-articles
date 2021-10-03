@@ -4,7 +4,7 @@ cURL v PHP - stahování dat přes URL
 > id: "0bd1aed6-460d-4b63-9afe-f5087d1c6046"
 > slug:
 > 	cs: curl
-> 
+>
 > perex: Knihovna cURL je robustní PHP knihovna pro pokročilou HTTP komunikaci.
 > publicationDate: "2020-02-15 22:14:32"
 > mainCategoryId: "02d93aa8-ed83-460a-ab97-4de21118f019"
@@ -46,6 +46,6 @@ Výhodou jsou pak mnohem lépe očištěná data. Uživateli v prohlížeči zob
 Podrobné použití API v PHP
 --------------------------
 
-Pokud hledáte podrobné použití cUrlu, doporučuji si přečíst <a href="https://php.net/manual/en/book.curl.php">oficiální dokumentaci</a>, která je vždy aktuální.
+Pokud hledáte podrobné použití cUrlu, doporučuji si přečíst <a href="https://www.php.net/manual/en/book.curl.php">oficiální dokumentaci</a>, která je vždy aktuální.
 
 Pro běžné použití existuje knihovna <a href="https://guzzle.readthedocs.io/en/stable/">**Guzzle**</a>, která řeší

@@ -4,7 +4,7 @@ PHP funkce socket_set_timeout()
 > id: "3afe8aaf-5ad8-4929-b0ef-ab8ac6d66328"
 > slug:
 > 	cs: funkce-socket-set-timeout
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -34,4 +34,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.socket-set-timeout.php
+https://www.php.net/manual/en/function.socket-set-timeout.php

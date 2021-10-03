@@ -4,7 +4,7 @@ PHP funkce uasort()
 > id: "37101595-dc1f-4502-a610-044aa02abcd9"
 > slug:
 > 	cs: funkce-uasort
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.uasort.php
+https://www.php.net/manual/en/function.uasort.php

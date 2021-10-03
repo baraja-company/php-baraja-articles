@@ -4,7 +4,7 @@ PHP funkce get_resources()
 > id: a3b44e91-1d53-40e5-84cb-8815dc58b2f9
 > slug:
 > 	cs: funkce-get-resources
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -31,4 +31,4 @@ Returns an array of currently active resources, indexed by resource number.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.get-resources.php
+https://www.php.net/manual/en/function.get-resources.php

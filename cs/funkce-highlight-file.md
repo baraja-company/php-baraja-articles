@@ -4,7 +4,7 @@ PHP funkce highlight_file()
 > id: "4f004290-2dfa-46a4-8075-4fd318714de4"
 > slug:
 > 	cs: funkce-highlight-file
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -34,4 +34,4 @@ true on success, false on failure.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.highlight-file.php
+https://www.php.net/manual/en/function.highlight-file.php

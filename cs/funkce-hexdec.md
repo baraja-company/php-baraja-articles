@@ -4,7 +4,7 @@ PHP funkce hexdec()
 > id: "40915730-1068-45e2-84ec-146edba4af66"
 > slug:
 > 	cs: funkce-hexdec
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -31,4 +31,4 @@ The decimal representation of hex_string
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.hexdec.php
+https://www.php.net/manual/en/function.hexdec.php

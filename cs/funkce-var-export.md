@@ -4,7 +4,7 @@ PHP funkce var_export()
 > id: "162ded4a-1246-4bd0-b710-2ff64bfb16e1"
 > slug:
 > 	cs: funkce-var-export
-> 
+>
 > publicationDate: "2019-10-07 10:28:27"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -118,5 +118,5 @@ Další příklady jsou v [oficiální dokumentaci](https://doc.nette.org/cs/3.0
 Další zdroje
 ------------
 
-- [Oficiální manuál pro var_export](https://php.net/manual/en/function.var-export.php)
+- [Oficiální manuál pro var_export](https://www.php.net/manual/en/function.var-export.php)
 - [Česká dokumentace pro Php Generator](https://doc.nette.org/cs/3.0/php-generator)

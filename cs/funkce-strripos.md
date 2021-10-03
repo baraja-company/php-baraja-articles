@@ -4,7 +4,7 @@ PHP funkce strripos()
 > id: "99f63413-4594-4a2d-8cc2-dc78e5622534"
 > slug:
 > 	cs: funkce-strripos
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -38,4 +38,4 @@ If needle is not found, false is returned.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.strripos.php
+https://www.php.net/manual/en/function.strripos.php

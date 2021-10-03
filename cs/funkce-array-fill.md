@@ -4,7 +4,7 @@ PHP funkce array_fill()
 > id: "34a66077-e36f-4a30-8f20-ab6d83723326"
 > slug:
 > 	cs: funkce-array-fill
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "59874540-664b-4474-9869-7e6742ab6051"
 
@@ -33,4 +33,4 @@ the filled array
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.array-fill.php
+https://www.php.net/manual/en/function.array-fill.php

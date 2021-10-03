@@ -4,7 +4,7 @@ PHP funkce basename()
 > id: "15963179-1fea-461e-996a-45d1bd83ac45"
 > slug:
 > 	cs: funkce-basename
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ the base name of the given path.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.basename.php
+https://www.php.net/manual/en/function.basename.php

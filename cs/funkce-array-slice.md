@@ -4,7 +4,7 @@ PHP funkce array_slice()
 > id: df678ab7-3929-4833-9223-0afdca5f94d9
 > slug:
 > 	cs: funkce-array-slice
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "59874540-664b-4474-9869-7e6742ab6051"
 
@@ -34,4 +34,4 @@ the slice.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.array-slice.php
+https://www.php.net/manual/en/function.array-slice.php

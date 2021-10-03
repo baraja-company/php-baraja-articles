@@ -4,7 +4,7 @@ PHP funkce sha1()
 > id: c78c5fb5-5ab4-4fac-b044-995d3306aaef
 > slug:
 > 	cs: funkce-sha1
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ the sha1 hash as a string.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.sha1.php
+https://www.php.net/manual/en/function.sha1.php

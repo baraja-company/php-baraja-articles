@@ -4,7 +4,7 @@ PHP funkce parse_ini_string()
 > id: "82a91c92-38e8-4a37-a4b4-26f52755f240"
 > slug:
 > 	cs: funkce-parse-ini-string
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -34,4 +34,4 @@ and false on failure.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.parse-ini-string.php
+https://www.php.net/manual/en/function.parse-ini-string.php

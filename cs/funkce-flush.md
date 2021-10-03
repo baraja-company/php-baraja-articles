@@ -4,7 +4,7 @@ PHP funkce flush()
 > id: b50e6f75-4d38-49f9-b5f0-34a30278fe10
 > slug:
 > 	cs: funkce-flush
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -28,4 +28,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.flush.php
+https://www.php.net/manual/en/function.flush.php

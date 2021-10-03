@@ -4,7 +4,7 @@ PHP funkce is_nan()
 > id: "77492df2-91d0-4d66-98e1-c2d02587520b"
 > slug:
 > 	cs: funkce-is-nan
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ else false.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.is-nan.php
+https://www.php.net/manual/en/function.is-nan.php

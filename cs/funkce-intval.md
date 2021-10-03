@@ -4,7 +4,7 @@ PHP funkce intval()
 > id: "870a74d9-8dce-4897-8b14-ea35732e4f12"
 > slug:
 > 	cs: funkce-intval
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -53,4 +53,4 @@ apply.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.intval.php
+https://www.php.net/manual/en/function.intval.php

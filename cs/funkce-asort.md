@@ -4,7 +4,7 @@ PHP funkce asort()
 > id: "5476f43a-a1d4-4475-a04e-b6269665d82f"
 > slug:
 > 	cs: funkce-asort
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.asort.php
+https://www.php.net/manual/en/function.asort.php

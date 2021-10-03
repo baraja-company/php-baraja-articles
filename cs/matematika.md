@@ -4,7 +4,7 @@ Matematika v PHP
 > id: "69a432ee-7635-46e2-bb21-8492cb62c4e6"
 > slug:
 > 	cs: matematika
-> 
+>
 > perex: "Matematika a matematické funkce v PHP. Definice čísel, operátorů a vhodné typy pro výpočty a ukládání čísel."
 > publicationDate: "2020-02-16 18:24:10"
 > mainCategoryId: c2134b23-9b10-46b3-aa54-e3996707255e
@@ -181,7 +181,7 @@ Podrobnosti si přečtěte v samostatném článku <a href="/pokrocila-kalkulack
 Operace s velkými čísly a přesnost výpočtů
 ------------------------------------------
 
-Velká čísla a desetinná čísla se v PHP ukládají jako float, navíc se zaokrouhlují přibližně na 15 desetinných míst, což může být někdy nepříjemné. Proto vznikla knihovna **<a href="https://php.net/manual/en/book.bc.php">BCMath Arbitrary Precision Mathematics</a>**.
+Velká čísla a desetinná čísla se v PHP ukládají jako float, navíc se zaokrouhlují přibližně na 15 desetinných míst, což může být někdy nepříjemné. Proto vznikla knihovna **<a href="https://www.php.net/manual/en/book.bc.php">BCMath Arbitrary Precision Mathematics</a>**.
 
 Čísla se v této knihovně reprezentují jako **string**, proto nejsou limitovány nepřesností **floatu**, nicméně prováděné operace jsou o několik řádů pomalejší (ale stále jde o rychlejší způsob, než kdybychom si takovou funkci naprogramovali sami).
 

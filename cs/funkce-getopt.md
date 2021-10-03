@@ -4,7 +4,7 @@ PHP funkce getopt()
 > id: "395c12a9-688f-436c-9dbd-95612e36b28e"
 > slug:
 > 	cs: funkce-getopt
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -34,4 +34,4 @@ failure.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.getopt.php
+https://www.php.net/manual/en/function.getopt.php

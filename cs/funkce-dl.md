@@ -4,7 +4,7 @@ PHP funkce dl()
 > id: f25b7380-37f0-4e45-8df8-ecfa6df64415
 > slug:
 > 	cs: funkce-dl
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -34,4 +34,4 @@ specified library couldn't be loaded, in addition to <b>FALSE</b> an
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.dl.php
+https://www.php.net/manual/en/function.dl.php

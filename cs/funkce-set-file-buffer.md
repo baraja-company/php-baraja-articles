@@ -4,7 +4,7 @@ PHP funkce set_file_buffer()
 > id: "4da411ce-7a76-418a-97cf-e4f221863b8b"
 > slug:
 > 	cs: funkce-set-file-buffer
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -36,4 +36,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.set-file-buffer.php
+https://www.php.net/manual/en/function.set-file-buffer.php

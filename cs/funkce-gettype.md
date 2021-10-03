@@ -4,7 +4,7 @@ PHP funkce gettype()
 > id: ea1107b4-1a9f-497f-8e75-9e17ce4ca4c4
 > slug:
 > 	cs: funkce-gettype
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -42,4 +42,4 @@ Vrací jednu z těchto možností:
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.gettype.php
+https://www.php.net/manual/en/function.gettype.php

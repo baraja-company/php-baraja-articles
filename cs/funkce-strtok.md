@@ -4,7 +4,7 @@ PHP funkce strtok()
 > id: c76927b3-7df7-4fc2-86d2-a11d72cdd863
 > slug:
 > 	cs: funkce-strtok
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -37,4 +37,4 @@ A string token.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.strtok.php
+https://www.php.net/manual/en/function.strtok.php

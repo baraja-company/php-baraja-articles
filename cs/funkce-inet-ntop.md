@@ -4,7 +4,7 @@ PHP funkce inet_ntop()
 > id: "5fbd9ea5-910a-40ff-acf3-8906ee44b9a3"
 > slug:
 > 	cs: funkce-inet-ntop
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.inet-ntop.php
+https://www.php.net/manual/en/function.inet-ntop.php

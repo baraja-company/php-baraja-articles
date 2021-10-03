@@ -4,7 +4,7 @@ PHP funkce is_float()
 > id: "033fd8e2-24b3-44c1-bed1-cfb847743460"
 > slug:
 > 	cs: funkce-is-float
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "5bf11342-01a0-47e1-a6a8-c8c22bf92af9"
 
@@ -32,4 +32,4 @@ Vrátí `true`, pokud je `float`. Jinak `false`
 Další zdroje
 ------------
 
-[Oficiální manuál](https://php.net/manual/en/function.is-float.php)
+[Oficiální manuál](https://www.php.net/manual/en/function.is-float.php)

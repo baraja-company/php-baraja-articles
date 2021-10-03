@@ -4,7 +4,7 @@ PHP funkce serialize()
 > id: bfb18be6-3d30-432f-a55e-66f1f771fcef
 > slug:
 > 	cs: funkce-serialize
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ value that can be stored anywhere.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.serialize.php
+https://www.php.net/manual/en/function.serialize.php

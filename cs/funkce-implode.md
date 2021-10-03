@@ -4,7 +4,7 @@ PHP funkce implode()
 > id: e69cb651-79da-43ec-81fb-11afa2a19c77
 > slug:
 > 	cs: funkce-implode
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -33,4 +33,4 @@ elements in the same order, with the glue string between each element.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.implode.php
+https://www.php.net/manual/en/function.implode.php

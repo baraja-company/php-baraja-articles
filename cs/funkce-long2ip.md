@@ -4,7 +4,7 @@ PHP funkce long2ip()
 > id: b83f5923-4633-4ea9-81a0-4f1018d6c843
 > slug:
 > 	cs: funkce-long2ip
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -31,4 +31,4 @@ the Internet IP address as a string.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.long2ip.php
+https://www.php.net/manual/en/function.long2ip.php

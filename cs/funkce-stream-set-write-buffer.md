@@ -4,7 +4,7 @@ PHP funkce stream_set_write_buffer()
 > id: f59b327a-3bb0-40bc-b9fb-8a8d1c5dcda0
 > slug:
 > 	cs: funkce-stream-set-write-buffer
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.stream-set-write-buffer.php
+https://www.php.net/manual/en/function.stream-set-write-buffer.php

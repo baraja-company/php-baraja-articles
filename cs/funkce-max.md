@@ -4,7 +4,7 @@ PHP funkce max()
 > id: d8900b9a-e9c4-42bb-a5dc-a7337eea7cb7
 > slug:
 > 	cs: funkce-max
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -37,4 +37,4 @@ max([1, 5, 3, 6, 2, 4]); // vrátí 6
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.max.php
+https://www.php.net/manual/en/function.max.php

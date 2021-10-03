@@ -4,7 +4,7 @@ PHP funkce stream_select()
 > id: "5dd24afa-fcf3-4ce5-8ee4-f8267d7efb02"
 > slug:
 > 	cs: funkce-stream-select
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -40,4 +40,4 @@ interrupted by an incoming signal).
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.stream-select.php
+https://www.php.net/manual/en/function.stream-select.php

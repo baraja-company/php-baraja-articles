@@ -4,7 +4,7 @@ PHP funkce scandir()
 > id: c4da3f63-82a0-424c-90d8-eecd1e5577d2
 > slug:
 > 	cs: funkce-scandir
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -36,4 +36,4 @@ E_WARNING is generated.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.scandir.php
+https://www.php.net/manual/en/function.scandir.php

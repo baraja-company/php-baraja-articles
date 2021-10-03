@@ -4,7 +4,7 @@ PHP funkce ini_alter()
 > id: "9dc051d2-c783-4f78-b159-451b15bc94f3"
 > slug:
 > 	cs: funkce-ini-alter
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -25,4 +25,4 @@ Parametry
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.ini-alter.php
+https://www.php.net/manual/en/function.ini-alter.php

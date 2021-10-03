@@ -4,7 +4,7 @@ PHP funkce getlastmod()
 > id: c474fb13-78bf-4646-b1ce-c823932eb47e
 > slug:
 > 	cs: funkce-getlastmod
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -30,4 +30,4 @@ feeding to date. Returns false on error.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.getlastmod.php
+https://www.php.net/manual/en/function.getlastmod.php

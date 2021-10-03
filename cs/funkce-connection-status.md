@@ -4,7 +4,7 @@ PHP funkce connection_status()
 > id: fd79f980-3995-4e21-8c63-25d0590f8df0
 > slug:
 > 	cs: funkce-connection-status
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -30,4 +30,4 @@ status.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.connection-status.php
+https://www.php.net/manual/en/function.connection-status.php

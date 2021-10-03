@@ -4,7 +4,7 @@ PHP funkce strrpos()
 > id: c2d989c9-94bc-4f21-838a-b9465065d4a9
 > slug:
 > 	cs: funkce-strrpos
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -41,4 +41,4 @@ Returns <b>FALSE</b> if the needle was not found.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.strrpos.php
+https://www.php.net/manual/en/function.strrpos.php

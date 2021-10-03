@@ -4,7 +4,7 @@ PHP funkce is_callable()
 > id: f5195404-44c1-455d-85a0-31f75c3a5103
 > slug:
 > 	cs: funkce-is-callable
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -34,4 +34,4 @@ otherwise.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.is-callable.php
+https://www.php.net/manual/en/function.is-callable.php

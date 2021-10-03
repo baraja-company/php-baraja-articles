@@ -4,7 +4,7 @@ PHP funkce openlog()
 > id: ba2edc19-0df8-4eef-b8df-b8a0bb8aa9f1
 > slug:
 > 	cs: funkce-openlog
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -70,4 +70,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-[Oficiální dokumentace PHP.net](https://php.net/manual/en/function.openlog.php)
+[Oficiální dokumentace PHP.net](https://www.php.net/manual/en/function.openlog.php)

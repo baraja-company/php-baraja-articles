@@ -4,7 +4,7 @@ PHP funkce array_splice()
 > id: "733af217-e55b-4fa4-a1d1-19a7b21f3ce9"
 > slug:
 > 	cs: funkce-array-splice
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "59874540-664b-4474-9869-7e6742ab6051"
 
@@ -34,4 +34,4 @@ the array consisting of the extracted elements.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.array-splice.php
+https://www.php.net/manual/en/function.array-splice.php

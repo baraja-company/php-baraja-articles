@@ -4,7 +4,7 @@ PHP funkce in_array()
 > id: "5ac6d514-0da6-4951-8a33-14042b2f4a10"
 > slug:
 > 	cs: funkce-in-array
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ Vrátí `true`, pokud je prvek v poli obsažen, jinak `false.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.in-array.php
+https://www.php.net/manual/en/function.in-array.php

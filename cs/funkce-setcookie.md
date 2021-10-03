@@ -4,7 +4,7 @@ PHP funkce setcookie()
 > id: f3d57a13-921b-4d45-b2ac-8dbd44cf1a89
 > slug:
 > 	cs: funkce-setcookie
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -40,4 +40,4 @@ This does not indicate whether the user accepted the cookie.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.setcookie.php
+https://www.php.net/manual/en/function.setcookie.php

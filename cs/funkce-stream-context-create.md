@@ -4,7 +4,7 @@ PHP funkce stream_context_create()
 > id: "813becd1-4e37-4294-8481-c40d23cf40fb"
 > slug:
 > 	cs: funkce-stream-context-create
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -32,4 +32,4 @@ A stream context resource.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.stream-context-create.php
+https://www.php.net/manual/en/function.stream-context-create.php

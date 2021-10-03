@@ -4,7 +4,7 @@ PHP funkce fsockopen()
 > id: "42b0b00e-f3ce-48bd-960d-c269dd41b700"
 > slug:
 > 	cs: funkce-fsockopen
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -39,4 +39,4 @@ feof). If the call fails, it will return false
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.fsockopen.php
+https://www.php.net/manual/en/function.fsockopen.php

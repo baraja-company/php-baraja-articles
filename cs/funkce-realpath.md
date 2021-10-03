@@ -4,7 +4,7 @@ PHP funkce realpath()
 > id: "28a7eaf9-5c2e-4933-b701-5637ea0857ab"
 > slug:
 > 	cs: funkce-realpath
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -36,4 +36,4 @@ the file does not exist.
 Další zdroje
 ------------
 
-https://php.net/manual/en/function.realpath.php
+https://www.php.net/manual/en/function.realpath.php
