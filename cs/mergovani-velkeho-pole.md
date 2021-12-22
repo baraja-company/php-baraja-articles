@@ -58,8 +58,10 @@ $finalIds = call_user_func_array('array_merge', $finalIds + [[]]);
 /* PHP 5.6+ a novější */
 $finalIds = array_merge([], ...$finalIds);
 
-/* PHP 7.4+ a novější */
+/* PHP 7.4+ a novější pro neprázdné pole */
 $finalIds = array_merge(...$finalIds);
 ```
 
 Zejména řešení `array_merge(...$finalIds)` vypadá velmi zajímavě, protože využívá nového konceptu PHP 7, kdy lze předat dynamický počet argumentů do funkce pomocí znaku trojtečky na začátku. Proces mergování je pak maximálně efektivní a celou logiku si vyřeší PHP uvnitř automaticky.
+
+Zkrácený zápis `array_merge(...$finalIds)` lze použít jen pro neprázdné pole. Pokud jde o prázdné pole, do funkce se nepředává žádný argument a funkce vyhazuje chybu `Function array_merge invoked with 0 parameters, at least 1 required.`.
