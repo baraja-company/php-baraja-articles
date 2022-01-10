@@ -52,6 +52,15 @@
 	parentId: "2b04fefe-ea65-49d4-8505-8b385cac0bed"
 
 -
+	id: "483db7b7-5699-41fb-ba0b-d2b653bacd1f"
+	name: Zkušenosti z praxe
+	description:
+		"""
+			Zkušenosti s programováním a webovým vývojem sbírám od roku 2009. Tato sekce obsahuje články a popisy různých situací, které v praxi zažívám. Věřím, že pro vás mohou být užitečné.
+		"""
+	parentId: "2b04fefe-ea65-49d4-8505-8b385cac0bed"
+
+-
 	id: "28a2aef7-7490-43a9-add7-80d8a051f8a9"
 	name: Testy
 	description: null
