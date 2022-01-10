@@ -12,7 +12,8 @@ Za upřímnost se platí vysoká daň.
 
 Tento web byl vždycky popisem reality, kterou lidé v IT zažívají, proto bych se rád podíval na mojí zkušenost při spolupráci ve vývojových týmech. V textu jsou uvedeny obecné zkušenosti, které jsem zažil napříč firmami. Žádná zkušenost není spojena s jednou konkrétní firmou a neslouží nutně ani jako kritika.
 
-1. Firmy snaživé a proaktivní lidi spíše nechtějí.
+Firmy snaživé a proaktivní lidi spíše nechtějí
+----------------------------------------------
 
 Máš spoustu nápadů? Chceš inovovat? Baví tě hledat elegantní řešení složitých problémů, které tvůj tým řeší a trápí půlku firmy? Uvědomuješ si, že je důležitá bezpečnost, návrh softwaru a hledání úzkého hrdla projektu?
 
@@ -25,7 +26,8 @@ Právě týmovost je něco, s čím poslední dobou hodně zápasím - teda konk
 
 Lidé jako já jsou totiž potenciálním zdrojem problémů a konfliktů. Je hustý si to takhle uvědomit.
 
-2. Při codereview hlaš jen objektivní chyby
+Při codereview hlaš jen objektivní chyby
+----------------------------------------
 
 Každá firma má svoje codestyle pravidla. Bohužel. Ze začátku mě to tak štvalo.
 
@@ -43,7 +45,8 @@ Chybějící datové typy (i složené) jsem vždycky považoval za kritickou ch
 
 K této části nemám asi žádný konkrétní závěr. Mám k němu jen spoustu subjektivních připomínek, které jsou spíše zdrojem vzájemného nepochopení, tak je nebudu psát. Dlouhodobě se přikláním k závěru, že codereview dělat neumím - buď jsem moc přísný, nebo moc benevolentní. Neumím na obecné rovině poznat, na čem skutečně záleží a co není až tak důležité. Docela by mě zajímalo, jak to dělají ostatní lidé. Nikdo mi na to ještě nedokázal odpovědět tak, abych to taky uměl používat.
 
-3. V zakázkovém vývoji nejsou prachy
+V zakázkovém vývoji nejsou prachy
+---------------------------------
 
 Máte agenturu a děláte weby na zakázku? Pokud nejste dostatečně velcí a neděláte velké projekty pro jiné korporace, pravděpodobně jednoho dne nebudete existovat.
 
@@ -59,7 +62,8 @@ Ale zase se toho hodně naučíte. Protože jenom pod tlakem máte velký tlak n
 
 Naštěstí jde v tomto případě o příběh z roku 2019 a je to už daleko.
 
-4. Ideální svět nikdy nebude
+Ideální svět nikdy nebude
+-------------------------
 
 Jestli dělám, co mě baví? A ty snad jo? :D
 
