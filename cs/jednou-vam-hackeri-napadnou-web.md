@@ -1,7 +1,7 @@
 Jednou vám hackeři napadnou web
 ===============================
 
-> id: "9309b0f2-0265-43aa-a9c3-10b2d486cdfc"
+> id: "a11ca0a6-77e1-4ba4-8eca-83449c9cbf48"
 > slug:
 > 	cs: jednou-vam-hackeri-napadnou-web
 > 
