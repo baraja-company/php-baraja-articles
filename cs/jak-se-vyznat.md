@@ -18,6 +18,22 @@ Abyste proto nemuseli nad kódem stále přemýšlet a dobře se v něm orientov
 >
 > V reálném vývoji se tajké ukazuje, že jednotné formátování kódu a obecně zavedení pravidel předchází celé řadě chyb.
 
+TL;DR
+-----
+
+Čitelnost kódu často souvisí s jeho formátováním a pravidly zápisu.
+
+V rámci vývojových týmů dává smysl zavést formální pravidla, jak budeme kód formátovat a dále spravovat.
+
+Osobně používám (v roce 2022) coding standard pro Nette framework a pravidla se vyhodnocují automaticky v každém commitu. Více informací je ve článku o [použití GitHub CI](https://php.baraja.cz/github-actions-nejlepsi-ci-pro-rok-2021#hotove-priklady).
+
+Instalace coding standard testu a jeho spuštění uděláte dvojicí příkazů:
+
+```shell
+composer create-project nette/coding-standard temp/coding-standard ^3 --no-progress --ignore-platform-reqs
+php temp/coding-standard/ecs check src
+```
+
 Poznámky v kódu
 ---------------
 
