@@ -201,6 +201,12 @@
 	parentId: "1f73dcfa-92a9-4738-ab30-8cbfb00ad23b"
 
 -
+	id: 367f936c-073f-44bd-b399-30738e93137a
+	name: Algoritmus internetového vyhledávače
+	description: "Na internetu každou sekundu přibyde 5 milionů nových stránek a tato rychlost se neustále zvyšuje. Tento seriál popíše metody, jak v informacích vyhledávat."
+	parentId: "1f73dcfa-92a9-4738-ab30-8cbfb00ad23b"
+
+-
 	id: c241de47-8e01-4d93-bebd-db71ada44cc3
 	name: Úvod do problematiky
 	description: null
