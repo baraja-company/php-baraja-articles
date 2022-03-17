@@ -31,4 +31,4 @@ the description, as a string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.php-uname.php
+[Oficiální dokumentace funkce php-uname](https://www.php.net/manual/en/function.php-uname.php)

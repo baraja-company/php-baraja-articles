@@ -32,4 +32,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-set-write-buffer.php
+[Oficiální dokumentace funkce stream-set-write-buffer](https://www.php.net/manual/en/function.stream-set-write-buffer.php)

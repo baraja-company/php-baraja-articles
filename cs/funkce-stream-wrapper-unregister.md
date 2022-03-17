@@ -31,4 +31,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-wrapper-unregister.php
+[Oficiální dokumentace funkce stream-wrapper-unregister](https://www.php.net/manual/en/function.stream-wrapper-unregister.php)

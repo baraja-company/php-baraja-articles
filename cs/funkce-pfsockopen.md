@@ -35,4 +35,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.pfsockopen.php
+[Oficiální dokumentace funkce pfsockopen](https://www.php.net/manual/en/function.pfsockopen.php)

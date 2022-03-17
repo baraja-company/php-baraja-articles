@@ -34,4 +34,4 @@ natural logarithm.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.log.php
+[Oficiální dokumentace funkce log](https://www.php.net/manual/en/function.log.php)

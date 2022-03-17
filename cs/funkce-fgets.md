@@ -36,4 +36,4 @@ If an error occurs, returns false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fgets.php
+[Oficiální dokumentace funkce fgets](https://www.php.net/manual/en/function.fgets.php)

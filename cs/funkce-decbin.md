@@ -31,4 +31,4 @@ Binary string representation of number
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.decbin.php
+[Oficiální dokumentace funkce decbin](https://www.php.net/manual/en/function.decbin.php)

@@ -35,4 +35,4 @@ usually bigger than that of integer.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ceil.php
+[Oficiální dokumentace funkce ceil](https://www.php.net/manual/en/function.ceil.php)

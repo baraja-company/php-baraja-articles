@@ -32,4 +32,4 @@ the decoded string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.htmlspecialchars-decode.php
+[Oficiální dokumentace funkce htmlspecialchars-decode](https://www.php.net/manual/en/function.htmlspecialchars-decode.php)

@@ -32,4 +32,4 @@ call. All entries are accessible by using their documented field names.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.getrusage.php
+[Oficiální dokumentace funkce getrusage](https://www.php.net/manual/en/function.getrusage.php)

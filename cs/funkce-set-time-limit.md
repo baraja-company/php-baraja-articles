@@ -31,4 +31,4 @@ Returns TRUE on success, or FALSE on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.set-time-limit.php
+[Oficiální dokumentace funkce set-time-limit](https://www.php.net/manual/en/function.set-time-limit.php)

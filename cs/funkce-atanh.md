@@ -31,4 +31,4 @@ Inverse hyperbolic tangent of arg
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.atanh.php
+[Oficiální dokumentace funkce atanh](https://www.php.net/manual/en/function.atanh.php)

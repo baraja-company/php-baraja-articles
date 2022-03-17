@@ -32,4 +32,4 @@ empty.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.reset.php
+[Oficiální dokumentace funkce reset](https://www.php.net/manual/en/function.reset.php)

@@ -78,4 +78,4 @@ recognized using the specified format</td>
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strptime.php
+[Oficiální dokumentace funkce strptime](https://www.php.net/manual/en/function.strptime.php)

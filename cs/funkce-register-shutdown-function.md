@@ -33,4 +33,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.register-shutdown-function.php
+[Oficiální dokumentace funkce register-shutdown-function](https://www.php.net/manual/en/function.register-shutdown-function.php)

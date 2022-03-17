@@ -31,4 +31,4 @@ the termination status of the process that was run.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.pclose.php
+[Oficiální dokumentace funkce pclose](https://www.php.net/manual/en/function.pclose.php)

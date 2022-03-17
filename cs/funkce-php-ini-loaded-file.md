@@ -28,4 +28,4 @@ The loaded &php.ini; path, or false if one is not loaded.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.php-ini-loaded-file.php
+[Oficiální dokumentace funkce php-ini-loaded-file](https://www.php.net/manual/en/function.php-ini-loaded-file.php)

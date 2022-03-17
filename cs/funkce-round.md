@@ -35,4 +35,4 @@ The rounded value
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.round.php
+[Oficiální dokumentace funkce round](https://www.php.net/manual/en/function.round.php)

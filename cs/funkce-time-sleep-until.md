@@ -31,4 +31,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.time-sleep-until.php
+[Oficiální dokumentace funkce time-sleep-until](https://www.php.net/manual/en/function.time-sleep-until.php)

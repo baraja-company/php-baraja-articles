@@ -25,4 +25,4 @@ Parametry
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.show-source.php
+[Oficiální dokumentace funkce show-source](https://www.php.net/manual/en/function.show-source.php)

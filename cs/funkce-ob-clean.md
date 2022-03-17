@@ -28,4 +28,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-clean.php
+[Oficiální dokumentace funkce ob-clean](https://www.php.net/manual/en/function.ob-clean.php)

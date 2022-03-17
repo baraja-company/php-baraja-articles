@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.rmdir.php
+[Oficiální dokumentace funkce rmdir](https://www.php.net/manual/en/function.rmdir.php)

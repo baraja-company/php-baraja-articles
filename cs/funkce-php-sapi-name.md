@@ -40,4 +40,4 @@ thttpd, tux, and webjames.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.php-sapi-name.php
+[Oficiální dokumentace funkce php-sapi-name](https://www.php.net/manual/en/function.php-sapi-name.php)

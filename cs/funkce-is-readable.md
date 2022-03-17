@@ -32,4 +32,4 @@ filename exists and is readable, false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-readable.php
+[Oficiální dokumentace funkce is-readable](https://www.php.net/manual/en/function.is-readable.php)

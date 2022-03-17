@@ -31,4 +31,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fclose.php
+[Oficiální dokumentace funkce fclose](https://www.php.net/manual/en/function.fclose.php)

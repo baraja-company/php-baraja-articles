@@ -33,4 +33,4 @@ elements.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.prev.php
+[Oficiální dokumentace funkce prev](https://www.php.net/manual/en/function.prev.php)

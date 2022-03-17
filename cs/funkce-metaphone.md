@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` | *není* | The input string. |
+| `$str` | `string` | *není* | Zpracovávaný řetězec. |
 | `$phonemes` | `int` | 0 | This parameter restricts the returned metaphone key to phonemes characters in length. The default value of 0 means no restriction. |
 
 
@@ -32,4 +32,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.metaphone.php
+[Oficiální dokumentace funkce metaphone](https://www.php.net/manual/en/function.metaphone.php)

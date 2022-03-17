@@ -75,4 +75,4 @@ Změny ve verzích
 Další zdroje
 ------------
 
-[Oficiální dokumentace nl2br()](https://www.php.net/manual/en/function.nl2br.php)
+[Oficiální dokumentace funkce nl2br]([Oficiální dokumentace nl2br()](https://www.php.net/manual/en/function.nl2br.php))

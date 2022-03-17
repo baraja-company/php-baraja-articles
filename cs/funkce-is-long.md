@@ -32,4 +32,4 @@ false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-long.php
+[Oficiální dokumentace funkce is-long](https://www.php.net/manual/en/function.is-long.php)

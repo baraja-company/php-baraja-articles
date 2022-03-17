@@ -108,4 +108,4 @@ IMAGETYPE_TIFF_MM (motorola byte order)
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.image-type-to-mime-type.php
+[Oficiální dokumentace funkce image-type-to-mime-type](https://www.php.net/manual/en/function.image-type-to-mime-type.php)

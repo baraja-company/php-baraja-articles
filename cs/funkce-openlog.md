@@ -70,4 +70,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-[Oficiální dokumentace PHP.net](https://www.php.net/manual/en/function.openlog.php)
+[Oficiální dokumentace funkce openlog]([Oficiální dokumentace PHP.net](https://www.php.net/manual/en/function.openlog.php))

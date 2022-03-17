@@ -31,4 +31,4 @@ the memory amount in bytes.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.memory-get-usage.php
+[Oficiální dokumentace funkce memory-get-usage](https://www.php.net/manual/en/function.memory-get-usage.php)

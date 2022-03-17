@@ -35,4 +35,4 @@ emitting E_WARNING.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.money-format.php
+[Oficiální dokumentace funkce money-format](https://www.php.net/manual/en/function.money-format.php)

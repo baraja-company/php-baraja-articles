@@ -34,4 +34,4 @@ echo 'A' . str_repeat('a', 5) . 'hoj'; // Aaaaaahoj
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.str-repeat.php
+[Oficiální dokumentace funkce str-repeat]([Oficiální dokumentace funkce str-repeat](https://www.php.net/manual/en/function.str-repeat.php))

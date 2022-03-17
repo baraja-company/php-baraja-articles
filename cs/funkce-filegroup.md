@@ -34,4 +34,4 @@ Upon failure, false is returned.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.filegroup.php
+[Oficiální dokumentace funkce filegroup](https://www.php.net/manual/en/function.filegroup.php)

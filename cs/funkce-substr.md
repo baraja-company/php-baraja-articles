@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$string` | `string` | *není* | The input string. |
+| `$string` | `string` | *není* | Zpracovávaný řetězec. |
 | `$start` | `int` | *není* | If start is non-negative, the returned string will start at the start'th position in string, counting from zero. For instance, in the string 'abcdef', the character at position 0 is 'a', the character at position 2 is 'c', and so forth. |
 | `$length` | `int` | null | If length is given and is positive, the string returned will contain at most length characters beginning from start (depending on the length of string). |
 
@@ -33,4 +33,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.substr.php
+[Oficiální dokumentace funkce substr](https://www.php.net/manual/en/function.substr.php)

@@ -28,4 +28,4 @@ A pseudo random float value in the range of (0, 1)
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.lcg-value.php
+[Oficiální dokumentace funkce lcg-value](https://www.php.net/manual/en/function.lcg-value.php)

@@ -31,4 +31,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.natcasesort.php
+[Oficiální dokumentace funkce natcasesort](https://www.php.net/manual/en/function.natcasesort.php)

@@ -34,4 +34,4 @@ php_ini_scanned_files.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.php-ini-scanned-files.php
+[Oficiální dokumentace funkce php-ini-scanned-files](https://www.php.net/manual/en/function.php-ini-scanned-files.php)

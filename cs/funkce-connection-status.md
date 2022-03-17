@@ -30,4 +30,4 @@ status.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.connection-status.php
+[Oficiální dokumentace funkce connection-status](https://www.php.net/manual/en/function.connection-status.php)

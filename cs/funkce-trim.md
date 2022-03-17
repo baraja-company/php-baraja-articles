@@ -35,4 +35,4 @@ echo trim('             Ahoj, jak se máš?      '); // "Ahoj, jak se máš?"
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.trim.php
+[Oficiální dokumentace funkce trim](https://www.php.net/manual/en/function.trim.php)

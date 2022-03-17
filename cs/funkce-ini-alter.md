@@ -25,4 +25,4 @@ Parametry
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ini-alter.php
+[Oficiální dokumentace funkce ini-alter](https://www.php.net/manual/en/function.ini-alter.php)

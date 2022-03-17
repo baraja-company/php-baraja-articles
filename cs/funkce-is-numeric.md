@@ -32,4 +32,4 @@ string, false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-numeric.php
+[Oficiální dokumentace funkce is-numeric](https://www.php.net/manual/en/function.is-numeric.php)

@@ -31,4 +31,4 @@ Octal string representation of number
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.decoct.php
+[Oficiální dokumentace funkce decoct](https://www.php.net/manual/en/function.decoct.php)

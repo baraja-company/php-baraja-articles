@@ -42,4 +42,4 @@ Vrací jednu z těchto možností:
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.gettype.php
+[Oficiální dokumentace funkce gettype](https://www.php.net/manual/en/function.gettype.php)

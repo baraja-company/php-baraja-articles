@@ -33,4 +33,4 @@ the chunked string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.chunk-split.php
+[Oficiální dokumentace funkce chunk-split](https://www.php.net/manual/en/function.chunk-split.php)

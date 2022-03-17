@@ -29,4 +29,4 @@ returned.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.gethostname.php
+[Oficiální dokumentace funkce gethostname](https://www.php.net/manual/en/function.gethostname.php)

@@ -46,4 +46,4 @@ including end of file.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fgetcsv.php
+[Oficiální dokumentace funkce fgetcsv](https://www.php.net/manual/en/function.fgetcsv.php)

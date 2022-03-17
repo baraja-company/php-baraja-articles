@@ -33,4 +33,4 @@ were found or if an error occurred.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.checkdnsrr.php
+[Oficiální dokumentace funkce checkdnsrr](https://www.php.net/manual/en/function.checkdnsrr.php)

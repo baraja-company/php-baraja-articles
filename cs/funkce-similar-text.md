@@ -33,4 +33,4 @@ the number of matching chars in both strings.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.similar-text.php
+[Oficiální dokumentace funkce similar-text](https://www.php.net/manual/en/function.similar-text.php)

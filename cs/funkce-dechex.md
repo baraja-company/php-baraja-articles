@@ -31,4 +31,4 @@ Hexadecimal string representation of number
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.dechex.php
+[Oficiální dokumentace funkce dechex](https://www.php.net/manual/en/function.dechex.php)

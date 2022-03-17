@@ -34,4 +34,4 @@ the array consisting of the extracted elements.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.array-splice.php
+[Oficiální dokumentace funkce array-splice](https://www.php.net/manual/en/function.array-splice.php)

@@ -31,4 +31,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-is-local.php
+[Oficiální dokumentace funkce stream-is-local](https://www.php.net/manual/en/function.stream-is-local.php)

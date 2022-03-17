@@ -34,4 +34,4 @@ a string or an array of replacements.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.str-ireplace.php
+[Oficiální dokumentace funkce str-ireplace](https://www.php.net/manual/en/function.str-ireplace.php)

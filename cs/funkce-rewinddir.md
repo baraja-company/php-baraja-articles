@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.rewinddir.php
+[Oficiální dokumentace funkce rewinddir](https://www.php.net/manual/en/function.rewinddir.php)

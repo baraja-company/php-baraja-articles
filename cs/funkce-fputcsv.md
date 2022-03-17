@@ -35,4 +35,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fputcsv.php
+[Oficiální dokumentace funkce fputcsv](https://www.php.net/manual/en/function.fputcsv.php)

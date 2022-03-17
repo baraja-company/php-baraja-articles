@@ -31,4 +31,4 @@ Nevrací nic.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.header.php
+[Oficiální dokumentace funkce header](https://www.php.net/manual/en/function.header.php)

@@ -31,4 +31,4 @@ The arc sine of arg in radians
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.asin.php
+[Oficiální dokumentace funkce asin](https://www.php.net/manual/en/function.asin.php)

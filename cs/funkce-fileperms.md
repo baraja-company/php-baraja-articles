@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fileperms.php
+[Oficiální dokumentace funkce fileperms](https://www.php.net/manual/en/function.fileperms.php)

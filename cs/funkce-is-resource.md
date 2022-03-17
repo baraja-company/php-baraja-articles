@@ -32,4 +32,4 @@ false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-resource.php
+[Oficiální dokumentace funkce is-resource](https://www.php.net/manual/en/function.is-resource.php)

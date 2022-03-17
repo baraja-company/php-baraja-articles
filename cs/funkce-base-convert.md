@@ -33,4 +33,4 @@ number converted to base tobase
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.base-convert.php
+[Oficiální dokumentace funkce base-convert](https://www.php.net/manual/en/function.base-convert.php)

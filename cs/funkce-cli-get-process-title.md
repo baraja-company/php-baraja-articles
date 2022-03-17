@@ -28,4 +28,4 @@ Return a string with the current process title or <b>NULL</b> on error.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.cli-get-process-title.php
+[Oficiální dokumentace funkce cli-get-process-title](https://www.php.net/manual/en/function.cli-get-process-title.php)

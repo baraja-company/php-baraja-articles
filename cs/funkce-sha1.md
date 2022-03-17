@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` | *není* | The input string. |
+| `$str` | `string` | *není* | Zpracovávaný řetězec. |
 | `$raw_output` | `bool` | null | If the optional raw_output is set to true, then the sha1 digest is instead returned in raw binary format with a length of 20, otherwise the returned value is a 40-character hexadecimal number. |
 
 
@@ -32,4 +32,4 @@ the sha1 hash as a string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.sha1.php
+[Oficiální dokumentace funkce sha1](https://www.php.net/manual/en/function.sha1.php)

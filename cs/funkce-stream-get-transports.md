@@ -28,4 +28,4 @@ an indexed array of socket transports names.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-get-transports.php
+[Oficiální dokumentace funkce stream-get-transports](https://www.php.net/manual/en/function.stream-get-transports.php)

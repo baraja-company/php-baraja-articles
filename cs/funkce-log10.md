@@ -31,4 +31,4 @@ The base-10 logarithm of arg
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.log10.php
+[Oficiální dokumentace funkce log10](https://www.php.net/manual/en/function.log10.php)

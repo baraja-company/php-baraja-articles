@@ -36,4 +36,4 @@ file pointed to by the symbolic link.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.lstat.php
+[Oficiální dokumentace funkce lstat](https://www.php.net/manual/en/function.lstat.php)

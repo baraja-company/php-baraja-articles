@@ -34,4 +34,4 @@ occurs, false is returned and unless the function was called as
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.readfile.php
+[Oficiální dokumentace funkce readfile](https://www.php.net/manual/en/function.readfile.php)

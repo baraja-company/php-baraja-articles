@@ -31,4 +31,4 @@ The hyperbolic tangent of arg
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.tanh.php
+[Oficiální dokumentace funkce tanh](https://www.php.net/manual/en/function.tanh.php)

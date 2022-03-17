@@ -34,4 +34,4 @@ failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.get-headers.php
+[Oficiální dokumentace funkce get-headers](https://www.php.net/manual/en/function.get-headers.php)

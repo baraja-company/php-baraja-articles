@@ -35,4 +35,4 @@ which consists entirely of characters in str2.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strspn.php
+[Oficiální dokumentace funkce strspn](https://www.php.net/manual/en/function.strspn.php)

@@ -37,4 +37,4 @@ If an error occurs, returns false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-get-line.php
+[Oficiální dokumentace funkce stream-get-line](https://www.php.net/manual/en/function.stream-get-line.php)

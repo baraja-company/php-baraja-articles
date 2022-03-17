@@ -46,4 +46,4 @@ what the system setlocale function returns.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.setlocale.php
+[Oficiální dokumentace funkce setlocale](https://www.php.net/manual/en/function.setlocale.php)

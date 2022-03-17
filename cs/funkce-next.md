@@ -32,4 +32,4 @@ internal array pointer, or false if there are no more elements.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.next.php
+[Oficiální dokumentace funkce next](https://www.php.net/manual/en/function.next.php)

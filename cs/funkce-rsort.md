@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.rsort.php
+[Oficiální dokumentace funkce rsort](https://www.php.net/manual/en/function.rsort.php)

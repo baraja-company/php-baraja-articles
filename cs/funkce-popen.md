@@ -40,4 +40,4 @@ If an error occurs, returns false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.popen.php
+[Oficiální dokumentace funkce popen](https://www.php.net/manual/en/function.popen.php)

@@ -34,4 +34,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.socket-set-timeout.php
+[Oficiální dokumentace funkce socket-set-timeout](https://www.php.net/manual/en/function.socket-set-timeout.php)

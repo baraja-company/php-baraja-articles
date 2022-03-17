@@ -37,4 +37,4 @@ or if the file type is unknown.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.filetype.php
+[Oficiální dokumentace funkce filetype](https://www.php.net/manual/en/function.filetype.php)

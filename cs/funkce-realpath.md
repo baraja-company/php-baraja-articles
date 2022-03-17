@@ -36,4 +36,4 @@ the file does not exist.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.realpath.php
+[Oficiální dokumentace funkce realpath](https://www.php.net/manual/en/function.realpath.php)

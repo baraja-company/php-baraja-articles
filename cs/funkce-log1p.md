@@ -31,4 +31,4 @@ log(1 + number)
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.log1p.php
+[Oficiální dokumentace funkce log1p](https://www.php.net/manual/en/function.log1p.php)

@@ -118,5 +118,5 @@ Další příklady jsou v [oficiální dokumentaci](https://doc.nette.org/cs/3.0
 Další zdroje
 ------------
 
-- [Oficiální manuál pro var_export](https://www.php.net/manual/en/function.var-export.php)
+[Oficiální dokumentace funkce var-export](- [Oficiální manuál pro var_export](https://www.php.net/manual/en/function.var-export.php))
 - [Česká dokumentace pro Php Generator](https://doc.nette.org/cs/3.0/php-generator)

@@ -33,4 +33,4 @@ true if there is a match, false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fnmatch.php
+[Oficiální dokumentace funkce fnmatch](https://www.php.net/manual/en/function.fnmatch.php)

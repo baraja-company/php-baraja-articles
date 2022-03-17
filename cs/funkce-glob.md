@@ -37,4 +37,4 @@ error.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.glob.php
+[Oficiální dokumentace funkce glob](https://www.php.net/manual/en/function.glob.php)

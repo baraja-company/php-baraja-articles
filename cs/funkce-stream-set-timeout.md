@@ -33,4 +33,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-set-timeout.php
+[Oficiální dokumentace funkce stream-set-timeout](https://www.php.net/manual/en/function.stream-set-timeout.php)

@@ -28,4 +28,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.restore-include-path.php
+[Oficiální dokumentace funkce restore-include-path](https://www.php.net/manual/en/function.restore-include-path.php)

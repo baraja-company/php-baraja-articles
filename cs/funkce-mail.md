@@ -39,4 +39,4 @@ it does NOT mean the mail will actually reach the intended destination.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.mail.php
+[Oficiální dokumentace funkce mail](https://www.php.net/manual/en/function.mail.php)

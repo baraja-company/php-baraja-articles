@@ -38,4 +38,4 @@ prior behavior, see bug report
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.php-strip-whitespace.php
+[Oficiální dokumentace funkce php-strip-whitespace](https://www.php.net/manual/en/function.php-strip-whitespace.php)

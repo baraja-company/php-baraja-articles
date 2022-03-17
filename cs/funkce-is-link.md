@@ -32,4 +32,4 @@ otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-link.php
+[Oficiální dokumentace funkce is-link](https://www.php.net/manual/en/function.is-link.php)

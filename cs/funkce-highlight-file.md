@@ -34,4 +34,4 @@ true on success, false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.highlight-file.php
+[Oficiální dokumentace funkce highlight-file](https://www.php.net/manual/en/function.highlight-file.php)

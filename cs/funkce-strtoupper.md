@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$string` | `string` | *není* | The input string. |
+| `$string` | `string` | *není* | Zpracovávaný řetězec. |
 
 
 Návratové hodnoty
@@ -31,4 +31,4 @@ the uppercased string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strtoupper.php
+[Oficiální dokumentace funkce strtoupper](https://www.php.net/manual/en/function.strtoupper.php)

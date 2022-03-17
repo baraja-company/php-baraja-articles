@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` | *není* | The input string. |
+| `$str` | `string` | *není* | Zpracovávaný řetězec. |
 | `$charlist` | `string` | " | You can also specify the characters you want to strip, by means of the charlist parameter. Simply list all characters that you want to be stripped. With .. you can specify a range of characters. |
 
 
@@ -47,4 +47,4 @@ ltrim will strip these characters:
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ltrim.php
+[Oficiální dokumentace funkce ltrim](https://www.php.net/manual/en/function.ltrim.php)

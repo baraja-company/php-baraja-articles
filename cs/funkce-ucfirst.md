@@ -36,4 +36,4 @@ echo ucfirst('PHP'); // PHP
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ucfirst.php
+[Oficiální dokumentace funkce ucfirst](https://www.php.net/manual/en/function.ucfirst.php)

@@ -31,4 +31,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.shuffle.php
+[Oficiální dokumentace funkce shuffle](https://www.php.net/manual/en/function.shuffle.php)

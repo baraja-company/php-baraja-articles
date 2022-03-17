@@ -32,4 +32,4 @@ value. It returns false on error or if no IPTC data was found.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.iptcparse.php
+[Oficiální dokumentace funkce iptcparse](https://www.php.net/manual/en/function.iptcparse.php)

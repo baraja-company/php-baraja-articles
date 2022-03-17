@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.exp.php
+[Oficiální dokumentace funkce exp](https://www.php.net/manual/en/function.exp.php)

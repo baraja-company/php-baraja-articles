@@ -40,4 +40,4 @@ name, only the last one is returned.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.get-meta-tags.php
+[Oficiální dokumentace funkce get-meta-tags](https://www.php.net/manual/en/function.get-meta-tags.php)

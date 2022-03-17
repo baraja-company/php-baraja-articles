@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.usleep.php
+[Oficiální dokumentace funkce usleep](https://www.php.net/manual/en/function.usleep.php)

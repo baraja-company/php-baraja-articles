@@ -32,4 +32,4 @@ the filled array
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.array-fill-keys.php
+[Oficiální dokumentace funkce array-fill-keys](https://www.php.net/manual/en/function.array-fill-keys.php)

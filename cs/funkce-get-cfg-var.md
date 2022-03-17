@@ -32,4 +32,4 @@ option, or false if an error occurs.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.get-cfg-var.php
+[Oficiální dokumentace funkce get-cfg-var](https://www.php.net/manual/en/function.get-cfg-var.php)

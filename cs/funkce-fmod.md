@@ -33,4 +33,4 @@ x/y
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fmod.php
+[Oficiální dokumentace funkce fmod](https://www.php.net/manual/en/function.fmod.php)

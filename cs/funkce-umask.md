@@ -32,4 +32,4 @@ current umask otherwise the old umask is returned.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.umask.php
+[Oficiální dokumentace funkce umask](https://www.php.net/manual/en/function.umask.php)

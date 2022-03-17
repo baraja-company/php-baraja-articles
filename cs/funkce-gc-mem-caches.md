@@ -28,4 +28,4 @@ Returns the number of bytes freed.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.gc-mem-caches.php
+[Oficiální dokumentace funkce gc-mem-caches](https://www.php.net/manual/en/function.gc-mem-caches.php)

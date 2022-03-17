@@ -34,4 +34,4 @@ This functions returns an integer.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.substr-count.php
+[Oficiální dokumentace funkce substr-count](https://www.php.net/manual/en/function.substr-count.php)

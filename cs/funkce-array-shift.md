@@ -32,4 +32,4 @@ empty or is not an array.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.array-shift.php
+[Oficiální dokumentace funkce array-shift](https://www.php.net/manual/en/function.array-shift.php)

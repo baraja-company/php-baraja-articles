@@ -29,4 +29,4 @@ If output buffering isn't active then false is returned.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-get-clean.php
+[Oficiální dokumentace funkce ob-get-clean](https://www.php.net/manual/en/function.ob-get-clean.php)

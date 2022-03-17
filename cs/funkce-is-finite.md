@@ -33,4 +33,4 @@ else false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-finite.php
+[Oficiální dokumentace funkce is-finite](https://www.php.net/manual/en/function.is-finite.php)

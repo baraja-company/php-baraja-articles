@@ -51,4 +51,4 @@ Vrátí `int` vyjadřující nový počet prvků v poli.
 Další zdroje
 ------------
 
-[Oficiální dokumentace](https://www.php.net/manual/en/function.array-unshift.php)
+[Oficiální dokumentace funkce array-unshift]([Oficiální dokumentace](https://www.php.net/manual/en/function.array-unshift.php))

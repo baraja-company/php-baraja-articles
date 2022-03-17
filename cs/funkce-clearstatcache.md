@@ -32,4 +32,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.clearstatcache.php
+[Oficiální dokumentace funkce clearstatcache](https://www.php.net/manual/en/function.clearstatcache.php)

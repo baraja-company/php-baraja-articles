@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.syslog.php
+[Oficiální dokumentace funkce syslog](https://www.php.net/manual/en/function.syslog.php)

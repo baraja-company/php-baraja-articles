@@ -31,4 +31,4 @@ The radian equivalent of number
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.deg2rad.php
+[Oficiální dokumentace funkce deg2rad](https://www.php.net/manual/en/function.deg2rad.php)

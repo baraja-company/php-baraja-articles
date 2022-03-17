@@ -40,4 +40,4 @@ remaining in the delay
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.time-nanosleep.php
+[Oficiální dokumentace funkce time-nanosleep](https://www.php.net/manual/en/function.time-nanosleep.php)

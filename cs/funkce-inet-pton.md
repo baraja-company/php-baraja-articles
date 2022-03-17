@@ -32,4 +32,4 @@ address
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.inet-pton.php
+[Oficiální dokumentace funkce inet-pton](https://www.php.net/manual/en/function.inet-pton.php)

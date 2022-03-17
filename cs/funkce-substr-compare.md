@@ -41,4 +41,4 @@ false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.substr-compare.php
+[Oficiální dokumentace funkce substr-compare](https://www.php.net/manual/en/function.substr-compare.php)

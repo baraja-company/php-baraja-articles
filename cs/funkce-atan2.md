@@ -33,4 +33,4 @@ in radians.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.atan2.php
+[Oficiální dokumentace funkce atan2](https://www.php.net/manual/en/function.atan2.php)

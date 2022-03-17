@@ -31,4 +31,4 @@ an associate array containing all context options and parameters.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-context-get-params.php
+[Oficiální dokumentace funkce stream-context-get-params](https://www.php.net/manual/en/function.stream-context-get-params.php)

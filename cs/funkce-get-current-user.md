@@ -28,4 +28,4 @@ the username as a string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.get-current-user.php
+[Oficiální dokumentace funkce get-current-user](https://www.php.net/manual/en/function.get-current-user.php)

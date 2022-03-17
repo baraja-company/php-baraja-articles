@@ -40,4 +40,4 @@ interrupted by an incoming signal).
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-select.php
+[Oficiální dokumentace funkce stream-select](https://www.php.net/manual/en/function.stream-select.php)

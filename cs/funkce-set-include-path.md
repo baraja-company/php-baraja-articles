@@ -32,4 +32,4 @@ success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.set-include-path.php
+[Oficiální dokumentace funkce set-include-path](https://www.php.net/manual/en/function.set-include-path.php)

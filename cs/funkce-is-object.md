@@ -32,4 +32,4 @@ false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-object.php
+[Oficiální dokumentace funkce is-object](https://www.php.net/manual/en/function.is-object.php)

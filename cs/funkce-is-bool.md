@@ -32,4 +32,4 @@ false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-bool.php
+[Oficiální dokumentace funkce is-bool](https://www.php.net/manual/en/function.is-bool.php)

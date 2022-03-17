@@ -35,4 +35,4 @@ str2, and 0 if they are equal.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strnatcasecmp.php
+[Oficiální dokumentace funkce strnatcasecmp](https://www.php.net/manual/en/function.strnatcasecmp.php)

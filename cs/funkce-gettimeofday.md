@@ -39,4 +39,4 @@ Array keys:
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.gettimeofday.php
+[Oficiální dokumentace funkce gettimeofday](https://www.php.net/manual/en/function.gettimeofday.php)

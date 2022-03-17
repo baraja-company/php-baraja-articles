@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.uasort.php
+[Oficiální dokumentace funkce uasort](https://www.php.net/manual/en/function.uasort.php)

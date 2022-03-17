@@ -28,4 +28,4 @@ the path, as a string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.get-include-path.php
+[Oficiální dokumentace funkce get-include-path](https://www.php.net/manual/en/function.get-include-path.php)

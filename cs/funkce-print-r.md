@@ -35,4 +35,4 @@ notation is used for objects.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.print-r.php
+[Oficiální dokumentace funkce print-r](https://www.php.net/manual/en/function.print-r.php)

@@ -34,4 +34,4 @@ usually bigger than that of integer.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.floor.php
+[Oficiální dokumentace funkce floor](https://www.php.net/manual/en/function.floor.php)

@@ -31,4 +31,4 @@ The hash value of addr.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ezmlm-hash.php
+[Oficiální dokumentace funkce ezmlm-hash](https://www.php.net/manual/en/function.ezmlm-hash.php)

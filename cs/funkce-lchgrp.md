@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.lchgrp.php
+[Oficiální dokumentace funkce lchgrp](https://www.php.net/manual/en/function.lchgrp.php)

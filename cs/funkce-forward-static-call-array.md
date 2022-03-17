@@ -32,4 +32,4 @@ the function result, or false on error.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.forward-static-call-array.php
+[Oficiální dokumentace funkce forward-static-call-array](https://www.php.net/manual/en/function.forward-static-call-array.php)

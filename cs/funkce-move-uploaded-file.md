@@ -41,4 +41,4 @@ false. Additionally, a warning will be issued.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.move-uploaded-file.php
+[Oficiální dokumentace funkce move-uploaded-file](https://www.php.net/manual/en/function.move-uploaded-file.php)

@@ -35,4 +35,4 @@ str2, and 0 if they are equal.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strnatcmp.php
+[Oficiální dokumentace funkce strnatcmp](https://www.php.net/manual/en/function.strnatcmp.php)

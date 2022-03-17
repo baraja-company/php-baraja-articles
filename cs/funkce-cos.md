@@ -31,4 +31,4 @@ The cosine of arg
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.cos.php
+[Oficiální dokumentace funkce cos](https://www.php.net/manual/en/function.cos.php)

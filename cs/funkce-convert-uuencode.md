@@ -31,4 +31,4 @@ the uuencoded data.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.convert-uuencode.php
+[Oficiální dokumentace funkce convert-uuencode](https://www.php.net/manual/en/function.convert-uuencode.php)

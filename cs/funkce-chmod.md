@@ -31,4 +31,4 @@ Vrátí `true`, když vše proběhlo v pořádku, `false` v případě chyby.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.chmod.php
+[Oficiální dokumentace funkce chmod](https://www.php.net/manual/en/function.chmod.php)

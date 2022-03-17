@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$haystack` | `string` | *není* | The input string. |
+| `$haystack` | `string` | *není* | Zpracovávaný řetězec. |
 | `$needle` | `mixed` | *není* | If needle is not a string, it is converted to an integer and applied as the ordinal value of a character. |
 | `$before_needle` | `bool` | null | If true, strstr returns the part of the haystack before the first occurrence of the needle. |
 
@@ -34,4 +34,4 @@ is not found.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strstr.php
+[Oficiální dokumentace funkce strstr](https://www.php.net/manual/en/function.strstr.php)

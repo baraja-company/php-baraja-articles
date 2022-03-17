@@ -31,4 +31,4 @@ The decimal representation of hex_string
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.hexdec.php
+[Oficiální dokumentace funkce hexdec](https://www.php.net/manual/en/function.hexdec.php)

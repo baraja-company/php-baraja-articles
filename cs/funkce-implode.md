@@ -33,4 +33,4 @@ elements in the same order, with the glue string between each element.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.implode.php
+[Oficiální dokumentace funkce implode](https://www.php.net/manual/en/function.implode.php)

@@ -32,4 +32,4 @@ true if the file pointer is at EOF or an error occurs
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.feof.php
+[Oficiální dokumentace funkce feof](https://www.php.net/manual/en/function.feof.php)

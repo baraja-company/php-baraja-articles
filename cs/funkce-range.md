@@ -35,4 +35,4 @@ be from high to low.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.range.php
+[Oficiální dokumentace funkce range](https://www.php.net/manual/en/function.range.php)

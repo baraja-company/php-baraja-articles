@@ -28,4 +28,4 @@ the output buffer or false if no buffering is active.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-get-flush.php
+[Oficiální dokumentace funkce ob-get-flush](https://www.php.net/manual/en/function.ob-get-flush.php)

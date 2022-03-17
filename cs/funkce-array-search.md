@@ -40,4 +40,4 @@ search_value parameter instead.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.array-search.php
+[Oficiální dokumentace funkce array-search](https://www.php.net/manual/en/function.array-search.php)

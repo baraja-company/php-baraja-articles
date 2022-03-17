@@ -85,4 +85,4 @@ ini_set("highlight.string", "#DD0000");
 Další zdroje
 ------------
 
-[Oficiální manuál](https://www.php.net/manual/en/function.highlight-string.php)
+[Oficiální dokumentace funkce highlight-string]([Oficiální manuál](https://www.php.net/manual/en/function.highlight-string.php))

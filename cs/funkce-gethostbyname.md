@@ -32,4 +32,4 @@ hostname on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.gethostbyname.php
+[Oficiální dokumentace funkce gethostbyname](https://www.php.net/manual/en/function.gethostbyname.php)

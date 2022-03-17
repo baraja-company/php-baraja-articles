@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ini-restore.php
+[Oficiální dokumentace funkce ini-restore](https://www.php.net/manual/en/function.ini-restore.php)

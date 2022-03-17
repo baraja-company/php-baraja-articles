@@ -24,4 +24,4 @@ Parametry
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.diskfreespace.php
+[Oficiální dokumentace funkce diskfreespace](https://www.php.net/manual/en/function.diskfreespace.php)

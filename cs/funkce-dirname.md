@@ -36,4 +36,4 @@ path with any trailing
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.dirname.php
+[Oficiální dokumentace funkce dirname](https://www.php.net/manual/en/function.dirname.php)

@@ -32,4 +32,4 @@ Will return <b>FALSE</b> if chunk_size is less than 1 or greater than <b>PHP_INT
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-set-chunk-size.php
+[Oficiální dokumentace funkce stream-set-chunk-size](https://www.php.net/manual/en/function.stream-set-chunk-size.php)

@@ -33,4 +33,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.flock.php
+[Oficiální dokumentace funkce flock](https://www.php.net/manual/en/function.flock.php)

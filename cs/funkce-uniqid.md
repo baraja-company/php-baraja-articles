@@ -35,4 +35,4 @@ Unikátní identifikátor jako string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.uniqid.php
+[Oficiální dokumentace funkce uniqid](https://www.php.net/manual/en/function.uniqid.php)

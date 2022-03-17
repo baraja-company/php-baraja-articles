@@ -45,4 +45,4 @@ foreach ($items as $item) {
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.explode.php
+[Oficiální dokumentace funkce explode](https://www.php.net/manual/en/function.explode.php)

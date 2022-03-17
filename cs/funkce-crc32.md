@@ -31,4 +31,4 @@ the crc32 checksum of str as an integer.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.crc32.php
+[Oficiální dokumentace funkce crc32](https://www.php.net/manual/en/function.crc32.php)

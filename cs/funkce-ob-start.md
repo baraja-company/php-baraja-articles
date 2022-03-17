@@ -33,4 +33,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-start.php
+[Oficiální dokumentace funkce ob-start](https://www.php.net/manual/en/function.ob-start.php)

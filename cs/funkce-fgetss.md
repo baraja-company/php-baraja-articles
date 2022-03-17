@@ -38,4 +38,4 @@ If an error occurs, returns false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fgetss.php
+[Oficiální dokumentace funkce fgetss](https://www.php.net/manual/en/function.fgetss.php)

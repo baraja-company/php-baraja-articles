@@ -28,4 +28,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.get-magic-quotes-runtime.php
+[Oficiální dokumentace funkce get-magic-quotes-runtime](https://www.php.net/manual/en/function.get-magic-quotes-runtime.php)

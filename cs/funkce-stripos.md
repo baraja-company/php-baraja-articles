@@ -10,28 +10,31 @@ PHP funkce stripos()
 
 Dostupnost ve verzích: `PHP 5.0`
 
-Find position of first occurrence of a case-insensitive string
+Vyhledání pozice prvního výskytu řetězce bez rozlišení velikosti znaků.
 
+> **TIP:**
+>
+> Funkce `stripos` byla v minulosti používána pro ověření, zda řetězec obsahuje podřetězec.
+> Od PHP 8.0 na toto existuje nativní funkce `str_contains()`.
 
 Parametry
 --------------
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$haystack` | `string` | *není* | The string to search in |
-| `$needle` | `string` | *není* | Note that the needle may be a string of one or more characters. |
-| `$offset` | `int` | null | The optional offset parameter allows you to specify which character in haystack to start searching. The position returned is still relative to the beginning of haystack. |
+| `$haystack` | `string` | *není* | Řetězec, ve kterém se má hledat |
+| `$needle` | `string` | *není* | Všimněte si, že jehla může být řetězec jednoho nebo více znaků. |
+| `$offset` | `int` | null | Nepovinný parametr offset umožňuje určit, který znak v kupce sena se má začít hledat. Vrácená pozice je stále relativní vůči začátku zásobníku. |
 
 
 Návratové hodnoty
 ----------------
 
-`int`
+`int` - vrátí pozici, kde začíná nalezený podřetězec.
 
-If needle is not found,
-stripos will return boolean false.
+Pokud se podřetězec v prohledávaném řetězci nenachází, vrátí hodnotu `false`.
 
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stripos.php
+[Oficiální dokumentace funkce stripos](https://www.php.net/manual/en/function.stripos.php)

@@ -36,4 +36,4 @@ modes and permissions.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.getcwd.php
+[Oficiální dokumentace funkce getcwd](https://www.php.net/manual/en/function.getcwd.php)

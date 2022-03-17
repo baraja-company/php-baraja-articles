@@ -40,4 +40,4 @@ This does not indicate whether the user accepted the cookie.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.setcookie.php
+[Oficiální dokumentace funkce setcookie](https://www.php.net/manual/en/function.setcookie.php)

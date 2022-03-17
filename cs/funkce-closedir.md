@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.closedir.php
+[Oficiální dokumentace funkce closedir](https://www.php.net/manual/en/function.closedir.php)

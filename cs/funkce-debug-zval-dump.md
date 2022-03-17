@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.debug-zval-dump.php
+[Oficiální dokumentace funkce debug-zval-dump](https://www.php.net/manual/en/function.debug-zval-dump.php)

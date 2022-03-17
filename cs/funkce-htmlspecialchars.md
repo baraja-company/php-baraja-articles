@@ -42,6 +42,6 @@ Další přepínače
 Další zdroje
 ------------
 
-- [Oficiální dokumentace funkce na php.net](https://www.php.net/manual/en/function.htmlspecialchars.php)
+[Oficiální dokumentace funkce htmlspecialchars](- [Oficiální dokumentace funkce na php.net](https://www.php.net/manual/en/function.htmlspecialchars.php))
 - [Informace o datovém typu STRING](https://www.php.net/manual/en/language.types.string.php)
 - [Informace o bezpečnosti a kódování UNICODE](https://unicode.org/reports/tr36/#Deletion_of_Noncharacters)

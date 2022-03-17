@@ -31,4 +31,4 @@ the reversed string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strrev.php
+[Oficiální dokumentace funkce strrev](https://www.php.net/manual/en/function.strrev.php)

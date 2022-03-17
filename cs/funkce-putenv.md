@@ -31,4 +31,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.putenv.php
+[Oficiální dokumentace funkce putenv](https://www.php.net/manual/en/function.putenv.php)

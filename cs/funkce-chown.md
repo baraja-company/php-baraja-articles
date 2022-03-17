@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.chown.php
+[Oficiální dokumentace funkce chown](https://www.php.net/manual/en/function.chown.php)

@@ -34,4 +34,4 @@ false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-socket-pair.php
+[Oficiální dokumentace funkce stream-socket-pair](https://www.php.net/manual/en/function.stream-socket-pair.php)

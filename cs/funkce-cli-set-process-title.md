@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.cli-set-process-title.php
+[Oficiální dokumentace funkce cli-set-process-title](https://www.php.net/manual/en/function.cli-set-process-title.php)

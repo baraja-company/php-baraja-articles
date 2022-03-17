@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.header-remove.php
+[Oficiální dokumentace funkce header-remove](https://www.php.net/manual/en/function.header-remove.php)

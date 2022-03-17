@@ -29,4 +29,4 @@ buffering isn't active.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-get-contents.php
+[Oficiální dokumentace funkce ob-get-contents](https://www.php.net/manual/en/function.ob-get-contents.php)

@@ -31,4 +31,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.phpcredits.php
+[Oficiální dokumentace funkce phpcredits](https://www.php.net/manual/en/function.phpcredits.php)

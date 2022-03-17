@@ -31,4 +31,4 @@ the hexadecimal representation of the given string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.bin2hex.php
+[Oficiální dokumentace funkce bin2hex](https://www.php.net/manual/en/function.bin2hex.php)

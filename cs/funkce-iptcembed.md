@@ -34,4 +34,4 @@ returned as a string, false on errors.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.iptcembed.php
+[Oficiální dokumentace funkce iptcembed](https://www.php.net/manual/en/function.iptcembed.php)

@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.readdir.php
+[Oficiální dokumentace funkce readdir](https://www.php.net/manual/en/function.readdir.php)

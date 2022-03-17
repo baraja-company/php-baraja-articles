@@ -34,4 +34,4 @@ parameter values.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.min.php
+[Oficiální dokumentace funkce min](https://www.php.net/manual/en/function.min.php)

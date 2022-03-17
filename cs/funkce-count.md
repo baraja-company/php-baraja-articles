@@ -46,4 +46,4 @@ empty array. Use isset to test if a variable is set.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.count.php
+[Oficiální dokumentace funkce count](https://www.php.net/manual/en/function.count.php)

@@ -43,4 +43,4 @@ front of the function name.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.opendir.php
+[Oficiální dokumentace funkce opendir](https://www.php.net/manual/en/function.opendir.php)

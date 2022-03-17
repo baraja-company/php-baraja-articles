@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.chgrp.php
+[Oficiální dokumentace funkce chgrp](https://www.php.net/manual/en/function.chgrp.php)

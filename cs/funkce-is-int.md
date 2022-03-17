@@ -32,4 +32,4 @@ false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-int.php
+[Oficiální dokumentace funkce is-int](https://www.php.net/manual/en/function.is-int.php)

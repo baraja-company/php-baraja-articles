@@ -28,4 +28,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.get-magic-quotes-gpc.php
+[Oficiální dokumentace funkce get-magic-quotes-gpc](https://www.php.net/manual/en/function.get-magic-quotes-gpc.php)

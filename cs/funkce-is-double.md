@@ -32,4 +32,4 @@ false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-double.php
+[Oficiální dokumentace funkce is-double](https://www.php.net/manual/en/function.is-double.php)

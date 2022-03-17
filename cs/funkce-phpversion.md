@@ -34,4 +34,4 @@ the extension isn't enabled.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.phpversion.php
+[Oficiální dokumentace funkce phpversion](https://www.php.net/manual/en/function.phpversion.php)

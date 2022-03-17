@@ -32,4 +32,4 @@ or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.disk-free-space.php
+[Oficiální dokumentace funkce disk-free-space](https://www.php.net/manual/en/function.disk-free-space.php)

@@ -35,4 +35,4 @@ empty, current returns false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.current.php
+[Oficiální dokumentace funkce current](https://www.php.net/manual/en/function.current.php)

@@ -32,4 +32,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-set-read-buffer.php
+[Oficiální dokumentace funkce stream-set-read-buffer](https://www.php.net/manual/en/function.stream-set-read-buffer.php)

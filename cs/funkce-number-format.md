@@ -34,4 +34,4 @@ A formatted version of number.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.number-format.php
+[Oficiální dokumentace funkce number-format](https://www.php.net/manual/en/function.number-format.php)

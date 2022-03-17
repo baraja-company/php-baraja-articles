@@ -32,4 +32,4 @@ A stream context resource.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-context-create.php
+[Oficiální dokumentace funkce stream-context-create](https://www.php.net/manual/en/function.stream-context-create.php)

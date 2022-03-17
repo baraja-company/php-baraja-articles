@@ -71,4 +71,4 @@ On failure, false is returned.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.getimagesize.php
+[Oficiální dokumentace funkce getimagesize](https://www.php.net/manual/en/function.getimagesize.php)

@@ -32,4 +32,4 @@ the escaped string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.addcslashes.php
+[Oficiální dokumentace funkce addcslashes](https://www.php.net/manual/en/function.addcslashes.php)

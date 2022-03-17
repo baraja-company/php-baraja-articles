@@ -33,4 +33,4 @@ the function result, or false on error.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.call-user-func.php
+[Oficiální dokumentace funkce call-user-func](https://www.php.net/manual/en/function.call-user-func.php)

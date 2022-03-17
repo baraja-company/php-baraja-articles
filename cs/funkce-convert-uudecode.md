@@ -31,4 +31,4 @@ the decoded data as a string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.convert-uudecode.php
+[Oficiální dokumentace funkce convert-uudecode](https://www.php.net/manual/en/function.convert-uudecode.php)

@@ -33,4 +33,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.register-tick-function.php
+[Oficiální dokumentace funkce register-tick-function](https://www.php.net/manual/en/function.register-tick-function.php)

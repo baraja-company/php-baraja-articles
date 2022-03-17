@@ -32,4 +32,4 @@ Calculated length of the hypotenuse
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.hypot.php
+[Oficiální dokumentace funkce hypot](https://www.php.net/manual/en/function.hypot.php)

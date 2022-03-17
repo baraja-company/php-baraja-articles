@@ -33,4 +33,4 @@ the converted string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.convert-cyr-string.php
+[Oficiální dokumentace funkce convert-cyr-string](https://www.php.net/manual/en/function.convert-cyr-string.php)

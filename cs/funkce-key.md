@@ -35,4 +35,4 @@ empty, key returns &null;.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.key.php
+[Oficiální dokumentace funkce key](https://www.php.net/manual/en/function.key.php)

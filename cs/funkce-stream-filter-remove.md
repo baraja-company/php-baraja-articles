@@ -31,4 +31,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-filter-remove.php
+[Oficiální dokumentace funkce stream-filter-remove](https://www.php.net/manual/en/function.stream-filter-remove.php)

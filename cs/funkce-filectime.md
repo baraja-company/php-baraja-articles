@@ -32,4 +32,4 @@ The time is returned as a Unix timestamp.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.filectime.php
+[Oficiální dokumentace funkce filectime](https://www.php.net/manual/en/function.filectime.php)

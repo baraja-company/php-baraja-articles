@@ -35,4 +35,4 @@ If the power cannot be computed false will be returned instead.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.pow.php
+[Oficiální dokumentace funkce pow](https://www.php.net/manual/en/function.pow.php)

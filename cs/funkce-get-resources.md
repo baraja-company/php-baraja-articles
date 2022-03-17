@@ -31,4 +31,4 @@ Returns an array of currently active resources, indexed by resource number.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.get-resources.php
+[Oficiální dokumentace funkce get-resources](https://www.php.net/manual/en/function.get-resources.php)

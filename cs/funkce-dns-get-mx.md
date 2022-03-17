@@ -26,4 +26,4 @@ Parametry
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.dns-get-mx.php
+[Oficiální dokumentace funkce dns-get-mx](https://www.php.net/manual/en/function.dns-get-mx.php)

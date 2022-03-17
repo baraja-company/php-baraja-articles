@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` | *není* | The input string. |
+| `$str` | `string` | *není* | Zpracovávaný řetězec. |
 | `$delimiters` | `string` | " |  |
 
 
@@ -32,4 +32,4 @@ the modified string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ucwords.php
+[Oficiální dokumentace funkce ucwords](https://www.php.net/manual/en/function.ucwords.php)

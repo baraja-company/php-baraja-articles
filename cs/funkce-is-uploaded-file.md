@@ -31,4 +31,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-uploaded-file.php
+[Oficiální dokumentace funkce is-uploaded-file](https://www.php.net/manual/en/function.is-uploaded-file.php)

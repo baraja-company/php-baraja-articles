@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fileinode.php
+[Oficiální dokumentace funkce fileinode](https://www.php.net/manual/en/function.fileinode.php)

@@ -30,4 +30,4 @@ Hodnota sinu.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.sin.php
+[Oficiální dokumentace funkce sin](https://www.php.net/manual/en/function.sin.php)

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` | *není* | The input string. |
+| `$str` | `string` | *není* | Zpracovávaný řetězec. |
 
 
 Návratové hodnoty
@@ -31,4 +31,4 @@ the lowercased string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strtolower.php
+[Oficiální dokumentace funkce strtolower](https://www.php.net/manual/en/function.strtolower.php)

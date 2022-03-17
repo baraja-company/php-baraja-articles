@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-resolve-include-path.php
+[Oficiální dokumentace funkce stream-resolve-include-path](https://www.php.net/manual/en/function.stream-resolve-include-path.php)

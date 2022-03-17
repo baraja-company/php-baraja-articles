@@ -33,4 +33,4 @@ binary.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.base64-decode.php
+[Oficiální dokumentace funkce base64-decode](https://www.php.net/manual/en/function.base64-decode.php)

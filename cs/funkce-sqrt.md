@@ -32,4 +32,4 @@ or the special value NAN for negative numbers.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.sqrt.php
+[Oficiální dokumentace funkce sqrt](https://www.php.net/manual/en/function.sqrt.php)

@@ -30,4 +30,4 @@ yet.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.error-get-last.php
+[Oficiální dokumentace funkce error-get-last](https://www.php.net/manual/en/function.error-get-last.php)

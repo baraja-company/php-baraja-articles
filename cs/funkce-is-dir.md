@@ -32,4 +32,4 @@ otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-dir.php
+[Oficiální dokumentace funkce is-dir](https://www.php.net/manual/en/function.is-dir.php)

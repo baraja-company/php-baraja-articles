@@ -41,4 +41,4 @@ Returns <b>FALSE</b> if the needle was not found.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strrpos.php
+[Oficiální dokumentace funkce strrpos](https://www.php.net/manual/en/function.strrpos.php)

@@ -32,4 +32,4 @@ Returns <b>TRUE</b> if any records are found; returns <b>FALSE</b> if no records
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.dns-check-record.php
+[Oficiální dokumentace funkce dns-check-record](https://www.php.net/manual/en/function.dns-check-record.php)

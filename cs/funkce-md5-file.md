@@ -32,4 +32,4 @@ a string on success, false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.md5-file.php
+[Oficiální dokumentace funkce md5-file](https://www.php.net/manual/en/function.md5-file.php)

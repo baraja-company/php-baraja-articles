@@ -32,4 +32,4 @@ the function result, or false on error.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.call-user-func-array.php
+[Oficiální dokumentace funkce call-user-func-array](https://www.php.net/manual/en/function.call-user-func-array.php)

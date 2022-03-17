@@ -31,4 +31,4 @@ The decimal representation of octal_string
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.octdec.php
+[Oficiální dokumentace funkce octdec](https://www.php.net/manual/en/function.octdec.php)

@@ -85,4 +85,4 @@ blocksize...
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-get-status.php
+[Oficiální dokumentace funkce ob-get-status](https://www.php.net/manual/en/function.ob-get-status.php)

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` | *není* | The input string. |
+| `$str` | `string` | *není* | Zpracovávaný řetězec. |
 
 
 Návratové hodnoty
@@ -31,4 +31,4 @@ the resulting string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.lcfirst.php
+[Oficiální dokumentace funkce lcfirst](https://www.php.net/manual/en/function.lcfirst.php)

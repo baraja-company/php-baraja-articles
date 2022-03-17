@@ -38,4 +38,4 @@ string if not all elements are requested.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.pathinfo.php
+[Oficiální dokumentace funkce pathinfo](https://www.php.net/manual/en/function.pathinfo.php)

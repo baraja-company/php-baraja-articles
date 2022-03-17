@@ -34,4 +34,4 @@ found, returns false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stristr.php
+[Oficiální dokumentace funkce stristr](https://www.php.net/manual/en/function.stristr.php)

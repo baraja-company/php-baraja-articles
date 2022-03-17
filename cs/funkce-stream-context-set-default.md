@@ -31,4 +31,4 @@ the default stream context.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-context-set-default.php
+[Oficiální dokumentace funkce stream-context-set-default](https://www.php.net/manual/en/function.stream-context-set-default.php)

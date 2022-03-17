@@ -30,4 +30,4 @@ Vrátí poslední prvek pole, nebo `false`, pokud je prázdné.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.end.php
+[Oficiální dokumentace funkce end](https://www.php.net/manual/en/function.end.php)

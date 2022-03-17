@@ -36,4 +36,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.set-file-buffer.php
+[Oficiální dokumentace funkce set-file-buffer](https://www.php.net/manual/en/function.set-file-buffer.php)

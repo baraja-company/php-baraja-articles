@@ -38,4 +38,4 @@ If needle is not found, false is returned.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strripos.php
+[Oficiální dokumentace funkce strripos](https://www.php.net/manual/en/function.strripos.php)

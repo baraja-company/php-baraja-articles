@@ -32,4 +32,4 @@ the hash as a 32-character hexadecimal number.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.md5.php
+[Oficiální dokumentace funkce md5](https://www.php.net/manual/en/function.md5.php)

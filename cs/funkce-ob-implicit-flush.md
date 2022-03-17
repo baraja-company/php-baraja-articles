@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-implicit-flush.php
+[Oficiální dokumentace funkce ob-implicit-flush](https://www.php.net/manual/en/function.ob-implicit-flush.php)

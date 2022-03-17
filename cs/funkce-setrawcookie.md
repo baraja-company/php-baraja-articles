@@ -37,4 +37,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.setrawcookie.php
+[Oficiální dokumentace funkce setrawcookie](https://www.php.net/manual/en/function.setrawcookie.php)

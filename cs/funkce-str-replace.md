@@ -37,4 +37,4 @@ echo str_replace('https://', 'https://', 'https://google.com'); // https://googl
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.str-replace.php
+[Oficiální dokumentace funkce str-replace](https://www.php.net/manual/en/function.str-replace.php)

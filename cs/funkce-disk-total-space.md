@@ -32,4 +32,4 @@ or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.disk-total-space.php
+[Oficiální dokumentace funkce disk-total-space](https://www.php.net/manual/en/function.disk-total-space.php)

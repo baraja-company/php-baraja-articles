@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$string` | `string` | *není* | The input string. |
+| `$string` | `string` | *není* | Zpracovávaný řetězec. |
 | `$split_length` | `int` | 1 | Maximum length of the chunk. |
 
 
@@ -41,4 +41,4 @@ string, the entire string is returned as the first
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.str-split.php
+[Oficiální dokumentace funkce str-split](https://www.php.net/manual/en/function.str-split.php)

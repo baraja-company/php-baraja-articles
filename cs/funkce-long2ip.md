@@ -31,4 +31,4 @@ the Internet IP address as a string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.long2ip.php
+[Oficiální dokumentace funkce long2ip](https://www.php.net/manual/en/function.long2ip.php)

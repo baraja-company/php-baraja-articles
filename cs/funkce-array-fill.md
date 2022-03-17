@@ -30,4 +30,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.array-fill.php
+[Oficiální dokumentace funkce array-fill](https://www.php.net/manual/en/function.array-fill.php)

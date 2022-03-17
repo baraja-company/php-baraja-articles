@@ -31,4 +31,4 @@ value of the given variable. Empty arrays return 0, non-empty arrays return 1.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.floatval.php
+[Oficiální dokumentace funkce floatval](https://www.php.net/manual/en/function.floatval.php)

@@ -50,4 +50,4 @@ array(3) {
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.var-dump.php
+[Oficiální dokumentace funkce var-dump](https://www.php.net/manual/en/function.var-dump.php)

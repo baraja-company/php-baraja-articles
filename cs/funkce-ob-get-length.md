@@ -29,4 +29,4 @@ buffering is active.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-get-length.php
+[Oficiální dokumentace funkce ob-get-length](https://www.php.net/manual/en/function.ob-get-length.php)

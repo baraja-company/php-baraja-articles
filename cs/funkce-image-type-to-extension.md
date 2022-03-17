@@ -32,4 +32,4 @@ A string with the extension corresponding to the given image type.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.image-type-to-extension.php
+[Oficiální dokumentace funkce image-type-to-extension](https://www.php.net/manual/en/function.image-type-to-extension.php)

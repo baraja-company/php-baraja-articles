@@ -29,4 +29,4 @@ buffering is not active.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-get-level.php
+[Oficiální dokumentace funkce ob-get-level](https://www.php.net/manual/en/function.ob-get-level.php)

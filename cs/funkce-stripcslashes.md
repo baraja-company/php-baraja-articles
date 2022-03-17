@@ -10,15 +10,14 @@ PHP funkce stripcslashes()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Un-quote string quoted with <function>addcslashes</function>
-
+Odebere escapování znaků z řetězce, který byl původně převeden funkcí `addcslashes`.
 
 Parametry
 --------------
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` | *není* | The string to be unescaped. |
+| `$str` | `string` | *není* | Vstupní řetězec |
 
 
 Návratové hodnoty
@@ -26,9 +25,7 @@ Návratové hodnoty
 
 `string`
 
-the unescaped string.
-
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stripcslashes.php
+[Oficiální dokumentace funkce stripcslashes](https://www.php.net/manual/en/function.stripcslashes.php)

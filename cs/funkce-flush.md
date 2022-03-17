@@ -28,4 +28,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.flush.php
+[Oficiální dokumentace funkce flush](https://www.php.net/manual/en/function.flush.php)

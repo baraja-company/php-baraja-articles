@@ -36,4 +36,4 @@ E_WARNING is generated.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.scandir.php
+[Oficiální dokumentace funkce scandir](https://www.php.net/manual/en/function.scandir.php)

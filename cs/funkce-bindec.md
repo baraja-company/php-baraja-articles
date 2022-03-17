@@ -31,4 +31,4 @@ The decimal value of binary_string
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.bindec.php
+[Oficiální dokumentace funkce bindec](https://www.php.net/manual/en/function.bindec.php)

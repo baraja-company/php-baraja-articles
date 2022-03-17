@@ -32,4 +32,4 @@ false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-array.php
+[Oficiální dokumentace funkce is-array](https://www.php.net/manual/en/function.is-array.php)

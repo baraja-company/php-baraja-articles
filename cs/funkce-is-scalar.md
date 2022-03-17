@@ -38,4 +38,4 @@ Vrátí `true`, pokud je vstup skalární. V ostatních případech `false`.
 Další zdroje
 ------------
 
-[Oficiální dokumentace](https://www.php.net/manual/en/function.is-scalar.php)
+[Oficiální dokumentace funkce is-scalar]([Oficiální dokumentace](https://www.php.net/manual/en/function.is-scalar.php))

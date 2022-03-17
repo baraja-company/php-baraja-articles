@@ -28,4 +28,4 @@ The value of pi as float.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.pi.php
+[Oficiální dokumentace funkce pi](https://www.php.net/manual/en/function.pi.php)

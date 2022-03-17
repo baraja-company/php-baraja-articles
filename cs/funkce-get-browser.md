@@ -42,4 +42,4 @@ reload, and check for the value.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.get-browser.php
+[Oficiální dokumentace funkce get-browser](https://www.php.net/manual/en/function.get-browser.php)

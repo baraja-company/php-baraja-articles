@@ -33,4 +33,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-get-contents.php
+[Oficiální dokumentace funkce stream-get-contents](https://www.php.net/manual/en/function.stream-get-contents.php)

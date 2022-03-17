@@ -33,4 +33,4 @@ have already been sent or true otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.headers-sent.php
+[Oficiální dokumentace funkce headers-sent](https://www.php.net/manual/en/function.headers-sent.php)

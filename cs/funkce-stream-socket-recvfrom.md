@@ -34,4 +34,4 @@ the read data, as a string
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-socket-recvfrom.php
+[Oficiální dokumentace funkce stream-socket-recvfrom](https://www.php.net/manual/en/function.stream-socket-recvfrom.php)

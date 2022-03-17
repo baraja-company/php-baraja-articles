@@ -32,4 +32,4 @@ is invalid.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ip2long.php
+[Oficiální dokumentace funkce ip2long](https://www.php.net/manual/en/function.ip2long.php)

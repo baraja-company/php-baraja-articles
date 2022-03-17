@@ -31,4 +31,4 @@ The inverse hyperbolic sine of arg
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.asinh.php
+[Oficiální dokumentace funkce asinh](https://www.php.net/manual/en/function.asinh.php)

@@ -34,4 +34,4 @@ table.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.extract.php
+[Oficiální dokumentace funkce extract](https://www.php.net/manual/en/function.extract.php)

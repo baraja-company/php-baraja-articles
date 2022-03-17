@@ -32,4 +32,4 @@ hostname could not be resolved.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.gethostbynamel.php
+[Oficiální dokumentace funkce gethostbynamel](https://www.php.net/manual/en/function.gethostbynamel.php)

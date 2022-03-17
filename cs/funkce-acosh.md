@@ -31,4 +31,4 @@ The inverse hyperbolic cosine of arg
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.acosh.php
+[Oficiální dokumentace funkce acosh](https://www.php.net/manual/en/function.acosh.php)

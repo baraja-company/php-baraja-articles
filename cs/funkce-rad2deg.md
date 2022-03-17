@@ -31,4 +31,4 @@ The equivalent of number in degrees
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.rad2deg.php
+[Oficiální dokumentace funkce rad2deg](https://www.php.net/manual/en/function.rad2deg.php)

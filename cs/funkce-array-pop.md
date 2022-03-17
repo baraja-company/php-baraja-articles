@@ -33,4 +33,4 @@ If array is empty (or is not an array),
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.array-pop.php
+[Oficiální dokumentace funkce array-pop](https://www.php.net/manual/en/function.array-pop.php)

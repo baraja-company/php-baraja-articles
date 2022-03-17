@@ -34,4 +34,4 @@ the total count of bytes copied.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-copy-to-stream.php
+[Oficiální dokumentace funkce stream-copy-to-stream](https://www.php.net/manual/en/function.stream-copy-to-stream.php)

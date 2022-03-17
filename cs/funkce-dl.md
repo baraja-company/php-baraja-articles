@@ -34,4 +34,4 @@ specified library couldn't be loaded, in addition to <b>FALSE</b> an
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.dl.php
+[Oficiální dokumentace funkce dl](https://www.php.net/manual/en/function.dl.php)

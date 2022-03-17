@@ -31,4 +31,4 @@ The hyperbolic sine of arg
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.sinh.php
+[Oficiální dokumentace funkce sinh](https://www.php.net/manual/en/function.sinh.php)

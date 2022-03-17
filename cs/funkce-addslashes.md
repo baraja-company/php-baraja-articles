@@ -28,4 +28,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.addslashes.php
+[Oficiální dokumentace funkce addslashes](https://www.php.net/manual/en/function.addslashes.php)

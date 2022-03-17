@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.microtime.php
+[Oficiální dokumentace funkce microtime](https://www.php.net/manual/en/function.microtime.php)

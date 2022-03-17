@@ -32,4 +32,4 @@ value that can be stored anywhere.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.serialize.php
+[Oficiální dokumentace funkce serialize](https://www.php.net/manual/en/function.serialize.php)

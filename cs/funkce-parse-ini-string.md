@@ -34,4 +34,4 @@ and false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.parse-ini-string.php
+[Oficiální dokumentace funkce parse-ini-string](https://www.php.net/manual/en/function.parse-ini-string.php)

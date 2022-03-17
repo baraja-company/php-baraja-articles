@@ -85,4 +85,4 @@ stream.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.socket-get-status.php
+[Oficiální dokumentace funkce socket-get-status](https://www.php.net/manual/en/function.socket-get-status.php)

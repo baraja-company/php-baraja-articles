@@ -53,4 +53,4 @@ apply.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.intval.php
+[Oficiální dokumentace funkce intval](https://www.php.net/manual/en/function.intval.php)

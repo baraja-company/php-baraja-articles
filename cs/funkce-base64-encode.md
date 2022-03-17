@@ -31,4 +31,4 @@ The encoded data, as a string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.base64-encode.php
+[Oficiální dokumentace funkce base64-encode](https://www.php.net/manual/en/function.base64-encode.php)

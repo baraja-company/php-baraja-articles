@@ -33,4 +33,4 @@ the new number of elements in the array.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.array-push.php
+[Oficiální dokumentace funkce array-push](https://www.php.net/manual/en/function.array-push.php)

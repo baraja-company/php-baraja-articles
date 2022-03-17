@@ -32,4 +32,4 @@ an empty string on failure or for null values.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ini-get.php
+[Oficiální dokumentace funkce ini-get](https://www.php.net/manual/en/function.ini-get.php)

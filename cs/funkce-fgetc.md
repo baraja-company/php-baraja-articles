@@ -32,4 +32,4 @@ to by handle. Returns false on EOF.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fgetc.php
+[Oficiální dokumentace funkce fgetc](https://www.php.net/manual/en/function.fgetc.php)

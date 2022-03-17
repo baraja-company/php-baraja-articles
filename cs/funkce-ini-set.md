@@ -32,4 +32,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ini-set.php
+[Oficiální dokumentace funkce ini-set](https://www.php.net/manual/en/function.ini-set.php)

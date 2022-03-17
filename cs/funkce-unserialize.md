@@ -38,4 +38,4 @@ E_NOTICE is issued.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.unserialize.php
+[Oficiální dokumentace funkce unserialize](https://www.php.net/manual/en/function.unserialize.php)

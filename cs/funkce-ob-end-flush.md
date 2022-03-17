@@ -30,4 +30,4 @@ not be deleted (possible for special buffer).
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-end-flush.php
+[Oficiální dokumentace funkce ob-end-flush](https://www.php.net/manual/en/function.ob-end-flush.php)

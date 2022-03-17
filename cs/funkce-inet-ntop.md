@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.inet-ntop.php
+[Oficiální dokumentace funkce inet-ntop](https://www.php.net/manual/en/function.inet-ntop.php)

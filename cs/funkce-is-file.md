@@ -32,4 +32,4 @@ otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-file.php
+[Oficiální dokumentace funkce is-file](https://www.php.net/manual/en/function.is-file.php)

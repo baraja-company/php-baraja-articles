@@ -31,4 +31,4 @@ The string value of var.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strval.php
+[Oficiální dokumentace funkce strval](https://www.php.net/manual/en/function.strval.php)

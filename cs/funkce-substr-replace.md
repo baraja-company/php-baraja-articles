@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$string` | `mixed` | *není* | The input string. |
+| `$string` | `mixed` | *není* | Zpracovávaný řetězec. |
 | `$replacement` | `string` | *není* | The replacement string. |
 | `$start` | `int` | *není* | If start is positive, the replacing will begin at the start'th offset into string. |
 | `$length` | `int` | null | If given and is positive, it represents the length of the portion of string which is to be replaced. If it is negative, it represents the number of characters from the end of string at which to stop replacing. If it is not given, then it will default to strlen( string ); i.e. end the replacing at the end of string. Of course, if length is zero then this function will have the effect of inserting replacement into string at the given start offset. |
@@ -35,4 +35,4 @@ array then array is returned.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.substr-replace.php
+[Oficiální dokumentace funkce substr-replace](https://www.php.net/manual/en/function.substr-replace.php)

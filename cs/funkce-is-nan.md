@@ -32,4 +32,4 @@ else false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-nan.php
+[Oficiální dokumentace funkce is-nan](https://www.php.net/manual/en/function.is-nan.php)

@@ -33,4 +33,4 @@ not found.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strpbrk.php
+[Oficiální dokumentace funkce strpbrk](https://www.php.net/manual/en/function.strpbrk.php)

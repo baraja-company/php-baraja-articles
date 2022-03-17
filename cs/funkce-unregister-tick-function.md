@@ -31,4 +31,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.unregister-tick-function.php
+[Oficiální dokumentace funkce unregister-tick-function](https://www.php.net/manual/en/function.unregister-tick-function.php)

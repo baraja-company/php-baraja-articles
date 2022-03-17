@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` | *není* | The input string. |
-| `$allowable_tags` | `string` | null | You can use the optional second parameter to specify tags which should not be stripped. |
+| `$str` | `string` | *není* | Vstupní řetězec. |
+| `$allowable_tags` | `string` | null | Druhý nepovinný parametr můžete použít k určení značek, které nemají být odstraněny. |
 
 
 Návratové hodnoty
@@ -32,4 +32,4 @@ the stripped string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strip-tags.php
+[Oficiální dokumentace funkce strip-tags](https://www.php.net/manual/en/function.strip-tags.php)

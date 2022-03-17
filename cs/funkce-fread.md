@@ -32,4 +32,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fread.php
+[Oficiální dokumentace funkce fread](https://www.php.net/manual/en/function.fread.php)

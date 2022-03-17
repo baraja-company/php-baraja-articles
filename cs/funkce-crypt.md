@@ -32,4 +32,4 @@ the encrypted string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.crypt.php
+[Oficiální dokumentace funkce crypt](https://www.php.net/manual/en/function.crypt.php)

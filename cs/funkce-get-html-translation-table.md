@@ -32,4 +32,4 @@ the translation table as an array.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.get-html-translation-table.php
+[Oficiální dokumentace funkce get-html-translation-table](https://www.php.net/manual/en/function.get-html-translation-table.php)

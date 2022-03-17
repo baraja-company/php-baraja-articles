@@ -39,4 +39,4 @@ echo 'Jak se vede?'; // Vypíše se až za 3 sekundy
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.sleep.php
+[Oficiální dokumentace funkce sleep](https://www.php.net/manual/en/function.sleep.php)

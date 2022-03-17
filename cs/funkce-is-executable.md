@@ -32,4 +32,4 @@ error.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-executable.php
+[Oficiální dokumentace funkce is-executable](https://www.php.net/manual/en/function.is-executable.php)

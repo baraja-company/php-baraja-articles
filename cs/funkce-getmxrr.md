@@ -34,4 +34,4 @@ were found or if an error occurred.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.getmxrr.php
+[Oficiální dokumentace funkce getmxrr](https://www.php.net/manual/en/function.getmxrr.php)

@@ -34,4 +34,4 @@ format chosen.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.str-word-count.php
+[Oficiální dokumentace funkce str-word-count](https://www.php.net/manual/en/function.str-word-count.php)

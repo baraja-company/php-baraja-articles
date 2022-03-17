@@ -112,4 +112,4 @@ In case of error, stat returns false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stat.php
+[Oficiální dokumentace funkce stat](https://www.php.net/manual/en/function.stat.php)

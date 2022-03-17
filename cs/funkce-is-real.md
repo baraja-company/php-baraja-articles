@@ -32,4 +32,4 @@ false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-real.php
+[Oficiální dokumentace funkce is-real](https://www.php.net/manual/en/function.is-real.php)

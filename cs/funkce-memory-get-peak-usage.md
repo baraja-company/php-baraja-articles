@@ -31,4 +31,4 @@ the memory peak in bytes.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.memory-get-peak-usage.php
+[Oficiální dokumentace funkce memory-get-peak-usage](https://www.php.net/manual/en/function.memory-get-peak-usage.php)

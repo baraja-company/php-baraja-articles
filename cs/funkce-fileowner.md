@@ -33,4 +33,4 @@ posix_getpwuid to resolve it to a username.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fileowner.php
+[Oficiální dokumentace funkce fileowner](https://www.php.net/manual/en/function.fileowner.php)

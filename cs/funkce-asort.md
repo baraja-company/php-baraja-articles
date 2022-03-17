@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.asort.php
+[Oficiální dokumentace funkce asort](https://www.php.net/manual/en/function.asort.php)

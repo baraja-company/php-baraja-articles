@@ -29,4 +29,4 @@ minutes).
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.sys-getloadavg.php
+[Oficiální dokumentace funkce sys-getloadavg](https://www.php.net/manual/en/function.sys-getloadavg.php)

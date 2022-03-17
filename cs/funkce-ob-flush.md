@@ -28,4 +28,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-flush.php
+[Oficiální dokumentace funkce ob-flush](https://www.php.net/manual/en/function.ob-flush.php)

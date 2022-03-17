@@ -32,4 +32,4 @@ The name of the socket.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-socket-get-name.php
+[Oficiální dokumentace funkce stream-socket-get-name](https://www.php.net/manual/en/function.stream-socket-get-name.php)

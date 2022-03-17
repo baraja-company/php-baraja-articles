@@ -33,4 +33,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.array-walk.php
+[Oficiální dokumentace funkce array-walk](https://www.php.net/manual/en/function.array-walk.php)

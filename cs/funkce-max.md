@@ -37,4 +37,4 @@ max([1, 5, 3, 6, 2, 4]); // vrátí 6
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.max.php
+[Oficiální dokumentace funkce max](https://www.php.net/manual/en/function.max.php)

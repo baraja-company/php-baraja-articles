@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.socket-set-blocking.php
+[Oficiální dokumentace funkce socket-set-blocking](https://www.php.net/manual/en/function.socket-set-blocking.php)

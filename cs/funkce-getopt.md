@@ -34,4 +34,4 @@ failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.getopt.php
+[Oficiální dokumentace funkce getopt](https://www.php.net/manual/en/function.getopt.php)

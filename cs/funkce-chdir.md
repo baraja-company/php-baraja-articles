@@ -31,4 +31,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.chdir.php
+[Oficiální dokumentace funkce chdir](https://www.php.net/manual/en/function.chdir.php)

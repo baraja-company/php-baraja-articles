@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` | *není* | The input string. |
+| `$str` | `string` | *není* | Zpracovávaný řetězec. |
 
 
 Návratové hodnoty
@@ -34,4 +34,4 @@ backslash (\).
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stripslashes.php
+[Oficiální dokumentace funkce stripslashes](https://www.php.net/manual/en/function.stripslashes.php)

@@ -33,4 +33,4 @@ the function result, or false on error.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.forward-static-call.php
+[Oficiální dokumentace funkce forward-static-call](https://www.php.net/manual/en/function.forward-static-call.php)

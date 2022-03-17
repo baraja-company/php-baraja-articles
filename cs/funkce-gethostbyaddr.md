@@ -32,4 +32,4 @@ on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.gethostbyaddr.php
+[Oficiální dokumentace funkce gethostbyaddr](https://www.php.net/manual/en/function.gethostbyaddr.php)

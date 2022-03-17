@@ -32,4 +32,4 @@ of level E_WARNING) in case of an error.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.filesize.php
+[Oficiální dokumentace funkce filesize](https://www.php.net/manual/en/function.filesize.php)

@@ -34,4 +34,4 @@ otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-callable.php
+[Oficiální dokumentace funkce is-callable](https://www.php.net/manual/en/function.is-callable.php)

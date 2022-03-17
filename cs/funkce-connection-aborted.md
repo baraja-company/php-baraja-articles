@@ -28,4 +28,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.connection-aborted.php
+[Oficiální dokumentace funkce connection-aborted](https://www.php.net/manual/en/function.connection-aborted.php)

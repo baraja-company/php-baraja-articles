@@ -35,4 +35,4 @@ This function returns the portion of string, or <b>FALSE</b> if
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strrchr.php
+[Oficiální dokumentace funkce strrchr](https://www.php.net/manual/en/function.strrchr.php)

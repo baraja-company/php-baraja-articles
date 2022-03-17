@@ -31,4 +31,4 @@ The arc tangent of arg in radians.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.atan.php
+[Oficiální dokumentace funkce atan](https://www.php.net/manual/en/function.atan.php)

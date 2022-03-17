@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.lchown.php
+[Oficiální dokumentace funkce lchown](https://www.php.net/manual/en/function.lchown.php)

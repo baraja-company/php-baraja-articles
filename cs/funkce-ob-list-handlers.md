@@ -32,4 +32,4 @@ handler".
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ob-list-handlers.php
+[Oficiální dokumentace funkce ob-list-handlers](https://www.php.net/manual/en/function.ob-list-handlers.php)

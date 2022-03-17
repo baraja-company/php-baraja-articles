@@ -32,4 +32,4 @@ Vrátí `true`, pokud je prvek v poli obsažen, jinak `false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.in-array.php
+[Oficiální dokumentace funkce in-array](https://www.php.net/manual/en/function.in-array.php)

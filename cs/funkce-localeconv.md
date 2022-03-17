@@ -141,4 +141,4 @@ element should be used.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.localeconv.php
+[Oficiální dokumentace funkce localeconv](https://www.php.net/manual/en/function.localeconv.php)

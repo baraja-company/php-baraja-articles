@@ -34,4 +34,4 @@ string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.unpack.php
+[Oficiální dokumentace funkce unpack](https://www.php.net/manual/en/function.unpack.php)

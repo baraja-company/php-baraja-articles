@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ksort.php
+[Oficiální dokumentace funkce ksort](https://www.php.net/manual/en/function.ksort.php)

@@ -33,4 +33,4 @@ suitable for the date function.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.filemtime.php
+[Oficiální dokumentace funkce filemtime](https://www.php.net/manual/en/function.filemtime.php)

@@ -34,4 +34,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.array-multisort.php
+[Oficiální dokumentace funkce array-multisort](https://www.php.net/manual/en/function.array-multisort.php)

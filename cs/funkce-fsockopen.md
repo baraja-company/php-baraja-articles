@@ -39,4 +39,4 @@ feof). If the call fails, it will return false
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.fsockopen.php
+[Oficiální dokumentace funkce fsockopen](https://www.php.net/manual/en/function.fsockopen.php)

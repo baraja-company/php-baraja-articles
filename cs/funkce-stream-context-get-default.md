@@ -31,4 +31,4 @@ A stream context resource.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-context-get-default.php
+[Oficiální dokumentace funkce stream-context-get-default](https://www.php.net/manual/en/function.stream-context-get-default.php)

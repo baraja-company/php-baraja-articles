@@ -34,4 +34,4 @@ the slice.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.array-slice.php
+[Oficiální dokumentace funkce array-slice](https://www.php.net/manual/en/function.array-slice.php)

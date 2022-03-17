@@ -34,4 +34,4 @@ the length of the segment as an integer.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strcspn.php
+[Oficiální dokumentace funkce strcspn](https://www.php.net/manual/en/function.strcspn.php)

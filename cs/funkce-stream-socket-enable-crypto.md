@@ -36,4 +36,4 @@ true on success, false if negotiation has failed or
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-socket-enable-crypto.php
+[Oficiální dokumentace funkce stream-socket-enable-crypto](https://www.php.net/manual/en/function.stream-socket-enable-crypto.php)

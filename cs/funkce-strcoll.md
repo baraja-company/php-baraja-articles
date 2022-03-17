@@ -35,4 +35,4 @@ str2, and 0 if they are equal.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strcoll.php
+[Oficiální dokumentace funkce strcoll](https://www.php.net/manual/en/function.strcoll.php)

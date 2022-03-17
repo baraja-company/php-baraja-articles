@@ -33,4 +33,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.touch.php
+[Oficiální dokumentace funkce touch](https://www.php.net/manual/en/function.touch.php)

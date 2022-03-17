@@ -44,4 +44,4 @@ The check is done using the real UID/GID instead of the effective one.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.file-exists.php
+[Oficiální dokumentace funkce file-exists](https://www.php.net/manual/en/function.file-exists.php)

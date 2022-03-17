@@ -35,4 +35,4 @@ instance during a call to stream_filter_remove.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-filter-append.php
+[Oficiální dokumentace funkce stream-filter-append](https://www.php.net/manual/en/function.stream-filter-append.php)

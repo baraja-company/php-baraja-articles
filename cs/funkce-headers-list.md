@@ -28,4 +28,4 @@ a numerically indexed array of headers.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.headers-list.php
+[Oficiální dokumentace funkce headers-list](https://www.php.net/manual/en/function.headers-list.php)

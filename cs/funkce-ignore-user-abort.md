@@ -31,4 +31,4 @@ the previous setting, as an integer.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ignore-user-abort.php
+[Oficiální dokumentace funkce ignore-user-abort](https://www.php.net/manual/en/function.ignore-user-abort.php)

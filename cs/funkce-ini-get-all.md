@@ -51,4 +51,4 @@ why access shows the appropriate bitmask values.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.ini-get-all.php
+[Oficiální dokumentace funkce ini-get-all](https://www.php.net/manual/en/function.ini-get-all.php)

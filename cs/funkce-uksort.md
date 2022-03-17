@@ -32,4 +32,4 @@ true on success or false on failure.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.uksort.php
+[Oficiální dokumentace funkce uksort](https://www.php.net/manual/en/function.uksort.php)

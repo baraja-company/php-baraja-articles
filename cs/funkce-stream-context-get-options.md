@@ -31,4 +31,4 @@ an associative array with the options.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-context-get-options.php
+[Oficiální dokumentace funkce stream-context-get-options](https://www.php.net/manual/en/function.stream-context-get-options.php)

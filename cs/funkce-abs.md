@@ -56,4 +56,4 @@ V komentáři jsou uvedené návratové hodnoty
 Další zdroje
 ------------
 
-[PHP.net dokumentace](https://www.php.net/manual/en/function.abs.php)
+[Oficiální dokumentace funkce abs]([PHP.net dokumentace](https://www.php.net/manual/en/function.abs.php))

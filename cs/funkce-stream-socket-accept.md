@@ -33,4 +33,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.stream-socket-accept.php
+[Oficiální dokumentace funkce stream-socket-accept](https://www.php.net/manual/en/function.stream-socket-accept.php)

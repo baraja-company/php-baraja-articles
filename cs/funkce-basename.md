@@ -32,4 +32,4 @@ the base name of the given path.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.basename.php
+[Oficiální dokumentace funkce basename](https://www.php.net/manual/en/function.basename.php)

@@ -32,4 +32,4 @@ false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-integer.php
+[Oficiální dokumentace funkce is-integer](https://www.php.net/manual/en/function.is-integer.php)

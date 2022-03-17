@@ -30,4 +30,4 @@ Návratové hodnoty
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.socket-import-stream.php
+[Oficiální dokumentace funkce socket-import-stream](https://www.php.net/manual/en/function.socket-import-stream.php)

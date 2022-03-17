@@ -32,4 +32,4 @@ the output array with all the variables added to it.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.compact.php
+[Oficiální dokumentace funkce compact](https://www.php.net/manual/en/function.compact.php)

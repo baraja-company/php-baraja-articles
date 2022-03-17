@@ -33,4 +33,4 @@ a binary string containing data.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.pack.php
+[Oficiální dokumentace funkce pack](https://www.php.net/manual/en/function.pack.php)

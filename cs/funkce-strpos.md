@@ -67,4 +67,4 @@ Funkce vždy vrátí pozici řetězce jako celé číslo (`int`), nebo hodnotu `
 Další zdroje
 ------------
 
-[Oficiální manuál](https://www.php.net/manual/en/function.strpos.php)
+[Oficiální dokumentace funkce strpos]([Oficiální manuál](https://www.php.net/manual/en/function.strpos.php))

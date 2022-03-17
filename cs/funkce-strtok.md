@@ -37,4 +37,4 @@ A string token.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.strtok.php
+[Oficiální dokumentace funkce strtok](https://www.php.net/manual/en/function.strtok.php)

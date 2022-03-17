@@ -31,4 +31,4 @@ true if val is infinite, else false.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.is-infinite.php
+[Oficiální dokumentace funkce is-infinite](https://www.php.net/manual/en/function.is-infinite.php)

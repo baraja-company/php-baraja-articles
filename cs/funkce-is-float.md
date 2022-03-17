@@ -32,4 +32,4 @@ Vrátí `true`, pokud je `float`. Jinak `false`
 Další zdroje
 ------------
 
-[Oficiální manuál](https://www.php.net/manual/en/function.is-float.php)
+[Oficiální dokumentace funkce is-float]([Oficiální manuál](https://www.php.net/manual/en/function.is-float.php))

@@ -31,4 +31,4 @@ The tangent of arg
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.tan.php
+[Oficiální dokumentace funkce tan](https://www.php.net/manual/en/function.tan.php)

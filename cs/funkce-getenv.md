@@ -33,4 +33,4 @@ provided, or false on an error.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.getenv.php
+[Oficiální dokumentace funkce getenv](https://www.php.net/manual/en/function.getenv.php)

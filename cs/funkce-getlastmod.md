@@ -30,4 +30,4 @@ feeding to date. Returns false on error.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.getlastmod.php
+[Oficiální dokumentace funkce getlastmod](https://www.php.net/manual/en/function.getlastmod.php)

@@ -41,4 +41,4 @@ zero are listed.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.count-chars.php
+[Oficiální dokumentace funkce count-chars](https://www.php.net/manual/en/function.count-chars.php)

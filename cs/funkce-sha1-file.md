@@ -32,4 +32,4 @@ a string on success, false otherwise.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.sha1-file.php
+[Oficiální dokumentace funkce sha1-file](https://www.php.net/manual/en/function.sha1-file.php)

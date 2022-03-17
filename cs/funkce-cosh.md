@@ -31,4 +31,4 @@ The hyperbolic cosine of arg
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.cosh.php
+[Oficiální dokumentace funkce cosh](https://www.php.net/manual/en/function.cosh.php)

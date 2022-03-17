@@ -32,4 +32,4 @@ the visual string.
 Další zdroje
 ------------
 
-https://www.php.net/manual/en/function.hebrev.php
+[Oficiální dokumentace funkce hebrev](https://www.php.net/manual/en/function.hebrev.php)
