@@ -27,14 +27,14 @@ Priority syslogu (v sestupném pořadí):
 
 | Konstanta     | Popis |
 |---------------|-------|
-| `LOG_EMERG`   | system is unusable |
-| `LOG_ALERT`   | action must be taken immediately |
-| `LOG_CRIT`    | critical conditions |
-| `LOG_ERR`     | error conditions |
-| `LOG_WARNING` | warning conditions |
-| `LOG_NOTICE`  | normal, but significant, condition |
-| `LOG_INFO`    | informational message |
-| `LOG_DEBUG`   | debug-level message |
+| `LOG_EMERG` | systém je nepoužitelný |
+| `LOG_ALERT` | je třeba okamžitě přijmout opatření |
+| `LOG_CRIT` | kritické stavy |
+| `LOG_ERR` | chybové stavy |
+| `LOG_WARNING` | varovné stavy |
+| `LOG_NOTICE` | normální, ale významné podmínky |
+| `LOG_INFO` | informační zpráva |
+| `LOG_DEBUG` | zpráva na úrovni ladění |
 
 Návratové hodnoty
 ----------------

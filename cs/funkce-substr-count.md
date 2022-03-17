@@ -10,7 +10,7 @@ PHP funkce substr_count()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Count the number of substring occurrences
+Spočítat počet výskytů podřetězce
 
 
 Parametry
@@ -18,10 +18,10 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$haystack` | `string` | *není* | The string to search in |
-| `$needle` | `string` | *není* | The substring to search for |
-| `$offset` | `int` | null, | The offset where to start counting |
-| `$length` | `int` | null | The maximum length after the specified offset to search for the substring. It outputs a warning if the offset plus the length is greater than the haystack length. |
+| `$haystack` | `string` | *není* | Řetězec, ve kterém se má hledat |
+| `$needle` | `string` | *není* | Podřetězec, který se má hledat |
+| `$offset` | `int` | null, | Posun, od kterého se má začít počítat |
+| `$délka` | `int` | null | Maximální délka po zadaném offsetu pro hledání podřetězce. Vypíše varování, pokud je offset plus délka větší než délka kupky sena. |
 
 
 Návratové hodnoty
@@ -29,7 +29,7 @@ Návratové hodnoty
 
 `int`
 
-This functions returns an integer.
+Tato funkce vrací celé číslo.
 
 Další zdroje
 ------------

@@ -10,7 +10,7 @@ PHP funkce substr_replace()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Replace text within a portion of a string
+Nahrazení textu v části řetězce
 
 
 Parametry
@@ -19,9 +19,9 @@ Parametry
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
 | `$string` | `mixed` | *není* | Zpracovávaný řetězec. |
-| `$replacement` | `string` | *není* | The replacement string. |
-| `$start` | `int` | *není* | If start is positive, the replacing will begin at the start'th offset into string. |
-| `$length` | `int` | null | If given and is positive, it represents the length of the portion of string which is to be replaced. If it is negative, it represents the number of characters from the end of string at which to stop replacing. If it is not given, then it will default to strlen( string ); i.e. end the replacing at the end of string. Of course, if length is zero then this function will have the effect of inserting replacement into string at the given start offset. |
+| `$replacement` | `string` | *není* | Řetězec pro nahrazení. |
+ | `$start` | `int` | *není* | Pokud je start kladný, nahrazování začne od počátečního posunu do řetězce. |
+ | `$length` | `int` | null | Pokud je zadán a je kladný, představuje délku části řetězce, která má být nahrazena. Pokud je záporný, představuje počet znaků od konce řetězce, na kterém se má nahrazování ukončit. Není-li zadán, pak se implicitně použije hodnota strlen( string ); tj. nahrazování se ukončí na konci řetězce. Samozřejmě, pokud je délka nulová, pak tato funkce bude mít za následek vložení nahrazování do řetězce na zadaném počátečním posunu. |
 
 
 Návratové hodnoty
@@ -29,8 +29,7 @@ Návratové hodnoty
 
 `mixed`
 
-The result string is returned. If string is an
-array then array is returned.
+Vrátí se výsledný řetězec. Pokud je řetězec pole, je vráceno pole.
 
 Další zdroje
 ------------

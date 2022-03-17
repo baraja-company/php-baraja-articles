@@ -10,7 +10,7 @@ PHP funkce substr_compare()
 
 Dostupnost ve verzích: `PHP 5.0`
 
-Binary safe comparison of 2 strings from an offset, up to length characters
+Binární bezpečné porovnání 2 řetězců od offsetu až do délky znaků
 
 
 Parametry
@@ -18,11 +18,11 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$main_str` | `string` | *není* | The main string being compared. |
-| `$str` | `string` | *není* | The secondary string being compared. |
-| `$offset` | `int` | *není* | The start position for the comparison. If negative, it starts counting from the end of the string. |
-| `$length` | `int` | null, | The length of the comparison. |
-| `$case_insensitivity` | `bool` | null | If case_insensitivity is true, comparison is case insensitive. |
+| `$main_str` | `string` | *není* | Porovnávaný hlavní řetězec. |
+| `$str` | `string` | *není* | Porovnávaný vedlejší řetězec. |
+| `$offset` | `int` | *není* | Počáteční pozice pro porovnání. Pokud je záporná, začíná se počítat od konce řetězce. |
+| `$délka` | `int` | null, | Délka porovnávání. |
+| `$case_insensitivity` | `bool` | null | Pokud je case_insensitivity true, porovnání nerozlišuje velká a malá písmena. |
 
 
 Návratové hodnoty
@@ -30,13 +30,11 @@ Návratové hodnoty
 
 `int`
 
-&lt; 0 if main_str from position
-offset is less than str, &gt;
-0 if it is greater than str, and 0 if they are equal.
-If offset is equal to or greater than the length of
-main_str or length is set and
-is less than 1, substr_compare prints a warning and returns
-false.
+- `0` pokud `main_str` z pozice offset je menší než str
+- `0`, pokud je větší než str
+- `0`, pokud se rovnají.
+
+Pokud je offset roven nebo větší než délka `main_str` nebo je délka nastavena a je menší než `1`, substr_compare vypíše varování a vrátí false.
 
 Další zdroje
 ------------

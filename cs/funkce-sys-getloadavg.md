@@ -10,8 +10,17 @@ PHP funkce sys_getloadavg()
 
 Dostupnost ve verzích: `PHP 5.1.3`
 
-Gets system load average
+Získá průměrné zatížení systému. Stejné hodnoty, jako znáte z nástroje `htop` v Linuxu.
 
+Příklad:
+
+```php
+$load = sys_getloadavg();
+if ($load[0] > 0.80) { // je zátěž větší než 80 %?
+    header('HTTP/1.1 503 Too busy, try again later');
+    die('Server je přetížen, zkuste to později.');
+}
+```
 
 Parametry
 --------------
@@ -23,8 +32,7 @@ Návratové hodnoty
 
 `array`
 
-an array with three samples (last 1, 5 and 15
-minutes).
+pole se třemi vzorky (poslední 1 minuta, 5 minut a 15 minut).
 
 Další zdroje
 ------------
