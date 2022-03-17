@@ -10,7 +10,7 @@ PHP funkce unpack()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Unpack data from binary string
+Rozbalení dat z binárního řetězce
 
 
 Parametry
@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$format` | `string` | *není* | See pack for an explanation of the format codes. |
-| `$data` | `string` | *není* | The packed data. |
+| `$format` | `string` | *není* | Vysvětlení kódů formátů najdete v balíčku. |
+| `$data` | `string` | *není* | Zabalená data. |
 | `$offset` | `int` | *není* |  |
 
 
@@ -28,8 +28,7 @@ Návratové hodnoty
 
 `array`
 
-an associative array containing unpacked elements of binary
-string.
+asociativní pole obsahující rozbalené prvky binárního řetězce.
 
 Další zdroje
 ------------

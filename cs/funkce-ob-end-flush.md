@@ -23,7 +23,7 @@ Návratové hodnoty
 
 `bool`
 
-true on success or false on failure. Reasons for failure are first that you called the
+vrátí `true` v případě úspěchu, jinak `false` v případě neúspěchu. Reasons for failure are first that you called the
 function without an active buffer or that for some reason a buffer could
 not be deleted (possible for special buffer).
 

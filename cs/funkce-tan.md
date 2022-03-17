@@ -1,5 +1,5 @@
-PHP funkce tan()
-================
+PHP funkce tan() - Tangent
+==========================
 
 > id: "98ea5610-2dcb-47c4-9634-1d2f55508556"
 > slug:
@@ -10,15 +10,12 @@ PHP funkce tan()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Tangent
-
-
 Parametry
 --------------
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$arg` | `float` | *není* | The argument to process in radians |
+| `$arg` | `float` | *není* | Argument pro zpracování v radiánech |
 
 
 Návratové hodnoty
@@ -26,7 +23,7 @@ Návratové hodnoty
 
 `float`
 
-The tangent of arg
+Tečna k arg
 
 Další zdroje
 ------------

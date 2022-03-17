@@ -10,7 +10,7 @@ PHP funkce touch()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Sets access and modification time of file
+Nastaví čas přístupu a modifikace souboru
 
 
 Parametry
@@ -18,9 +18,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` | *není* | The name of the file being touched. |
-| `$time` | `int` | null, | The touch time. If time is not supplied, the current system time is used. |
-| `$atime` | `int` | null | If present, the access time of the given filename is set to the value of atime. Otherwise, it is set to time. |
+| `$filename` | `string` | *není* | Název souboru, kterého se dotýkáte. |
+| `$time` | `int` | null, | Čas dotyku. Pokud není čas uveden, použije se aktuální systémový čas. |
+| `$atime` | `int` | null | Je-li uveden, nastaví se čas přístupu k zadanému názvu souboru na hodnotu atime. V opačném případě se nastaví na hodnotu time. |
 
 
 Návratové hodnoty
@@ -28,7 +28,7 @@ Návratové hodnoty
 
 `bool`
 
-true on success or false on failure.
+vrátí `true` v případě úspěchu, jinak `false` v případě neúspěchu.
 
 Další zdroje
 ------------

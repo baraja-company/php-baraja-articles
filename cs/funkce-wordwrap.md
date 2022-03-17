@@ -10,7 +10,7 @@ PHP funkce wordwrap()
 
 Dostupnost ve verzích: `PHP 4.0.2`
 
-Wraps a string to a given number of characters
+Obalí řetězec na zadaný počet znaků
 
 
 Parametry
@@ -19,9 +19,9 @@ Parametry
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
 | `$str` | `string` | *není* | Zpracovávaný řetězec. |
-| `$width` | `int` | 75, | The column width. |
-| `$break` | `string` | "\n", | The line is broken using the optional break parameter. |
-| `$cut` | `bool` | false | If the cut is set to true, the string is always wrapped at or before the specified width. So if you have a word that is larger than the given width, it is broken apart. (See second example). |
+| `$width` | `int` | 75, | Šířka sloupce. |
+| `$break` | `string` | "\n", | Řádek se zalomí pomocí nepovinného parametru break. |
+| `$cut` | `bool` | false | Pokud je parametr cut nastaven na hodnotu true, řetězec se vždy zabalí na zadané šířce nebo před ní. Pokud je tedy slovo větší než zadaná šířka, je rozděleno. (Viz druhý příklad). |
 
 
 Návratové hodnoty
@@ -29,7 +29,7 @@ Návratové hodnoty
 
 `string`
 
-the given string wrapped at the specified column.
+daný řetězec zabalený v zadaném sloupci.
 
 Další zdroje
 ------------

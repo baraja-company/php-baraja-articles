@@ -10,7 +10,7 @@ PHP funkce unregister_tick_function()
 
 Dostupnost ve verzích: `PHP 4.0.3`
 
-De-register a function for execution on each tick
+Zrušení registrace funkce pro provedení při každém zaškrtnutí
 
 
 Parametry
@@ -18,15 +18,13 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$function_name` | `string` | *není* | The function name, as a string. |
+| `$function_name` | `string` | *není* | Název funkce ve formě řetězce. |
 
 
 Návratové hodnoty
 ----------------
 
 `void`
-
-
 
 Další zdroje
 ------------

@@ -10,7 +10,7 @@ PHP funkce uasort()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Sort an array with a user-defined comparison function and maintain index association
+Seřadit pole pomocí uživatelsky definované porovnávací funkce a zachovat přiřazení indexů
 
 
 Parametry
@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$array` | `array` | *není* | The input array. |
-| `$cmp_function` | `callback` | *není* | See usort and uksort for examples of user-defined comparison functions. |
+| `$array` | `array` | *není* | Vstupní pole. |
+| `$cmp_function` | `callback` | *není* | Příklady uživatelsky definovaných porovnávacích funkcí viz usort a uksort. |
 
 
 Návratové hodnoty
@@ -27,7 +27,7 @@ Návratové hodnoty
 
 `bool`
 
-true on success or false on failure.
+vrátí `true` v případě úspěchu, jinak `false` v případě neúspěchu.
 
 Další zdroje
 ------------

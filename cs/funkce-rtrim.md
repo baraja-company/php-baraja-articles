@@ -36,7 +36,7 @@ Návratové hodnoty
 
 `string`
 
-the modified string.
+změněný řetězec.
 
 Další zdroje
 ------------

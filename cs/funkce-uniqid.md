@@ -21,8 +21,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$prefix` | `string` | "", | Může být užitečné, například, pokud generujete identifikátory současně na několika serverech, které by mohly generovat identifikátor ve stejné mikrosekundě. |
-| `$more_entropy` | `bool` | false | Je-li nastavena na hodnotu `true`, uniqid přidá na konci návratové hodnoty další entropii (pomocí kombinovaného lineárního kongruenčního generátoru), což by mělo činit výsledky jedinečnější. |
+| `$prefix` | `string` | `""` | Může být užitečné, například, pokud generujete identifikátory současně na několika serverech, které by mohly generovat identifikátor ve stejné mikrosekundě. |
+| `$more_entropy` | `bool` | `false` | Je-li nastavena na hodnotu `true`, uniqid přidá na konci návratové hodnoty další entropii (pomocí kombinovaného lineárního kongruenčního generátoru), což by mělo činit výsledky jedinečnější. |
 
 
 Návratové hodnoty

@@ -10,7 +10,7 @@ PHP funkce time_nanosleep()
 
 Dostupnost ve verzích: `PHP 5.0`
 
-Delay for a number of seconds and nanoseconds
+Zpoždění v řádu sekund a nanosekund
 
 
 Parametry
@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$seconds` | `int` | *není* | Must be a positive integer. |
-| `$nanoseconds` | `int` | *není* | Must be a positive integer less than 1 billion. |
+| `$seconds` | `int` | *není* | Musí to být celé kladné číslo. |
+| `$nanoseconds` | `int` | *není* | Musí to být kladné celé číslo menší než 1 miliarda. |
 
 
 Návratové hodnoty
@@ -27,15 +27,12 @@ Návratové hodnoty
 
 `bool`
 
-|array true on success or false on failure.
-</p>
-<p>
-If the delay was interrupted by a signal, an associative array will be
-returned with the components:
-seconds - number of seconds remaining in
-the delay
-nanoseconds - number of nanoseconds
-remaining in the delay
+Vrátí `true` v případě úspěchu, jinak `false` v případě neúspěchu.
+
+Pokud bylo zpoždění přerušeno signálem, bude vráceno asociativní pole s komponentami:
+
+- sekundy - počet sekund zbývajících do konce zpoždění
+- nanosekundy - počet nanosekund zbývajících do zpoždění
 
 Další zdroje
 ------------

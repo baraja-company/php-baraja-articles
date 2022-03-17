@@ -10,24 +10,38 @@ PHP funkce syslog()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Generate a system log message
-
+Vytvoření zprávy systémového protokolu
 
 Parametry
 --------------
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$priority` | `int` | *není* | priority is a combination of the facility and the level. Possible values are: <table> syslog Priorities (in descending order) <tr valign="top"> <td>Constant</td> <td>Description</td> </tr> <tr valign="top"> <td>LOG_EMERG</td> <td>system is unusable</td> </tr> <tr valign="top"> <td>LOG_ALERT</td> <td>action must be taken immediately</td> </tr> <tr valign="top"> <td>LOG_CRIT</td> <td>critical conditions</td> </tr> <tr valign="top"> <td>LOG_ERR</td> <td>error conditions</td> </tr> <tr valign="top"> <td>LOG_WARNING</td> <td>warning conditions</td> </tr> <tr valign="top"> <td>LOG_NOTICE</td> <td>normal, but significant, condition</td> </tr> <tr valign="top"> <td>LOG_INFO</td> <td>informational message</td> </tr> <tr valign="top"> <td>LOG_DEBUG</td> <td>debug-level message</td> </tr> </table> |
-| `$message` | `string` | *není* | The message to send, except that the two characters %m will be replaced by the error message string (strerror) corresponding to the present value of errno. |
+| `$priorita` | `int` | *není* | Priorita je kombinací zařízení a úrovně. Více info v tabulce níže. |
+| `$message` | `string` | *není* | Zpráva, která se má odeslat, s tím rozdílem, že dva znaky %m budou nahrazeny řetězcem chybového hlášení (strerror) odpovídajícím aktuální hodnotě errno. |
 
+Možné hodnoty argumentu `priority`
+----------------------------------
+
+Priority syslogu (v sestupném pořadí):
+
+| Konstanta     | Popis |
+|---------------|-------|
+| `LOG_EMERG`   | system is unusable |
+| `LOG_ALERT`   | action must be taken immediately |
+| `LOG_CRIT`    | critical conditions |
+| `LOG_ERR`     | error conditions |
+| `LOG_WARNING` | warning conditions |
+| `LOG_NOTICE`  | normal, but significant, condition |
+| `LOG_INFO`    | informational message |
+| `LOG_DEBUG`   | debug-level message |
 
 Návratové hodnoty
 ----------------
 
 `bool`
 
-true on success or false on failure.
+vrátí `true` v případě úspěchu, jinak `false` v případě neúspěchu.
 
 Další zdroje
 ------------

@@ -10,7 +10,7 @@ PHP funkce tanh()
 
 Dostupnost ve verzích: `PHP 4.1.0`
 
-Hyperbolic tangent
+Hyperbolický tangens
 
 
 Parametry
@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$arg` | `float` | *není* | The argument to process |
+| `$arg` | `float` | *není* | Argument pro zpracování |
 
 
 Návratové hodnoty
@@ -26,7 +26,7 @@ Návratové hodnoty
 
 `float`
 
-The hyperbolic tangent of arg
+Hyperbolická tečna arg
 
 Další zdroje
 ------------

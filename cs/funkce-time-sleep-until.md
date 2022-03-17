@@ -10,7 +10,7 @@ PHP funkce time_sleep_until()
 
 Dostupnost ve verzích: `PHP 5.1.0`
 
-Make the script sleep until the specified time
+Přesunutí skriptu do spánku do zadaného času
 
 
 Parametry
@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$timestamp` | `float` | *není* | The timestamp when the script should wake. |
+| `$timestamp` | `float` | *není* | Časový údaj, kdy se má skript probudit. |
 
 
 Návratové hodnoty
@@ -26,7 +26,7 @@ Návratové hodnoty
 
 `bool`
 
-true on success or false on failure.
+vrátí `true` v případě úspěchu, jinak `false` v případě neúspěchu.
 
 Další zdroje
 ------------

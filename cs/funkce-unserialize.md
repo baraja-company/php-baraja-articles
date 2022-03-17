@@ -10,7 +10,7 @@ PHP funkce unserialize()
 
 Dostupnost ve verzích: `PHP 4.0`, `PHP 7.0`
 
-Creates a PHP value from a stored representation
+Vytvoří hodnotu PHP z uložené reprezentace
 
 
 Parametry
@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` | *není* | The serialized string. |
+| `$str` | `string` | *není* | Serializovaný řetězec. |
 | `$options` | `mixed` | null |  |
 
 
@@ -27,13 +27,9 @@ Návratové hodnoty
 
 `mixed`
 
-The converted value is returned, and can be a boolean,
-integer, float, string,
-array or object.
-</p>
-<p>
-In case the passed string is not unserializeable, false is returned and
-E_NOTICE is issued.
+Vrací se převedená hodnota, která může být logická, celočíselná, floatová, řetězcová, pole nebo objektová.
+
+V případě, že předaný řetězec není neserializovatelný, je vrácena false a je vydána `E_NOTICE`.
 
 Další zdroje
 ------------

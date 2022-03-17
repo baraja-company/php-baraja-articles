@@ -10,7 +10,7 @@ PHP funkce uksort()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Sort an array by keys using a user-defined comparison function
+Seřadit pole podle klíčů pomocí uživatelsky definované porovnávací funkce
 
 
 Parametry
@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$array` | `array` | *není* | The input array. |
-| `$cmp_function` | `callback` | *není* | The callback comparison function. |
+| `$array` | `array` | *není* | Vstupní pole. |
+| `$cmp_function` | `callback` | *není* | Zpětné volání porovnávací funkce. |
 
 
 Návratové hodnoty
@@ -27,7 +27,7 @@ Návratové hodnoty
 
 `bool`
 
-true on success or false on failure.
+true při úspěchu nebo false při neúspěchu.
 
 Další zdroje
 ------------

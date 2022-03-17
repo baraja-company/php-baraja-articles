@@ -32,11 +32,13 @@ Funkce nevrací nic. Výstup vykresluje přímo do stránky podobně jako `echo`
 var_dump('Mám rád PHP'); // string(13) "Mám rád PHP"
 ```
 
+Ukázka složitější struktury:
+
 ```php
 var_dump([1, 2, 3]);
 ```
 
-// Vrátí toto:
+Vrátí toto:
 
 ```
 array(3) {

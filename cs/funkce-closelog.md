@@ -23,7 +23,7 @@ Návratové hodnoty
 
 `bool`
 
-true on success or false on failure.
+vrátí `true` v případě úspěchu, jinak `false` v případě neúspěchu.
 
 Další zdroje
 ------------

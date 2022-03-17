@@ -27,7 +27,7 @@ Návratové hodnoty
 
 `bool`
 
-Returns TRUE on success or FALSE on failure.
+Returns vrátí `true` v případě úspěchu, jinak `false` v případě neúspěchu.
 
 Další zdroje
 ------------

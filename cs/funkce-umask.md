@@ -10,7 +10,7 @@ PHP funkce umask()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Changes the current umask
+změní aktuální umask
 
 
 Parametry
@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$mask` | `int` | null | The new umask. |
+| `$mask` | `int` | null | Nový umask. |
 
 
 Návratové hodnoty
@@ -26,8 +26,7 @@ Návratové hodnoty
 
 `int`
 
-umask without arguments simply returns the
-current umask otherwise the old umask is returned.
+umask bez argumentů jednoduše vrací, jinak se vrátí starý umask.
 
 Další zdroje
 ------------

@@ -10,7 +10,7 @@ PHP funkce ucwords()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Uppercase the first character of each word in a string
+Napíše velké písmeno místo prvního znaku u každého slova v řetězci.
 
 
 Parametry
@@ -27,7 +27,7 @@ Návratové hodnoty
 
 `string`
 
-the modified string.
+změněný řetězec.
 
 Další zdroje
 ------------
