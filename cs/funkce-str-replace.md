@@ -30,9 +30,9 @@ Návratové hodnoty
 
 Tato funkce vrátí řetězec nebo pole s nahrazenými hodnotami.
 
-/--code php
+```php
 echo str_replace('https://', 'https://', 'https://google.com'); // https://google.com
-\--
+```
 
 Další zdroje
 ------------

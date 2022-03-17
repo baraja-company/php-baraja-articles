@@ -29,8 +29,9 @@ Návratové hodnoty
 
 Upravený string
 
-/--code php
+```php
 echo trim('             Ahoj, jak se máš?      '); // "Ahoj, jak se máš?"
+```
 
 Další zdroje
 ------------

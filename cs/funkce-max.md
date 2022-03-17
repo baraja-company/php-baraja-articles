@@ -30,9 +30,9 @@ Návratové hodnoty
 
 Vrátí největší prvek pole.
 
-/--code php
+```php
 max([1, 5, 3, 6, 2, 4]); // vrátí 6
-\--
+```
 
 Další zdroje
 ------------

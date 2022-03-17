@@ -28,8 +28,9 @@ Návratové hodnoty
 
 Finální opakovaný string.
 
-/--code php
+```php
 echo 'A' . str_repeat('a', 5) . 'hoj'; // Aaaaaahoj
+```
 
 Další zdroje
 ------------

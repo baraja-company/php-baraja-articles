@@ -29,12 +29,13 @@ V případě správného průběhu vrátí nulu (`0`), nebo `false` v případě
 
 Pokud bylo úspání uměle přerušeno, vrátí počet chybějících sekund do konce spánku.
 
-/--code php
+```php
 echo 'Ahoj!'; // Vypíše se hned
 
 sleep(3); // Script bude 3 sekundy pozastavený
 
 echo 'Jak se vede?'; // Vypíše se až za 3 sekundy
+```
 
 Další zdroje
 ------------

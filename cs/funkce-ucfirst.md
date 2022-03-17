@@ -27,11 +27,11 @@ Návratové hodnoty
 
 Upravený string.
 
-/--code php
+```php
 echo ucfirst('ahoj'); // Ahoj
 echo ucfirst('kočka'); // Kočka
 echo ucfirst('PHP'); // PHP
-\--
+```
 
 Další zdroje
 ------------

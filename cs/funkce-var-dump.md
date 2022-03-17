@@ -28,15 +28,17 @@ Návratové hodnoty
 
 Funkce nevrací nic. Výstup vykresluje přímo do stránky podobně jako `echo`.
 
-/--code php
+```php
 var_dump('Mám rád PHP'); // string(13) "Mám rád PHP"
-\--
+```
 
-/--code php
+```php
 var_dump([1, 2, 3]);
+```
 
 // Vrátí toto:
 
+```
 array(3) {
   [0]=>
   int(1)
@@ -45,7 +47,7 @@ array(3) {
   [2]=>
   int(3)
 }
-\--
+```
 
 Další zdroje
 ------------
