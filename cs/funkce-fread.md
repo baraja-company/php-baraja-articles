@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$handle` | `resource` |  |  |
-| `$length` | `int` |  | Up to length number of bytes read. |
+| `$handle` | `resource` | *není* |  |
+| `$length` | `int` | *není* | Up to length number of bytes read. |
 
 
 Návratové hodnoty

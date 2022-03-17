@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$micro_seconds` | `int` |  | Halt time in micro seconds. A micro second is one millionth of a second. |
+| `$micro_seconds` | `int` | *není* | Halt time in micro seconds. A micro second is one millionth of a second. |
 
 
 Návratové hodnoty

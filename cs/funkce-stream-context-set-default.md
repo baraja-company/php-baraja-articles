@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$options` | `array` |  | The options to set for the default context. |
+| `$options` | `array` | *není* | The options to set for the default context. |
 
 
 Návratové hodnoty

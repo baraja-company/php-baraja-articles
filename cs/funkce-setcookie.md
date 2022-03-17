@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$name` | `string` |  | The name of the cookie. |
+| `$name` | `string` | *není* | The name of the cookie. |
 | `$value` | `string` | null, | The value of the cookie. This value is stored on the clients computer; do not store sensitive information. Assuming the name is 'cookiename', this value is retrieved through $_COOKIE['cookiename'] |
 | `$expire` | `int` | null, | The time the cookie expires. This is a Unix timestamp so is in number of seconds since the epoch. In other words, you'll most likely set this with the time function plus the number of seconds before you want it to expire. Or you might use mktime. time()+60*60*24*30 will set the cookie to expire in 30 days. If set to 0, or omitted, the cookie will expire at the end of the session (when the browser closes). |
 | `$path` | `string` | null, | The path on the server in which the cookie will be available on. If set to '/', the cookie will be available within the entire domain. If set to '/foo/', the cookie will only be available within the /foo/ directory and all sub-directories such as /foo/bar/ of domain. The default value is the current directory that the cookie is being set in. |

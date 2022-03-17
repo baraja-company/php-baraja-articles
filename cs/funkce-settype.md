@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$var` | `mixed` |  | The variable being converted. |
-| `$type` | `string` |  | Possibles values of <b>type</b> are: |
+| `$var` | `mixed` | *není* | The variable being converted. |
+| `$type` | `string` | *není* | Possibles values of <b>type</b> are: |
 
 
 Návratové hodnoty

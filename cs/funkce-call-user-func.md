@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$function` | `callback` |  | The function to be called. Class methods may also be invoked statically using this function by passing array($classname, $methodname) to this parameter. Additionally class methods of an object instance may be called by passing array($objectinstance, $methodname) to this parameter. |
+| `$function` | `callback` | *není* | The function to be called. Class methods may also be invoked statically using this function by passing array($classname, $methodname) to this parameter. Additionally class methods of an object instance may be called by passing array($objectinstance, $methodname) to this parameter. |
 | `$parameter` | `mixed` | null, | Zero or more parameters to be passed to the function. |
 | `$_` | `mixed` | null |  |
 

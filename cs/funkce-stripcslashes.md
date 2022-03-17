@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | The string to be unescaped. |
+| `$str` | `string` | *není* | The string to be unescaped. |
 
 
 Návratové hodnoty

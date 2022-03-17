@@ -19,9 +19,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$protocol` | `string` |  | The wrapper name to be registered. |
-| `$classname` | `string` |  | The classname which implements the protocol. |
-| `$flags` | `int` |  | Should be set to STREAM_IS_URL if protocol is a URL protocol. Default is 0, local stream. |
+| `$protocol` | `string` | *není* | The wrapper name to be registered. |
+| `$classname` | `string` | *není* | The classname which implements the protocol. |
+| `$flags` | `int` | *není* | Should be set to STREAM_IS_URL if protocol is a URL protocol. Default is 0, local stream. |
 
 
 Návratové hodnoty

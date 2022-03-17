@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$setting` | `string` |  | The setting, like "FOO=BAR" |
+| `$setting` | `string` | *není* | The setting, like "FOO=BAR" |
 
 
 Návratové hodnoty

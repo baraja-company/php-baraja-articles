@@ -4,7 +4,7 @@ PHP funkce stream_set_chunk_size()
 > id: "49cfe6ae-10c7-4b3f-ad08-b6877ee6bc26"
 > slug:
 > 	cs: funkce-stream-set-chunk-size
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -17,8 +17,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$fp` | `resource` |  |  |
-| `$chunk_size` | `int` |  |  |
+| `$fp` | `resource` | *není* |  |
+| `$chunk_size` | `int` | *není* |  |
 
 
 Návratové hodnoty

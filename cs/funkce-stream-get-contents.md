@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$handle` | `resource` |  | A stream resource (e.g. returned from fopen) |
+| `$handle` | `resource` | *není* | A stream resource (e.g. returned from fopen) |
 | `$maxlength` | `int` | null, | The maximum bytes to read. Defaults to -1 (read all the remaining buffer). |
 | `$offset` | `int` | null | Seek to the specified offset before reading. |
 

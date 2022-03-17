@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$number` | `float` |  | Angular value in degrees |
+| `$number` | `float` | *není* | Angular value in degrees |
 
 
 Návratové hodnoty

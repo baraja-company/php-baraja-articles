@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | Path to the PHP file. |
+| `$filename` | `string` | *není* | Path to the PHP file. |
 
 
 Návratové hodnoty

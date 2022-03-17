@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$host` | `string` |  | host may either be the IP address in dotted-quad notation or the host name. |
+| `$host` | `string` | *není* | host may either be the IP address in dotted-quad notation or the host name. |
 | `$type` | `string` | null | type may be any one of: A, MX, NS, SOA, PTR, CNAME, AAAA, A6, SRV, NAPTR, TXT or ANY. |
 
 

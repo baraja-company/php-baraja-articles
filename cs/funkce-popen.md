@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$command` | `string` |  | The command |
-| `$mode` | `string` |  | The mode |
+| `$command` | `string` | *není* | The command |
+| `$mode` | `string` | *není* | The mode |
 
 
 Návratové hodnoty

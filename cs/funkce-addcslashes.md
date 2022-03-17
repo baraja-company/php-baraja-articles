@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | The string to be escaped. |
-| `$charlist` | `string` |  | A list of characters to be escaped. If charlist contains characters \n, \r etc., they are converted in C-like style, while other non-alphanumeric characters with ASCII codes lower than 32 and higher than 126 converted to octal representation. |
+| `$str` | `string` | *není* | Řetězec, který má být escapován. |
+| `$charlist` | `string` | *není*  | Seznam znaků, které mají být escapovány. Pokud charlist obsahuje znaky `\n`, `\r` atd., jsou převedeny do stylu C, zatímco ostatní nealfanumerické znaky s ASCII kódy nižšími než 32 a vyššími než 126 jsou převedeny do osmičkové reprezentace. |
 
 
 Návratové hodnoty

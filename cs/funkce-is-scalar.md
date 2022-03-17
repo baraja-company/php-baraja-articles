@@ -25,7 +25,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$var` | `mixed` |  | Proměnná, která se bude kontrolovat |
+| `$var` | `mixed` | *není* | Proměnná, která se bude kontrolovat |
 
 
 Návratové hodnoty

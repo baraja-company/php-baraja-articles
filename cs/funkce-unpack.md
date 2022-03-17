@@ -18,9 +18,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$format` | `string` |  | See pack for an explanation of the format codes. |
-| `$data` | `string` |  | The packed data. |
-| `$offset` | `int` |  |  |
+| `$format` | `string` | *není* | See pack for an explanation of the format codes. |
+| `$data` | `string` | *není* | The packed data. |
+| `$offset` | `int` | *není* |  |
 
 
 Návratové hodnoty

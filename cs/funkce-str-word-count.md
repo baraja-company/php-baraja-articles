@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$string` | `string` |  | The string |
+| `$string` | `string` | *není* | The string |
 | `$format` | `int` | null, | Specify the return value of this function. The current supported values are: 0 - returns the number of words found @param string $charlist [optional] <p> A list of additional characters which will be considered as 'word' |
 | `$charlist` | `string` | null | A list of additional characters which will be considered as 'word' |
 

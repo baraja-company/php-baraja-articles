@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$function_name` | `string` |  | The function name, as a string. |
+| `$function_name` | `string` | *není* | The function name, as a string. |
 
 
 Návratové hodnoty

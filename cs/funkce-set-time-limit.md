@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$seconds` | `int` |  | The maximum execution time, in seconds. If set to zero, no time limit is imposed. |
+| `$seconds` | `int` | *není* | The maximum execution time, in seconds. If set to zero, no time limit is imposed. |
 
 
 Návratové hodnoty

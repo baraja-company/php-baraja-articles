@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$number` | `float` |  | The number being formatted. |
+| `$number` | `float` | *není* | The number being formatted. |
 | `$decimals` | `int` | 0 | Sets the number of decimal points. |
 | `$dec_point` | `string` | '.' |  |
 | `$thousands_sep` | `string` | ',' |  |

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$data` | `string` |  | The encoded data. |
+| `$data` | `string` | *není* | The encoded data. |
 | `$strict` | `bool` | null | Returns false if input contains character from outside the base64 alphabet. |
 
 

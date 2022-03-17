@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$directory` | `string` |  | The new directory |
+| `$directory` | `string` | *není* | The new directory |
 
 
 Návratové hodnoty

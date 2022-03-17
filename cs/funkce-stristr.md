@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$haystack` | `string` |  | The string to search in |
-| `$needle` | `mixed` |  | If needle is not a string, it is converted to an integer and applied as the ordinal value of a character. |
+| `$haystack` | `string` | *není* | The string to search in |
+| `$needle` | `mixed` | *není* | If needle is not a string, it is converted to an integer and applied as the ordinal value of a character. |
 | `$before_needle` | `bool` | null | If true, stristr returns the part of the haystack before the first occurrence of the needle. |
 
 

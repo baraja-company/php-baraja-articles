@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$number` | `float` |  | A radian value |
+| `$number` | `float` | *není* | A radian value |
 
 
 Návratové hodnoty

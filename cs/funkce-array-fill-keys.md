@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$keys` | `array` |  | Array of values that will be used as keys. Illegal values for key will be converted to string. |
-| `$value` | `mixed` |  | Value to use for filling |
+| `$keys` | `array` | *není* | Array of values that will be used as keys. Illegal values for key will be converted to string. |
+| `$value` | `mixed` | *není* | Value to use for filling |
 
 
 Návratové hodnoty

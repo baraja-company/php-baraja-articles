@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$string` | `string` |  | The input string. |
+| `$string` | `string` | *není* | The input string. |
 
 
 Návratové hodnoty

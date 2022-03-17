@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$in_addr` | `string` |  | A 32bit IPv4, or 128bit IPv6 address. |
+| `$in_addr` | `string` | *není* | A 32bit IPv4, or 128bit IPv6 address. |
 
 
 Návratové hodnoty

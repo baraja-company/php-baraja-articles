@@ -24,7 +24,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$var` | `mixed` |  | the scalar value being converted to a boolean. |
+| `$var` | `mixed` | *není* | the scalar value being converted to a boolean. |
 | `$base` | `int` | null | The base for the conversion |
 
 

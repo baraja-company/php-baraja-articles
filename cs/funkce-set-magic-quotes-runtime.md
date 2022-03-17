@@ -4,7 +4,7 @@ PHP funkce set_magic_quotes_runtime()
 > id: b3fe4ec8-0e75-4359-87ba-a42762631f2e
 > slug:
 > 	cs: funkce-set-magic-quotes-runtime
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$new_setting` | `bool` |  | false for off, true for on. |
+| `$new_setting` | `bool` | *není* | false for off, true for on. |
 
 
 Návratové hodnoty

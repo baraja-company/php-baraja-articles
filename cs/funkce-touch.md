@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | The name of the file being touched. |
+| `$filename` | `string` | *není* | The name of the file being touched. |
 | `$time` | `int` | null, | The touch time. If time is not supplied, the current system time is used. |
 | `$atime` | `int` | null | If present, the access time of the given filename is set to the value of atime. Otherwise, it is set to time. |
 

@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$haystack` | `string` |  | The string to search in. |
-| `$needle` | `string` |  | If <b>needle</b> is not a string, it is converted to an integer and applied as the ordinal value of a character. |
+| `$haystack` | `string` | *není* | The string to search in. |
+| `$needle` | `string` | *není* | If <b>needle</b> is not a string, it is converted to an integer and applied as the ordinal value of a character. |
 | `$offset` | `int` | 0 | If specified, search will start this number of characters counted from the beginning of the string. If the value is negative, search will instead start from that many characters from the end of the string, searching backwards. |
 
 

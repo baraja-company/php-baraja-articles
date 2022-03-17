@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$handle` | `resource` |  |  |
+| `$handle` | `resource` | *není* |  |
 | `$length` | `int` | null, | Length of the data to be retrieved. |
 | `$allowable_tags` | `string` | null | You can use the optional third parameter to specify tags which should not be stripped. |
 

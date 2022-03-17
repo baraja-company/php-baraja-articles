@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$x` | `float` |  | The dividend |
-| `$y` | `float` |  | The divisor |
+| `$x` | `float` | *není* | The dividend |
+| `$y` | `float` | *není* | The divisor |
 
 
 Návratové hodnoty

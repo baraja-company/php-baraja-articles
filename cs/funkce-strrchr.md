@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$haystack` | `string` |  | The string to search in |
-| `$needle` | `mixed` |  | If <b>needle</b> contains more than one character, only the first is used. This behavior is different from that of {@see strstr()}. |
+| `$haystack` | `string` | *není* | The string to search in |
+| `$needle` | `mixed` | *není* | If <b>needle</b> contains more than one character, only the first is used. This behavior is different from that of {@see strstr()}. |
 
 
 Návratové hodnoty

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$hostname` | `string` |  |  |
+| `$hostname` | `string` | *není* |  |
 | `$port` | `int` | null, |  |
 | `$errno` | `int` | null, |  |
 | `$errstr` | `string` | null, |  |

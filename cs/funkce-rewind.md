@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$handle` | `resource` |  | The file pointer must be valid, and must point to a file successfully opened by fopen. |
+| `$handle` | `resource` | *není* | The file pointer must be valid, and must point to a file successfully opened by fopen. |
 
 
 Návratové hodnoty

@@ -24,7 +24,7 @@ Parametry
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
 | `$str` | `string` | null, | The string being split up into smaller strings (tokens). |
-| `$token` | `string` |  | The delimiter used when splitting up str. |
+| `$token` | `string` | *není* | The delimiter used when splitting up str. |
 
 
 Návratové hodnoty

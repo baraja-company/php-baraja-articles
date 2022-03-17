@@ -18,9 +18,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$search` | `mixed` |  | Every replacement with search array is performed on the result of previous replacement. |
-| `$replace` | `mixed` |  |  |
-| `$subject` | `mixed` |  | If subject is an array, then the search and replace is performed with every entry of subject, and the return value is an array as well. |
+| `$search` | `mixed` | *není* | Every replacement with search array is performed on the result of previous replacement. |
+| `$replace` | `mixed` | *není* |  |
+| `$subject` | `mixed` | *není* | If subject is an array, then the search and replace is performed with every entry of subject, and the return value is an array as well. |
 | `$count` | `int` | null | The number of matched and replaced needles will be returned in count which is passed by reference. |
 
 

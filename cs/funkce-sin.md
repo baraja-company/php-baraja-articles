@@ -17,7 +17,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$arg` | `float` |  | Hodnota v radiánech |
+| `$arg` | `float` | *není* | Hodnota v radiánech |
 
 
 Návratové hodnoty

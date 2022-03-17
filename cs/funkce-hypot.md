@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$x` | `float` |  | Length of first side |
-| `$y` | `float` |  | Length of second side |
+| `$x` | `float` | *není* | Length of first side |
+| `$y` | `float` | *není* | Length of second side |
 
 
 Návratové hodnoty

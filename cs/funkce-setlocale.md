@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$category` | `int` |  | <p> <em>category</em> is a named constant specifying the category of the functions affected by the locale setting: |
-| `$locale` | `string` |  | If locale is &null; or the empty string "", the locale names will be set from the values of environment variables with the same names as the above categories, or from "LANG". |
+| `$category` | `int` | *není* | <p> <em>category</em> is a named constant specifying the category of the functions affected by the locale setting: |
+| `$locale` | `string` | *není* | If locale is &null; or the empty string "", the locale names will be set from the values of environment variables with the same names as the above categories, or from "LANG". |
 | `$_` | `string` | null |  |
 
 

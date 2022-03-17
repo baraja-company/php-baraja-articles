@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$source` | `resource` |  | The source stream |
-| `$dest` | `resource` |  | The destination stream |
+| `$source` | `resource` | *není* | The source stream |
+| `$dest` | `resource` | *není* | The destination stream |
 | `$maxlength` | `int` | null, | Maximum bytes to copy |
 | `$offset` | `int` | null | The offset where to start to copy data |
 

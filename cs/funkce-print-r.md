@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$expression` | `mixed` |  | The expression to be printed. |
+| `$expression` | `mixed` | *není* | The expression to be printed. |
 | `$return` | `bool` | null | If you would like to capture the output of print_r, use the return parameter. If this parameter is set to true, print_r will return its output, instead of printing it (which it does by default). |
 
 

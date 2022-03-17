@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$seconds` | `int` |  | Must be a positive integer. |
-| `$nanoseconds` | `int` |  | Must be a positive integer less than 1 billion. |
+| `$seconds` | `int` | *není* | Must be a positive integer. |
+| `$nanoseconds` | `int` | *není* | Must be a positive integer less than 1 billion. |
 
 
 Návratové hodnoty

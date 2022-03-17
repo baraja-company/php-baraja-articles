@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$message` | `string` |  | The error message that should be logged. |
+| `$message` | `string` | *není* | The error message that should be logged. |
 | `$message_type` | `int` | null, | Says where the error should go. The possible message types are as follows: |
 | `$destination` | `string` | null, | The destination. Its meaning depends on the message_type parameter as described above. |
 | `$extra_headers` | `string` | null | The extra headers. It's used when the message_type parameter is set to 1. This message type uses the same internal function as mail does. |

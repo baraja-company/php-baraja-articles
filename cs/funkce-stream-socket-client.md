@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$remote_socket` | `string` |  | Address to the socket to connect to. |
+| `$remote_socket` | `string` | *není* | Address to the socket to connect to. |
 | `$errno` | `int` | null, | Will be set to the system level error number if connection fails. |
 | `$errstr` | `string` | null, | Will be set to the system level error message if the connection fails. |
 | `$timeout` | `float` | null, | Number of seconds until the connect() system call should timeout. This parameter only applies when not making asynchronous connection attempts. <p> To set a timeout for reading/writing data over the socket, use the stream_set_timeout, as the timeout only applies while making connecting the socket. |

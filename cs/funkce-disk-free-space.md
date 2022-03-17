@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$directory` | `string` |  | A directory of the filesystem or disk partition. |
+| `$directory` | `string` | *není* | A directory of the filesystem or disk partition. |
 
 
 Návratové hodnoty

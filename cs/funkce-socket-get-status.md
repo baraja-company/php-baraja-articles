@@ -19,7 +19,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$stream` | `resource` |  | The stream can be any stream created by fopen, fsockopen and pfsockopen. |
+| `$stream` | `resource` | *není* | The stream can be any stream created by fopen, fsockopen and pfsockopen. |
 
 
 Návratové hodnoty

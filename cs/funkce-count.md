@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$var` | `array|Countable` |  |  |
+| `$var` | `array|Countable` | *není* |  |
 | `$mode` | `int` | COUNT_NORMAL |  |
 
 

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$pattern` | `string` |  | The pattern. No tilde expansion or parameter substitution is done. |
+| `$pattern` | `string` | *není* | The pattern. No tilde expansion or parameter substitution is done. |
 | `$flags` | `int` | null | Valid flags: GLOB_MARK - Adds a slash to each directory returned GLOB_NOSORT - Return files as they appear in the directory (no sorting). When this flag is not used, the pathnames are sorted alphabetically GLOB_NOCHECK - Return the search pattern if no files matching it were found GLOB_NOESCAPE - Backslashes do not quote metacharacters GLOB_BRACE - Expands {a,b,c} to match 'a', 'b', or 'c' GLOB_ONLYDIR - Return only directory entries which match the pattern GLOB_ERR - Stop on read errors (like unreadable directories), by default errors are ignored. @return array an array containing the matched files/directories, an empty array if no file matched or false on error. |
 
 

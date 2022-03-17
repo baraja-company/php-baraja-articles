@@ -4,7 +4,7 @@ PHP funkce imagepalettetotruecolor()
 > id: "69c10264-64d2-4168-86f1-27322f47d113"
 > slug:
 > 	cs: funkce-imagepalettetotruecolor
-> 
+>
 > publicationDate: "2019-09-11 10:04:04"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$image` | `resource` |  | An image resource, returnd by one of the image creation functions, such as {@link https://www.php.net/manual/en/function.imagecreatetruecolor.php imagecreatetruecolor()}. |
+| `$image` | `resource` | *není* | An image resource, returnd by one of the image creation functions, such as {@link https://www.php.net/manual/en/function.imagecreatetruecolor.php imagecreatetruecolor()}. |
 
 
 Návratové hodnoty

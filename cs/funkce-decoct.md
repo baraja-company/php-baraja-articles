@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$number` | `int` |  | Decimal value to convert |
+| `$number` | `int` | *není* | Decimal value to convert |
 
 
 Návratové hodnoty

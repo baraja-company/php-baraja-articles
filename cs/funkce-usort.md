@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$array` | `array` |  | The input array. |
-| `$cmp_function` | `callback` |  | The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second. |
+| `$array` | `array` | *není* | The input array. |
+| `$cmp_function` | `callback` | *není* | The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second. |
 
 
 Návratové hodnoty

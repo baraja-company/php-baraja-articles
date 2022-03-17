@@ -19,7 +19,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$var` | `mixed` |  | Proměnná k ověření. |
+| `$var` | `mixed` | *není* | Proměnná k ověření. |
 
 
 Návratové hodnoty

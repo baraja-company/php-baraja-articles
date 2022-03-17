@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$arg` | `float` |  | The value to calculate the logarithm for |
+| `$arg` | `float` | *není* | The value to calculate the logarithm for |
 | `$base` | `float` | null | The optional logarithmic base to use (defaults to 'e' and so to the natural logarithm). |
 
 

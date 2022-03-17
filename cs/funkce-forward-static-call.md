@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$function` | `callback` |  | The function or method to be called. This parameter may be an array, with the name of the class, and the method, or a string, with a function name. |
+| `$function` | `callback` | *není* | The function or method to be called. This parameter may be an array, with the name of the class, and the method, or a string, with a function name. |
 | `$parameter` | `mixed` | null, | Zero or more parameters to be passed to the function. |
 | `$_` | `mixed` | null |  |
 

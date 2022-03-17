@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$base` | `number` |  | The base to use |
-| `$exp` | `number` |  | The exponent |
+| `$base` | `number` | *není* | The base to use |
+| `$exp` | `number` | *není* | The exponent |
 
 
 Návratové hodnoty

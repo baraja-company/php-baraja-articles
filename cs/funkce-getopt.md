@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$options` | `string` |  |  |
+| `$options` | `string` | *není* |  |
 | `$longopts` | `array` | null, |  |
 | `$optind` | `int` | null |  |
 

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$hebrew_text` | `string` |  | A Hebrew input string. |
+| `$hebrew_text` | `string` | *není* | A Hebrew input string. |
 | `$max_chars_per_line` | `int` | null | This optional parameter indicates maximum number of characters per line that will be returned. |
 
 

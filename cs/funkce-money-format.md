@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$format` | `string` |  | The format specification consists of the following sequence: <p>a % character |
-| `$number` | `float` |  | The number to be formatted. |
+| `$format` | `string` | *není* | The format specification consists of the following sequence: <p>a % character |
+| `$number` | `float` | *není* | The number to be formatted. |
 
 
 Návratové hodnoty

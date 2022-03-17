@@ -39,8 +39,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$array` | `array` |  | Upravované pole. |
-| `$var` | `mixed` |  | Hodnota, která půjde na začátek pole. |
+| `$array` | `array` | *není* | Upravované pole. |
+| `$var` | `mixed` | *není* | Hodnota, která půjde na začátek pole. |
 | `$_` | `mixed` | null | Volitelně další hodnoty, které půjdou na začátek pole. |
 
 Návratové hodnoty

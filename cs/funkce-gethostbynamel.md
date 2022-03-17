@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$hostname` | `string` |  | The host name. |
+| `$hostname` | `string` | *není* | The host name. |
 
 
 Návratové hodnoty

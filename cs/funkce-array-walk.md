@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$array` | `array` |  | The input array. |
-| `$funcname` | `callback` |  | Typically, funcname takes on two parameters. The array parameter's value being the first, and the key/index second. |
+| `$array` | `array` | *není* | The input array. |
+| `$funcname` | `callback` | *není* | Typically, funcname takes on two parameters. The array parameter's value being the first, and the key/index second. |
 | `$userdata` | `mixed` | null | If the optional userdata parameter is supplied, it will be passed as the third parameter to the callback funcname. |
 
 

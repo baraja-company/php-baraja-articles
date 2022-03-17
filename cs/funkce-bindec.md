@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$binary_string` | `string` |  | The binary string to convert |
+| `$binary_string` | `string` | *není* | The binary string to convert |
 
 
 Návratové hodnoty

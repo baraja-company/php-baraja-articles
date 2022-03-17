@@ -18,9 +18,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$to` | `string` |  | Receiver, or receivers of the mail. |
-| `$subject` | `string` |  | Subject of the email to be sent. |
-| `$message` | `string` |  | Message to be sent. |
+| `$to` | `string` | *není* | Receiver, or receivers of the mail. |
+| `$subject` | `string` | *není* | Subject of the email to be sent. |
+| `$message` | `string` | *není* | Message to be sent. |
 | `$additional_headers` | `string` | null, | String to be inserted at the end of the email header. |
 | `$additional_parameters` | `string` | null | The additional_parameters parameter can be used to pass additional flags as command line options to the program configured to be used when sending mail, as defined by the sendmail_path configuration setting. For example, this can be used to set the envelope sender address when using sendmail with the -f sendmail option. |
 

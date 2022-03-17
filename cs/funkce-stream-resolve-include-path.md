@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  |  |
+| `$filename` | `string` | *není* |  |
 
 
 Návratové hodnoty

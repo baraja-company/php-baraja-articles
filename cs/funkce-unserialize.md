@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | The serialized string. |
+| `$str` | `string` | *není* | The serialized string. |
 | `$options` | `mixed` | null |  |
 
 

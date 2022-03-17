@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | The filename |
+| `$filename` | `string` | *není* | The filename |
 | `$raw_output` | `bool` | null | When true, returns the digest in raw binary format with a length of 20. |
 
 

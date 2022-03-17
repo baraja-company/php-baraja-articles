@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$handle` | `resource` |  | The file pointer must be valid, and must have been returned by a successful call to popen. |
+| `$handle` | `resource` | *není* | The file pointer must be valid, and must have been returned by a successful call to popen. |
 
 
 Návratové hodnoty

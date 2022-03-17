@@ -17,7 +17,7 @@ Parametry
 
 | Parametr         | Datový typ | Výchozí hodnota | Poznámka |
 |------------------|----------|--------------|-----|
-| `$string`        | `string` |              | [Řetězec](https://www.php.net/manual/en/language.types.string.php) který bude převeden. |
+| `$string`        | `string` | *není*       | [Řetězec](https://www.php.net/manual/en/language.types.string.php) který bude převeden. |
 | `$flags`         | `int`    | `ENT_COMPAT` | A bitmask of one or more of the following flags, which specify how to handle quotes, invalid code unit sequences and the used document type. The default is `ENT_COMPAT | ENT_HTML401`. |
 | `$encoding`      | `string` | `'UTF-8'`    | Defines encoding used in conversion. If omitted, the default value for this argument is `ISO-8859-1` in versions of PHP prior to `5.4.0`, and UTF-8 from `PHP 5.4.0` onwards. |
 | `$double_encode` | `bool`   | `true`       | When `double_encode` is turned off PHP will not encode existing html entities, the default is to convert everything. |

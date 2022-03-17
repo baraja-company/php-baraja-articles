@@ -18,9 +18,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$main_str` | `string` |  | The main string being compared. |
-| `$str` | `string` |  | The secondary string being compared. |
-| `$offset` | `int` |  | The start position for the comparison. If negative, it starts counting from the end of the string. |
+| `$main_str` | `string` | *není* | The main string being compared. |
+| `$str` | `string` | *není* | The secondary string being compared. |
+| `$offset` | `int` | *není* | The start position for the comparison. If negative, it starts counting from the end of the string. |
 | `$length` | `int` | null, | The length of the comparison. |
 | `$case_insensitivity` | `bool` | null | If case_insensitivity is true, comparison is case insensitive. |
 

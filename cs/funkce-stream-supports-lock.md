@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$stream` | `resource` |  | The stream to check. |
+| `$stream` | `resource` | *není* | The stream to check. |
 
 
 Návratové hodnoty

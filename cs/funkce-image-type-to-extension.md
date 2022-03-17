@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$imagetype` | `int` |  | One of the IMAGETYPE_XXX constant. |
+| `$imagetype` | `int` | *není* | One of the IMAGETYPE_XXX constant. |
 | `$include_dot` | `bool` | null | Whether to prepend a dot to the extension or not. Default to true. |
 
 

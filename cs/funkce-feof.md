@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$handle` | `resource` |  |  |
+| `$handle` | `resource` | *není* |  |
 
 
 Návratové hodnoty

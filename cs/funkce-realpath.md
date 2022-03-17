@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$path` | `string` |  | The path being checked. |
+| `$path` | `string` | *není* | The path being checked. |
 
 
 Návratové hodnoty

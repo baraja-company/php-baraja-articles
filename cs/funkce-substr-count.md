@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$haystack` | `string` |  | The string to search in |
-| `$needle` | `string` |  | The substring to search for |
+| `$haystack` | `string` | *není* | The string to search in |
+| `$needle` | `string` | *není* | The substring to search for |
 | `$offset` | `int` | null, | The offset where to start counting |
 | `$length` | `int` | null | The maximum length after the specified offset to search for the substring. It outputs a warning if the offset plus the length is greater than the haystack length. |
 

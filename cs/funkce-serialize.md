@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$value` | `mixed` |  | The value to be serialized. serialize handles all types, except the resource-type. You can even serialize arrays that contain references to itself. Circular references inside the array/object you are serializing will also be stored. Any other reference will be lost. |
+| `$value` | `mixed` | *není* | The value to be serialized. serialize handles all types, except the resource-type. You can even serialize arrays that contain references to itself. Circular references inside the array/object you are serializing will also be stored. Any other reference will be lost. |
 
 
 Návratové hodnoty

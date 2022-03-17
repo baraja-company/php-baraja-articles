@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$type` | `string` |  | If defined, this will cause get_resources() to only return resources of the given type. A list of resource types is available. If the string Unknown is provided as the type, then only resources that are of an unknown type will be returned. If omitted, all resources will be returned. |
+| `$type` | `string` | *není* | If defined, this will cause get_resources() to only return resources of the given type. A list of resource types is available. If the string Unknown is provided as the type, then only resources that are of an unknown type will be returned. If omitted, all resources will be returned. |
 
 
 Návratové hodnoty

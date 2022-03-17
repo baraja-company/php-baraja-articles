@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$array` | `array` |  | The input array. |
-| `$var` | `mixed` |  | The pushed value. |
+| `$array` | `array` | *není* | The input array. |
+| `$var` | `mixed` | *není* | The pushed value. |
 | `$_` | `mixed` | null |  |
 
 

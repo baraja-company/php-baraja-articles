@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$array` | `array` |  | The input array. |
+| `$array` | `array` | *není* | The input array. |
 | `$sort_flags` | `int` | null | The optional second parameter sort_flags may be used to modify the sorting behavior using these values: |
 
 

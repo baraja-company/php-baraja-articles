@@ -19,7 +19,7 @@ Parametry
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
 | `$glue` | `string` | "", | Defaults to an empty string. This is not the preferred usage of implode as glue would be the second parameter and thus, the bad prototype would be used. |
-| `$pieces` | `array` |  | The array of strings to implode. |
+| `$pieces` | `array` | *není* | The array of strings to implode. |
 
 
 Návratové hodnoty

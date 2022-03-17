@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | Path to the symlink. |
-| `$group` | `mixed` |  | The group specified by name or number. |
+| `$filename` | `string` | *není* | Path to the symlink. |
+| `$group` | `mixed` | *není* | The group specified by name or number. |
 
 
 Návratové hodnoty

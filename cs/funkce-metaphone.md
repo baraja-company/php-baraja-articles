@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | The input string. |
+| `$str` | `string` | *není* | The input string. |
 | `$phonemes` | `int` | 0 | This parameter restricts the returned metaphone key to phonemes characters in length. The default value of 0 means no restriction. |
 
 

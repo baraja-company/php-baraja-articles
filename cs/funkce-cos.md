@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$arg` | `float` |  | An angle in radians |
+| `$arg` | `float` | *není* | An angle in radians |
 
 
 Návratové hodnoty

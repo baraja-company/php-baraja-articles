@@ -59,7 +59,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | PHP kód, který má být zvýrazněn. Měl by zahrnovat úvodní značku `<?php`. |
+| `$str` | `string` | *není* | PHP kód, který má být zvýrazněn. Měl by zahrnovat úvodní značku `<?php`. |
 | `$return` | `bool` | null | Pokud je `true`, funkce vrátí zvýrazněný kód. |
 
 Návratové hodnoty

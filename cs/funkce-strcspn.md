@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str1` | `string` |  | The first string. |
-| `$str2` | `string` |  | The second string. |
+| `$str1` | `string` | *není* | The first string. |
+| `$str2` | `string` | *není* | The second string. |
 | `$start` | `int` | null, | The start position of the string to examine. |
 | `$length` | `int` | null | The length of the string to examine. |
 

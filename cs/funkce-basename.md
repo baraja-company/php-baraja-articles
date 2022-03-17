@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$path` | `string` |  | A path. |
+| `$path` | `string` | *není* | A path. |
 | `$suffix` | `string` | null | If the filename ends in suffix this will also be cut off. |
 
 

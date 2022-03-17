@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$string` | `string` |  | The string to be reversed. |
+| `$string` | `string` | *není* | The string to be reversed. |
 
 
 Návratové hodnoty

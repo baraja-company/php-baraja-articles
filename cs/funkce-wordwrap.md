@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | The input string. |
+| `$str` | `string` | *není* | The input string. |
 | `$width` | `int` | 75, | The column width. |
 | `$break` | `string` | "\n", | The line is broken using the optional break parameter. |
 | `$cut` | `bool` | false | If the cut is set to true, the string is always wrapped at or before the specified width. So if you have a word that is larger than the given width, it is broken apart. (See second example). |

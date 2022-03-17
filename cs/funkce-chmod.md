@@ -17,8 +17,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | Cesta k souboru (doporučuje se absolutní) |
-| `$mode` | `int` |  | Práva k přístupu (například `0777` - přístup mají všichni). Poznámka: Práva budou automaticky převedena do šestnáctkové soustavy. Zápis jako string (například `g+w` není podporován). Pokud chcete zadat číslo v desítkové soustavě, jako první cifru uveďte nulu (například `0654`). |
+| `$filename` | `string` | *není* | Cesta k souboru (doporučuje se absolutní) |
+| `$mode` | `int` | *není* | Práva k přístupu (například `0777` - přístup mají všichni). Poznámka: Práva budou automaticky převedena do šestnáctkové soustavy. Zápis jako string (například `g+w` není podporován). Pokud chcete zadat číslo v desítkové soustavě, jako první cifru uveďte nulu (například `0654`). |
 
 
 Návratové hodnoty

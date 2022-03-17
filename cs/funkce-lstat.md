@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | Path to a file or a symbolic link. |
+| `$filename` | `string` | *není* | Path to a file or a symbolic link. |
 
 
 Návratové hodnoty

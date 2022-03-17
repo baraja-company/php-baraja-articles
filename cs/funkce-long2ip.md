@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$proper_address` | `string|int` |  | A proper address representation. |
+| `$proper_address` | `string|int` | *není* | A proper address representation. |
 
 
 Návratové hodnoty

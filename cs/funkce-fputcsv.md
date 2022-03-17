@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$handle` | `resource` |  |  |
-| `$fields` | `array` |  | An array of values. |
+| `$handle` | `resource` | *není* |  |
+| `$fields` | `array` | *není* | An array of values. |
 | `$delimiter` | `string` | ",", | The optional delimiter parameter sets the field delimiter (one character only). |
 | `$enclosure` | `string` | '"', | The optional enclosure parameter sets the field enclosure (one character only). |
 | `$escape_char` | `string` | "\\" |  |

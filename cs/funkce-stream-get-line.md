@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$handle` | `resource` |  | A valid file handle. |
-| `$length` | `int` |  | The number of bytes to read from the handle. |
+| `$handle` | `resource` | *není* | A valid file handle. |
+| `$length` | `int` | *není* | The number of bytes to read from the handle. |
 | `$ending` | `string` | null | An optional string delimiter. |
 
 

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$addr` | `string` |  | The email address that's being hashed. |
+| `$addr` | `string` | *není* | The email address that's being hashed. |
 
 
 Návratové hodnoty

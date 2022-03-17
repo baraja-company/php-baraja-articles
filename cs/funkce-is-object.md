@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$var` | `mixed` |  | The variable being evaluated. |
+| `$var` | `mixed` | *není* | The variable being evaluated. |
 
 
 Návratové hodnoty

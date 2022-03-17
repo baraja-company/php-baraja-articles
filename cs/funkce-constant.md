@@ -15,7 +15,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$name` | `string` |  | The constant name. |
+| `$name` | `string` | *není* | The constant name. |
 
 
 Návratové hodnoty

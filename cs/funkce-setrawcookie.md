@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$name` | `string` |  |  |
+| `$name` | `string` | *není* |  |
 | `$value` | `string` | null, |  |
 | `$expire` | `int` | null, |  |
 | `$path` | `string` | null, |  |

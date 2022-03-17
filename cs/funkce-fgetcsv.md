@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$handle` | `resource` |  | A valid file pointer to a file successfully opened by fopen, popen, or fsockopen. |
+| `$handle` | `resource` | *není* | A valid file pointer to a file successfully opened by fopen, popen, or fsockopen. |
 | `$length` | `int` | null, | Must be greater than the longest line (in characters) to be found in the CSV file (allowing for trailing line-end characters). It became optional in PHP 5. Omitting this parameter (or setting it to 0 in PHP 5.0.4 and later) the maximum line length is not limited, which is slightly slower. |
 | `$delimiter` | `string` | null, | Set the field delimiter (one character only). |
 | `$enclosure` | `string` | null, | Set the field enclosure character (one character only). |

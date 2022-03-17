@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | The string. |
+| `$str` | `string` | *není* | The string. |
 | `$raw_output` | `bool` | null | If the optional raw_output is set to true, then the md5 digest is instead returned in raw binary format with a length of 16. |
 
 

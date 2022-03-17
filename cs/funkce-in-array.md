@@ -17,8 +17,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$needle` | `mixed` |  | Hledaná hodnota |
-| `$haystack` | `array` |  | Prohledávané pole |
+| `$needle` | `mixed` | *není* | Hledaná hodnota |
+| `$haystack` | `array` | *není* | Prohledávané pole |
 | `$strict` | `bool` | false | Má se kontrolovat i datový typ? Chová se stejně jako `==` a `===` v podmínce. |
 
 

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$protocol` | `string` |  |  |
+| `$protocol` | `string` | *není* |  |
 
 
 Návratové hodnoty

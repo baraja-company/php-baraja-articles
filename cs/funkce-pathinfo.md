@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$path` | `string` |  | The path being checked. |
+| `$path` | `string` | *není* | The path being checked. |
 | `$options` | `int` | null | You can specify which elements are returned with optional parameter options. It composes from PATHINFO_DIRNAME, PATHINFO_BASENAME, PATHINFO_EXTENSION and PATHINFO_FILENAME. It defaults to return all elements. |
 
 

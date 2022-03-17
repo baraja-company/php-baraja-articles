@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$imagetype` | `int` |  | One of the IMAGETYPE_XXX constants. |
+| `$imagetype` | `int` | *není* | One of the IMAGETYPE_XXX constants. |
 
 
 Návratové hodnoty

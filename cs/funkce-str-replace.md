@@ -17,9 +17,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$search` | `mixed` |  | Hledaná hodnota, jinak známá jako `$needle`. Pole může být použito k označení více `$needle`. |
-| `$replace` | `mixed` |  | Nahrazující obsah za nalezenou hodnotu. Pole může být použito pro více náhrad. |
-| `$subject` | `mixed` |  | String nebo pole, ve kterém se bude nahrazovat. Označováno jako ``$haystack`. |
+| `$search` | `mixed` | *není* | Hledaná hodnota, jinak známá jako `$needle`. Pole může být použito k označení více `$needle`. |
+| `$replace` | `mixed` | *není* | Nahrazující obsah za nalezenou hodnotu. Pole může být použito pro více náhrad. |
+| `$subject` | `mixed` | *není* | String nebo pole, ve kterém se bude nahrazovat. Označováno jako ``$haystack`. |
 | `$count` | `int` | null |  |
 
 

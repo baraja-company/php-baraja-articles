@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$val` | `float` |  | The value to check |
+| `$val` | `float` | *není* | The value to check |
 
 
 Návratové hodnoty

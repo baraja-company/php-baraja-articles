@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$array` | `array` |  | The array. |
+| `$array` | `array` | *není* | The array. |
 
 
 Návratové hodnoty

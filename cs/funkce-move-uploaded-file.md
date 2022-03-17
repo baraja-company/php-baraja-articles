@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | The filename of the uploaded file. |
-| `$destination` | `string` |  | The destination of the moved file. |
+| `$filename` | `string` | *není* | The filename of the uploaded file. |
+| `$destination` | `string` | *není* | The destination of the moved file. |
 
 
 Návratové hodnoty

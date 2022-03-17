@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$body` | `string` |  | The string to be chunked. |
+| `$body` | `string` | *není* | The string to be chunked. |
 | `$chunklen` | `int` | null, | The chunk length. |
 | `$end` | `string` | null | The line ending sequence. |
 

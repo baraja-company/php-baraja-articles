@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$stream_filter` | `resource` |  | The stream filter to be removed. |
+| `$stream_filter` | `resource` | *není* | The stream filter to be removed. |
 
 
 Návratové hodnoty

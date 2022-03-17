@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$iptcdata` | `string` |  | The data to be written. |
-| `$jpeg_file_name` | `string` |  | Path to the JPEG image. |
+| `$iptcdata` | `string` | *není* | The data to be written. |
+| `$jpeg_file_name` | `string` | *není* | Path to the JPEG image. |
 | `$spool` | `int` | null | Spool flag. If the spool flag is over 2 then the JPEG will be returned as a string. |
 
 

@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$method_name` | `string` |  |  |
-| `$obj` | `object` |  |  |
+| `$method_name` | `string` | *není* |  |
+| `$obj` | `object` | *není* |  |
 | `$parameter` | `mixed` | null, |  |
 | `$_` | `mixed` | null |  |
 

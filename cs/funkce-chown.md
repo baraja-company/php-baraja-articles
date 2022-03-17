@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | Path to the file. |
-| `$user` | `mixed` |  | A user name or number. |
+| `$filename` | `string` | *není* | Path to the file. |
+| `$user` | `mixed` | *není* | A user name or number. |
 
 
 Návratové hodnoty

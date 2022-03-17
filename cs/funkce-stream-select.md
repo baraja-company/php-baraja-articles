@@ -19,10 +19,10 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$read` | `array` |  | The streams listed in the read array will be watched to see if characters become available for reading (more precisely, to see if a read will not block - in particular, a stream resource is also ready on end-of-file, in which case an fread will return a zero length string). |
-| `$write` | `array` |  | The streams listed in the write array will be watched to see if a write will not block. |
-| `$except` | `array` |  | The streams listed in the except array will be watched for high priority exceptional ("out-of-band") data arriving. |
-| `$tv_sec` | `int` |  | The tv_sec and tv_usec together form the timeout parameter, tv_sec specifies the number of seconds while tv_usec the number of microseconds. The timeout is an upper bound on the amount of time that stream_select will wait before it returns. If tv_sec and tv_usec are both set to 0, stream_select will not wait for data - instead it will return immediately, indicating the current status of the streams. |
+| `$read` | `array` | *není* | The streams listed in the read array will be watched to see if characters become available for reading (more precisely, to see if a read will not block - in particular, a stream resource is also ready on end-of-file, in which case an fread will return a zero length string). |
+| `$write` | `array` | *není* | The streams listed in the write array will be watched to see if a write will not block. |
+| `$except` | `array` | *není* | The streams listed in the except array will be watched for high priority exceptional ("out-of-band") data arriving. |
+| `$tv_sec` | `int` | *není* | The tv_sec and tv_usec together form the timeout parameter, tv_sec specifies the number of seconds while tv_usec the number of microseconds. The timeout is an upper bound on the amount of time that stream_select will wait before it returns. If tv_sec and tv_usec are both set to 0, stream_select will not wait for data - instead it will return immediately, indicating the current status of the streams. |
 | `$tv_usec` | `int` | null | See tv_sec description. |
 
 

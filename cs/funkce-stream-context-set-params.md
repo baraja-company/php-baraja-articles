@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$stream_or_context` | `resource` |  | The stream or context to apply the parameters too. |
-| `$params` | `array` |  | An array of parameters to set. |
+| `$stream_or_context` | `resource` | *není* | The stream or context to apply the parameters too. |
+| `$params` | `array` | *není* | An array of parameters to set. |
 
 
 Návratové hodnoty

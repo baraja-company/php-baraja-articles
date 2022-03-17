@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$stream` | `resource` |  | The stream resource. |
-| `$enable` | `bool` |  | Enable/disable cryptography on the stream. |
+| `$stream` | `resource` | *není* | The stream resource. |
+| `$enable` | `bool` | *není* | Enable/disable cryptography on the stream. |
 | `$crypto_type` | `int` | null, | Setup encryption on the stream. Valid methods are STREAM_CRYPTO_METHOD_SSLv2_CLIENT @param resource $session_stream [optional] <p> Seed the stream with settings from session_stream. |
 | `$session_stream` | `resource` | null | Seed the stream with settings from session_stream. |
 

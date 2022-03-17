@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$first` | `string` |  | The first string. |
-| `$second` | `string` |  | The second string. |
+| `$first` | `string` | *není* | The first string. |
+| `$second` | `string` | *není* | The second string. |
 | `$percent` | `float` | null | By passing a reference as third argument, similar_text will calculate the similarity in percent for you. |
 
 

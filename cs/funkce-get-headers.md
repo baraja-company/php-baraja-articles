@@ -18,9 +18,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$url` | `string` |  | The target URL. |
+| `$url` | `string` | *není* | The target URL. |
 | `$format` | `int` | null, | If the optional format parameter is set to non-zero, get_headers parses the response and sets the array's keys. |
-| `$context` | `resource` |  |  |
+| `$context` | `resource` | *není* |  |
 
 
 Návratové hodnoty

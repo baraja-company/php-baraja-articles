@@ -10,23 +10,20 @@ PHP funkce addslashes()
 
 Dostupnost ve verzích: `PHP 4.0`
 
-Quote string with slashes
-
+Doplní lomítka do řetězce na vhodná místa tak, aby došlo k escapování obsahu.
 
 Parametry
 --------------
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | The string to be escaped. |
+| `$str` | `string` | *není* | Řetězec, který má být escapován. |
 
 
 Návratové hodnoty
 ----------------
 
-`string`
-
-the escaped string.
+`string` - escapovaný řetězec.
 
 Další zdroje
 ------------

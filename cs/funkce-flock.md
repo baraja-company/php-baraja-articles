@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$handle` | `resource` |  | An open file pointer. |
-| `$operation` | `int` |  | operation is one of the following: LOCK_SH to acquire a shared lock (reader). @param int $wouldblock [optional] <p> The optional third argument is set to true if the lock would block (EWOULDBLOCK errno condition). |
+| `$handle` | `resource` | *není* | An open file pointer. |
+| `$operation` | `int` | *není* | operation is one of the following: LOCK_SH to acquire a shared lock (reader). @param int $wouldblock [optional] <p> The optional third argument is set to true if the lock would block (EWOULDBLOCK errno condition). |
 | `$wouldblock` | `int` | null | The optional third argument is set to true if the lock would block (EWOULDBLOCK errno condition). |
 
 

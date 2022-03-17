@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$stream_or_context` | `resource` |  | A stream resource or a context resource |
+| `$stream_or_context` | `resource` | *není* | A stream resource or a context resource |
 
 
 Návratové hodnoty

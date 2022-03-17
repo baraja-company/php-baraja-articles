@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$path` | `string` |  | The directory path that is to be opened |
+| `$path` | `string` | *není* | The directory path that is to be opened |
 | `$context` | `resource` | null | For a description of the context parameter, refer to the streams section of the manual. |
 
 

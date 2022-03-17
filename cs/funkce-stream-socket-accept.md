@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$server_socket` | `resource` |  | Override the default socket accept timeout. Time should be given in seconds. |
+| `$server_socket` | `resource` | *není* | Override the default socket accept timeout. Time should be given in seconds. |
 | `$timeout` | `float` | null, | Override the default socket accept timeout. Time should be given in seconds. |
 | `$peername` | `string` | null | Will be set to the name (address) of the client which connected, if included and available from the selected transport. |
 

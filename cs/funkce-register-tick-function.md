@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$function` | `callback` |  | The function name as a string, or an array consisting of an object and a method. |
+| `$function` | `callback` | *není* | The function name as a string, or an array consisting of an object and a method. |
 | `$arg` | `mixed` | null, |  |
 | `$_` | `mixed` | null |  |
 

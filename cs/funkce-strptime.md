@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$date` | `string` |  | The string to parse (e.g. returned from strftime) |
-| `$format` | `string` |  | The format used in date (e.g. the same as used in strftime). |
+| `$date` | `string` | *není* | The string to parse (e.g. returned from strftime) |
+| `$format` | `string` | *není* | The format used in date (e.g. the same as used in strftime). |
 
 
 Návratové hodnoty

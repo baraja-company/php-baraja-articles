@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$hostname` | `string` |  | The Internet host name. |
-| `$mxhosts` | `array` |  | A list of the MX records found is placed into the array mxhosts. |
+| `$hostname` | `string` | *není* | The Internet host name. |
+| `$mxhosts` | `array` | *není* | A list of the MX records found is placed into the array mxhosts. |
 | `$weight` | `array` | null | If the weight array is given, it will be filled with the weight information gathered. |
 
 

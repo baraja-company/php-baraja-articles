@@ -10,25 +10,22 @@ PHP funkce array_fill()
 
 Dostupnost ve verzích: `PHP 4.2.0`
 
-Fill an array with values
-
+Naplnění pole hodnotami
 
 Parametry
 --------------
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$start_index` | `int` |  | The first index of the returned array. Supports non-negative indexes only. |
-| `$num` | `int` |  | Number of elements to insert |
-| `$value` | `mixed` |  | Value to use for filling |
+| `$start_index` | `int` | *není* | První index vráceného pole. Podporuje pouze nezáporné indexy. |
+| `$num` | `int` | *není* | Počet vkládaných prvků |
+| `$value` | `mixed` | *není* | Hodnota, která se použije pro vyplnění |
 
 
 Návratové hodnoty
 ----------------
 
-`array`
-
-the filled array
+`array` - upravené pole
 
 Další zdroje
 ------------

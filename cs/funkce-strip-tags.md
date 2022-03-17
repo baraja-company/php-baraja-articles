@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | The input string. |
+| `$str` | `string` | *není* | The input string. |
 | `$allowable_tags` | `string` | null | You can use the optional second parameter to specify tags which should not be stripped. |
 
 

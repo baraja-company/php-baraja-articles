@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$array` | `array` |  | The input array. |
-| `$offset` | `int` |  | If offset is non-negative, the sequence will start at that offset in the array. If offset is negative, the sequence will start that far from the end of the array. |
+| `$array` | `array` | *není* | The input array. |
+| `$offset` | `int` | *není* | If offset is non-negative, the sequence will start at that offset in the array. If offset is negative, the sequence will start that far from the end of the array. |
 | `$length` | `int` | null, | If length is given and is positive, then the sequence will have that many elements in it. If length is given and is negative then the sequence will stop that many elements from the end of the array. If it is omitted, then the sequence will have everything from offset up until the end of the array. |
 | `$preserve_keys` | `bool` | false | Note that array_slice will reorder and reset the array indices by default. You can change this behaviour by setting preserve_keys to true. |
 

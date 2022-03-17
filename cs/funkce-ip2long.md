@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$ip_address` | `string` |  | A standard format address. |
+| `$ip_address` | `string` | *není* | A standard format address. |
 
 
 Návratové hodnoty

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | The filename being read. |
+| `$filename` | `string` | *není* | The filename being read. |
 | `$use_include_path` | `bool` | null, | You can use the optional second parameter and set it to true, if you want to search for the file in the include_path, too. |
 | `$context` | `resource` | null | A context stream resource. |
 

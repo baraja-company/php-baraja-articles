@@ -18,9 +18,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$number` | `string` |  | The number to convert |
-| `$frombase` | `int` |  | The base number is in |
-| `$tobase` | `int` |  | The base to convert number to |
+| `$number` | `string` | *není* | The number to convert |
+| `$frombase` | `int` | *není* | The base number is in |
+| `$tobase` | `int` | *není* | The base to convert number to |
 
 
 Návratové hodnoty

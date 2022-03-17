@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$subject` | `string` |  | The string to examine. |
-| `$mask` | `string` |  | The list of allowable characters to include in counted segments. |
+| `$subject` | `string` | *není* | The string to examine. |
+| `$mask` | `string` | *není* | The list of allowable characters to include in counted segments. |
 | `$start` | `int` | null, | The position in subject to start searching. |
 | `$length` | `int` | null | The length of the segment from subject to examine. |
 

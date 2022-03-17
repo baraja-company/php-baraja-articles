@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$arr` | `array` |  | An array being sorted. |
+| `$arr` | `array` | *není* | An array being sorted. |
 | `$arg` | `mixed` | null, | Optionally another array, or sort options for the previous array argument: SORT_ASC, SORT_DESC, SORT_REGULAR, SORT_NUMERIC, SORT_STRING. |
 | `$arg` | `mixed` | null, | Optionally another array, or sort options for the previous array argument: SORT_ASC, SORT_DESC, SORT_REGULAR, SORT_NUMERIC, SORT_STRING. |
 | `$_` | `mixed` | null |  |

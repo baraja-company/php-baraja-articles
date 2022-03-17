@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$hex_string` | `string` |  | The hexadecimal string to convert |
+| `$hex_string` | `string` | *není* | The hexadecimal string to convert |
 
 
 Návratové hodnoty

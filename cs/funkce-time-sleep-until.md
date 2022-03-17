@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$timestamp` | `float` |  | The timestamp when the script should wake. |
+| `$timestamp` | `float` | *není* | The timestamp when the script should wake. |
 
 
 Návratové hodnoty

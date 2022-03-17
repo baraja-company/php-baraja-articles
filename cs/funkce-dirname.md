@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$path` | `string` |  | A path. |
+| `$path` | `string` | *není* | A path. |
 | `$levels` | `int` | 1 | The number of parent directories to go up. This must be an integer greater than 0. |
 
 

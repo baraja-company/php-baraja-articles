@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$socket` | `resource` |  | The socket to send data to. |
-| `$data` | `string` |  | The data to be sent. |
+| `$socket` | `resource` | *není* | The socket to send data to. |
+| `$data` | `string` | *není* | The data to be sent. |
 | `$flags` | `int` | null, | The value of flags can be any combination of the following: <table> possible values for flags <tr valign="top"> <td>STREAM_OOB</td> <td> Process OOB (out-of-band) data. </td> </tr> </table> |
 | `$address` | `string` | null | The address specified when the socket stream was created will be used unless an alternate address is specified in address. |
 

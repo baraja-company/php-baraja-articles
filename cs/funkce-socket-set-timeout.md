@@ -19,8 +19,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$stream` | `resource` |  | The target stream. |
-| `$seconds` | `int` |  | The seconds part of the timeout to be set. |
+| `$stream` | `resource` | *není* | The target stream. |
+| `$seconds` | `int` | *není* | The seconds part of the timeout to be set. |
 | `$microseconds` | `int` | 0 | The microseconds part of the timeout to be set. |
 
 

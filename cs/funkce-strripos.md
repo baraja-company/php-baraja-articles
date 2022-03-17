@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$haystack` | `string` |  | The string to search in |
-| `$needle` | `string` |  | Note that the needle may be a string of one or more characters. |
+| `$haystack` | `string` | *není* | The string to search in |
+| `$needle` | `string` | *není* | Note that the needle may be a string of one or more characters. |
 | `$offset` | `int` | null | The offset parameter may be specified to begin searching an arbitrary number of characters into the string. |
 
 

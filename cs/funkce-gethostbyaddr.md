@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$ip_address` | `string` |  | The host IP address. |
+| `$ip_address` | `string` | *není* | The host IP address. |
 
 
 Návratové hodnoty

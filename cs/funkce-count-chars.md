@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$string` | `string` |  | The examined string. |
+| `$string` | `string` | *není* | The examined string. |
 | `$mode` | `int` | null | See return values. |
 
 

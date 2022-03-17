@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$haystack` | `string` |  | The string where char_list is looked for. |
-| `$char_list` | `string` |  | This parameter is case sensitive. |
+| `$haystack` | `string` | *není* | The string where char_list is looked for. |
+| `$char_list` | `string` | *není* | This parameter is case sensitive. |
 
 
 Návratové hodnoty

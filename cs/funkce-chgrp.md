@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | Path to the file. |
-| `$group` | `mixed` |  | A group name or number. |
+| `$filename` | `string` | *není* | Path to the file. |
+| `$group` | `mixed` | *není* | A group name or number. |
 
 
 Návratové hodnoty

@@ -17,7 +17,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |----------|------------|-----------------|----------|
-| `$expression` | `mixed` |  | Proměnná s daty, které chceme exportovat. |
+| `$expression` | `mixed` | *není* | Proměnná s daty, které chceme exportovat. |
 | `$return` | `bool` | null | Pokud je `true`, funkce hodnotu parametru vrátí, místo toho, aby se rovnou použila. |
 
 Návratové hodnoty

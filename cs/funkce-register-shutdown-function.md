@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$function` | `callback` |  | The shutdown function to register. |
+| `$function` | `callback` | *není* | The shutdown function to register. |
 | `$parameter` | `mixed` | null, | It is possible to pass parameters to the shutdown function by passing additional parameters. |
 | `$_` | `mixed` | null |  |
 

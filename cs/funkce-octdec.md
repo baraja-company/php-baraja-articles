@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$octal_string` | `string` |  | The octal string to convert |
+| `$octal_string` | `string` | *není* | The octal string to convert |
 
 
 Návratové hodnoty

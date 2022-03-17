@@ -22,8 +22,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$fp` | `resource` |  |  |
-| `$buffer` | `int` |  |  |
+| `$fp` | `resource` | *není* |  |
+| `$buffer` | `int` | *není* |  |
 
 
 Návratové hodnoty

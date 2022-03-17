@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$varname` | `string` |  | The configuration option name. |
+| `$varname` | `string` | *není* | The configuration option name. |
 
 
 Návratové hodnoty

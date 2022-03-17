@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$handle` | `resource` |  | The socket to get the name of. |
-| `$want_peer` | `bool` |  | If set to true the remote socket name will be returned, if set to false the local socket name will be returned. |
+| `$handle` | `resource` | *není* | The socket to get the name of. |
+| `$want_peer` | `bool` | *není* | If set to true the remote socket name will be returned, if set to false the local socket name will be returned. |
 
 
 Návratové hodnoty

@@ -17,9 +17,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$ident` | `string` |  | Identifikátor (typu `string`), který bude přidán do zprávy. |
-| `$option` | `int` |  | Argument `$option` se používá k označení toho, jaké možnosti protokolování budou použity při generování zprávy protokolu. Podrobnosti níže. |
-| `$facility` | `int` |  | Argument `$facility` se používá k určení, jaký typ programu protokoluje zprávu. To vám umožní určit (v konfiguraci syslogu vašeho stroje), jak budou zpracovávány zprávy přicházející z různých zařízení. Podrobnosti níže. |
+| `$ident` | `string` | *není* | Identifikátor (typu `string`), který bude přidán do zprávy. |
+| `$option` | `int` | *není* | Argument `$option` se používá k označení toho, jaké možnosti protokolování budou použity při generování zprávy protokolu. Podrobnosti níže. |
+| `$facility` | `int` | *není* | Argument `$facility` se používá k určení, jaký typ programu protokoluje zprávu. To vám umožní určit (v konfiguraci syslogu vašeho stroje), jak budou zpracovávány zprávy přicházející z různých zařízení. Podrobnosti níže. |
 
 `$option`
 ---------

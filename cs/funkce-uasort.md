@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$array` | `array` |  | The input array. |
-| `$cmp_function` | `callback` |  | See usort and uksort for examples of user-defined comparison functions. |
+| `$array` | `array` | *není* | The input array. |
+| `$cmp_function` | `callback` | *není* | See usort and uksort for examples of user-defined comparison functions. |
 
 
 Návratové hodnoty

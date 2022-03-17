@@ -17,7 +17,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$expression` | `mixed` |  | Proměnná, kterou chceme vypsat |
+| `$expression` | `mixed` | *není* | Proměnná, kterou chceme vypsat |
 | `$_` | `mixed` | null |  |
 
 

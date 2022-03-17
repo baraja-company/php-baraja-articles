@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | The filename of the ini file being parsed. |
+| `$filename` | `string` | *není* | The filename of the ini file being parsed. |
 | `$process_sections` | `bool` | null, | By setting the process_sections parameter to true, you get a multidimensional array, with the section names and settings included. The default for process_sections is false |
 | `$scanner_mode` | `int` | null | Can either be INI_SCANNER_NORMAL (default) or INI_SCANNER_RAW. If INI_SCANNER_RAW is supplied, then option values will not be parsed. |
 

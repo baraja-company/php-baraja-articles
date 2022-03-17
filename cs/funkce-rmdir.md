@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$dirname` | `string` |  | Path to the directory. |
+| `$dirname` | `string` | *není* | Path to the directory. |
 | `$context` | `resource` | null |  |
 
 

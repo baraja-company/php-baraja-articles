@@ -17,8 +17,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$input` | `string` |  | String, který se má opakovat |
-| `$multiplier` | `int` |  | Kolikrát se má opakovat |
+| `$input` | `string` | *není* | String, který se má opakovat |
+| `$multiplier` | `int` | *není* | Kolikrát se má opakovat |
 
 
 Návratové hodnoty

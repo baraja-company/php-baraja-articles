@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$stream` | `resource` |  | An open stream (opened with stream_socket_client, for example) |
-| `$how` | `int` |  | One of the following constants: STREAM_SHUT_RD (disable further receptions), STREAM_SHUT_WR (disable further transmissions) or STREAM_SHUT_RDWR (disable further receptions and transmissions). |
+| `$stream` | `resource` | *není* | An open stream (opened with stream_socket_client, for example) |
+| `$how` | `int` | *není* | One of the following constants: STREAM_SHUT_RD (disable further receptions), STREAM_SHUT_WR (disable further transmissions) or STREAM_SHUT_RDWR (disable further receptions and transmissions). |
 
 
 Návratové hodnoty

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$new_include_path` | `string` |  | The new value for the include_path |
+| `$new_include_path` | `string` | *není* | The new value for the include_path |
 
 
 Návratové hodnoty

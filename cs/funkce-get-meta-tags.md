@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | The path to the HTML file, as a string. This can be a local file or an URL. |
+| `$filename` | `string` | *není* | The path to the HTML file, as a string. This can be a local file or an URL. |
 | `$use_include_path` | `bool` | null | Setting use_include_path to true will result in PHP trying to open the file along the standard include path as per the include_path directive. This is used for local files, not URLs. |
 
 

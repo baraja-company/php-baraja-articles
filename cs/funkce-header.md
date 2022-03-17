@@ -17,7 +17,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$string` | `string` |  | Obsah hlavičky |
+| `$string` | `string` | *není* | Obsah hlavičky |
 | `$replace` | `bool` | true, | The optional replace parameter indicates whether the header should replace a previous similar header, or add a second header of the same type. By default it will replace, but if you pass in false as the second argument you can force multiple headers of the same type. For example: |
 | `$http_response_code` | `int` | null | Forces the HTTP response code to the specified value. |
 

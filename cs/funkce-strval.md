@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$var` | `mixed` |  | The variable that is being converted to a string. |
+| `$var` | `mixed` | *není* | The variable that is being converted to a string. |
 
 
 Návratové hodnoty

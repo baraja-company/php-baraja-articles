@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$var_array` | `array` |  |  |
+| `$var_array` | `array` | *není* |  |
 | `$extract_type` | `int` | null, |  |
 | `$prefix` | `string` | null |  |
 

@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$varname` | `string` |  |  |
-| `$newvalue` | `string` |  | The new value for the option. |
+| `$varname` | `string` | *není* |  |
+| `$newvalue` | `string` | *není* | The new value for the option. |
 
 
 Návratové hodnoty

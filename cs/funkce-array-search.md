@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$needle` | `mixed` |  | The searched value. |
-| `$haystack` | `array` |  | The array. |
+| `$needle` | `mixed` | *není* | The searched value. |
+| `$haystack` | `array` | *není* | The array. |
 | `$strict` | `bool` | null | If the third parameter strict is set to true then the array_search function will also check the types of the needle in the haystack. |
 
 

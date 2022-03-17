@@ -17,7 +17,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$seconds` | `int` |  | Jak dlouho spát v sekundách. |
+| `$seconds` | `int` | *není* | Jak dlouho spát v sekundách. |
 
 
 Návratové hodnoty

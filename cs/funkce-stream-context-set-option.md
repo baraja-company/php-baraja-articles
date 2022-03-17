@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$stream_or_context` | `resource` |  |  |
-| `$options` | `array` |  |  |
+| `$stream_or_context` | `resource` | *není* |  |
+| `$options` | `array` | *není* |  |
 
 
 Návratové hodnoty

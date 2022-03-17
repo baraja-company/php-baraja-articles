@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$iptcblock` | `string` |  | A binary IPTC block. |
+| `$iptcblock` | `string` | *není* | A binary IPTC block. |
 
 
 Návratové hodnoty

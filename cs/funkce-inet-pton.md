@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$address` | `string` |  | A human readable IPv4 or IPv6 address. |
+| `$address` | `string` | *není* | A human readable IPv4 or IPv6 address. |
 
 
 Návratové hodnoty

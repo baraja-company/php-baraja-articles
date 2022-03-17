@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$filename` | `string` |  | Path to the PHP file to be highlighted. |
+| `$filename` | `string` | *není* | Path to the PHP file to be highlighted. |
 | `$return` | `bool` | null | Set this parameter to true to make this function return the highlighted code. |
 
 

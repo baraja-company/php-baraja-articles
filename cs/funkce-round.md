@@ -20,7 +20,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$val` | `float` |  | The value to round |
+| `$val` | `float` | *není* | The value to round |
 | `$precision` | `int` | 0, | The optional number of decimal digits to round to. |
 | `$mode` | `int` | PHP_ROUND_HALF_UP | One of PHP_ROUND_HALF_UP, PHP_ROUND_HALF_DOWN, PHP_ROUND_HALF_EVEN, or PHP_ROUND_HALF_ODD. |
 

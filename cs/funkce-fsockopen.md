@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$hostname` | `string` |  | If you have compiled in OpenSSL support, you may prefix the hostname with either ssl:// or tls:// to use an SSL or TLS client connection over TCP/IP to connect to the remote host. |
+| `$hostname` | `string` | *není* | If you have compiled in OpenSSL support, you may prefix the hostname with either ssl:// or tls:// to use an SSL or TLS client connection over TCP/IP to connect to the remote host. |
 | `$port` | `int` | null, | The port number. |
 | `$errno` | `int` | null, | If provided, holds the system level error number that occurred in the system-level connect() call. |
 | `$errstr` | `string` | null, | The error message as a string. |

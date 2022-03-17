@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$stream_or_url` | `mixed` |  | The stream resource or URL to check. |
+| `$stream_or_url` | `mixed` | *není* | The stream resource or URL to check. |
 
 
 Návratové hodnoty

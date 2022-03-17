@@ -19,7 +19,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | Řetězec, který bude oříznut. |
+| `$str` | `string` | *není* | Řetězec, který bude oříznut. |
 | `$charlist` | `string` | " | Volitelně mohou být trimované znaky také zadány pomocí parametru `$charlist`. Jednoduše uveďte všechny znaky, kterých se chcete zbavit. Pomocí konstrukce `..` můžete určit rozsah znaků. |
 
 Návratové hodnoty

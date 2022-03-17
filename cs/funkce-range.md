@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$low` | `mixed` |  | Low value. |
-| `$high` | `mixed` |  | High value. |
+| `$low` | `mixed` | *není* | Low value. |
+| `$high` | `mixed` | *není* | High value. |
 | `$step` | `number` | null | If a step value is given, it will be used as the increment between elements in the sequence. step should be given as a positive number. If not specified, step will default to 1. |
 
 

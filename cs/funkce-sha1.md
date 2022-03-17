@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | The input string. |
+| `$str` | `string` | *není* | The input string. |
 | `$raw_output` | `bool` | null | If the optional raw_output is set to true, then the sha1 digest is instead returned in raw binary format with a length of 20, otherwise the returned value is a 40-character hexadecimal number. |
 
 

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$directory` | `string` |  | The directory that will be scanned. |
+| `$directory` | `string` | *není* | The directory that will be scanned. |
 | `$sorting_order` | `int` | null, | By default, the sorted order is alphabetical in ascending order. If the optional sorting_order is set to non-zero, then the sort order is alphabetical in descending order. |
 | `$context` | `resource` | null | For a description of the context parameter, refer to the streams section of the manual. |
 

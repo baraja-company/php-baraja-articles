@@ -18,9 +18,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$value1` | `array|mixed` |  | Prohledávané pole |
+| `$value1` | `array|mixed` | *není* | Prohledávané pole |
 | `$value2` | `mixed` | null, |  |
-| `$values` | `mixed` |  |  |
+| `$values` | `mixed` | *není* |  |
 
 
 Návratové hodnoty

@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$array` | `array` |  | The input array. |
-| `$cmp_function` | `callback` |  | The callback comparison function. |
+| `$array` | `array` | *není* | The input array. |
+| `$cmp_function` | `callback` | *není* | The callback comparison function. |
 
 
 Návratové hodnoty

@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$function` | `callback` |  | The function to be called. |
-| `$param_arr` | `array` |  | The parameters to be passed to the function, as an indexed array. |
+| `$function` | `callback` | *není* | The function to be called. |
+| `$param_arr` | `array` | *není* | The parameters to be passed to the function, as an indexed array. |
 
 
 Návratové hodnoty

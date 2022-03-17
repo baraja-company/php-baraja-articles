@@ -18,9 +18,9 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$str` | `string` |  | The string to be converted. |
-| `$from` | `string` |  | The source Cyrillic character set, as a single character. |
-| `$to` | `string` |  | The target Cyrillic character set, as a single character. |
+| `$str` | `string` | *není* | The string to be converted. |
+| `$from` | `string` | *není* | The source Cyrillic character set, as a single character. |
+| `$to` | `string` | *není* | The target Cyrillic character set, as a single character. |
 
 
 Návratové hodnoty

@@ -18,7 +18,7 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$arg` | `float` |  | The value to process |
+| `$arg` | `float` | *není* | The value to process |
 
 
 Návratové hodnoty

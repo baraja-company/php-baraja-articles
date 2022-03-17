@@ -4,7 +4,7 @@ PHP funkce set_socket_blocking()
 > id: "1fce4f69-4542-4f7e-ad2c-5e1fadf65f74"
 > slug:
 > 	cs: funkce-set-socket-blocking
-> 
+>
 > publicationDate: "2019-09-11 10:04:03"
 > mainCategoryId: "0eeab3a7-a54b-46db-a253-ca6100145648"
 
@@ -20,8 +20,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$socket` | `resource` |  |  |
-| `$mode` | `int` |  |  |
+| `$socket` | `resource` | *není* |  |
+| `$mode` | `int` | *není* |  |
 
 
 Návratové hodnoty

@@ -18,8 +18,8 @@ Parametry
 
 | Parametr | Datový typ | Výchozí hodnota | Poznámka |
 |-----|-----|-----|-----|
-| `$delimiter` | `string` |  | Oddělovací string |
-| `$string` | `string` |  | Vstupní řetězec |
+| `$delimiter` | `string` | *není* | Oddělovací string |
+| `$string` | `string` | *není* | Vstupní řetězec |
 | `$limit` | `int` | null | Když je limit kladné číslo, vrácené pole bude obsahovat maximálně tolik prvků, kolik je limit. V posledním prvku pole budou případně další nenaparsované hodnoty, které se nevešly do pole. Pokud je limit záporný, parsuje se od konce řetězce. |
 
 
