@@ -137,7 +137,7 @@ Operátor `??` (dva otazníky) ověří, jestli proměnná `$mainCategory` exist
 Ověření prázdnosti hodnoty
 -----------------------------
 
-Velmi často se hodí konstrukce pro ověření, že výstupní hodnota není prázdná (není `null`, `0`, `false` a podobně).
+Velmi často se hodí konstrukce pro ověření, že výstupní hodnota není prázdná (tj. není `null`, `0`, `false` nebo `''` *(prázdný string)*).
 
 To se dá zapsat takto:
 
