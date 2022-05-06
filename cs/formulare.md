@@ -17,7 +17,7 @@ Základní zdroj HTML formuláře
 ```html
 <form action="script.php" method="get">
 
-Zde bude celý obsah formuláře
+<!-- Zde bude celý obsah formuláře -->
 
 </form>
 ```
@@ -69,7 +69,7 @@ Radio button pro výběr více možností
 ------------------------------------
 
 ```html
-<input type="radio" name="language" value="cz" checked="checked"> Čeština
+<input type="radio" name="language" value="cz" checked> Čeština
 <input type="radio" name="language" value="sk"> Slovenština
 <input type="radio" name="language" value="en"> Angličtina
 ```
@@ -97,12 +97,12 @@ Vzniklo pro zadávání víceřádkového textu. Zadává se také:
 
 ```html
 <textarea name="article" cols="40" rows="6">
-Ahoj lidi !
+Ahoj lidi!
 </textarea>
 ```
 
 <textarea name="article" cols="40" rows="6">
-Ahoj lidi !
+Ahoj lidi!
 </textarea>
 
 Selectbox
@@ -137,15 +137,7 @@ Po kliknutí vezme všechna data z formulářových polí a odešle na nastaven�
 
 <input type="submit" value="Odeslat">
 
-<br>
-
-> TIP: Máte svoje formuláře ochráněné captchou proti spamu?
-
 Zpracování dat na serveru
 -------------------------
 
-Odeslaná data je dále nutné na serveru přijmout a zpracovat, o tom pojednává další článek.
-
-<a href="/formulare-2">
-	<button class="btn btn-success">Zpracování dat na serveru</button>
-</a>
+Dále je nutné data odeslat na server a tam zpracovat, o tom pojednává <a href="/zpracovni-formularu-v-php">další článek</a>.

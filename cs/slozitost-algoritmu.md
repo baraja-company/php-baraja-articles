@@ -31,7 +31,8 @@ Níže je uveden seznam některých nejpoužívanějších notací Big O a srovn
 | **O(2^N)**     | 1024                         | 1.26e+29                      | 1.07e+301                       |
 | **O(N!)**      | 3628800                      | 9.3e+157                      | 4.02e+2567                      |
 
-### Složitost operací datové struktury
+Složitost operací datové struktury
+----------------------------------
 
 | Struktura dat           | Přístup   | Hledání   | Vložení   | Odebráné  | Komentář |
 | ----------------------- | :-------: | :-------: | :-------: | :-------: | :-------- |
@@ -46,7 +47,8 @@ Níže je uveden seznam některých nejpoužívanějších notací Big O a srovn
 | **AVL Tree**            | log(n)    | log(n)    | log(n)    | log(n)    |           |
 | **Bloom Filter**        | -         | 1         | 1         | -         | Při hledání jsou možné tzv. `false positives` |
 
-### Složitost řadících algoritmů
+Složitost řadících algoritmů
+----------------------------
 
 | Název algoritmu       | Nejlepší        | Průměrná            | Nejhorší            | Paměť     | Stabilní? | Komentář  |
 | --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
