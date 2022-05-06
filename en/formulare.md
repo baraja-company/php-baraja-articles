@@ -9,7 +9,7 @@ HTML forms - part in the browser
 > perex: 'Zpracování formulářů v PHP, zejména možnosti odeslání získaných dat na server metodou GET a POST.'
 > publicationDate: '2019-08-22 20:48:46'
 > mainCategoryId: a23332c0-a233-4093-abd7-85b1b00a383b
-> sourceContentHash: '7551805fab54045d4ef9a6ccbc49dcca'
+> sourceContentHash: '8d2a0df0667b3da5d6b19e6c25ad2517'
 
 Before we can process any user data on the server side via PHP, we need to get it first. This is done in the browser via HTML forms that define the basic elements to receive the data. The purpose of this article is not to present all the possibilities of forms, but just the basic possibilities of accepting data and understanding the principle.
 
@@ -19,7 +19,7 @@ Basic HTML form source
 ```html
 <form action="script.php" method="get">
 
-Here will be the full content of the form
+<!-- Here will be the entire content of the form -->
 
 </form>
 ```
@@ -71,7 +71,7 @@ Radio button to select multiple options
 ------------------------------------
 
 ```html
-<input type="radio" name="language" value="cz" checked="checked"> Czech
+<input type="radio" name="language" value="cz" checked> Czech
 <input type="radio" name="language" value="sk"> Slovak
 <input type="radio" name="language" value="en"> English
 ```
@@ -99,12 +99,12 @@ Created for entering multi-line text. It is also used to enter:
 
 ```html
 <textarea name="article" cols="40" rows="6">
-Hi guys !
+Hey guys!
 </textarea>
 ```
 
 <textarea name="article" cols="40" rows="6">
-Hi guys !
+Hey guys!
 </textarea>
 
 Selectbox
@@ -139,15 +139,7 @@ When clicked, it takes all the data from the form fields and sends it to the set
 
 <input type="submit" value="Submit">
 
-<br>
-
-> TIP: Do you have your forms protected by captcha against spam?
-
 Data processing on the server
 -------------------------
 
-Submitted data must be received and processed on the server, which is the subject of the next article.
-
-<a href="/formulare-2">
-	<button class="btn btn-success">Processing data on the server</button>
-</a>
+Next, you need to send the data to the server and process it there, this is covered in <a href="/processing-formula-in-php">the next article</a>.

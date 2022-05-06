@@ -9,7 +9,7 @@ Complexity of algorithms
 > cs: slozitost-algoritmu
 > publicationDate: '2021-08-03 20:40:00'
 > mainCategoryId: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
-> sourceContentHash: '392a0151a8e00c167f7a27f2081decab'
+> sourceContentHash: '6269d38b9a2a8d75ec01b569af8b371c'
 
 Each algorithm has its own complexity, which can be expressed in mathematical notation. This overview shows the typical complexity of algorithms according to the size of the input data (i.e. the number of elements they work with) and which types of algorithms are suitable for which type of task.
 
@@ -34,9 +34,10 @@ Below is a list of some of the most commonly used Big O notations and a comparis
 | **O(2^N)** | 1024 | 1.26e+29 | 1.07e+301 |
 | **O(N!)** | 3628800 | 9.3e+157 | 4.02e+2567 |
 
-### Complexity of data structure operations
+Complexity of data structure operations
+----------------------------------
 
-| Data Structure | Access | Search | Insert | Subtract | Comment |
+| Data Structure | Access | Search | Insert | Remove | Comment |
 | ----------------------- | :-------: | :-------: | :-------: | :-------: | :-------- |
 | **Array** | 1 | n | n | n | n | |
 | **Stack** | n | n | n | 1 | 1 | |
@@ -49,9 +50,10 @@ Below is a list of some of the most commonly used Big O notations and a comparis
 | **AVL Tree** | log(n) | log(n) | log(n) | log(n) | log(n) | |
 | **Bloom Filter** | - | 1 | 1 | - | When searching for `false positives` |
 
-### Complexity of sorting algorithms
+Complexity of sorting algorithms
+----------------------------
 
-| Algorithm name | Best | Average | Worst | Memory | Stable? | Comment |
+| Algorithm Name | Best | Average | Worst | Memory | Stable? | Comment |
 | --------------------- | :-------------: | :-----------------: | :-----------------: | :-------: | :-------: | :-------- |
 | **Bubble sort** | n | n<sup>2</sup> | n<sup>2</sup> | 1 | Yes | |
 | **Insertion sort** | n | n<sup>2</sup> | n<sup>2</sup> | 1 | | |
