@@ -1,0 +1,33 @@
+PHP function gc_mem_caches()
+============================
+
+> id: '7575b36b-144b-4a7b-ab03-6e96599b55e8'
+> slug:
+> 	cs: funkce-gc-mem-caches
+> 	en: php-function-gc-mem-caches
+> 
+> publicationDate: '2019-09-11 10:04:04'
+> mainCategoryId: ab12b253-41a0-4bf3-9019-956608d7d534
+> sourceContentHash: '2c647d65ab94227753b6ed2122f9e102'
+
+Availability in `PHP 7.0`
+
+Reclaims memory used by the Zend Engine memory manager
+
+
+Parameters
+--------------
+
+The function has no input parameters.
+
+Return values
+----------------
+
+`int`
+
+Returns the number of bytes freed.
+
+Other resources
+------------
+
+[Official gc-mem-caches documentation](https://www.php.net/manual/en/function.gc-mem-caches.php)

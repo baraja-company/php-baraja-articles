@@ -1,0 +1,39 @@
+PHP function stristr()
+======================
+
+> id: '7966a56b-2add-421a-9bea-887e83a1ed71'
+> slug:
+> 	cs: funkce-stristr
+> 	en: php-function-stristr
+> 
+> publicationDate: '2019-09-11 10:04:03'
+> mainCategoryId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+> sourceContentHash: cefce37f3dcf77fd98b225644d219a67
+
+Availability in `PHP 4.0`
+
+Case-insensitive <function>str</function>
+
+
+Parameters
+--------------
+
+| Parameter | Data type | Default value | Note |
+|-----|-----|-----|-----|
+| `$haystack` | `string` | *not* | The string to search in |
+| | `$needle` | `mixed` | *not* | If needle is not a string, it is converted to an integer and applied as the ordinal value of a character. |
+| `$before_needle` | `bool` | null | If true, stristr returns the part of the haystack before the first occurrence of the needle. |
+
+
+Return values
+----------------
+
+`string`
+
+the matched substring. If needle is not
+found, returns false.
+
+Additional resources
+------------
+
+[Official stristr documentation](https://www.php.net/manual/en/function.stristr.php)
