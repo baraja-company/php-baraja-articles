@@ -17,7 +17,7 @@ Ak pracujeme v kontexte bežného skriptu, všetko sa deje podľa očakávania:
 ```php
 $x = 5;
 
-echo $x; // vypíše 5
+echo $x; // vytlačí 5
 ```
 
 Keď však definujeme vlastnú funkciu, správanie sa mierne zmení:
@@ -25,32 +25,30 @@ Keď však definujeme vlastnú funkciu, správanie sa mierne zmení:
 ```php
 $x = 5;
 
-funkcia myFunction(): int
+function mojeFunkce(): int
 {
     $x = 3;
 
-    echo $x; // vypíše 3
+    echo $x; // vytlačí 3
 }
 
-echo $x; // vypíše 5
+echo $x;     // vytlačí 5
 ```
-
 
 Dôvodom je, že premenná $x existuje len v kontexte aktuálnej funkcie alebo metódy. Toto správanie je zámerné.
 
 Ak chceme funkcii odovzdať hodnotu z okolitého kódu, musíme ju zavolať s potrebnými parametrami:
 
 ```php
-echo myFunction(5); // vypíše 6
+echo mojeFunkce(5);	// vytlačí 6
 
-funkcia mojeFunkcia(int $x): int
+function mojeFunkce(int $x): int
 {
-    vrátiť $x + 1;
+    return $x + 1;
 }
 ```
 
-
-Hodnoty sa do funkcií odovzdávajú pomocou parametrov. Ak chcete do funkcie odovzdať ďalšie premenné nad rámec parametrov, môžete použiť <a href="/global-variable">globálne premenné</a>, ale nie je to dobrý nápad.
+Hodnoty sa do funkcií zadávajú pomocou parametrov. Ak chcete do funkcie odovzdať ďalšie premenné nad rámec parametrov, môžete použiť <a href="/global-variable">globálne premenné</a>, ale nie je to dobrý nápad.
 
 > Používanie lokálnych premenných je pri programovaní väčších aplikácií veľmi dôležité. Ak by sme nerozlišovali platnosť premenných v rôznych kontextoch, nebolo by možné zaručiť, že premenná nebude prepísaná na mieste, kde s ňou nepočítame (preto sú globálne premenné zlé).
 
@@ -58,11 +56,11 @@ Hodnoty sa do funkcií odovzdávajú pomocou parametrov. Ak chcete do funkcie od
 $x = 5;
 $y = 3;
 
-funkcia sum(int $x, int $y): int
+function soucet(int $x, int $y): int
 {
-    vrátiť $x + $y;
+    return $x + $y;
 }
 
-echo $x; // vypíše 5
-echo sum($x, $y); // vypíše 8
+echo $x;             // vytlačí 5
+echo soucet($x, $y); // vytlačí 8
 ```

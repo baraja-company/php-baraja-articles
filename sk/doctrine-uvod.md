@@ -12,7 +12,7 @@ Séria Doctrine - Úvod
 
 Doctrine je pokročilá knižnica PHP na objektovo orientovanú prácu s databázami. Hlavným účelom a cieľom Doctrine je popísať databázovú schému pomocou dátových entít a manipulovať s údajmi plne objektovo orientovaným spôsobom.
 
-Táto paradigma sa nazýva ORM (Object-relational mapping), čo je [design-pattern](/design-patterns) na prevod (obalenie) údajov uložených v relačnej databáze na objekt, ktorý možno použiť v objektovo orientovanom jazyku. Preto, aby ste pochopili a používali Doctrine, musíte poznať aspoň základy [objektovo orientovaného programovania](/oop).
+Táto paradigma sa nazýva ORM (Object-relational mapping), čo je [design-pattern](/design-patterns) na konverziu (obalenie) údajov uložených v relačnej databáze na objekt, ktorý možno použiť v objektovo orientovanom jazyku. Preto, aby ste pochopili a používali Doctrine, musíte poznať aspoň základy [objektovo orientovaného programovania](/oop).
 
 Prečo sa učiť doktrínu?
 ------------------------
@@ -20,12 +20,12 @@ Prečo sa učiť doktrínu?
 Existuje mnoho dôvodov:
 
 - Doctrine je najpoužívanejšia databáza ORM, ktorú používa väčšina pokročilých používateľov PHP.
-- Zásadne zjednoduší návrh vašej aplikácie PHP
+- Výrazne zjednoduší návrh vašej aplikácie PHP
 - Poskytujete konzistentný spôsob návrhu, verzie, prenosu a zálohovania databázovej schémy
 - Stiahnutím balíka môžete [získať množstvo databázových tabuliek](https://github.com/baraja-core/shop-product) bez toho, aby ste museli čokoľvek zisťovať a konfigurovať.
 - Vzťahy medzi tabuľkami sa stávajú skutočnými fyzickými entitami
 - Výstupy databázy nebudú obyčajné netypované polia, ale dostanete skutočné fyzické objekty
-- Získate jednoduchý spôsob vykonávania mnohých operácií súčasne v rámci jednej transakcie
+- Získate jednoduchý spôsob, ako vykonávať mnoho operácií súčasne v rámci jednej transakcie
 - Bezpečnosť a odolnosť aplikácií ľahko zvýšite tým, že jednoducho budete vedieť, kedy sa čo stane a že sa to stane bezpečne.
 - Získate ľahko testovateľnú vrstvu kódu a databázy
 - Objavíte celý ekosystém okolo Doctrine, ktorý elegantne rieši mnohé problémy. Často nájdete jednoduché riešenia zložitých problémov, ktoré je inak takmer nemožné ľahko vyriešiť.
@@ -45,13 +45,11 @@ Aby Doctrine fungoval správne, je potrebné pripraviť prázdnu databázu (Doct
 Ak bolo všetko správne nakonfigurované, v Nette sa vytvorí nová služba DI `Baraja\Doctrine\EntityManager`, ktorú môžete [injektovať](https://doc.nette.org/cs/3.1/di-usage) do programu Presenter:
 
 ```php
-<?php
+namespace App\FrontModule\Presenters;
 
-menný priestor App\FrontModule\Presenters;
+use Baraja\Doctrine\EntityManager;
 
-použiť Baraja\Doctrine\EntityManager;
-
-finálna trieda HomepagePresenter rozširuje BasePresenter
+final class HomepagePresenter extends BasePresenter
 {
 	#[Inject]
 	public EntityManager $entityManager;
@@ -67,4 +65,4 @@ Nasledujúce kapitoly sú kombináciou referenčnej príručky technológie Doct
 
 Doctrine používam už veľmi dlho a vyriešil som v nej tisíce prípadov. Ukážeme si tipy a triky, ako používať Doctrine na optimalizáciu rýchlosti databázy a ako vhodne navrhnúť databázu. Doctrine môžete použiť aj pre existujúci projekt (ak spĺňate určité podmienky) a my vám ukážeme, ako na to.
 
-Táto séria článkov bola vytvorená na pomoc mojim študentom v oblasti školení a poradenstva. Ak potrebujete niektoré témy podrobnejšie prediskutovať alebo vysvetliť, môžete mi napísať na e-mailovú adresu jan@barasek.com. Keďže ide o pomerne náročnú technológiu, všetky otázky budú považované za platenú konzultáciu.
+Táto séria článkov bola vytvorená s cieľom pomôcť mojim študentom v oblasti školení a poradenstva. Ak potrebujete niektoré témy podrobnejšie prediskutovať alebo vysvetliť, môžete mi napísať na e-mailovú adresu jan@barasek.com. Keďže ide o pomerne náročnú technológiu, všetky otázky budú považované za platenú konzultáciu.

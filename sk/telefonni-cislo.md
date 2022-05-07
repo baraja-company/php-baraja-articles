@@ -19,11 +19,9 @@ Inštalácia stránky
 
 Jednoducho podľa skladateľa:
 
-```
 $ composer require baraja-core/phone-number
-```
 
-Alebo si stiahnite balík [Stiahnuť na GitHub](https://github.com/baraja-core/phone-number).
+Alebo si stiahnite balík [Download on GitHub](https://github.com/baraja-core/phone-number).
 
 Ako používať knižnicu
 ----------
@@ -40,7 +38,7 @@ echo $original . '<br>';
 echo $formatted;
 ```
 
-Táto funkcia opraví formátovanie čísla a vráti reťazec `+420 777 123 456`.
+Funkcia opraví formátovanie čísla a vráti reťazec `+420 777 123 456`.
 
 Ak používateľ nezadá žiadnu predponu, predpokladá sa predpona `+420`. Predvolené preferencie môžete zmeniť pomocou druhého parametra:
 
@@ -60,14 +58,12 @@ Výstup vyzerá vždy rovnako (je normalizovaný do kanonického formátu).
 
 Všeobecný formát je nasledovný:
 
-```
    +420 777 123 456
-     | \_________/
-  Prefix |
-      Národné číslo
-```
+     |  \_________/
+  Prefix     |
+      National number
 
-Ak odovzdáte neplatný vstup (alebo vstup, ktorý nemožno automaticky opraviť), bude vyhodená výnimka.
+Ak zadáte neplatný vstup (alebo vstup, ktorý nemožno automaticky opraviť), vyhodí sa výnimka.
 
 Zachytávanie chýb
 ----------------

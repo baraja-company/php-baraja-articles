@@ -16,7 +16,7 @@ Popis
 --------------------------
 
 ```php
-vytlačiť 'Hello World!';
+print "Ahoj, svet!;
 ```
 
 `print()` nie je v skutočnosti skutočná funkcia (je to jazykový konštrukt), takže nemusíte používať zátvorky.
@@ -42,15 +42,15 @@ Príklad
 --------------------------
 
 ```php
-vytlačiť "hello world";
+print "hello world";
 
-print "print môže vypisovať viac riadkov textu.Ale pozor na značku HTML
-pretože sa nevytlačí. Na to slúži funkcia <a href="/nl2br">Nl2br</a>.";
+print "Tlač môže vypisovať viac riadkov textu.Ale pozor na značku HTML
+, pretože sa nevytlačí. To je to, čo <a href="/nl2br">Nl2br</a>.";
 
-// Príklad pripojenia k premennej
+// Príklad spojenia s premennou
 $a = 'php';
 
-print 'Páči sa mi ' . $a; // Mám rád php
+print "Páči sa mi . $a; // Mám rád php
 ```
 
-**print** je presne tá istá funkcia ako **echo**. Ak hľadáte ďalšie informácie, pozrite si tento článok o funkcii <a href="/echo">echo</a>.
+**print** je presne tá istá funkcia ako **echo**. Ak hľadáte ďalšie informácie, pozrite si článok <a href="/echo">echo</a>.

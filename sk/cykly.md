@@ -29,7 +29,7 @@ Ak cyklus nič nezastaví, nič mu nebráni v tom, aby bežal donekonečna, aleb
 
 **Dôležité pojmy:**
 
-- `Cyklus` - jazykový výraz, ktorý umožňuje opakovať určitú časť kódu
+- `Cycle` - jazykový výraz, ktorý umožňuje opakovať určitú časť kódu
 - `Iterácia` - jedno konkrétne vykonanie tela slučky
 - `Initialization` - začiatok vykonávania cyklu (pred začiatkom prvej iterácie)
 - `Increment` - inkrementácia iteračnej premennej o jednotku
@@ -43,18 +43,18 @@ Funkcia `For` je užitočná v prípadoch, keď je počet opakovaní vopred zná
 Všeobecne sa píše (3 časti):
 
 ```php
-for (inicializácia; výraz; prírastok) {
-    // telo slučky
+for (inicializace; výraz; inkrementace) {
+    // telo cyklu
 }
 ```
 
-- `initialization`: Definícia počiatočného stavu cyklu (aké premenné potrebujeme),
+- `Initialization`: Definícia počiatočného stavu cyklu (aké premenné potrebujeme),
 - `výraz`: Podmienka. Pokiaľ je platný, cyklus sa vykoná,
 - `increment`: Zmena stavu slučky z predchádzajúceho priechodu (`increment` - prírastok o jedna).
 
 Príkladom môže byť výstup série čísel od `0` do `10`:
 
-``php
+```php
 for ($i = 0; $i <= 10; $i++) {
     echo $i . '<br>';
 }
@@ -68,7 +68,7 @@ for ($i = 2; $i <= 100; $i += 2) {
 }
 ```
 
-Cyklus for sa hodí na rôzne triky, napríklad na <a href="/abeceda-cisla-intervaly">získanie abecedy, poľa čísel a intervalov</a>.
+Cyklus for je užitočný na rôzne triky, ako napríklad <a href="/abeceda-cisla-intervaly">získanie abecedy, poľa čísel a intervalov</a>.
 
 Kým cyklus do-while
 -----------------------
@@ -77,7 +77,7 @@ Cyklus `While` beží tak dlho, kým platí podmienka. Rozdiel medzi `while` a `
 
 ```php
 while (výraz) {
-    // telo slučky
+    // telo cyklu
 }
 ```
 
@@ -85,14 +85,14 @@ Prípadne:
 
 ```php
 do {
-    // telo slučky
+    // telo cyklu
 } while(výraz);
 ```
 
 - Funkcia `while` najprv vyhodnotí podmienku a potom spustí vnútorný cyklus,
 - `do-while` najprv spracuje vnútorný cyklus a potom vyhodnotí podmienku.
 
-To je výhodné najmä vtedy, keď nemôžeme vopred vedieť, či cyklus niekedy prebehne, a chceme zaručiť, že vždy prebehne aspoň raz (vtedy používame `do-while`).
+Je to výhodné najmä vtedy, keď nemôžeme vopred vedieť, či cyklus niekedy prebehne, a chceme zaručiť, že vždy prebehne aspoň raz (vtedy používame `do-while`).
 
 Príklad:
 
@@ -104,7 +104,7 @@ V tomto prípade je vhodné použiť cyklus `do-while`. Dopredu nevieme, koľkok
 $x = 2;
 $y = $x;
 
-urobiť {
+do {
    $y = rand(0, 10);
 } while($x == $y);
 
@@ -125,7 +125,7 @@ foreach ($data as $value) {
 }
 ```
 
-Prípadne môžeme získať aj kľúče:
+Prípadne môžeme získať kľúče:
 
 ```php
 foreach ($data as $key => $value) {
@@ -133,12 +133,12 @@ foreach ($data as $key => $value) {
 }
 ```
 
-Funkcia `foreach` je skvelá na prechádzanie skutočných údajov - napríklad výsledkov z databázy alebo polí s kľúčmi:
+`foreach` je ideálny na prezeranie skutočných údajov - napríklad výsledkov z databázy alebo polí s kľúčmi:
 
 ```php
 $countries = [
-    'cz' => 'Česká republika',
-    'en' => 'Slovensko',
+    'cz' => "Česká republika,
+    'en' => "Slovensko,
 ];
 
 foreach ($countries as $shortcut => $name) {
@@ -170,29 +170,29 @@ To znamená, že existuje postupné násobenie radu čísel od `1` až po čísl
 Rekurzívne sa to dá vyriešiť veľmi elegantne:
 
 ```php
-funkcia factorial(int $n): int
+function factorial(int $n): int
 {
-   ak ($n === 0) {
-      návrat 1;
+   if ($n === 0) {
+      return 1;
    }
 
-   vráti $n * faktoriál($n - 1);
+   return $n * factorial($n - 1);
 }
 ```
 
 Alternatívou je ešte kratšia implementácia pomocou ternárneho operátora:
 
 ```php
-funkcia factorial(int $n): int
+function factorial(int $n): int
 {
-    return $n === 0 ? 1 : $n * faktoriál($n - 1);
+    return $n === 0 ? 1 : $n * factorial($n - 1);
 }
 ```
 
-To isté môžeme prepísať na použitie slučiek:
+To isté sa dá prepísať na použitie cyklov:
 
 ```php
-funkcia factorial(int $n): int
+function factorial(int $n): int
 {
     $result = 1;
 
@@ -200,26 +200,26 @@ funkcia factorial(int $n): int
         $result *= $i;
     }
 
-    vrátiť $result;
+    return $result;
  }
 ```
 
-Zápis pomocou slučky je o niečo dlhší, ale je podstatne menej náročný na pamäť. Na výpočet používame len jednu premennú `$result`, ktorej hodnotu priebežne meníme a nemusíme vytvárať stále nové inštancie `factorial()`.
+Zápis pomocou cyklu je o niečo dlhší, ale opäť má výrazne menšiu pamäťovú stopu. Na výpočet používame len jednu premennú `$result`, ktorej hodnotu priebežne meníme a nemusíme vytvárať nové inštancie `factorial()`.
 
 Nekonečné slučky píšte veľmi opatrne
 -----------------------------------
 
-Môže byť veľmi jednoduché urobiť cyklus nekonečným (dosiahneme to tak, že nikdy nesplníme ukončovaciu podmienku). Mali by ste to vziať do úvahy a prípadne sami zastaviť cyklus pomocou `break;`.
+Veľmi ľahko sa môže stať, že cyklus bude nekonečný (dosiahneme to tým, že nikdy nesplníme ukončovaciu podmienku). Mali by ste to vziať do úvahy a prípadne sami zastaviť cyklus pomocou `break;`.
 
-Napríklad hádžte kockou, kým nepadne číslo `6`. Implementácia vás zvádza k použitiu cyklu `while`:
+Napríklad hádžte kockou, kým nepadne číslo `6`. Implementácia zvádza k použitiu slučky `while`:
 
-``php
+```php
 while (true) {
    $value = rand(1, 6);
 
    if ($value === 6) {
-      echo 'Hodnota klesla ' . $hodnota;
-      prestávka;
+      echo "Hodnota klesla . $value;
+      break;
    }
 }
 ```
@@ -235,12 +235,12 @@ for ($i = 0; $i <= 1000; $i++) {
    $value = rand(1, 6);
 
    if ($value === 6) {
-      echo 'Hodnota klesla ' . $hodnota;
-      prestávka;
+      echo "Hodnota klesla . $value;
+      break;
    }
 }
 
-ak ($i === 1000) {
-   vyhodí novú výnimku \Exception('Maximálny počet hodov bol prekročený.');
+if ($i === 1000) {
+   throw new \Exception("Maximálny počet hodov bol prekročený.);
 }
 ```

@@ -13,7 +13,7 @@ Ako funguje Captcha (popisný obrázok)
 
 Captcha je v súčasnosti jedným z najbežnejších spôsobov ochrany bezplatných formátov. Pôvodne nebol vytvorený na ochranu bezpečnosti údajov, ale na ochranu pred spamom a na rozpoznanie, že ide o človeka.
 
-Je však generovaná strojom, takže nie je vždy dokonalá, ale úspešnosť testu captcha sa pohybuje okolo 99 % a dobre vytvorený spamový robot dokáže rozlúštiť len 1 % obrázkov.
+Je však generovaná strojom, takže nie je vždy dokonalá, ale úspešnosť testu captcha sa pohybuje okolo 99 % a iba 1 % obrázkov dokáže dobre vytvorený spamový robot rozlúštiť.
 
 Ako to funguje
 --------------------------
@@ -38,33 +38,28 @@ Vlastný jednoduchý obrázok captcha
 
 Výsledný obrázok môže vyzerať takto:
 
-```
-<img src="captcha.php" alt="vzor captcha">
-```
+<img src="captcha.php" alt="ukázková captcha">
 
 Skúste stránku niekoľkokrát obnoviť a uvidíte, že kód sa zakaždým náhodne zmení. Na demonštračné účely sa len vygeneruje bez uloženia, takže sa odstráni ihneď po načítaní.
 
 Zdrojový kód som vyriešil pomocou knižnice PHPGD, ktorá je k dispozícii prakticky na každej inštalácii PHP a hostingu:
 
 ```php
-Hlavička("Content-type: image/png");
+Header("Content-type: image/png");
 $obr = ImageCreate(100, 35);
-$background = ImageColorAllocate($obr, 219, 28, 49); //definovať farbu pozadia
-$bila = ImageColorAllocate($obr, 255, 255, 255); //definujte bielu farbu pre text
-$style = array($background);
-ImageSetStyle($obr, $style);
-  $random_cislo = rand(11111,99999); //vylosujte náhodné číslo dlhé 5 znakov
-  imagestring($obr, 5, 25, 10, $random_cislo, $bila); //funkcia na vykreslenie textu (v tomto prípade čísla)
-ImagePNG($obr); //vygenerujte obrázok v pamäti a vykreslite ho
-ImageDestroy($obr); //odstráňte obrázok z pamäte (už nie je potrebný, pretože je vygenerovaný raz)
+$pozadi = ImageColorAllocate ($obr, 219, 28, 49); //definícia farby pozadia
+$bila = ImageColorAllocate ($obr, 255, 255, 255); //definícia bielej farby pre text
+$styl = array ($pozadi);
+ImageSetStyle ($obr, $styl);
+  $nahodne_cislo = rand(11111,99999); //vylosovanie náhodného čísla s dĺžkou 5 znakov
+  imagestring($obr, 5, 25, 10, $nahodne_cislo, $bila); //funkcia na kreslenie textu (v tomto prípade čísla)
+ImagePNG($obr); //vygenerovanie obrazu do pamäte a vykreslenie
+ImageDestroy($obr); //odstrániť obrázok z pamäte (už nebude potrebný, pretože je vygenerovaný raz)
 ```
 
 Vykreslenie obrázka je potom už len otázkou HTML:
 
-```html
 <img src="captcha.php">
-```
-
 
 Upozorňujeme, že tento skript nie je funkčný sám o sebe bez ďalších úprav. Slúži len ako ukážka na vytvorenie jednoduchého obrázka.
 

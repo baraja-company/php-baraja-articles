@@ -21,24 +21,20 @@ Jeho používanie je **relatívne** jednoduché.
 
 Na strane HTML je potrebné vytvoriť formulár:
 
-```html
 <form action="process.php" method="post">
-    Meno: <input type="text" name="užívateľské meno">
-    <input type="submit" value="Odoslať">
+    Jméno: <input type="text" name="username">
+    <input type="submit" value="Odeslat">
 </form>
-```
 
-A potom v súbore `process.php` je možné k hodnotám pristupovať ako k prvkom poľa:
+A potom v súbore `process.php` môžu byť hodnoty prístupné ako prvky poľa:
 
 ```php
-<?php
-
 echo htmlspecialchars($_POST['username'] ?? '');
 ```
 
 > **Upozornenie:**
 >
-> Pri tomto jednoduchom prístupe môže mať niekto pocit, že údaje odoslané prostredníctvom POST sú automaticky definované ako indexy poľa v premennej `$_POST`. Ale to nie je pravda!
+> Pri tomto jednoduchom prístupe môže mať každý pocit, že POSTované dáta sú automaticky definované ako indexy poľa v premennej `$_POST`. Ale to nie je pravda!
 
 Dôvodom, prečo sa údaje odoslané z formulára pomocou metódy POST zapisujú do premennej `$_POST`, je skutočnosť, že prehliadač pri odosielaní formulára HTML automaticky odosiela hlavičku HTTP `'Content-Type': 'application/x-www-form-urlencoded'`.
 
@@ -51,78 +47,68 @@ Pri pokuse o odosielanie údajov pomocou ajaxu musíme na strane PHP trochu zmen
 
 V javascripte môžete napríklad použiť knižnicu <a href="https://github.com/axios/axios">axios</a> na odosielanie údajov pomocou ajaxu. Ak ho chcete jednoducho používať, stačí prepojiť javascript zo servera CDN a hneď ho používať:
 
-```html
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 <script>
     axios.post('/api/form-process', {
-        užívateľské meno: 'user name'
+        username: 'Jméno uživatele'
     })
     .then(response => {
-        // Spracovanie odpovede z rozhrania API
-        alert(response.data.message); // Vyhodí správu
+        // Zpracování odpovědi z API
+        alert(response.data.message); // Vyhodí hlášku se zprávou
     });
 </script>
-```
 
 V tomto jednoduchom prípade sa URL adresa `'/api/form-process'` zavolá pomocou ajaxu a metóda POST odovzdá objekt `{ meno používateľa: 'Meno používateľa' }`. Samotná knižnica sa už o logistiku odovzdávania údajov stará automaticky, takže sa odosielajú serializované ako Json. V reči frontendových vývojárov sa to nazýva **json payload**.
 
 Na strane PHP by som očakával, že sa použije ako formulár (koniec koncov, bola to metóda POST):
 
 ```php
-<?php
-
 echo htmlspecialchars($_POST['username'] ?? '');
 ```
 
-V skutočnosti však v tomto prípade bude pole `$_POST` prázdne a nebudú odovzdané žiadne údaje. Premenná `$_POST` sa používa len pre údaje získané z formulárov (môžete to zistiť podľa hlavičky HTTP, ktorú sme nevyhodili).
+V tomto prípade však bude pole `$_POST` prázdne a nebudú odovzdané žiadne údaje. Premenná `$_POST` sa používa len pre údaje získané z formulárov (môžete to zistiť podľa hlavičky HTTP, ktorú sme nevyhodili).
 
 V tomto prípade teda potrebujeme získať údaje priamo z požiadavky HTTP, na čo sa používa **trick solution**. Potom sa ľahko používa:
 
 ```php
-<?php
-
 $data = json_decode(file_get_contents('php://input'), true);
 
 echo htmlspecialchars($data['username'] ?? '');
 
 header('Content-Type: application/json');
 echo json_encode([
-    'message' => 'Chyba servera',
+    'message' => "Server creeper,
 ]);
-zomrieť;
+die;
 ```
 
-Súčasťou príkladu je aj jednoduchá javascriptová odpoveď. Dôležité je správne vyhodiť hlavičku HTTP `'Content-Type: application/json'` a ukončiť skript po odoslaní všetkých údajov.
+Ako príklad uvádzam aj jednoduchú javascriptovú odpoveď. Dôležité je správne vyhodiť hlavičku HTTP `'Content-Type: application/json'` a ukončiť skript po odoslaní všetkých údajov.
 
 Vynucovanie používania `$_POST`
 -------------------------
 
 Ak aj napriek tomu chcete s odoslanými údajmi zaobchádzať priamo ako s formulárom, existuje spôsob, ako ich preniesť. V tomto prípade je potrebné upraviť vytvorenie samotného dotazu ajax a správne odovzdať hlavičky HTTP:
 
-```js
 axios.post(
     '/api/form-process',
     {
-        username: 'Meno používateľa'
+        username: 'Jméno uživatele'
     },
     {
-        hlavičky: { 'content-type': 'application/x-www-form-urlencoded'}
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'}
     }
 ).then(response => {
-    // Niektoré spracovania
+    // Nějaké zpracování
 });
-```
 
 V tomto prípade však spracovanie na strane PHP nebude príjemné, pretože údaje musíme ešte opraviť a previesť na pole.
 
-Podarilo sa mi na to vymyslieť tento horor:
+Podarilo sa mi vymyslieť túto hrôzu:
 
 ```php
-<?php
-
-ak (\count($_POST) === 1
-    && preg_match('/^{.*}$/', $post = array_keys($_POST)[0])
+if (\count($_POST) === 1
+    && preg_match('/^\{.*\}$/', $post = array_keys($_POST)[0])
     && ($json = json_decode($post)) instanceof \stdClass
 ) {
     foreach ($json as $key => $value) {
@@ -134,4 +120,4 @@ ak (\count($_POST) === 1
 echo htmlspecialchars($_POST['username'] ?? '');
 ```
 
-Je však oveľa lepšie zostať pri prvom prístupe a získať údaje pomocou metódy `'php://input'`.
+Je však oveľa lepšie držať sa prvého prístupu a na získanie údajov použiť metódu `'php://input'`.

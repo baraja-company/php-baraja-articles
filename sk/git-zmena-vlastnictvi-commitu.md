@@ -16,23 +16,21 @@ Potreboval som napríklad preniesť všetky revízie z môjho starého e-mailov�
 
 Našťastie existuje príkaz na vyriešenie tohto problému, ktorý môžem jednoducho zavolať v hlavnom projekte a prepísať celú históriu:
 
-```
 git filter-branch --env-filter "
 if [ \"\$GIT_COMMITTER_EMAIL\" = \"janbarasek@seznam.cz\" ]
-potom
-    export GIT_COMMITTER_NAME="Jan Barášek\"
-    export GIT_COMMITTER_EMAIL="janbarasek@gmail.com\"
+then
+    export GIT_COMMITTER_NAME=\"Jan Barášek\"
+    export GIT_COMMITTER_EMAIL=\"janbarasek@gmail.com\"
 fi
 if [ \"\$GIT_AUTHOR_EMAIL\" = \"janbarasek@seznam.cz\" ]
-potom
-    export GIT_AUTHOR_NAME="Jan Barášek\"
-    export GIT_AUTHOR_EMAIL="janbarasek@gmail.com\"
+then
+    export GIT_AUTHOR_NAME=\"Jan Barášek\"
+    export GIT_AUTHOR_EMAIL=\"janbarasek@gmail.com\"
 fi
 " $@ --tag-name-filter cat -- --branches --tags
-```
 
-Po vykonaní príkazu je potrebné zmeny spláchnuť do masteru pomocou príkazu `git push -f`.
+Po vykonaní príkazu je potrebné zmeny spláchnuť do hlavného servera pomocou príkazu `git push -f`.
 
 > **Upozornenie:**
 >
-> Po vykonaní príkazu sa prepíše celá história revízií a zmenia sa hashe. Ide o prestávku v systéme BC, ktorá by sa mala vyskytovať len zriedkavo. Ak pri prepisovaní revízií urobíte chybu, históriu nie je možné obnoviť. Zároveň musíte odstrániť alebo prepísať všetky vetvy, inak dôjde ku konfliktu všetkých zmenených revízií, ktoré budú pri riešení zapísané dvakrát (pôvodná a nová revízia).
+> Po vykonaní príkazu sa prepíše celá história revízií a zmenia sa hashe. Ide o prerušenie BC, ktoré by sa malo vyskytovať len zriedkavo. Ak pri prepisovaní revízií urobíte chybu, históriu nie je možné obnoviť. Zároveň musíte odstrániť alebo prepísať všetky vetvy, inak dôjde ku konfliktu všetkých zmenených revízií, ktoré budú pri riešení zapísané dvakrát (pôvodná a nová revízia).

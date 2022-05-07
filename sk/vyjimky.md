@@ -30,16 +30,16 @@ unlink('c:/oldfile');
 // ak prvá operácia zlyhá, súbor sa nenávratne vymaže
 ```
 
-Je to preto, že správny spôsob spracovania výstupu z funkcie `copy()` je nepokračovať a v prípade chyby vyhodiť chybu. V prípade starých dobrých funkcií to môže vyzerať takto:
+Je to preto, že správny spôsob spracovania výstupu z funkcie `copy()` je nepokračovať a vyhodiť chybu. V prípade starých dobrých funkcií to môže vyzerať takto:
 
 ```php
-funkcia backup(): bool
+function backup(): bool
 {
    if (copy('c:/oldfile', 'd:/newfile')) {
       return unlink('c:/oldfile');
    }
 
-   vrátiť false;
+   return false;
 }
 ```
 
@@ -58,13 +58,13 @@ Ak spracovanie niektorej časti programu zlyhá, jednoducho vyhodíme výnimku p
 
 ```php
 if (copy('c:/oldfile', 'd:/newfile') === false) {
-   vyhodí novú výnimku \Exception('Nemožno skopírovať súbor "oldfile".');
+   throw new \Exception('Nemožno skopírovať súbor "oldfile".');
 }
 ```
 
-Vyhodenie výnimky sa vykoná pomocou kľúčového slova `throw`, po ktorom nasleduje vytvorenie inštancie triedy s výnimkou. Inštanciu môžeme získať aj iným spôsobom (napríklad odovzdaním z premennej) a vytvorenie inštancie výnimky nespôsobí jej vyhodenie.
+Vyhodenie výnimky sa vykoná pomocou kľúčového slova `throw`, po ktorom nasleduje vytvorenie inštancie triedy s výnimkou. Inštanciu môžeme získať aj iným spôsobom (napríklad odovzdaním z premennej) a samotné vytvorenie inštancie výnimky nespôsobí jej vyhodenie.
 
-Prvý argument konštruktora triedy `\Exception` prijíma text výnimky, ktorý by mal stručne vysvetliť, čo sa práve stalo. Vhodným postupom je uviesť aj informácie o vykonávanej operácii a odkaz na údaje. Ak sa napríklad nepodarilo skopírovať súbor, je dobré odovzdať názov súboru. Ak sa vykonanie dotazu SQL nepodarí, opäť odovzdáme vykonávaný dotaz. To nám neskôr veľmi pomôže pri riešení chýb, pretože presne vidíme, v čom je problém.
+Prvý argument konštruktora triedy `\Exception` prijíma text výnimky, ktorý by mal stručne vysvetliť, čo sa práve stalo. Vhodným postupom je uviesť aj informácie o vykonávanej operácii a odkaz na údaje. Ak napríklad zlyhalo kopírovanie súboru, je vhodné odovzdať názov súboru. Ak sa vykonanie dotazu SQL nepodarí, opäť odovzdáme vykonávaný dotaz. To nám neskôr veľmi pomôže pri riešení chýb, pretože presne vidíme, v čom je problém.
 
 Spracovanie výnimiek
 -----------------
@@ -72,15 +72,15 @@ Spracovanie výnimiek
 Majme napríklad funkciu `backup()`, ktorá zálohuje dáta a môže vyhodiť pár chýb:
 
 ```php
-funkcia backup(): void
+function backup(): void
 {
    if (copy('c:/oldfile', 'd:/newfile')) {
       if (unlink('c:/oldfile') === false) {
-         vyhodí novú \Exception('Can nto remove old file.');
+         throw new \Exception("Nemožno odstrániť starý súbor.);
       }
    }
 
-   vyhodí novú výnimku \Exception('Nemožno kopírovať záložné súbory.');
+   throw new \Exception("Nemožno kopírovať záložné súbory.);
 }
 ```
 
@@ -89,26 +89,26 @@ Všimnite si, že funkcia nevracia žiadny výstup a v definícii sme uviedli ty
 Ak by sme funkciu použili v aplikácii bez ošetrenia, napríklad takto:
 
 ```php
-echo 'Zálohovanie súborov...';
+echo "Zálohovanie súborov...;
 backup();
-echo 'Zálohovanie dokončené.';
+echo "Zálohovanie dokončené.;
 ```
 
-Bude to fungovať bežným spôsobom. Ak však dôjde k chybe, skript sa automaticky ukončí a vypíše text výnimky. Dôležité je, že nebude pokračovať vo vykonávaní kódu a vieme, že nedôjde k poškodeniu údajov.
+Takto to funguje bežne. Ak však dôjde k chybe, skript sa automaticky ukončí a na výstupe sa zobrazí text výnimky. Dôležité je, že nebude pokračovať vo vykonávaní kódu a vieme, že nedôjde k poškodeniu údajov.
 
 Ak chceme pokračovať vo vykonávaní, musíme chybu **odstrániť**, čo urobíme pomocou konštrukcií `try` a `catch`:
 
 ```php
-echo 'Zálohovanie súborov...';
-skúste {
+echo "Zálohovanie súborov...;
+try {
    backup();
 } catch (\Exception $e) {
    echo 'Zálohovanie zlyhalo: ' . $e->getMessage();
 }
-echo 'Zálohovanie dokončené.';
+echo "Zálohovanie dokončené.;
 ```
 
-Ak je vyhodená výnimka, zavolá sa kód v oblasti `catch()` (ktorý akceptuje výnimku porovnaním jej dátového typu) a vykoná sa vnútorný kód.
+Ak je vyhodená výnimka, zavolá sa kód v oblasti `catch()` (ktorý akceptuje výnimku, ak zodpovedá jej dátovému typu) a vykoná sa vnútorný kód.
 
 Vždy získame inštanciu triedy výnimiek, ktorú môžeme použiť napríklad na zobrazenie chybovej správy, ktorá sa spracúva metódou `getMessage()`. Užitočné je tiež poznať metódu `getFile()`, ktorá vracia diskovú cestu k súboru obsahujúcemu chybu, `getCode()`, ktorá vracia stavový kód chyby, a `getLine()`, ktorá vracia číslo riadku, na ktorom bola vyhodená výnimka.
 
@@ -133,6 +133,6 @@ Okrem základnej výnimky `\Exception` obsahuje PHP aj ďalšie preddefinované 
 | `RangeException` | Hodnota nie je v požadovanom rozsahu |
 | `UnexpectedValueException` | Neočakávaná hodnota (napr. návratová hodnota funkcie) |
 
-Výnimkám `LogicException` a `RuntimeException` by sa malo zabrániť správnym návrhom programu. Osobne ich používam len vo výnimočných situáciách, ako je napríklad neúspešný zápis do súboru a komunikácia s externou službou.
+Výnimkám `LogicException` a `RuntimeException` by sa malo zabrániť správnym návrhom programu. Osobne ich používam len vo výnimočných situáciách, napríklad pri neúspešnom zápise do súboru a pri komunikácii s externou službou.
 
 Odporúčam vôbec nezachytávať `RuntimeException` a nechať aplikáciu zlyhať. Zvyčajne ide o závažný problém, ktorý by ste mali čo najskôr nahlásiť.

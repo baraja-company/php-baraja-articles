@@ -22,7 +22,7 @@ Písanie špeciálnych znakov
 Je to teda veľmi jednoduché:
 
 ```php
-$message = "Hello\nworld.";
+$message = "Dobrý deň, svet.";
 ```
 
 Predchádzajúci kód obsahuje medzi slovami `Hello` a `world` zalomenie riadku.

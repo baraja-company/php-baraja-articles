@@ -14,30 +14,26 @@ Na vytvorenie spojenia s databázou v rámci [Baraja Doctrine](https://github.co
 
 Konfigurácia môže vyzerať takto:
 
-```neon
 baraja.database:
-    pripojenie:
-        hostiteľ: localhost
+    connection:
+        host: localhost
         dbname: my-database
-        používateľ: root
-        heslo: ******
-```
+        user: root
+        password: ******
 
-Pri kompilácii kontajnera DI sa skontroluje správnosť konfigurácie a vyhodí sa chybová správa s popisom konkrétnej chyby.
+Pri kompilácii kontajnera DI sa overí konfigurácia a vyhodí sa chybová správa s popisom konkrétnej chyby.
 
-Prihlasovacie údaje sa pri zostavovaní kontajnera bezpečne overia a potom sa fyzicky uložia do kontajnera. Prístup k prihlasovacím údajom má potom len služba, ktorá poskytuje pripojenie k databáze, a nemôže ich jednoducho získať externá služba alebo nečestný návštevník z panela Tracy.
+Prihlasovacie údaje sa bezpečne overia pri zostavovaní kontajnera a potom sa fyzicky uložia do kontajnera. Prístup k prihlasovacím údajom má potom len služba, ktorá poskytuje pripojenie k databáze, a nemôže ich jednoducho získať externá služba alebo nečestný návštevník z panela Tracy.
 
 Spätná kompatibilita
 ----------
 
 V minulosti sa používali definície pomocou parametrov, napríklad:
 
-``neon
-parametre:
-    databázy:
-        primárne:
-            hostiteľ: localhost
+parameters:
+    database:
+        primary:
+            host: localhost
             ...
-```
 
-Toto nastavenie je však označené ako **zrušené**, aby sa zvýšila bezpečnosť aplikácie. Pri použití parametrov by totiž mohla akákoľvek služba (alebo dokonca časť aplikácie) požadovať prihlasovacie údaje alebo by ich mohol prezradiť aktívny panel Tracy na stránke.
+Toto nastavenie je však označené ako **zrušené**, aby sa zvýšila bezpečnosť aplikácie. Pri používaní parametrov by mohla akákoľvek služba (alebo dokonca časť aplikácie) požadovať prihlasovacie údaje alebo by ich mohol prezradiť aktívny panel Tracy na stránke.

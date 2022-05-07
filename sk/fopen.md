@@ -23,12 +23,12 @@ Základné použitie
 ----------------
 
 ```php
-$text = 'Akýkoľvek text, ktorý sa má uložiť...';
+$text = "Každý uložený text...;
 
 $file = fopen('file.html', 'a+'); // Otvorí súbor a režim
 
 fwrite($file, $text); // Uloží do súboru
-fclose($file); // Zatvorí súbor
+fclose($file);        // Zatvorí súbor
 ```
 
 > Ak otvoríme súbor na čítanie a ten nie je uzavretý, žiadny iný proces k nemu nemôže pristupovať!

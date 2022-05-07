@@ -25,7 +25,7 @@ Explode sa používa na jednoduché rozdelenie reťazca pomocou oddeľovača.
 
 Často potrebujeme reťazec rozdeliť podľa nejakého jednoduchého pravidla. Napríklad zoznam čísel oddelených čiarkou.
 
-Na tento účel je výborná funkcia explode(), ktorá ako prvý parameter berie oddeľovač (oddeľujúci reťazec) a ako druhý parameter samotné údaje:
+Na tento účel je skvelá funkcia explode(), ktorá ako prvý parameter berie oddeľovač (oddeľujúci reťazec) a ako druhý parameter samotné údaje:
 
 ```php
 $cisla = '3, 1, 4, 1, 5, 9';
@@ -42,7 +42,7 @@ Ale čo ak sú čísla oddelené čiarkami, ale okolo nich sú medzery?
 Riešením je analyzovať podľa najmenšieho spoločného podreťazca a potom odstrániť nežiaduce znaky okolo neho (medzery a iné biele znaky):
 
 ```php
-$cisla = '3, 1,4, 1 , 5 , 9';
+$cisla = '3, 1,4, 1 , 5 ,9';
 $parser = explode(',', $cisla);
 
 foreach ($parser as $cislo) {
@@ -51,7 +51,7 @@ foreach ($parser as $cislo) {
 }
 ```
 
-V tomto prípade funkcia `trim()` elegantne odstráni biele miesta okolo znakov (medzery, tabulátory, zalomenia riadkov, ...) a poskytne nám len čisté údaje.
+V tomto prípade funkcia `trim()` elegantne odstráni biele miesta okolo znakov (medzery, tabulátory, zalomenia riadkov, ...) a poskytne len čisté údaje.
 
 Limit, ktorý obmedzuje počet analyzovaných entít do poľa
 --------------------------
@@ -64,10 +64,10 @@ Majme napríklad štruktúrované údaje oddelené dvojbodkou, kde chceme získa
 Príklad:
 
 ```php
-$cas = 'format: "j.n.Y - H:i"';
+$cas = 'formát: "j.n.Y - H:i"';
 ```
 
-Ak by sme analyzovali reťazec ako:
+Ak by sme analyzovali reťazec len ako:
 
 ```php
 $parser = explode(':', $cas);
@@ -81,12 +81,12 @@ Získali by sme tieto 3 podreťazce (v iných prípadoch ich môže byť oveľa 
 'i"'
 ```
 
-Preto nastavíme limit, koľko prvkov sa má do parseru dostať (a prípadne všetky ostatné budú pripojené na koniec posledného prvku):
+Preto nastavíme limit, koľko prvkov sa má získať (a prípadne sa všetky ostatné prvky pridajú na koniec posledného prvku):
 
 ```php
 $parser = explode(':', $cas, 2);
 
-// vráti:
+// vráťte sa:
 echo $parser[0]; // formát
 echo $parser[1]; // "j.n.Y - H:i"
 ```
@@ -103,12 +103,12 @@ Medzi, získanie reťazca medzi dvoma reťazcami
 Často potrebujeme získať reťazec, ktorý je ohraničený dvoma inými reťazcami. Priamo v PHP na to neexistuje žiadna funkcia, ale môžeme si ju napísať sami:
 
 ```php
-funkcia between(string $left, string $right, string $data): string
+function between(string $left, string $right, string $data): string
 {
    $l = explode($left, $data);
    $r = explode($right, $l[1]);
 
-   vrátiť $r[0];
+   return $r[0];
 }
 ```
 
@@ -132,7 +132,7 @@ echo $parser[0]; // vypíše "10"
 echo $parser[1]; // vypíše "0";
 ```
 
-Premenná `$ip` obsahuje vstupný reťazec, ktorý je analyzovaný podľa oddeľovača `.`; návratom je pole. Rozbor pokračuje až do konca reťazca, pokiaľ nie je zadaný limit.
+Premenná `$ip` obsahuje vstupný reťazec, ktorý je analyzovaný podľa oddeľovača `.`, návratom je pole. Rozbor pokračuje až do konca reťazca, pokiaľ nie je zadaný limit.
 
 Parametre
 --------------------------
@@ -144,7 +144,7 @@ Parametre
 | 3 | int | limit pre parsovanie. Toto je nepovinný parameter. Príklad:
 
 ```php
-$text = 'PHP je môj obľúbený jazyk!';
+$text = "PHP je môj obľúbený jazyk!;
 $parser = explode(' ', $text, 1);
 
 echo $parser[0]; // vypíše prvé slovo
@@ -187,16 +187,16 @@ print_r(explode('|', $str, -1));
 Vrátia sa nasledujúce polia:
 
 ```php
-Pole
+Array
 (
-    [0] => jeden
-    [1] => dva|tri|štyri
+    [0] => one
+    [1] => two|three|four
 )
 
-Pole
+Array
 (
-    [0] => jeden
-    [1] => dva
-    [2] => tri
+    [0] => one
+    [1] => two
+    [2] => three
 )
 ```

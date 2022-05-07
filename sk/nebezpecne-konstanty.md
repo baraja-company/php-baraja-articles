@@ -18,7 +18,7 @@ Dynamické a statické konštanty
 Konštantu možno v PHP definovať buď staticky priamo v triede (najlepšie riešenie), napríklad takto:
 
 ```php
-trieda Region
+class Region
 {
 	public const PREFIX = 420;
 }
@@ -27,7 +27,6 @@ trieda Region
 A použitie je celkom jasné. V čase kompilácie triedy je hodnota konštanty určená a môžeme k nej pristupovať volaním názvu triedy a samotnej konštanty. Najčastejšie zápisom `Region::PREFIX`.
 
 Druhý (oveľa horší spôsob) je definovať konštantu dynamicky za behu (najčastejšie niekde v konfiguračnom skripte), kde je potom niečo ako:
-
 
 ```php
 define('BASE_DIR', __DIR__ . '/../');
@@ -38,7 +37,7 @@ Hlavnou nevýhodou definovania konštanty pomocou funkcie `define` je, že skrip
 V kombinácii s použitím dynamickej konštanty v rámci definície statickej konštanty v triede to môže dokonca viesť k fatálnej chybe reflexie:
 
 ```php
-trieda InvoiceGenerator
+class InvoiceGenerator
 {
 	// To je úplne nesprávne!
 	public const DATA_DIR = BASE_DIR . '/data/invoice';
@@ -51,12 +50,10 @@ trieda InvoiceGenerator
 
 Ak používate program PhpStan, môže vás na tento problém automaticky upozorniť:
 
-```
-Nepodarilo sa nájsť konštantu "BASE_DIR" pri
-vyhodnocovanie výrazu v InvoiceGenerator na riadku 6
-```
+Reflection error: Could not locate constant "BASE_DIR" while
+evaluating expression in InvoiceGenerator at line 6
 
-> **Naučené poznatky:**
+> **Učenie:**
 >
 > Hodnota všetkých konštánt by mala byť vždy konštantná.
 
@@ -69,11 +66,11 @@ V niektorých prípadoch má zmysel použiť dedičnosť na prepísanie hodnoty 
 Príkladom je definovanie krajín a regiónov:
 
 ```php
-abstraktná trieda Region
+abstract class Region
 {
-	verejná funkcia getPrefix(): int
+	public function getPrefix(): int
 	{
-		// Fatálna chyba!
+		// Osudová chyba!
 		return static::REGION;
 	}
 }
@@ -84,27 +81,27 @@ final class CzechRepublic extends Region
 }
 ```
 
-Paradoxne, uvedený kód nemusí nutne vyhodiť chybu, ale môže byť vyhodený nevhodným použitím dedičnosti.
+Paradoxom je, že uvedený kód nemusí nutne vyhodiť chybu, ale môže byť vyhodený nevhodným použitím dedičnosti.
 
-Ak zavoláme metódu `getPrefix()` na potomkovi `CzechRepublic`, všetko bude správne, pretože hodnota konštanty bude načítaná správne. Ak by však potomok nenastavil hodnotu konštanty, vyhodila by sa fatálna chyba neexistujúcej konštanty. Najhoršie na celej veci je, že ide o takzvanú **skrytú závislosť**, ktorá sa vytvára v implementácii metódy, a vývojár, ktorý triedu zdedí, o tejto závislosti nemusí ani vedieť.
+Ak zavoláme metódu `getPrefix()` na potomkovi `CzechRepublic`, všetko bude správne, pretože hodnota konštanty bude načítaná správne. Ak by však potomok nenastavil hodnotu konštanty, vyhodila by sa fatálna chyba neexistujúcej konštanty. Najhoršie na celej veci je, že ide o **skrytú závislosť**, ktorá sa vytvára v implementácii metódy, a vývojár, ktorý triedu zdedí, o tejto závislosti nemusí ani vedieť.
 
 Najlepším riešením v tomto prípade je buď definovať konštantu priamo v predkovi s predvolenou hodnotou (aby logika vždy prešla), alebo aspoň vyhodiť výnimku v getteri.
 
 ```php
-abstraktná trieda Region
+abstract class Region
 {
 	public const REGION = null;
 
-	verejná funkcia getPrefix(): int
+	public function getPrefix(): int
 	{
 		if (static::REGION === null) {
-			vyhodí novú \LogicException('Región nebol definovaný.');
+			throw new \LogicException("Región nebol definovaný.);
 		}
 		return static::REGION;
 	}
 }
 
-final trieda CzechRepublic extends Region
+final class CzechRepublic extends Region
 {
 	public const REGION = 420;
 }
@@ -112,6 +109,4 @@ final trieda CzechRepublic extends Region
 
 PhpStan reaguje na túto chybu takto:
 
-```
-Prístup k nedefinovanej konštante static(Region):REGION.
-```
+Access to undefined constant static(Region):REGION.

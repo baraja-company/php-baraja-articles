@@ -31,10 +31,8 @@ Osobne používam (v roku 2022) kódovací štandard pre rámec Nette a pravidl�
 
 Inštalácia štandardného testu kódovania a jeho spustenie sa vykonáva pomocou dvojice príkazov:
 
-``škrupina
 composer create-project nette/coding-standard temp/coding-standard ^3 --no-progress --ignore-platform-reqs
 php temp/coding-standard/ecs check src
-```
 
 Poznámky v kóde
 ---------------
@@ -42,7 +40,6 @@ Poznámky v kóde
 Poznámky nemajú žiadny vplyv na spracovanie kódu a slúžia len pre potreby programátora. V prípade väčších a úplnejších častí kódu je dôležité napísať poznámku, ktorá vysvetľuje, na čo kód slúži a ako v zásade funguje.
 
 ```php
-<?php
 // Definície premenných
 $a = 5;
 $b = 3;
@@ -51,7 +48,7 @@ $c = 2;
 // Súčet všetkých čísel
 $sum = $a + $b + $c;
 
-// Výpis pre používateľa
+// Zoznam pre používateľov
 echo $sum;
 ```
 
@@ -68,7 +65,7 @@ Grafické oddelenie častí kódu
 
 Pri návrhu aplikácie je dôležité oddeliť logické bloky od seba. Zvyčajne sú rozdelené do funkcií, metód alebo v prípade základného kódu aspoň do komentárov.
 
-Pri dlhšom algoritme zvyčajne najprv na začiatku opíšem celý princíp algoritmu a potom očíslujem jednotlivé miesta v kóde, aby vývojár na ich základe lepšie pochopil konkrétnu funkcionalitu.
+Pri dlhšom algoritme zvyčajne na začiatku najprv opíšem celý princíp algoritmu a potom očíslujem jednotlivé miesta v kóde, aby vývojár na ich základe lepšie pochopil konkrétnu funkcionalitu.
 
 ```php
 /**
@@ -83,14 +80,14 @@ Pri dlhšom algoritme zvyčajne najprv na začiatku opíšem celý princíp algo
 $numbers = [1, 3, 8, 12];
 
 // 2.
-$sum = array_sum($čísla);
+$sum = array_sum($numbers);
 $count = count($numbers);
 
 // 3.
-echo 'Priemer je: ' . ($sum / $count);
+echo "Priemer je: . ($sum / $count);
 ```
 
-Znaky `/**` začínajú viacriadkový komentár, ktorý platí až po značku `*/`. Aby bol prehľadný, je dobré dať na začiatok každého riadku hviezdičku.
+Znaky `/**` začínajú viacriadkový komentár, ktorý sa aplikuje až po značku `*/`. Aby bol prehľadný, je dobré umiestniť na začiatok každého riadku hviezdičku.
 
 Pripomienky k dokumentácii
 ----------------------
@@ -106,16 +103,16 @@ V predchádzajúcich verziách PHP (pred verziou `7.0`) sa ešte nepoužívali d
  * @link https://php.baraja.cz
  * @param float[] $numbers
  */
-funkcia average(array $numbers): float
+function average(array $numbers): float
 {
-    $sum = array_sum($čísla);
+    $sum = array_sum($numbers);
     $count = count($numbers);
 
-    vrátiť $sum / $count;
+    return $sum / $count;
 }
 ```
 
-Dokumentačné komentáre sa nazývajú `dokumentácia` najmä preto, že majú predpripravený formát, ktorému rozumejú špecifické vývojové prostredia (a editory), ale aj automatizované nástroje na generovanie dokumentácie alebo kontrolu kódu.
+Dokumentačné komentáre sa nazývajú "dokumentácia" najmä preto, že majú vopred dohodnutý formát, ktorému rozumejú špecifické vývojové prostredia (a editory), ale aj automatizované nástroje na generovanie dokumentácie alebo kontrolu kódu.
 
 Písať kód v češtine alebo angličtine?
 -----------------------------
@@ -126,7 +123,7 @@ Má to niekoľko výhod:
 
 - Vývojár môže hneď aktívne trénovať svoju angličtinu.
 - Veľká časť aplikácie používa knižnice tretích strán, ktoré sú v angličtine, takže automaticky udržiava konzistenciu
-- Väčšina pokročilých vecí nemá vôbec anglický preklad
+- Väčšina pokročilých vecí vôbec nemá anglický preklad
 - Som si istý, že vás napadne mnoho ďalších príkladov.
 
 PHP priamo nevyžaduje angličtinu a všetko môžete písať v angličtine. Používanie angličtiny vnímam skôr ako istý druh investície do budúcnosti a možnosť ľahko rozšíriť kód o ďalších ľudí, pre ktorých angličtina nie je rodným jazykom.
@@ -143,14 +140,14 @@ Dobrým riešením sa zdá byť najprv inkrementovať čísla a potom počítať
 Príklad:
 
 ```php
-echo 10 / 3; // Vypíše 3,3333333333333
+echo 10 / 3; // Píše 3,3333333333333
 ```
 
-V niektorých prípadoch môžete použiť aj trik, že vôbec nebudete používať desatinné čísla a všetko budete počítať ako celé číslo. V tomto prípade k takémuto skresleniu nedôjde:
+V niektorých prípadoch môžete použiť aj trik, pri ktorom vôbec nepoužívate desatinné čísla a všetko počítate ako celé číslo. V tomto prípade k takémuto skresleniu nedochádza:
 
 ```php
-echo 1 / 2 * 2; // toto je horšie, pretože 1/2 = 0,5 * 2 = 1
+echo 1 / 2 * 2; // je to horšie, pretože 1/2 = 0,5*2 = 1
 echo 2 * 1 / 2; // toto je lepšie, pretože 2*1 = 2/2 = 1
 ```
 
-Pri riešení veľkých zložitých číselných operácií používajte na zápis čísel zlomky.
+Pri riešení veľkých a zložitých číselných operácií používajte na zápis čísel zlomky.

@@ -16,12 +16,12 @@ Popis
 -----
 
 ```php
-$variable = htmlspecialchars($text);
+$promenna = htmlspecialchars($text);
 ```
 
 Niektoré špeciálne znaky majú pre prehliadače špeciálny význam, preto by sa mali konvertovať na entity. Tým sa zabráni všeobecnej bezpečnosti skriptu a zabráni sa nesprávnemu vykresleniu stránky.
 
-Najčastejšie sa používa na ochranu formulárov a všetkých miest, kam používateľ vkladá text a kde hrozí vloženie značiek HTML.
+Najčastejšie sa používa na ochranu formulárov a všetkých miest, kde používateľ vkladá text a riskuje vloženie značiek HTML.
 
 | Znak | Poznámka | Zmeny na
 |------|-------------------------|-----------
@@ -68,9 +68,9 @@ Príklad
 
 ```php
 $new = htmlspecialchars(
-	'<a href="test">Test<a>',
+	'<a href="test">Test</a>',
 	ENT_QUOTES
 );
 
-echo $new; // <a href="test">Test<a>
+echo $new; // <a href="test">Test</a>
 ```

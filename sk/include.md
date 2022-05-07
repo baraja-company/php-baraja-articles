@@ -35,7 +35,7 @@ Dynamické načítanie súborov
 Napríklad:
 
 ```php
-$clanek = 'neco';
+$clanek = "niečo;
 
 include $clanek . '.html';
 ```
@@ -46,4 +46,4 @@ Alebo môžeme články na stránku načítať dynamicky:
 include 'articles/' . $_GET['page'] . '.html';
 ```
 
-Vyvolanie adresy URL s parametrom `page` automaticky vloží článok, napríklad: `https://example.com/?page=novinky`.
+Pri volaní adresy URL s parametrom `page` sa automaticky vloží článok, napríklad: `https://example.com/?page=novinky`.

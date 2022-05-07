@@ -10,12 +10,12 @@ Kalkulačka v PHP: spracovanie matematického výrazu ako reťazca
 > mainCategoryId: c2134b23-9b10-46b3-aa54-e3996707255e
 > sourceContentHash: '63f5336bf2bbabe5312121b57e1ce34e'
 
-Predstavte si, že máte za úlohu spracovať jednoduchý matematický príklad, ktorý používateľ zadá napríklad ako textový reťazec do vyhľadávacieho poľa. Používateľ chce zvyčajne vykonať jednoduchú číselnú operáciu s číslami. Tento článok opisuje myšlienkový postup a konkrétne pokyny, ako to urobiť.
+Predstavte si, že máte za úlohu spracovať jednoduchý matematický príklad, ktorý používateľ zadá ako textový reťazec do vyhľadávacieho poľa. Používateľ chce zvyčajne vykonať jednoduchú číselnú operáciu s číslami. Tento článok opisuje myšlienkový postup a konkrétne pokyny, ako to urobiť.
 
 Naivná implementácia
 -------------------
 
-Dlho som premýšľal, či by sa jednoduchý matematický výraz nedal spracovať nejakým trikom, aby bol kód čo najkratší... a po mnohých rokoch som skutočne našiel riešenie.
+Dlho som rozmýšľal, či by sa jednoduchý matematický výraz nedal spracovať nejakým trikom, aby bol kód čo najkratší... a po mnohých rokoch mám riešenie.
 
 Uvedené riešenie považujte **len za príklad**, pretože je **veľmi nebezpečné** a nepoctivý používateľ môže ľahko podčiarknuť reťazec, čím napríklad vymaže celú aplikáciu alebo ukradne databázu!
 
@@ -23,11 +23,11 @@ Uvedené riešenie považujte **len za príklad**, pretože je **veľmi nebezpe�
 // Dotaz používateľa
 $query = '5 + 3 * 2';
 
-// Spracujte výraz ako regulárny kód PHP
+// Spracovanie výrazu ako regulárneho kódu PHP
 eval('$result = @(' . $query . ');');
 
 // Výpis premennej s riešením výrazu
-echo $result; // vypíše 11
+echo $result; // vytlačí 11
 ```
 
 Trik spočíva v tom, že funkcia <a href="/function-eval">eval()</a> vykoná reťazec, ako keby bol v kontexte kódu PHP. Je to šialené, ale funguje to. Obal potláča chybové hlásenia.
@@ -37,7 +37,7 @@ Riešenie zložitejších vstupov
 
 Okrem toho, že **spracovanie výrazov pomocou funkcie eval() je mimoriadne nebezpečné**, neposkytuje ani dostatočne výstižnú syntax, ktorá by vyhovovala každému. Ak používateľ poruší čo i len jednu syntax, celý výraz nebude možné spracovať.
 
-Preto je riešením najprv **pochopiť** používateľský dotaz a opraviť ho podľa formálneho aspektu (t. j. normalizovať ho na kanonický tvar) a potom ho odovzdať a ďalej spracovať.
+Preto je riešením najprv **pochopiť** a opraviť používateľský dotaz podľa formálneho aspektu (tzv. normalizácia na kanonickú formu) a potom ho odovzdať a ďalej spracovať.
 
 V minulosti som naprogramoval [QueryNormalizer](https://github.com/mathematicator-core/engine/blob/master/src/QueryNormalizer.php) presne na túto úlohu.
 
@@ -59,12 +59,12 @@ Použitie môže vyzerať takto elegantne:
 $tokenizer = new Tokenizer(/* niektoré závislosti */);
 
 // Prevod matematického vzorca na pole tokenov:
-$token = $tokenizer->tokenize('(5+3)*(2/(7+3))');
+$tokens = $tokenizer->tokenize('(5+3)*(2/(7+3))');
 
 // Teraz môžete konvertovať tokeny do užitočnejšieho formátu:
 $objectTokens = $tokenizer->tokensToObject($tokens);
 
-dump($objectTokens); // Vrátiť typované tokeny s metaúdajmi
+dump($objectTokens); // Vrátenie typovaných tokenov s metaúdajmi
 
 // Renderovanie do LaTeXu
 echo $tokenizer->tokensToLatex($objectTokens);
@@ -73,16 +73,16 @@ echo $tokenizer->tokensToLatex($objectTokens);
 echo $tokenizer->renderTokensTree($objectTokens);
 ```
 
-Postupy zobrazovania
+Zobraziť postupy
 -----------------
 
-Značný počet používateľov ocení, keď sa po vykonaní výpočtu programom zobrazí **postup**. To je vlastne užitočné aj pre programátora, pretože aspoň môže ľahko zistiť, kde je vo výpočte chyba, a podľa toho algoritmus opraviť. Keď toto všetko skombinujete so strojovým učením založeným na automatizovaných testoch, získate niečo úžasné.
+Značný počet používateľov ocení, keď **pri výpočte program zobrazí postup** a ukáže, ako ho vykonal. To je vlastne užitočné aj pre programátora, pretože aspoň môže ľahko zistiť, kde je vo výpočte chyba, a podľa toho algoritmus opraviť. Keď toto všetko skombinujete so strojovým učením založeným na automatizovaných testoch, získate niečo úžasné.
 
 Pozrite sa, ako `QueryNormalizer` dokázal porozumieť vášmu dotazu, odovzdať údaje tokenizéru, ten podľa neho vykreslil dotaz do LaTeXu a potom odovzdal strom objektov kalkulačke, ktorá vrátila celkový výsledok.
 
 Příklad: [5+2^(1+3/2)](https://mathematicator.com/search/5%2B2%5E%281%2B3/2%29).
 
-Reprezentácia postupu sa realizuje tak, že kalkulačka prechádza vstupným stromom a vyhodnocuje po jednom pravidle podľa tokenov a pravidiel, ktoré obsahuje. Keď sa vyhodnotí akékoľvek pravidlo, vloží sa informácia o kroku do poľa. Občas sa môže stať, že sa niektorý krok ukáže ako nesprávny a my sa budeme musieť vrátiť späť a zvoliť inú cestu výpočtu, ale za tým sa skrýva pomerne veľa kúziel, ktoré zatiaľ zostanú skryté a môžete si ich preštudovať pri implementácii.
+Reprezentácia postupu sa realizuje tak, že kalkulačka prechádza vstupným stromom a vyhodnocuje po jednom pravidle podľa tokenov a pravidiel, ktoré obsahuje. Keď sa vyhodnotí akékoľvek pravidlo, vloží sa informácia o kroku do poľa. Občas sa môže stať, že sa nejaký krok ukáže ako nesprávny a budeme sa musieť vrátiť späť a zvoliť inú cestu výpočtu, ale za tým sa skrýva pomerne veľa mágie, ktorá zatiaľ zostane skrytá a môžete si ju preštudovať pri implementácii.
 
 Záver
 -----

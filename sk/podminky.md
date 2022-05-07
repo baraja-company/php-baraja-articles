@@ -22,18 +22,18 @@ Vo všeobecnosti možno podmienku zapísať ako logický príkaz. Táto podmienk
 Príklad:
 
 ```php
-if (operácia value value) {
-	// Toto sa vykoná, ak je podmienka pravdivá
-} inak {
-	// Toto sa vykoná, ak podmienka neplatí
+if (hodnota   operace   hodnota) {
+	// Táto funkcia sa spustí, ak je splnená podmienka
+} else {
+	// Táto funkcia sa spustí, ak sa podmienka neuplatní
 }
 ```
 
 Nemusíme vždy definovať obe možnosti (niekedy je to úplne zbytočné). V skutočnosti môžeme definovať situáciu, ak platí len táto podmienka. To sa vykonáva takto:
 
 ```php
-if (operácia value value) {
-	// Toto sa vykoná, ak je podmienka pravdivá
+if (hodnota   operace   hodnota) {
+	// Táto funkcia sa spustí, ak je splnená podmienka
 }
 ```
 
@@ -53,12 +53,12 @@ Logické operátory
 Skutočný príklad
 --------------------------
 
-````php
+```php
 $a = 5;
 $b = 3;
 if ($a === $b) {
 	// blok, ktorý sa vypíše, ak sa $a rovná $b
-} inak {
+} else {
 	// blok, ktorý sa vypíše, ak sa $a nerovná $b
 }
 ```
@@ -69,19 +69,19 @@ Vložené podmienky
 Bohužiaľ, výstupom je len `true` (platný) a `false` (neplatný). Ak teda chceme zvážiť viacero možností, musíme do seba vložiť viacero podmienok. Toto sa nazýva **vložená podmienka**. Je vnorená, pretože jedno z riešení podmienky je len ďalšou podmienkou.
 
 ```php
-$a = 5; // ľavé vrecko
-$b = 3; // pravé vrecko
-$kapsa = true; // mám kapsu?
+$a = 5;         // ľavé vrecko
+$b = 3;         // pravé vrecko
+$kapsa = true;  // Mám vrecko?
 
 if ($kapsa === true) {
 
-	ak ($a > $b) {
-		echo 'V ľavom vrecku je toho viac';
-	} inak {
-		echo 'V pravom vrecku je toho viac';
+	if ($a > $b) {
+		echo "V ľavom vrecku je toho viac;
+	} else {
+		echo "V pravom vrecku je toho viac;
 	}
 
-} inak {
-	echo 'Nemáte žiadne vrecko';
+} else {
+	echo "Nemáte žiadne vrecko;
 }
 ```

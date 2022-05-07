@@ -59,31 +59,29 @@ Dátové typy pracujú nezávisle, takže môžeme použiť takmer akýkoľvek t
 Dobrým príkladom je napríklad sčítanie a násobenie čísel:
 
 ```php
-$x = 5; // celé číslo
-$y = 3; // celé číslo
+$x = 5;       // celé číslo
+$y = 3;       // celé číslo
 $z = $y + $y; // premenná $z bude zložená na základe viacerých premenných
 ```
-
 
 V tomto prípade PHP stojí pred otázkou, aký dátový typ bude mať novo vytvorená premenná `$z`. Ak ide o rovnaký dátový typ a operácia je možná, dátový typ sa dedí.
 
 Niekedy však môžeme vykonať operáciu s viacerými dátovými typmi:
 
 ```php
-$x = 1; // celé číslo
-$y = 3,14159; // float
+$x = 1;       // celé číslo
+$y = 3.14159; // float
 $z = $y + $y; // float
 ```
-
 
 V tomto prípade zlúčime celé číslo a float. Výstupom bude desatinné číslo, preto sa použije float. V tomto prípade PHP vykoná niečo, čo sa nazýva **dynamické rozdelenie**.
 
 Na toto správanie sa však nemôžeme vždy spoliehať. Ako by ste napríklad chceli zlúčiť číslo a reťazec?
 
 ```php
-$x = 256; // celé číslo
-$y = 'Hi!'; // float
-$z = $y + $y; // ????
+$x = 256;     // celé číslo
+$y = "Ahoj!; // float
+$z = $y + $y; // ???
 ```
 
 Dátové typy (prehľad najdôležitejších typov)
@@ -97,7 +95,7 @@ Zápis môže vyzerať takto:
 $x = (int) 25; // vytvorí premennú typu integer
 ```
 
-<a href="/datove-typy">Prehľad dátových typov</a>.
+<a href="/datove-typy">Prehľad typov údajov</a>.
 
 Dedičnosť dátových typov
 -----------------------
@@ -125,11 +123,11 @@ Aký je rozdiel medzi obsahom premenných `$x` a `$y`?
 Premenná `$x` je číslo, `$y` je reťazec (obsahuje "1" a "0"), takže ak premennú len uložíme do pamäte a nevykonáme žiadnu operáciu, ktorá by ovplyvnila jej hodnotu. Napríklad nasledujúce 2 položky vrátia rovnaký výsledok:
 
 ```php
-echo $x + 5; // vypíše 15
-echo $y + 5; // vypíše 15
+echo $x + 5;	// vytlačí 15
+echo $y + 5;	// vytlačí 15
 ```
 
-V druhom prípade dochádza k takzvanému **dynamickému prepisu**, t. j. premenná konvertuje svoj dátový typ tak, aby sa s ňou mohla vykonať výpočtová operácia. Na toto správanie sa nemožno vždy spoľahnúť a ide skôr o korekčné správanie na opravu zle napísaných začiatočníckych skriptov. Ak je to možné, vždy zapisujte čísla s dátovým typom na ukladanie čísel, pretože to zvyšuje ich presnosť a uľahčuje ich použitie v budúcnosti.
+V druhom prípade dochádza k takzvanému **dynamickému prepísaniu**, t. j. premenná konvertuje svoj dátový typ tak, aby sa s ňou mohla vykonať výpočtová operácia. Na toto správanie sa nedá vždy spoľahnúť a ide skôr o opravné správanie, ktoré slúži na opravu zle napísaných začiatočníckych skriptov. Ak je to možné, vždy zapisujte čísla s dátovým typom na ukladanie čísel, pretože to zvyšuje ich presnosť a uľahčuje ich použitie v budúcnosti.
 
 > **Poznámka:** Je dôležité poznamenať, že dátové typy nemôžeme konvertovať úplne ľubovoľne, takže to nie je vždy možné. Ak prepíšete dátový typ na iný (nekompatibilný), buď sa konverzia vôbec nemusí uskutočniť, alebo sa pôvodný obsah môže poškodiť alebo úplne zničiť a nahradiť iným. Ak napríklad prepíšete reťazec na celé číslo (a do premennej uložíte nejaký text, ktorý nie je číslom), namiesto číselnej hodnoty sa do premennej uloží hodnota `1`.
 
@@ -139,17 +137,17 @@ Reprezentácia reťazcov ako polí
 Všetky reťazce sú interne uložené ako pole znakov. To znamená, že každý znak má svoj vlastný **index** a možno sa naň odkazovať. Ak nezadáme index, pracuje sa s celým reťazcom.
 
 ```php
-$x = 'Programujme v PHP!';
+$x = "Programujme v PHP!;
 $n = 3;
 
-echo $x; // vypíše sa celý obsah premennej $x
-echo $x[0]; // vypíše nulový znak premennej $x
-echo $x[$n]; // vypíše n-tý znak premennej $x
+echo $x;		// vypíše sa celý obsah premennej $x
+echo $x[0];		// vypíše nulový znak premennej $x
+echo $x[$n];	// vypíše n-tý znak premennej $x
 ```
 
 > **Poznámka:** Čísla PHP od nuly, t. j. nulový znak je 'P' a prvý znak je 'r'.
 >
-> Okrem toho sa znaky prepínajú po bajtoch. Napríklad znak "no" v kódovaní UTF-8 je dlhý 2 bajty, takže index znaku v reťazci nebude pri posúvaní zodpovedať skutočnej pozícii a na uloženie znaku sa použijú 2 indexy.
+> > Okrem toho sa znaky prepínajú po bajtoch. Napríklad znak "no" v kódovaní UTF-8 je dlhý 2 bajty, takže index znaku v reťazci nebude pri posúvaní zodpovedať skutočnej pozícii a na uloženie znaku sa použijú 2 indexy.
 
 Existencia prvku poľa by sa mala vždy overiť pomocou funkcie `isset()`:
 
@@ -159,7 +157,7 @@ if (isset($x[$n])) {
 }
 ```
 
-Alternatívne sa to dá pekne zapísať pomocou trojčlenného operátora:
+Prípadne ho môžete pekne zapísať pomocou ternárneho operátora:
 
 ```php
 echo $x[$n] ?? '';
@@ -168,10 +166,10 @@ echo $x[$n] ?? '';
 Kopírovanie premenných
 ---------------------
 
-Uvažujme nasledujúcu premennú:
+Majme nasledujúcu premennú:
 
 ```php
-$q = 'Lorem ipsum, ...';
+$q = "Lorem ipsum, ...;
 ```
 
 A potom skopírujte jej hodnotu do ďalšej premennej:

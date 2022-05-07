@@ -27,16 +27,16 @@ Jednoduché overenie, či je reťazec platný e-mail
 
 Ako môžeme jednoducho skontrolovať, či je reťazec `jan@barasek.com` platnou e-mailovou adresou bez toho, aby sme ho museli rozdeľovať na zložité časti alebo ho prechádzať znak po znaku?
 
-Odpoveď poskytujú regulárne výrazy (uvedený výraz je pre účely príkladu veľmi zjednodušený a skutočná implementácia overovania e-mailovej adresy by mala byť o niečo zložitejšia):
+Odpoveď poskytujú regulárne výrazy (uvedený výraz je na účely príkladu veľmi zjednodušený a skutočná implementácia overovania e-mailovej adresy by mala byť o niečo zložitejšia):
 
 ```php
-$mail = 'jan@barasek.com';
-$regex = '/^.+@.+.(en|en|com)$/';
+$mail = "jan@barasek.com;
+$regex = '/^.+@.+\.(en|en|com)$/';
 
 if (preg_match($regex, $mail)) {
-   echo 'E-mail je platný';
-} inak {
-   echo 'E-mail je neplatný';
+   echo "E-mail je platný;
+} else {
+   echo "E-mail nie je platný;
 }
 ```
 
@@ -50,7 +50,7 @@ Pri spracovaní výrazu postupujete z ľavej strany znak po znaku. Každý z nic
 |------|-----------------|-------|-------------
 | `^` | Začiatok reťazca | Vynucuje, že reťazec musí začínať v tomto bode. | Vynucuje, že reťazec musí začínať postupnosťou `+420` (užitočné napríklad pri overovaní čísel): `/^+420/` |
 | `$` | Koniec reťazca alebo riadku | Vynucuje, že reťazec alebo riadok musí končiť na tomto mieste. Koniec riadku sa potom potvrdí pomocou `\z`. <a href="https://phpfashion.com/vite-co-znamena-v-regularnim-vyrazu">Podrobné vysvetlenie</a>. | Názov súboru musí byť textový súbor (ukončený bodkou a potom reťazcom "txt"): `/\.txt$/`. |
-| `.` | Ľubovoľný znak | Zachytí presne ľubovoľný znak. | Overí, či reťazec obsahuje presne jeden ľubovoľný znak: `/^.$/`. |
+| `.` | Ľubovoľný znak | Zachytí úplne ľubovoľný znak. | Overí, či reťazec obsahuje presne jeden ľubovoľný znak: `/^.$/`. |
 | `\d` | Číslo | Rozpozná znaky `0-9` | Rozpozná telefónne číslo, ktoré neobsahuje medzery a má 9 číslic: `/^(\+420)?\d{9}$/``. |
 | `\s` | Biele medzery | Zachytenie medzier, pomlčiek a tabulátorov. | Povolenie medzier medzi číslicami v trojčíslí: `/^(\d{3}\s?){3}$/``.
 | `+` | Viac znakov, ale aspoň jeden | Opakuje predchádzajúci podvýraz a snaží sa zachytiť čo najviac znakov. Podvýraz sa musí opakovať aspoň raz. | Zachytí čo najviac číslic, ale aspoň jednu: `/\d+/`. |
@@ -70,10 +70,10 @@ public static function isEmail(string $value): bool
    $atom = "[-a-z0-9!#$%&'*+/=?^_`{|}~]"; // RFC 5322 necitované znaky v lokálnej časti
    $alpha = "a-z\x80-\xFF"; // nadmnožina IDN
    return (bool) preg_match("(^
-      (\"([ !#-[\]-~]*|\\\\[ -~])+\"|$atom+(\$atom+)*) # citované alebo necitované
+      (\"([ !#-[\\]-~]*|\\\\[ -~])+\"|$atom+(\\.$atom+)*)  # quoted or unquoted
       @
-      ([0-9$alpha]([-0-9$alpha]{0.61}[0-9$alpha]))+ # doména - RFC 1034
-      [$alpha]([-0-9$alpha]{0,17}[$alpha])?                # top doména
+      ([0-9$alpha]([-0-9$alpha]{0,61}[0-9$alpha])?\\.)+    # domain - RFC 1034
+      [$alpha]([-0-9$alpha]{0,17}[$alpha])?                # top domain
    \\z)ix", $value);
 }
 ```
@@ -89,13 +89,13 @@ Príklad:
 $psc = '272 01'; // Kladno
 
 if (preg_match('/^(\d{3})\s*(\d{2})$/', $psc, $parser)) {
-   echo 'Poštové smerovacie číslo je platné [' . $parser[1] . ', '. $parser[2] . ']';
-} inak {
-   echo 'ZIP code is invalid';
+   echo 'PSČ je platné [' . $parser[1] . ', '. $parser[2] . ']';
+} else {
+   echo "Poštové smerovacie číslo nie je platné;
 }
 ```
 
-Kód vráti `Zip kód je platný [272, 01]`.
+Kód vráti: `Kód je platný [272, 01]`.
 
 Všimnite si jednoduché zátvorky, ktorými sme výraz rozdelili na niekoľko menších častí. To potom umožňuje získať jednotlivé podvýrazy ako položky poľa. Celá funkcia potom vráti `true` alebo `false` podľa toho, či bol reťazec úspešne zachytený.
 
@@ -108,10 +108,10 @@ $phone = '777 123 456';
 
 preg_match('/^(?<operátor>\d{3})\s*(?<číslo>[0-9 ]+)$/', $phone, $parser);
 
-echo $parser['operator']; // vráti 777
+echo $parser["operátor]; // vrátil 777
 ```
 
-`preg_replace()` - nahradiť podľa vzoru
+`preg_replace()` - nahradenie podľa vzoru
 ----------------------------------------
 
 Reťazce je možné nahradiť aj pomocou regexu, čo je užitočné najmä pri rôznych opravách formátu po používateľovi.
@@ -146,7 +146,6 @@ Regexy majú veľký zmysel aj pri generovaní nových reťazcov podľa zložit�
 
 Môžeme napríklad chcieť vygenerovať sadu hesiel na základe regexu `[a-z]{10}` a nič nás nezastaví:
 
-```
 jmceohykoa
 aclohnotga
 jqegzuklcv
@@ -158,20 +157,19 @@ itwrowxfxh
 auinmymonl
 dujyzuhoag
 vaygybwkfm
-```
 
 Použitie je nasledovné:
 
 ```php
-použiť ReverseRegex\Lexer;
-použiť ReverseRegex\Random\SimpleRandom;
-použiť ReverseRegex\Parser;
-použiť ReverseRegex\Generator\Scope;
+use ReverseRegex\Lexer;
+use ReverseRegex\Random\SimpleRandom;
+use ReverseRegex\Parser;
+use ReverseRegex\Generator\Scope;
 
 require 'vendor/autoload.php';
 
-$lexer = new Lexer('[a-z]{10}');
-$gen = new SimpleRandom(10007);
+$lexer = new  Lexer('[a-z]{10}');
+$gen   = new SimpleRandom(10007);
 $result = '';
 
 $parser = new Parser($lexer, new Scope(), new Scope());
@@ -180,7 +178,7 @@ $parser->parse()->getResult()->generate($result, $gen);
 echo $result;
 ```
 
-Takto napríklad generujem svoje matematické príklady v programe Nette v aplikácii Presenter a je to možné naozaj jednoducho:
+Takto napríklad generujem svoje matematické príklady v programe Nette v aplikácii Presenter a je to možné naozaj ľahko:
 
 ```php
 public function actionRegex(): void
