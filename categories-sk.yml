@@ -1,0 +1,256 @@
+-
+	id: '02d93aa8-ed83-460a-ab97-4de21118f019'
+	name: Správa produkčného servera
+	description: null
+	parentId: b6d0932e-7588-46a4-abb2-7d8f47088168
+
+-
+	id: '0743dd02-12d0-4766-ba42-8fd7e9c4ae8a'
+	name: Získavanie údajov od používateľa
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1'
+	name: Štylistika a konvencie
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '0e39aee9-2818-480c-8081-e0c2d039bb24'
+	name: Premenné
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '561b0614-e152-4a62-a634-1f2d605d39d9'
+	name: Konstanty
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '0eeab3a7-a54b-46db-a253-ca6100145648'
+	name: Dokumentácia
+	description: null
+	parentId: null
+
+-
+	id: '17545205-215b-4962-b910-0d67ad1e933a'
+	name: Nové verzie
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+	name: Algoritmy
+	description: '''
+		Algoritmy sú návody na riešenie konkrétnych problémov. Na základnej úrovni môžeme algoritmus považovať za kuchársku knihu, pretože pomerne presne opisuje kroky, ako zo vstupných zložiek vyrobiť hotový pokrm.
+
+		V programovaní existujú celé rodiny algoritmov, ktoré sú užitočné na riešenie rôznych typov problémov. Ak však hľadáte návody, ako riešiť dizajn aplikácie ako celok, budete musieť siahnuť po výkonnejších nástrojoch, ako sú <a href="/category-design-patterns">vzory dizajnu</a>.
+	'''
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
+	name: Skúsenosti z praxe
+	description: 'Skúsenosti s programovaním a vývojom webových stránok zbieram od roku 2009. Táto sekcia obsahuje články a opisy rôznych situácií, ktoré zažívam v praxi. Verím, že sa vám budú hodiť.'
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '28a2aef7-7490-43a9-add7-80d8a051f8a9'
+	name: Testy
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '2a1ef8bc-14aa-438a-87e7-5b3f9643f325'
+	name: HTTP
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+	name: Výukové programy
+	description: 'Táto stránka bola vytvorená ako zbierka dobre mienených rád, ako správne programovať v jazyku PHP. Za 10 rokov programovania som vyskúšal mnoho nesprávnych ciest a dospel k mnohým záverom, ktoré mi zabrali veľa času. Táto stránka slúži hlavne na to, aby ste nemuseli a mohli si dobre naprogramovať. Ak hľadáte definície, pozrite si dokumentáciu.'
+	parentId: null
+
+-
+	id: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
+	name: Zabezpečenie
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '3e45c55a-a4cd-4745-b1bb-0332702fefbf'
+	name: Séria o OOP v PHP
+	description: 'Táto séria vás prevedie od úplných základov (čo je OOP) cez všetky hlavné vlastnosti a výhody OOP až po pokročilé metódy používania OOP. Všetky možnosti si ukážeme na reálnych príkladoch.'
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: '4f1d7d70-c5b0-45f1-b1d2-d03c22aa4154'
+	name: Správa servera
+	description: null
+	parentId: b6d0932e-7588-46a4-abb2-7d8f47088168
+
+-
+	id: '59874540-664b-4474-9869-7e6742ab6051'
+	name: Pole
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '5a538abc-5464-4707-9211-ea86885c80d4'
+	name: Praktické funkcie
+	description: 'PHP obsahuje prekvapivo veľké množstvo praktických funkcií všetkého druhu, ktoré ocenia najmä pokročilí vývojári. Táto stránka poskytuje základný prehľad a príklady ich použitia.'
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '5bf11342-01a0-47e1-a6a8-c8c22bf92af9'
+	name: Manipulácia s premennými
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
+	name: Základné znalosti
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '818d311a-0f58-4df7-a9a4-da7d21489dd6'
+	name: Doktrína
+	description: 'Doctrine je elegantná objektovo orientovaná databáza (ORM) s vysokou úrovňou abstrakcie. Ak chcete používať Doctrine, musíte vedieť, ako používať objektovo orientované programovanie.'
+	parentId: da2213d4-a5f9-41b3-a8b3-26a6fc240001
+
+-
+	id: '8598ac8d-7a70-4e2a-be9a-9f4f9ecee935'
+	name: Iné
+	description: null
+	parentId: null
+
+-
+	id: '95374429-e651-46bd-9149-15aa716f8207'
+	name: Optimalizácia výkonu
+	description: null
+	parentId: a6176cc1-e734-45c2-be52-70a5019dd9d0
+
+-
+	id: a0143f3c-ac75-46dc-a514-d3c9417ded4e
+	name: API
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: a23332c0-a233-4093-abd7-85b1b00a383b
+	name: Formuláre
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: a6176cc1-e734-45c2-be52-70a5019dd9d0
+	name: Napájanie
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: ab12b253-41a0-4bf3-9019-956608d7d534
+	name: Správa pamäte
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: ae4c1c70-11b3-433e-b1d0-e590155bb8b9
+	name: Návrhové vzory
+	description: '''
+		Ak programujete už dlho, určite ste si všimli, že väčšina kódu a princípov vývoja sa opakuje stále dokola.
+
+		Pokiaľ ide o uzavreté logické problémy, riešenie týchto častí aplikácie možno označiť ako <a href="/algoritmy">algoritmy</a>. Ako však riešiť návrh aplikácie ako celku oveľa všeobecnejšie a nezameriavať sa len na konkrétne časti? Na to slúžia **vzory návrhu**, ktoré opisujú architektonické myšlienky a osvedčené postupy pri návrhu softvéru.
+
+		Účelom návrhových vzorov je formalizovať veľké časti aplikácie a stanoviť určité hranice, ktoré vám umožnia dokončiť aj zložité aplikácie a delegovať prácu na mnohých členov tímu.
+	'''
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: b6d0932e-7588-46a4-abb2-7d8f47088168
+	name: Webový server
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+	name: Objektovo orientované programovanie v PHP
+	description: '''
+		Objektovo orientované programovanie (skrátene OOP) je programátorská paradigma, ktorá prináša výrazné zjednodušenie práce pri vývoji.
+
+		Hlavnými výhodami OOP je rozdelenie kódu na jednotlivé časti (objekty a metódy), ktoré možno ľahko prenášať medzi projektmi (abstrakcia a zapuzdrenie) a vytvárať tak opakovane použiteľné aplikácie. OOP tiež po prvýkrát zavádza nové techniky, ako je dedičnosť a polymorfizmus.
+
+		Celá táto časť stránky rozsiahle opisuje výhody vývoja OOP. Čoskoro zistíte, že aj keď má OOP aj svoje problémy, je to vlastne najlepšia metodika, ak vám záleží na opätovnej použiteľnosti kódu a dlhodobej podpore už napísaných aplikácií.
+	'''
+	parentId: null
+
+-
+	id: c2134b23-9b10-46b3-aa54-e3996707255e
+	name: Matematika
+	description: 'Keďže programovanie a matematika spolu úzko súvisia, počas štúdia som sa veľa venoval matematike. Okrem množstva cenných článkov som napísal celý <a href="https://github.com/mathematicator-core">matematický rámec</a> na riešenie rôznych typov problémov. Celá táto časť stránky opisuje rôzne zaujímavé myšlienky, nápady, návrhové vzory a spôsoby práce s matematikou v PHP.'
+	parentId: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+
+-
+	id: '367f936c-073f-44bd-b399-30738e93137a'
+	name: Algoritmus internetového vyhľadávača
+	description: Každú sekundu pribudne na internete 5 miliónov nových stránok a táto rýchlosť sa neustále zvyšuje. V tomto seriáli budú opísané metódy vyhľadávania informácií.
+	parentId: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+
+-
+	id: c241de47-8e01-4d93-bebd-db71ada44cc3
+	name: Úvod do problematiky
+	description: null
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: c5cec8c4-2a75-4f51-87c7-4d3acac0616f
+	name: Práca so súbormi
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: da2213d4-a5f9-41b3-a8b3-26a6fc240001
+	name: Databáza
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: e45491db-b548-471d-97b4-3e23610c5da9
+	name: Dátové štruktúry
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: f1b0be9b-de09-4c8a-8338-dc285bed95ec
+	name: Spracovanie reťazcov
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
+	name: Tipy a triky
+	description: Za viac ako 10 rokov vývoja som zozbieral množstvo zaujímavých riešení jednoduchých aj pokročilých problémov. Táto časť stránky opisuje možnosti ich elegantných riešení.
+	parentId: null
+
+-
+	id: f4a34087-1b51-4761-8128-4459dfe83d8a
+	name: Online kurz PHP pre začiatočníkov
+	description: null
+	parentId: null
+
+-
+	id: f611e5d3-ed7b-4fe9-84ca-9271fc2bd2e3
+	name: Funkcie
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+	name: Spracovanie údajov
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
