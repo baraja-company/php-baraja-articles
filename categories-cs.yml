@@ -29,6 +29,15 @@
 	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
 
 -
+	id: "f930abc9-c635-4758-bd88-9749eb262b55"
+	name: Obecné stránky
+	description:
+		"""
+			Tato kategorie obsahuje obecné a informační stránky, které se mohou návštěvníkům webu hodit pro další navázání kontaktu.
+		"""
+	parentId: null
+
+-
 	id: "0eeab3a7-a54b-46db-a253-ca6100145648"
 	name: Dokumentace
 	description: null
@@ -46,7 +55,7 @@
 	description:
 		"""
 			Algoritmy jsou návody na řešení konkrétních problémů. Na základní úrovni si můžeme algoritmus představit třeba jako kuchařku, protože poměrně přesně popisuje jednotlivé kroky, jak ze vstupních surovin vyrobit hotové jídlo.
-			
+
 			V programování existují celé skupiny algoritmů, které se hodí pro řešení různých typů úloh. Pokud však hledáte návody, jak řešit návrh aplikace jako celek, budete muset sáhnout po mocnějších nástrojích, jako jsou například <a href="/kategorie-navrhove-vzory">návrhové vzory</a>.
 		"""
 	parentId: "2b04fefe-ea65-49d4-8505-8b385cac0bed"
@@ -168,9 +177,9 @@
 	description:
 		"""
 			Pokud delší dobu programujete, tak si určitě také všímáte, že se velká část kódu a principů vývoje stále dokola opakuje.
-			
+
 			Pokud jde o uzavřené logické problémy, lze řešení těchto částí aplikace pojmenovat jako <a href="/algoritmy">algoritmy</a>. Jak ale řešit mnohem obecněji návrh aplikace jako celek a nezaměřovat se jen na konkrétní dílčí části? K tomu slouží **návrhové vzory**, které popisují architektonické nápady a best-practices při návrhu softwaru.
-			
+
 			Smyslem návrhových vzorů je formalizovat velké celky aplikace a nastavit určité mantinely, díky kterým budete schopni dokončit i komplikované aplikace a delegovat práci na mnoho členů týmu.
 		"""
 	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
@@ -187,9 +196,9 @@
 	description:
 		"""
 			Objektově orientované programování (zkráceně OOP) je programové paradigma, které přináší výrazné zjednodušení práce při vývoji.
-			
+
 			Hlavní výhody OOP je rozdělení kódu na jednotlivé části (objekty a metody), které lze snadno přenášet mezi projekty (abstrakce a zapouzdření) a budovat tak znovupoužitelné aplikace. OOP poprvé také přináší nové techniky, jako je dědičnost a polymorfismus.
-			
+
 			Celá tato část webu popisuje rozsáhlým způsobem výhody vývoje v OOP. Brzy zjistíte, že ačkoli má OOP také své problémy, tak jde ve skutečnosti o nejlepší metodiku, jak něco budovat, pokud vám záleží na znovupoužitelnosti kódu a dlouhodobé podpoře již napsaných aplikací.
 		"""
 	parentId: null

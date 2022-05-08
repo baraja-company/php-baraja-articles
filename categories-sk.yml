@@ -29,6 +29,12 @@
 	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
 
 -
+	id: f930abc9-c635-4758-bd88-9749eb262b55
+	name: Všeobecné stránky
+	description: 'Táto kategória obsahuje všeobecné a informačné stránky, ktoré môžu byť pre návštevníkov webu užitočné pre ďalší kontakt.'
+	parentId: null
+
+-
 	id: '0eeab3a7-a54b-46db-a253-ca6100145648'
 	name: Dokumentácia
 	description: null

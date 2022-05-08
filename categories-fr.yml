@@ -29,6 +29,12 @@
 	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
 
 -
+	id: f930abc9-c635-4758-bd88-9749eb262b55
+	name: Pages générales
+	description: Cette catégorie contient des pages générales et informatives qui peuvent être utiles aux visiteurs du site pour un contact ultérieur.
+	parentId: null
+
+-
 	id: '0eeab3a7-a54b-46db-a253-ca6100145648'
 	name: Documentation
 	description: null

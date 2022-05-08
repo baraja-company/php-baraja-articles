@@ -29,6 +29,12 @@
 	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
 
 -
+	id: f930abc9-c635-4758-bd88-9749eb262b55
+	name: Allgemeine Seiten
+	description: 'Diese Kategorie enthält allgemeine und informative Seiten, die den Besuchern der Website für weitere Kontakte nützlich sein können.'
+	parentId: null
+
+-
 	id: '0eeab3a7-a54b-46db-a253-ca6100145648'
 	name: Dokumentation
 	description: null
