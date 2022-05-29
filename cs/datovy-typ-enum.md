@@ -5,7 +5,6 @@ Datový typ Enum objekt v PHP
 > slug:
 > 	cs: datovy-typ-enum
 >
-> perex: JSON je datový typ pro předávání složitých datových struktur přes textový řetězec typicky jako API pro javascript.
 > publicationDate: "2022-05-29 15:30:00"
 > mainCategoryId: e45491db-b548-471d-97b4-3e23610c5da9
 
