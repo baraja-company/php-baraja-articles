@@ -1,0 +1,262 @@
+-
+	id: '02d93aa8-ed83-460a-ab97-4de21118f019'
+	name: Gestión de servidores de producción
+	description: null
+	parentId: b6d0932e-7588-46a4-abb2-7d8f47088168
+
+-
+	id: '0743dd02-12d0-4766-ba42-8fd7e9c4ae8a'
+	name: Obtención de datos del usuario
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1'
+	name: Estilística y convenciones
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '0e39aee9-2818-480c-8081-e0c2d039bb24'
+	name: Variables
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '561b0614-e152-4a62-a634-1f2d605d39d9'
+	name: Konstanty
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: f930abc9-c635-4758-bd88-9749eb262b55
+	name: Páginas generales
+	description: Esta categoría contiene páginas generales e informativas que pueden ser útiles para que los visitantes del sitio se pongan en contacto.
+	parentId: null
+
+-
+	id: '0eeab3a7-a54b-46db-a253-ca6100145648'
+	name: Documentación
+	description: null
+	parentId: null
+
+-
+	id: '17545205-215b-4962-b910-0d67ad1e933a'
+	name: Nuevas versiones
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+	name: Algoritmos
+	description: '''
+		Los algoritmos son instrucciones para resolver problemas específicos. En un nivel básico, podemos pensar en un algoritmo como un libro de cocina, porque describe los pasos de cómo producir un plato terminado a partir de los ingredientes de entrada con bastante precisión.
+
+		En programación, hay familias enteras de algoritmos que sirven para resolver distintos tipos de problemas. Sin embargo, si lo que buscas son tutoriales sobre cómo abordar el diseño de aplicaciones en su conjunto, tendrás que recurrir a herramientas más potentes como <a href="/category-design-patterns">patrones de diseño</a>.
+	'''
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
+	name: Experiencia de la práctica
+	description: Llevo reuniendo experiencia en programación y desarrollo web desde 2009. Esta sección contiene artículos y descripciones de diversas situaciones que experimento en la práctica. Creo que pueden ser útiles.
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '28a2aef7-7490-43a9-add7-80d8a051f8a9'
+	name: Pruebas
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '2a1ef8bc-14aa-438a-87e7-5b3f9643f325'
+	name: HTTP
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+	name: Tutoriales
+	description: 'Esta página fue creada como una colección de consejos bien intencionados sobre cómo programar correctamente en PHP. En 10 años de programación, he probado muchos caminos erróneos y he llegado a un gran número de conclusiones que me han costado mucho tiempo decidir. Este sitio es principalmente para el propósito de que usted no tiene que, y también podría programar bien. Si buscas definiciones, consulta la documentación.'
+	parentId: null
+
+-
+	id: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
+	name: Seguridad
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '3e45c55a-a4cd-4745-b1bb-0332702fefbf'
+	name: Serie sobre POO en PHP
+	description: 'Esta serie le llevará desde lo más básico (qué es la POO), pasando por las principales características y beneficios de la POO, hasta los métodos avanzados de cómo utilizar la POO. Demostraremos todas las posibilidades con ejemplos reales.'
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: '4f1d7d70-c5b0-45f1-b1d2-d03c22aa4154'
+	name: Administración de servidores
+	description: null
+	parentId: b6d0932e-7588-46a4-abb2-7d8f47088168
+
+-
+	id: '59874540-664b-4474-9869-7e6742ab6051'
+	name: Campo
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '5a538abc-5464-4707-9211-ea86885c80d4'
+	name: Funciones prácticas
+	description: 'PHP contiene un número sorprendentemente grande de características útiles de todo tipo, que son especialmente apreciadas por los desarrolladores avanzados. Esta página ofrece una visión general y ejemplos de su uso.'
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '5bf11342-01a0-47e1-a6a8-c8c22bf92af9'
+	name: Manipulación con variables
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
+	name: Conocimientos básicos
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '818d311a-0f58-4df7-a9a4-da7d21489dd6'
+	name: Doctrina
+	description: 'Doctrine es una elegante base de datos orientada a objetos (ORM) con un alto nivel de abstracción. Para utilizar Doctrine, es necesario saber utilizar la programación orientada a objetos.'
+	parentId: da2213d4-a5f9-41b3-a8b3-26a6fc240001
+
+-
+	id: '8598ac8d-7a70-4e2a-be9a-9f4f9ecee935'
+	name: Otros
+	description: null
+	parentId: null
+
+-
+	id: '95374429-e651-46bd-9149-15aa716f8207'
+	name: Optimización del rendimiento
+	description: null
+	parentId: a6176cc1-e734-45c2-be52-70a5019dd9d0
+
+-
+	id: a0143f3c-ac75-46dc-a514-d3c9417ded4e
+	name: API
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: a23332c0-a233-4093-abd7-85b1b00a383b
+	name: Formularios
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: a6176cc1-e734-45c2-be52-70a5019dd9d0
+	name: Potencia
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: ab12b253-41a0-4bf3-9019-956608d7d534
+	name: Gestión de la memoria
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: ae4c1c70-11b3-433e-b1d0-e590155bb8b9
+	name: Patrones de diseño
+	description: '''
+		Si llevas mucho tiempo programando, también habrás notado que gran parte del código y los principios de desarrollo se repiten una y otra vez.
+
+		Cuando se trata de problemas de lógica cerrada, la resolución de estas partes de la aplicación puede denominarse <a href="/algoritmos">algoritmos</a>. Pero, ¿cómo se aborda el diseño de la aplicación en su conjunto de una manera mucho más general y no sólo se centra en partes específicas? Para eso están los **patrones de diseño**, que describen ideas arquitectónicas y mejores prácticas en el diseño de software.
+
+		El propósito de los patrones de diseño es formalizar grandes partes de la aplicación y establecer algunos límites que le permitan completar incluso aplicaciones complicadas y delegar el trabajo a muchos miembros del equipo.
+	'''
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: b6d0932e-7588-46a4-abb2-7d8f47088168
+	name: Servidor web
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+	name: Programación orientada a objetos en PHP
+	description: '''
+		La programación orientada a objetos (POO) es un paradigma de programación que simplifica considerablemente el trabajo de desarrollo.
+
+		Las principales ventajas de la POO son la división del código en partes individuales (objetos y métodos) que pueden transferirse fácilmente entre proyectos (abstracción y encapsulación) para construir aplicaciones reutilizables. La POO también introduce por primera vez nuevas técnicas como la herencia y el polimorfismo.
+
+		Toda esta sección del sitio describe ampliamente las ventajas del desarrollo OOP. Pronto descubrirás que, aunque la POO también tiene sus problemas, es en realidad la mejor metodología para construir algo si te importa la reutilización del código y el soporte a largo plazo de las aplicaciones que ya has escrito.
+	'''
+	parentId: null
+
+-
+	id: c2134b23-9b10-46b3-aa54-e3996707255e
+	name: Matemáticas
+	description: 'Como la programación y las matemáticas están muy relacionadas, me centré mucho en las matemáticas durante mis estudios. Además de una serie de valiosos artículos, he escrito todo un <a href="https://github.com/mathematicator-core">marco matemático</a> para resolver varios tipos de problemas. Toda esta sección del sitio describe varios pensamientos interesantes, ideas, patrones de diseño y formas de trabajar con las matemáticas en PHP.'
+	parentId: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+
+-
+	id: '367f936c-073f-44bd-b399-30738e93137a'
+	name: Algoritmo del motor de búsqueda de Internet
+	description: 'Cada segundo se añaden 5 millones de páginas nuevas a Internet, y este ritmo no deja de aumentar. Esta serie describirá los métodos para buscar la información.'
+	parentId: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+
+-
+	id: c241de47-8e01-4d93-bebd-db71ada44cc3
+	name: Introducción al tema
+	description: null
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: c5cec8c4-2a75-4f51-87c7-4d3acac0616f
+	name: Trabajar con archivos
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: da2213d4-a5f9-41b3-a8b3-26a6fc240001
+	name: Base de datos
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: e45491db-b548-471d-97b4-3e23610c5da9
+	name: Estructuras de datos
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: f1b0be9b-de09-4c8a-8338-dc285bed95ec
+	name: Tratamiento de las cadenas
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
+	name: Consejos y trucos
+	description: En más de 10 años de desarrollo he recopilado muchas soluciones interesantes para problemas simples y avanzados. Esta sección del sitio describe las posibilidades de sus elegantes soluciones.
+	parentId: null
+
+-
+	id: f4a34087-1b51-4761-8128-4459dfe83d8a
+	name: Curso online de PHP para principiantes
+	description: null
+	parentId: null
+
+-
+	id: f611e5d3-ed7b-4fe9-84ca-9271fc2bd2e3
+	name: Funciones
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+	name: Procesamiento de datos
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
