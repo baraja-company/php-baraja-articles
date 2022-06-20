@@ -22,7 +22,7 @@ Popis
 Často je potřeba zjistit, zda platí nějaká rovnost nebo zda je výrok pravdivý, k tomu slouží podmínky. PHP používá jako mnoho jiných jazyků (zejména jazyk C) následující syntaxi:
 
 ```php
-if (logický výrok) {
+if (/* logický výrok */) {
     // konstrukt
 }
 ```
@@ -111,7 +111,7 @@ $x = 3;
 > **`2. Dvojtečka a endif;`**
 
 ```php
-if (výraz):
+if (/* výraz */):
     konstrukt;
     konstrukt;
     konstrukt;
@@ -128,11 +128,15 @@ Občas se hodí provést jednoduché porovnání v rámci jednoho řádku s něj
 
 ```php
 $x = 5;
-$xJeVetsiNezDva = ($x > 2 ? TRUE : FALSE);
+$isBiggerThanTwo = ($x > 2 ? true : false);
 
 // nebo ještě kratší:
 
-$xJeVetsiNezDva = ($x > 2);
+$isBiggerThanTwo = ($x > 2);
+
+// nebo bez závorek:
+
+$isBiggerThanTwo = $x > 2;
 ```
 
 Tabulky operátorů
@@ -234,7 +238,6 @@ if ($a === $b) {
     // Pokud jsou řetězce různé
 }
 ```
-
 
 Důležité je správně ohlídat datové typy v případě, že by mohl být zápis ekvivaletní k nějakému jinému.
 
