@@ -4,7 +4,7 @@ Bedingungen in PHP - IF() {...} - Verzweigungsoptionen
 > id: '3e4b81bb-a8bb-4e99-8842-e76f1658a371'
 > slug:
 > 	cs: if
-> 	de: bedingungen-in-php---if-...---verzweigungsoptionen
+> 	de: bedingungen-in-php-if-verzweigungsoptionen
 > 
 > perex:
 > 	- 'Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu.'
@@ -12,9 +12,9 @@ Bedingungen in PHP - IF() {...} - Verzweigungsoptionen
 > 
 > publicationDate: '2019-11-26 11:55:09'
 > mainCategoryId: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
-> sourceContentHash: '759a244b4fe2dc119c475aee42259578'
+> sourceContentHash: '0d8a00928bcfa899d4e6dbf6c067394e'
 
-> **Hinweis:** Dieser Artikel könnte für einige Anfänger etwas unübersichtlich sein, da er ein grundlegendes Verständnis von PHP voraussetzt. Wenn Sie sich dafür interessieren, wie Bedingungen funktionieren, lesen Sie <a href="/bedingungen">über Bedingungen im Einsteigerkurs</a>.
+> **Hinweis:** Dieser Artikel könnte für einige Anfänger etwas unübersichtlich sein, da er ein grundlegendes Verständnis von PHP voraussetzt. Wenn Sie sich für die Funktionsweise von Bedingungen interessieren, lesen Sie <a href="/bedingungen">über Bedingungen im Einsteigerkurs</a>.
 
 | Unterstützung: | Alle Versionen: PHP 4, PHP 5, PHP 7
 |-------------------|----------|
@@ -27,7 +27,7 @@ Beschreibung
 Oft muss man feststellen, ob eine Gleichheit gilt oder ob eine Aussage wahr ist, dafür sind Bedingungen da. PHP verwendet die folgende Syntax wie viele andere Sprachen (insbesondere C):
 
 ```php
-if (logický výrok) {
+if (/* logische Aussage */) {
     // konstruieren
 }
 ```
@@ -54,7 +54,7 @@ Darüber hinaus enthält die Bedingung zwei optionale Anweisungsblöcke.
 - Wenn die Bedingung erfüllt ist
 - Wenn die Bedingung nicht erfüllt ist
 
-Aus praktischen Gründen sollte immer mindestens der erste Anweisungsblock enthalten sein, wenn die Bedingung wahr ist, da sonst die Prüfung des Ausdrucks keinen Sinn macht.
+Aus praktischen Gründen sollten Sie immer mindestens den ersten Anweisungsblock einbeziehen, wenn die Bedingung wahr ist, da sonst die Prüfung des Ausdrucks keinen Sinn macht.
 
 Verwendung von Semikolon und Klammern
 --------------------------
@@ -97,7 +97,7 @@ Oder wir können die Klammern weglassen:
 if ($x > 10) $y = $x;
 ```
 
-Dieses Verhalten gilt jedoch nur für einen Befehl in der unmittelbaren Umgebung der Bedingung.
+Dieses Verhalten gilt jedoch nur für einen einzigen Befehl in der unmittelbaren Umgebung der Bedingung.
 
 Ein besseres Beispiel (nur das Konstrukt `$y = $x` wird bedingt ausgeführt, der Rest wird immer ausgeführt):
 
@@ -113,7 +113,7 @@ $x = 3;
 > **`2. Doppelpunkt und endif;`**
 
 ```php
-if (výraz):
+if (/* Ausdruck */):
     konstrukt;
     konstrukt;
     konstrukt;
@@ -122,7 +122,7 @@ endif;
 
 Diese Notation gilt jedoch seit langem als veraltet, da sie an Orientierung verliert, wenn mehrere Bedingungen ineinander übergehen.
 
-> **Anmerkung:** Ich möchte anmerken, dass dieser Stil auch von einigen Leuten wie Yuh (<a href="https://www.jakpsatweb.cz/php/php-tahak.html#vetveni">Siehe seinen Artikel</a>) geschätzt wird. Gott bewahre, dass Sie das irgendwo verwenden.
+> **Anmerkung:** Ich möchte anmerken, dass dieser Stil auch von einigen Leuten wie Yuh (<a href="https://www.jakpsatweb.cz/php/php-tahak.html#vetveni">siehe seinen Artikel</a>) geschätzt wird. Gott bewahre, dass Sie das irgendwo verwenden.
 
 > **`3. Ternärer Ausdruck ~ einzeilige "in-line"-Notation`**
 
@@ -130,11 +130,15 @@ Gelegentlich ist es sinnvoll, einen einfachen Inline-Vergleich mit einer anderen
 
 ```php
 $x = 5;
-$xJeVetsiNezDva = ($x > 2 ? TRUE : FALSE);
+$isBiggerThanTwo = ($x > 2 ? true : false);
 
 // oder noch kürzer:
 
-$xJeVetsiNezDva = ($x > 2);
+$isBiggerThanTwo = ($x > 2);
+
+// oder ohne Klammern:
+
+$isBiggerThanTwo = $x > 2;
 ```
 
 Operator-Tabellen
@@ -153,7 +157,7 @@ Vergleichende Operatoren
 | `==` | Gleich
 | `===` | Ist gleich und hat den gleichen Datentyp
 | `!=` | Ist nicht gleich
-| `>=` | ist gleich oder größer
+| `>=` | Ist gleich oder größer
 | `<=` | ist gleich oder kleiner
 |>` | Größer
 | `<` | Weniger

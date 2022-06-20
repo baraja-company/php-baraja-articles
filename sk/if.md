@@ -4,12 +4,15 @@ Podmienky v PHP - IF() {...} - možnosti vetvenia
 > id: '3e4b81bb-a8bb-4e99-8842-e76f1658a371'
 > slug:
 > 	cs: if
-> 	sk: podmienky-v-php---if-...---moznosti-vetvenia
+> 	sk: podmienky-v-php-if-moznosti-vetvenia
 > 
-> perex: 'Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu.'
+> perex:
+> 	- 'Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu.'
+> 	- 'Podmienky, logika Boolea, logika Boolea a možnosti vetvenia skriptu PHP. Vyhodnocovanie logických výrazov a operátorov. Možnosti skladania výrazov.'
+> 
 > publicationDate: '2019-11-26 11:55:09'
 > mainCategoryId: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
-> sourceContentHash: '759a244b4fe2dc119c475aee42259578'
+> sourceContentHash: '0d8a00928bcfa899d4e6dbf6c067394e'
 
 > **Poznámka:** Tento článok môže byť pre niektorých začiatočníkov trochu neprehľadný, pretože predpokladá základné znalosti jazyka PHP. Ak vás zaujíma, ako podmienky fungujú, prečítajte si <a href="/podmienky">o podmienkach v kurze pre začiatočníkov</a>.
 
@@ -24,7 +27,7 @@ Popis
 Často potrebujete určiť, či platí rovnosť alebo či je výrok pravdivý, na to slúžia podmienky. PHP používa nasledujúcu syntax ako mnohé iné jazyky (najmä C):
 
 ```php
-if (logický výrok) {
+if (/* logický príkaz */) {
     // konštruovať
 }
 ```
@@ -57,7 +60,7 @@ Používanie stredníkov a zátvoriek
 --------------------------
 
 Vo všeobecnosti:
-- **Krúhle** zátvorky sa používajú na oddelenie logických výrazov (na dosiahnutie zložitejších výrazov možno použiť iné okrúhle zátvorky).
+- **Krúhle** zátvorky sa používajú na oddelenie logických výrazov (na dosiahnutie zložitejších výrazov sa môžu použiť iné okrúhle zátvorky).
 - Zložená zátvorka** sa používa na ohraničenie bloku príkazov a funkcií.
 - Znak **meddle** sa nepoužíva na označenie podmienky (blok príkazov je ohraničený zloženou zátvorkou), ale na oddelenie jednotlivých príkazov v rámci podmienky).
 
@@ -110,7 +113,7 @@ $x = 3;
 > **`2. Dvojbodka a endif;`**
 
 ```php
-if (výraz):
+if (/* výraz */):
     konstrukt;
     konstrukt;
     konstrukt;
@@ -127,11 +130,15 @@ Občas je užitočné vykonať jednoduché in-line porovnanie s nejakou inou akc
 
 ```php
 $x = 5;
-$xJeVetsiNezDva = ($x > 2 ? TRUE : FALSE);
+$isBiggerThanTwo = ($x > 2 ? true : false);
 
 // alebo ešte kratšie:
 
-$xJeVetsiNezDva = ($x > 2);
+$isBiggerThanTwo = ($x > 2);
+
+// alebo bez zátvoriek:
+
+$isBiggerThanTwo = $x > 2;
 ```
 
 Tabuľky operátorov
@@ -223,7 +230,7 @@ Porovnanie reťazcov
 Zistiť, že struny sú identické, je jednoduché:
 
 ```php
-$a = "Mačka;
+$a = 'Mačka';
 $b = 'cat';
 
 if ($a === $b) {
@@ -233,7 +240,7 @@ if ($a === $b) {
 }
 ```
 
-Je dôležité riadne sledovať typy údajov pre prípad, že by položka mohla byť ekvivalentná inej položke.
+Je dôležité riadne sledovať typy údajov v prípade, že položka môže byť ekvivalentná s inou položkou.
 
 Napríklad prázdny reťazec `$a = '';` sa líši od reťazca `NULL`: `$b = NULL;`. Toto rozlíšenie potrebujeme napríklad kvôli databázam, kde je rozdiel medzi tým, či hodnota neexistuje alebo je prázdna.
 
@@ -258,7 +265,7 @@ Pri porovnávaní reťazcov je tiež dobré ignorovať biele (neviditeľné) zna
 
 ```php
 $password = '81dc9bdb52d04dc20036dbd8313ed055'; // 1234
-$userPassword = ' 1234 ';
+$userPassword = '1234';
 
 if (md5(trim($userPassword)) === $password) {
     // Funkcia trim() automaticky odstraňuje medzery.

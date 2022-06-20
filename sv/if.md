@@ -4,7 +4,7 @@ Villkor i PHP - IF() {...} - förgreningsalternativ
 > id: '3e4b81bb-a8bb-4e99-8842-e76f1658a371'
 > slug:
 > 	cs: if
-> 	sv: villkor-i-php---if-...---foergreningsalternativ
+> 	sv: villkor-i-php-if-foergreningsalternativ
 > 
 > perex:
 > 	- 'Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu.'
@@ -12,7 +12,7 @@ Villkor i PHP - IF() {...} - förgreningsalternativ
 > 
 > publicationDate: '2019-11-26 11:55:09'
 > mainCategoryId: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
-> sourceContentHash: '759a244b4fe2dc119c475aee42259578'
+> sourceContentHash: '0d8a00928bcfa899d4e6dbf6c067394e'
 
 > **Note:** Den här artikeln kan vara lite rörig för vissa nybörjare eftersom den förutsätter en grundläggande förståelse för PHP. Om du är intresserad av hur villkor fungerar kan du läsa <a href="/villkor">om villkor i nybörjarkursen</a>.
 
@@ -27,7 +27,7 @@ Beskrivning
 Ofta måste du avgöra om en jämlikhet gäller eller om ett påstående är sant, det är vad villkor är till för. PHP använder följande syntax som många andra språk (särskilt C):
 
 ```php
-if (logický výrok) {
+if (/* logiskt uttalande */) {
     // konstruera
 }
 ```
@@ -41,7 +41,7 @@ $x = 10;
 $y = 5;
 
 if ($x > $y) {
-    // Den här delen av skriptet körs om villkoret är sant.
+    // Denna del av skriptet utförs om villkoret är sant.
 } else {
     // Den här delen av skriptet körs om villkoret inte gäller.
 }
@@ -113,7 +113,7 @@ $x = 3;
 > **`2. Kolon och endif;`**
 
 ```php
-if (výraz):
+if (/* uttryck */):
     konstrukt;
     konstrukt;
     konstrukt;
@@ -130,11 +130,15 @@ Ibland kan det vara bra att göra en enkel jämförelse på samma gång som en a
 
 ```php
 $x = 5;
-$xJeVetsiNezDva = ($x > 2 ? TRUE : FALSE);
+$isBiggerThanTwo = ($x > 2 ? true : false);
 
 // eller ännu kortare:
 
-$xJeVetsiNezDva = ($x > 2);
+$isBiggerThanTwo = ($x > 2);
+
+// eller utan parenteser:
+
+$isBiggerThanTwo = $x > 2;
 ```
 
 Operatörsbord
@@ -198,13 +202,13 @@ $x = 5;
 $y = 3;
 $z = 8;
 
-if ($x) { ... }         // godkänns eftersom $x inte är tomt
+if ($x) { ... }         // går igenom eftersom $x inte är tomt
 if ($x && $y) { ... }   // går igenom eftersom $x och $y inte är tomma
 if (!$x) { ... }        // misslyckas eftersom TRUE är negerad
-if (isset($z)) { ... }  // godkänns eftersom variabeln $z finns
+if (isset($z)) { ... }  // går igenom eftersom variabeln $z finns
 ```
 
-Men svåra situationer kan uppstå, särskilt när:
+Men det kan uppstå svåra situationer, särskilt när:
 - Jag frågar efter `if ($x)` och om variabeln `$x` innehåller noll (`0`) är villkoret inte uppfyllt.
 - Eller så innehåller variabeln `$x` strängen ``0``` (siffran noll), eftersom den går över till noll och uttrycket därför inte är sant.
 - Det finns en funktion i villkoret som alltid returnerar en icke-tom sträng, eftersom villkoret då alltid är sant.

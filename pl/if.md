@@ -4,7 +4,7 @@ Warunki w PHP - IF() {...} - opcje rozgałęziania
 > id: '3e4b81bb-a8bb-4e99-8842-e76f1658a371'
 > slug:
 > 	cs: if
-> 	pl: warunki-w-php---if-...---opcje-rozgaleziania
+> 	pl: warunki-w-php-if-opcje-rozgaleziania
 > 
 > perex:
 > 	- 'Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu.'
@@ -12,7 +12,7 @@ Warunki w PHP - IF() {...} - opcje rozgałęziania
 > 
 > publicationDate: '2019-11-26 11:55:09'
 > mainCategoryId: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
-> sourceContentHash: '759a244b4fe2dc119c475aee42259578'
+> sourceContentHash: '0d8a00928bcfa899d4e6dbf6c067394e'
 
 > **Uwaga:** Ten artykuł może być nieco zawiły dla niektórych początkujących, ponieważ zakłada podstawową znajomość PHP. Jeśli interesuje Cię, jak działają warunki, przeczytaj <a href="/warunki">o warunkach w kursie dla początkujących</a>.
 
@@ -27,7 +27,7 @@ Opis
 Często trzeba określić, czy zachodzi równość lub czy dane stwierdzenie jest prawdziwe - do tego służą warunki. PHP używa następującej składni, jak wiele innych języków (zwłaszcza C):
 
 ```php
-if (logický výrok) {
+if (/* wypowiedź logiczna */) {
     // construct
 }
 ```
@@ -41,7 +41,7 @@ $x = 10;
 $y = 5;
 
 if ($x > $y) {
-    // Ta część skryptu zostanie uruchomiona, jeśli warunek jest prawdziwy
+    // Ta część skryptu jest wykonywana, jeśli warunek jest prawdziwy
 } else {
     // Ta część skryptu zostanie uruchomiona, jeśli warunek nie zostanie spełniony
 }
@@ -113,7 +113,7 @@ $x = 3;
 > **`2. dwukropek i endif;`**
 
 ```php
-if (výraz):
+if (/* wyrażenie */):
     konstrukt;
     konstrukt;
     konstrukt;
@@ -130,11 +130,15 @@ Niekiedy warto wykonać proste porównanie w linii z inną czynnością (na przy
 
 ```php
 $x = 5;
-$xJeVetsiNezDva = ($x > 2 ? TRUE : FALSE);
+$isBiggerThanTwo = ($x > 2 ? true : false);
 
 // lub jeszcze krócej:
 
-$xJeVetsiNezDva = ($x > 2);
+$isBiggerThanTwo = ($x > 2);
+
+// lub bez nawiasów:
+
+$isBiggerThanTwo = $x > 2;
 ```
 
 Stoły operatorskie

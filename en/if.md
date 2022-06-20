@@ -4,12 +4,15 @@ Conditions in PHP - IF() {...} - branching options
 > id: '3e4b81bb-a8bb-4e99-8842-e76f1658a371'
 > slug:
 > 	cs: if
-> 	en: conditions-in-php---if-...---branching-options
+> 	en: conditions-in-php-if-branching-options
 > 
-> perex: 'Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu.'
+> perex:
+> 	- 'Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu.'
+> 	- 'Conditions, Boolean logic, Boolean logic and PHP script branching options. Evaluating Boolean expressions and operators. Expression folding options.'
+> 
 > publicationDate: '2019-11-26 11:55:09'
 > mainCategoryId: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
-> sourceContentHash: '759a244b4fe2dc119c475aee42259578'
+> sourceContentHash: '0d8a00928bcfa899d4e6dbf6c067394e'
 
 > **Note:** This article may be a bit messy for some beginners as it assumes a basic understanding of PHP. If you're interested in how conditions work, read <a href="/conditions">about conditions in the beginner's course</a>.
 
@@ -24,27 +27,27 @@ Description
 Often you need to determine if an equality holds or if a statement is true, this is what conditions are for. PHP uses the following syntax like many other languages (especially C):
 
 ```php
-if (logical statement) {
+if (/* logical statement */) {
     // construct
 }
 ```
 
-Each Boolean expression has a value of `TRUE` (true) or `FALSE` (false), there are no other options.
+Each logical expression has a value of `TRUE` (true) or `FALSE` (false), there are no other options.
 
 Example of comparing whether the variable `$x` is greater than the variable `$y`:
 
-``php
+```php
 $x = 10;
 $y = 5;
 
 if ($x > $y) {
-    // This part of the script will run if the condition holds
+    // This part of the script is executed if the condition is true
 } else {
-    // This part of the script executes if the condition does not hold
+    // This part of the script will run if the condition does not apply
 }
 ```
 
-The condition construct has a mandatory content in round brackets that specifies the expression to be tested, consisting of operators (see below for an overview), multiple expressions can be linked using Boolean operators (see below for an overview).
+The condition construct has a mandatory content in round brackets, in which the expression to be tested is given, composed of operators (overview below), multiple expressions can be linked using logical operators (overview below).
 
 In addition, the condition contains two optional statement blocks.
 
@@ -61,12 +64,11 @@ In general:
 - The **complex** bracket is used to delimit a block of commands and functions.
 - The **middle** is not used to indicate a condition (the block of commands is delimited by a compound bracket), but to separate the individual commands within the condition).
 
-The only possible notation with semicolon (except for the use of the **endif** construct):
+The only possible notation with a semicolon (except when using the **endif** construct):
 
 ```php
 if ($x > $y);
 ```
-
 
 However, such a condition is meaningless because in both cases the result of the comparison will be discarded and no statement belonging to the condition will be executed.
 
@@ -89,15 +91,13 @@ If you are creating a condition in which you want to execute only one construct 
 if ($x > 10) { $y = $x; }
 ```
 
-
-Or we can omit the parentheses:
+Or we can omit the brackets:
 
 ```php
 if ($x > 10) $y = $x;
 ```
 
-
-However, this behavior only applies to one statement in the immediate vicinity of the condition.
+However, this behavior only applies to a single command in the immediate vicinity of the condition.
 
 A better example (only the `$y = $x` construct is executed conditionally, the rest is always executed):
 
@@ -113,16 +113,16 @@ $x = 3;
 > **`2. Colon and endif;`**
 
 ```php
-if (expression):
-    construct;
-    construct;
-    construct;
+if (/* expression */):
+    konstrukt;
+    konstrukt;
+    konstrukt;
 endif;
 ```
 
 However, this notation has long been considered obsolete because it reduces in orientation when multiple conditions are immersed in themselves.
 
-> **Note:** I would like to note that this style is also liked by some people, such as Yuh (<a href="https://www.jakpsatweb.cz/php/php-tahak.html#vetveni">see his article</a> for more information). God forbid you use this somewhere.
+> **Note:** I would like to note that this style is also liked by some people, such as Yuh (<a href="https://www.jakpsatweb.cz/php/php-tahak.html#vetveni">see his article</a>). God forbid you use this somewhere.
 
 > **`3. Ternary expression ~ single line "in-line" notation`**
 
@@ -130,11 +130,15 @@ Occasionally it is useful to do a simple in-line comparison with some other acti
 
 ```php
 $x = 5;
-$xJeVetsiNotTwo = ($x > 2 ? TRUE : FALSE);
+$isBiggerThanTwo = ($x > 2 ? true : false);
 
 // or even shorter:
 
-$xJeVetsiNezDva = ($x > 2);
+$isBiggerThanTwo = ($x > 2);
+
+// or without brackets:
+
+$isBiggerThanTwo = $x > 2;
 ```
 
 Operator tables
@@ -142,7 +146,7 @@ Operator tables
 
 Two types of operators are used within the condition:
 
-- **Comparative** ~ they compare a particular relationship,
+- **Comparative** ~ they compare a specific relationship,
 - **Logical** ~ combine multiple expressions to create complex conditions.
 
 Comparative operators
@@ -177,13 +181,12 @@ Logical operators
 
 A more complex example:
 
-``php
+```php
 $x = 5;
 $y = 3;
 $z = 8;
 if ($x > 0 && !($y != 2 && $z == $x) || $z > $y) { ... }
 ```
-
 
 Omitting logical and comparison operators
 ---------------------------------------------
@@ -199,27 +202,27 @@ $x = 5;
 $y = 3;
 $z = 8;
 
-if ($x) { ... } // passes because $x is not empty
-if ($x && $y) { ... } // passes because $x and $y are not empty
-if (!$x) { ... } // fails because TRUE is negated
-if (isset($z)) { ... } // passes because the variable $z exists
+if ($x) { ... }         // passes because $x is not empty
+if ($x && $y) { ... }   // passes because $x and $y are not empty
+if (!$x) { ... }        // fails because TRUE is negated
+if (isset($z)) { ... }  // passes because the variable $z exists
 ```
 
 But tricky situations can arise, especially when:
 - I ask for `if ($x)` and the variable `$x` contains zero (`0`), then the condition is not satisfied.
 - Or the variable `$x` contains the string ``0`` (the number zero), because it overflows to zero and the expression is therefore not true.
-- There is a function in the condition that always returns some non-empty string, because then the condition always holds.
+- There is a function in the condition that always returns some non-empty string, because then the condition is always true.
 - Or if we are checking input from the user and he returns `'false'` as a string, then again the condition is true because the string is non-empty.
 
 I recommend one simple and effective solution to this - ask for the number of characters that are returned. If the string is empty (or the variable does not exist), then zero characters are returned and the condition is not satisfied. Simple example:
 
 ```php
 $x = '0';
-if ($x) { ... } // the condition normally does not apply
-if (strlen($x)) { ... } // // the condition holds because $x contains 1 character
+if ($x) { ... }			// condition does not normally apply
+if (strlen($x)) { ... }	// condition is valid because $x contains 1 character
 ```
 
-Next, we can test for the existence of a variable with the `isset()` function.
+Next, we can test for the existence of a variable using the `isset()` function.
 
 String comparison
 -----------------
@@ -237,7 +240,6 @@ if ($a === $b) {
 }
 ```
 
-
 It is important to keep a proper eye on the data types in case the entry might be equivalent to some other one.
 
 For example, the empty string `$a = '';` is different from the string `NULL`: `$b = NULL;`. We need to make this distinction, for example, because of databases where there is a difference between a value not existing or being empty.
@@ -248,25 +250,25 @@ $b = null;
 
 if ($a == $b) {
     // It will be evaluated as TRUE because
-    // the data type conversion will occur.
+    // the data type is converted.
 }
 
 if ($a === $b) {
-    // Performs a much more rigorous validation
-    // and fails because it's a different
-    // content and a different data type, so
+    // Performs much more rigorous validation
+    // and it won't pass because it's a different
+    // content and a different data type, therefore
     // this code will never run.
 }
 ```
 
-Also, when comparing strings, it is a good idea to ignore white (invisible) characters such as spaces, tabs, and line breaks. This is useful, for example, when entering a password and passing it to a hash function:
+It is also a good idea to ignore white (invisible) characters such as spaces, tabs and line breaks when comparing strings. This is useful, for example, when entering a password and passing it to a hashing function:
 
 ```php
 $password = '81dc9bdb52d04dc20036dbd8313ed055'; // 1234
-$userPassword = ' 1234 ';
+$userPassword = '1234';
 
 if (md5(trim($userPassword)) === $password) {
-    // The trim() function will automatically delete spaces.
+    // The trim() function automatically deletes spaces.
 }
 ```
 
@@ -275,6 +277,6 @@ Unknown (non-existent) value?
 
 Sometimes it can happen that the value does not exist (it is neither `TRUE` nor `FALSE`), it is mainly a value obtained from the database (for example, we are asking for a column that does not exist), in this case the data type `NULL` will be returned.
 
-In general, `NULL` is evaluated as `FALSE`, i.e. the condition does not apply. However, this behavior is not always convenient, because a non-existent value does not necessarily mean that there is no record.
+In general, `NULL` is evaluated as `FALSE`, i.e. the condition does not apply. However, this behavior is not always convenient, since a non-existent value does not necessarily mean that there is no record.
 
 > Example from practice: We have a user profile and we query the user's web page. Not all users need to have a web page, so in this case `NULL` is returned, but the user still exists. So in this case, we should rather use the `isset()` function to test for the (non-)existence of the variable and not make a conclusion based on a specific value.

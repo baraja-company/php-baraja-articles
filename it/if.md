@@ -1,10 +1,10 @@
-Condizioni in PHP - IF() {...} - opzioni di ramificazione
+Condizioni in PHP - IF() {...} - Opzioni di ramificazione
 =========================================================
 
 > id: '3e4b81bb-a8bb-4e99-8842-e76f1658a371'
 > slug:
 > 	cs: if
-> 	it: condizioni-in-php---if-...---opzioni-di-ramificazione
+> 	it: condizioni-in-php-if-opzioni-di-ramificazione
 > 
 > perex:
 > 	- 'Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu.'
@@ -12,57 +12,57 @@ Condizioni in PHP - IF() {...} - opzioni di ramificazione
 > 
 > publicationDate: '2019-11-26 11:55:09'
 > mainCategoryId: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
-> sourceContentHash: '759a244b4fe2dc119c475aee42259578'
+> sourceContentHash: '0d8a00928bcfa899d4e6dbf6c067394e'
 
-> **Nota:** Questo articolo potrebbe essere un po' incasinato per alcuni principianti poiché presuppone una comprensione di base di PHP. Se sei interessato a come funzionano le condizioni, leggi <a href="/condizioni">sulle condizioni nel corso per principianti</a>.
+> **Nota:** Questo articolo potrebbe essere un po' complicato per alcuni principianti, poiché presuppone una conoscenza di base di PHP. Se siete interessati al funzionamento delle condizioni, leggete <a href="/condizioni">le condizioni nel corso per principianti</a>.
 
 | Supporto: | Tutte le versioni: PHP 4, PHP 5, PHP 7
 |-------------------|----------|
 | Breve descrizione: | Convalida di una o più dichiarazioni
-| Tipo: | <a href="/statements-and-functions">Statement, construct</a> (non una funzione)
+| Tipo: | <a href="/statements-and-functions">Dichiarazione, costrutto</a> (non una funzione)
 
 Descrizione
 -----
 
-Spesso avete bisogno di determinare se un'uguaglianza vale o se un'affermazione è vera, a questo servono le condizioni. PHP usa la seguente sintassi come molti altri linguaggi (specialmente C):
+Spesso è necessario determinare se un'uguaglianza è valida o se un'affermazione è vera: a questo servono le condizioni. PHP utilizza la seguente sintassi, come molti altri linguaggi (in particolare il C):
 
 ```php
-if (logický výrok) {
+if (/* dichiarazione logica */) {
     // costruire
 }
 ```
 
-Ogni espressione logica ha un valore di `TRUE` (vero) o `FALSE` (falso), non ci sono altre opzioni.
+Ogni espressione logica ha un valore di `TRUE' (vero) o `FALSE' (falso), non ci sono altre opzioni.
 
-Esempio di confronto se la variabile `$x` è maggiore della variabile `$y`:
+Esempio di confronto tra la variabile `$x` e la variabile `$y`:
 
 ```php
 $x = 10;
 $y = 5;
 
 if ($x > $y) {
-    // Questa parte dello script verrà eseguita se la condizione è vera
+    // Questa parte dello script viene eseguita se la condizione è vera
 } else {
-    // Questa parte dello script verrà eseguita se la condizione non si applica
+    // Questa parte dello script verrà eseguita se la condizione non è applicabile
 }
 ```
 
-Il costrutto di condizione ha un contenuto obbligatorio tra parentesi tonde, in cui viene data l'espressione da testare, composta da operatori (panoramica sotto), espressioni multiple possono essere collegate usando operatori logici (panoramica sotto).
+Il costrutto di condizione ha un contenuto obbligatorio tra parentesi tonde, in cui viene fornita l'espressione da testare, composta da operatori (panoramica di seguito); più espressioni possono essere collegate utilizzando operatori logici (panoramica di seguito).
 
-Inoltre, la condizione contiene due blocchi di dichiarazione opzionali.
+Inoltre, la condizione contiene due blocchi di istruzioni opzionali.
 
 - Se la condizione è valida
 - Se la condizione non è soddisfatta
 
-Per ragioni pratiche, includete sempre almeno il primo blocco di dichiarazioni quando la condizione è valida, altrimenti testare l'espressione non avrebbe senso.
+Per motivi pratici, bisogna sempre includere almeno il primo blocco di istruzioni quando la condizione è vera, altrimenti il test dell'espressione non avrebbe senso.
 
 Uso del punto e virgola e delle parentesi
 --------------------------
 
 In generale:
-- Le parentesi **arrotondate** si usano per separare le espressioni logiche (altre parentesi tonde possono essere immerse per ottenere espressioni più complesse).
-- La parentesi **complessa** è usata per delimitare un blocco di comandi e funzioni.
-- Il **mezzo** non è usato per indicare una condizione (il blocco di comandi è delimitato da una parentesi composta), ma per separare i singoli comandi all'interno della condizione).
+- Le parentesi tonde** sono utilizzate per separare le espressioni logiche (altre parentesi tonde possono essere inserite per ottenere espressioni più complesse).
+- La parentesi **complessiva** viene utilizzata per delimitare un blocco di comandi e funzioni.
+- Il **mezzo** non viene usato per indicare una condizione (il blocco di comandi è delimitato da una parentesi composta), ma per separare i singoli comandi all'interno della condizione).
 
 L'unica notazione possibile con un punto e virgola (tranne quando si usa il costrutto **endif**):
 
@@ -70,22 +70,22 @@ L'unica notazione possibile con un punto e virgola (tranne quando si usa il cost
 if ($x > $y);
 ```
 
-Tuttavia, tale condizione non ha senso perché in entrambi i casi il risultato del confronto sarà scartato e nessuna istruzione appartenente alla condizione sarà eseguita.
+Tuttavia, una condizione di questo tipo non ha senso, perché in entrambi i casi il risultato del confronto verrà scartato e non verrà eseguita alcuna istruzione appartenente alla condizione.
 
 Notazione alternativa
 --------------------------
 
-In certe circostanze, il costrutto `if` può essere usato con l'omissione delle parentesi composte. Questo può essere ottenuto solo nei seguenti casi:
+In alcune circostanze, il costrutto `if' può essere utilizzato con l'omissione delle parentesi composte. Questo può essere ottenuto solo nei seguenti casi:
 
-- Se eseguiamo solo una dichiarazione nella condizione.
-- Se usiamo i due punti e un endif al posto delle parentesi composte;
+- Se si esegue una sola istruzione nella condizione.
+- Se si usano i due punti e l'endif al posto delle parentesi composte;
 - Se usiamo la notazione "in linea".
 
-Per informazioni più dettagliate, vedere i seguenti 3 capitoli.
+Per informazioni più dettagliate, consultare i 3 capitoli seguenti.
 
 > **`1. Un solo comando ~ sintassi abbreviata`**
 
-Se state creando una condizione in cui volete eseguire solo un costrutto (dichiarazione), potete usare sia la classica notazione di parentesi composta:
+Se si crea una condizione in cui si vuole eseguire un solo costrutto (istruzione), si può utilizzare la classica notazione a parentesi composta:
 
 ```php
 if ($x > 10) { $y = $x; }
@@ -97,9 +97,9 @@ Oppure possiamo omettere le parentesi:
 if ($x > 10) $y = $x;
 ```
 
-Tuttavia, questo comportamento si applica solo a un comando nelle immediate vicinanze della condizione.
+Tuttavia, questo comportamento si applica solo a un singolo comando nelle immediate vicinanze della condizione.
 
-Un esempio migliore (solo il costrutto `$y = $x` viene eseguito condizionatamente, il resto viene sempre eseguito):
+Un esempio migliore (solo il costrutto `$y = $x` viene eseguito in modo condizionale, il resto viene sempre eseguito):
 
 ```php
 $x = 5;
@@ -113,28 +113,32 @@ $x = 3;
 > **`2. Colon e endif;`**
 
 ```php
-if (výraz):
+if (/* espressione */):
     konstrukt;
     konstrukt;
     konstrukt;
 endif;
 ```
 
-Tuttavia, questa notazione è stata a lungo considerata obsoleta perché si riduce nell'orientamento quando più condizioni sono immerse in se stesse.
+Tuttavia, questa notazione è stata a lungo considerata obsoleta perché riduce l'orientamento quando più condizioni sono immerse in se stesse.
 
-> **Nota:** Vorrei notare che questo stile piace anche ad alcune persone, come Yuh (<a href="https://www.jakpsatweb.cz/php/php-tahak.html#vetveni">vedi il suo articolo</a>). Dio non voglia che tu lo usi da qualche parte.
+**Nota: ** Vorrei far notare che questo stile piace anche ad alcune persone, come Yuh (<a href="https://www.jakpsatweb.cz/php/php-tahak.html#vetveni">vedi il suo articolo</a>). Dio non voglia che lo usiate da qualche parte.
 
-> **`3. Espressione ternaria ~ notazione "in linea" su una sola riga`**
+> **`3. Espressione ternaria ~ notazione "in linea" a riga singola`**
 
-Occasionalmente è utile fare un semplice confronto in linea con qualche altra azione (per esempio, insieme alla definizione di una nuova variabile). Se vogliamo eseguire una sola istruzione, l'intera procedura può essere ridotta a una sola riga, pur mantenendola il più semplice possibile.
+A volte è utile eseguire un semplice confronto in linea con qualche altra azione (ad esempio, insieme alla definizione di una nuova variabile). Se si vuole eseguire una sola istruzione, l'intera procedura può essere ridotta a una sola riga, pur mantenendola il più semplice possibile.
 
 ```php
 $x = 5;
-$xJeVetsiNezDva = ($x > 2 ? TRUE : FALSE);
+$isBiggerThanTwo = ($x > 2 ? true : false);
 
 // o anche più breve:
 
-$xJeVetsiNezDva = ($x > 2);
+$isBiggerThanTwo = ($x > 2);
+
+// o senza parentesi:
+
+$isBiggerThanTwo = $x > 2;
 ```
 
 Tabelle degli operatori
@@ -142,21 +146,21 @@ Tabelle degli operatori
 
 All'interno della condizione vengono utilizzati due tipi di operatori:
 
-- **Comparativo** ~ confrontano una relazione specifica,
-- **Logico** ~ combina più espressioni per creare condizioni complesse.
+- **Comparativi** ~ confrontano una relazione specifica,
+- **Logica** ~ combinare più espressioni per creare condizioni complesse.
 
-Operatori comparativi
+Operatori a confronto
 -----------------------
 
-| Operatore, significato.
+| Operatore | Significato |
 |----------|----------|
-| ``==` | Equals
-| `===` | È uguale e ha lo stesso tipo di dati
+| `==` | Equals
+| `===` | Equivale e ha lo stesso tipo di dati
 | `!=` | Non è uguale
-| E' uguale o maggiore
-| `<=` | È uguale o inferiore
-| Maggiore
-| Meno
+| `>=` | Eguaglia o è maggiore
+| `<=` | Eguaglia o è minore
+| `>` | Maggiore
+| `<` | Meno
 
 Esempio (valido quando `$x non è 5`):
 
@@ -167,13 +171,13 @@ if ($x != 5) { ... }
 Operatori logici
 --------------------
 
-| Operatore | Alternativo | Significato | Vero quando:
+| Operatore | Alternativa | Significato | Vero quando:
 |-----------|--------------|----------------|--------------------------------------------
 | `&&` | AND | e allo stesso tempo | entrambi i valori sono veri
-| `||` | OR | o | almeno un valore è vero
-| `^^` | XOR | OR esclusivo | almeno uno è vero o falso, ma mai entrambi
-| `!` | *doesn't* | negazione dell'espressione | `true` quando `false` e viceversa
-| La negazione dell'espressione dipende dalle circostanze.
+| OR o almeno uno dei valori è vero.
+| XOR | OR esclusivo | almeno uno dei due è vero o falso, ma mai tutti e due.
+| `!` | *non lo fa* | negazione di un'espressione | `vero` quando `falso` e viceversa
+| `()` | *non* | negazione dell'espressione| dipende dalle circostanze
 
 Un esempio più complesso:
 
@@ -184,12 +188,12 @@ $z = 8;
 if ($x > 0 && !($y != 2 && $z == $x) || $z > $y) { ... }
 ```
 
-Omettere gli operatori logici e di confronto
+Omissione degli operatori logici e di confronto
 ---------------------------------------------
 
-Spesso possiamo permetterci di omettere uno dei due operatori (o anche entrambi), ma non dobbiamo mai dimenticare le regole di uso corretto per far funzionare l'espressione risultante.
+Spesso possiamo permetterci di omettere uno dei due operatori (o addirittura entrambi), ma non dobbiamo mai dimenticare le regole di utilizzo corretto per far funzionare l'espressione risultante.
 
-In generale, quando si verifica un'espressione senza operatore, si verifica se il suo valore è `TRUE` o non vuoto (per esempio, contiene un numero non nullo, una stringa non vuota, ...).
+In generale, quando si testa un'espressione senza operatore, si verifica se il suo valore è `TRUE` o non vuoto (ad esempio, se contiene un numero non nullo, una stringa non vuota, ...).
 
 Esempi:
 
@@ -200,17 +204,17 @@ $z = 8;
 
 if ($x) { ... }         // passa perché $x non è vuoto
 if ($x && $y) { ... }   // passa perché $x e $y non sono vuoti
-if (!$x) { ... }        // fallisce perché TRUE è negato
+if (!$x) { ... }        // fallisce perché VERO è negato
 if (isset($z)) { ... }  // passa perché la variabile $z esiste
 ```
 
-Ma possono sorgere situazioni difficili, specialmente quando:
+Ma possono verificarsi situazioni difficili, soprattutto quando:
 - Chiedo `se ($x)` e la variabile `$x` contiene zero (`0`), allora la condizione non è soddisfatta.
 - Oppure la variabile `$x` contiene la stringa ``0`` (il numero zero), perché trabocca a zero e quindi l'espressione non è vera.
-- C'è una funzione nella condizione che restituisce sempre qualche stringa non vuota, perché allora la condizione è sempre vera.
-- Oppure se stiamo controllando l'input dell'utente e lui restituisce `'false'` come stringa, allora di nuovo la condizione è vera perché la stringa non è vuota.
+- C'è una funzione nella condizione che restituisce sempre una stringa non vuota, perché allora la condizione è sempre vera.
+- Oppure, se stiamo controllando l'input dell'utente e questi restituisce `'false'' come stringa, anche in questo caso la condizione è vera perché la stringa è non vuota.
 
-Consiglio una soluzione semplice ed efficace per questo: chiedere il numero di caratteri che vengono restituiti. Se la stringa è vuota (o la variabile non esiste), allora vengono restituiti zero caratteri e la condizione non è soddisfatta. Esempio semplice:
+Vi consiglio una soluzione semplice ed efficace: chiedere il numero di caratteri che vengono restituiti. Se la stringa è vuota (o la variabile non esiste), vengono restituiti zero caratteri e la condizione non è soddisfatta. Un semplice esempio:
 
 ```php
 $x = '0';
@@ -218,16 +222,16 @@ if ($x) { ... }			// la condizione non si applica normalmente
 if (strlen($x)) { ... }	// la condizione è valida perché $x contiene 1 carattere
 ```
 
-Poi, possiamo verificare l'esistenza di una variabile usando la funzione `isset()`.
+Successivamente, possiamo verificare l'esistenza di una variabile utilizzando la funzione `isset()`.
 
-Confronto delle stringhe
+Confronto tra stringhe
 -----------------
 
 Scoprire che le corde sono identiche è facile:
 
 ```php
-$a = 'Cat';
-$b = 'cat';
+$a = 'Gatto';
+$b = 'gatto';
 
 if ($a === $b) {
     // Se le stringhe sono uguali
@@ -236,43 +240,43 @@ if ($a === $b) {
 }
 ```
 
-È importante tenere d'occhio i tipi di dati nel caso in cui la voce possa essere equivalente a un'altra.
+È importante tenere sotto controllo i tipi di dati, nel caso in cui una voce possa essere equivalente a un'altra.
 
-Per esempio, la stringa vuota `$a = '';` è diversa dalla stringa `NULL`: `$b = NULL;`. Abbiamo bisogno di fare questa distinzione, per esempio, per i database dove c'è una differenza tra un valore che non esiste o che è vuoto.
+Ad esempio, la stringa vuota `$a = '';` è diversa dalla stringa `NULL`: `$b = NULL;`. Questa distinzione è necessaria, ad esempio, per i database, dove esiste una differenza tra un valore inesistente e uno vuoto.
 
 ```php
 $a = '';
 $b = null;
 
 if ($a == $b) {
-    // Sarà valutato come TRUE perché
+    // Sarà valutato come VERO perché
     // il tipo di dati viene convertito.
 }
 
 if ($a === $b) {
     // Esegue una validazione molto più rigorosa
-    // e non passerà perché è un diverso
-    // contenuto e un diverso tipo di dati, quindi
+    // e non passerà perché si tratta di un diverso
+    // contenuto e un tipo di dati diverso, quindi
     // questo codice non verrà mai eseguito.
 }
 ```
 
-È anche una buona idea ignorare i caratteri bianchi (invisibili) come spazi, tabulazioni e interruzioni di riga quando si confrontano le stringhe. Questo è utile, per esempio, quando si inserisce una password e la si passa a una funzione di hashing:
+È anche una buona idea ignorare i caratteri bianchi (invisibili) come spazi, tabulazioni e interruzioni di riga quando si confrontano le stringhe. È utile, ad esempio, quando si inserisce una password e la si passa a una funzione di hashing:
 
 ```php
 $password = '81dc9bdb52d04dc20036dbd8313ed055'; // 1234
 $userPassword = '1234';
 
 if (md5(trim($userPassword)) === $password) {
-    // La funzione trim() cancella automaticamente gli spazi.
+    // La funzione trim() elimina automaticamente gli spazi.
 }
 ```
 
 Valore sconosciuto (inesistente)?
 --------------------------
 
-A volte può succedere che il valore non esista (non è né `TRUE` né `FALSE`), è principalmente un valore ottenuto dal database (per esempio, stiamo chiedendo una colonna che non esiste), in questo caso verrà restituito il tipo di dati `NULL`.
+A volte può accadere che il valore non esista (non è né `TRUE` né `FALSE`), ma si tratta principalmente di un valore ottenuto dal database (per esempio, si chiede una colonna che non esiste); in questo caso verrà restituito il tipo di dato `NULL`.
 
-In generale, `NULL` viene valutato come `FALSE`, cioè la condizione non si applica. Tuttavia, questo comportamento non è sempre conveniente, poiché un valore inesistente non significa necessariamente che non ci sia un record.
+In generale, `NULL` viene valutato come `FALSE`, cioè la condizione non è applicabile. Tuttavia, questo comportamento non è sempre conveniente, poiché un valore inesistente non significa necessariamente che non esista un record.
 
-> Esempio dalla pratica: Abbiamo un profilo utente e interroghiamo la pagina web dell'utente. Non tutti gli utenti devono avere una pagina web, quindi in questo caso viene restituito `NULL`, ma l'utente esiste ancora. Quindi in questo caso, dovremmo piuttosto usare la funzione `isset()` per testare la (non) esistenza della variabile e non trarre una conclusione basata su un valore specifico.
+> Esempio dalla pratica: Abbiamo un profilo utente e interroghiamo la pagina web dell'utente. Non tutti gli utenti devono avere una pagina web, quindi in questo caso viene restituito `NULL`, ma l'utente esiste ancora. Quindi, in questo caso, dovremmo usare la funzione `isset()` per verificare la (non) esistenza della variabile e non fare una conclusione basata su un valore specifico.

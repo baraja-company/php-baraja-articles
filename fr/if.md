@@ -4,12 +4,15 @@ Conditions en PHP - IF() {...} - options de branchement
 > id: '3e4b81bb-a8bb-4e99-8842-e76f1658a371'
 > slug:
 > 	cs: if
-> 	fr: conditions-en-php---if-...---options-de-branchement
+> 	fr: conditions-en-php-if-options-de-branchement
 > 
-> perex: 'Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu.'
+> perex:
+> 	- 'Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu.'
+> 	- 'Conditions, logique booléenne, logique booléenne et options de branchement du script PHP. Évaluation des expressions et opérateurs booléens. Options de pliage de l''expression.'
+> 
 > publicationDate: '2019-11-26 11:55:09'
 > mainCategoryId: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
-> sourceContentHash: '759a244b4fe2dc119c475aee42259578'
+> sourceContentHash: '0d8a00928bcfa899d4e6dbf6c067394e'
 
 **Note : ** Cet article peut être un peu compliqué pour certains débutants car il suppose une compréhension de base de PHP. Si vous êtes intéressé par le fonctionnement des conditions, lisez <a href="/conditions">sur les conditions dans le cours pour débutants</a>.
 
@@ -24,7 +27,7 @@ Description
 Souvent, vous devez déterminer si une égalité se vérifie ou si une déclaration est vraie, c'est à cela que servent les conditions. PHP utilise la syntaxe suivante comme beaucoup d'autres langages (notamment le C) :
 
 ```php
-if (logický výrok) {
+if (/* déclaration logique */) {
     // construire
 }
 ```
@@ -38,7 +41,7 @@ $x = 10;
 $y = 5;
 
 if ($x > $y) {
-    // Cette partie du script sera exécutée si la condition est vraie.
+    // Cette partie du script est exécutée si la condition est vraie.
 } else {
     // Cette partie du script sera exécutée si la condition ne s'applique pas.
 }
@@ -51,7 +54,7 @@ En outre, la condition contient deux blocs de déclaration facultatifs.
 - Si la condition est remplie
 - Si la condition n'est pas remplie
 
-Pour des raisons pratiques, il faut toujours inclure au moins le premier bloc d'instructions lorsque la condition est vérifiée, sinon le test de l'expression n'aurait pas de sens.
+Pour des raisons pratiques, il faut toujours inclure au moins le premier bloc d'instructions lorsque la condition est vraie, sinon le test de l'expression n'aurait pas de sens.
 
 Utilisation des points-virgules et des parenthèses
 --------------------------
@@ -110,7 +113,7 @@ $x = 3;
 > **`2. Colonne et endif;`**
 
 ```php
-if (výraz):
+if (/* expression */):
     konstrukt;
     konstrukt;
     konstrukt;
@@ -127,11 +130,15 @@ Il est parfois utile d'effectuer une simple comparaison en ligne avec une autre 
 
 ```php
 $x = 5;
-$xJeVetsiNezDva = ($x > 2 ? TRUE : FALSE);
+$isBiggerThanTwo = ($x > 2 ? true : false);
 
 // ou encore plus court :
 
-$xJeVetsiNezDva = ($x > 2);
+$isBiggerThanTwo = ($x > 2);
+
+// ou sans parenthèses :
+
+$isBiggerThanTwo = $x > 2;
 ```
 
 Tables d'opérateurs
@@ -197,11 +204,11 @@ $z = 8;
 
 if ($x) { ... }         // passe car $x n'est pas vide
 if ($x && $y) { ... }   // passe car $x et $y ne sont pas vides
-if (!$x) { ... }        // échoue parce que TRUE est nié
+if (!$x) { ... }        // échoue parce que VRAI est nié
 if (isset($z)) { ... }  // passe car la variable $z existe
 ```
 
-Mais des situations délicates peuvent survenir, notamment lorsque.. :
+Mais des situations délicates peuvent survenir, surtout lorsque.. :
 - Je demande `si ($x)` et la variable `$x` contient zéro (`0`), alors la condition n'est pas satisfaite.
 - Ou bien la variable `$x` contient la chaîne ``0`` (le nombre zéro), car elle déborde sur zéro et l'expression n'est donc pas vraie.
 - Il y a une fonction dans la condition qui renvoie toujours une chaîne de caractères non vide, car alors la condition est toujours vraie.

@@ -4,7 +4,7 @@ Condiciones en PHP - IF() {...} - opciones de ramificación
 > id: '3e4b81bb-a8bb-4e99-8842-e76f1658a371'
 > slug:
 > 	cs: if
-> 	es: condiciones-en-php-if-...-opciones-de-ramificacion
+> 	es: condiciones-en-php-if-opciones-de-ramificacion
 > 
 > perex:
 > 	- 'Podmínky, logické výrazy, booleovská logika a možnosti větvení PHP scriptů. Vyhodnocování logických výrazů a operátory. Možnosti skládání výrazu.'
@@ -12,7 +12,7 @@ Condiciones en PHP - IF() {...} - opciones de ramificación
 > 
 > publicationDate: '2019-11-26 11:55:09'
 > mainCategoryId: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
-> sourceContentHash: '759a244b4fe2dc119c475aee42259578'
+> sourceContentHash: '0d8a00928bcfa899d4e6dbf6c067394e'
 
 > Nota: Este artículo puede ser un poco confuso para algunos principiantes, ya que asume una comprensión básica de PHP. Si te interesa saber cómo funcionan las condiciones, lee <a href="/condiciones">sobre las condiciones en el curso para principiantes</a>.
 
@@ -27,7 +27,7 @@ Descripción
 A menudo es necesario determinar si una igualdad se mantiene o si una afirmación es verdadera, para eso están las condiciones. PHP utiliza la siguiente sintaxis como muchos otros lenguajes (especialmente C):
 
 ```php
-if (logický výrok) {
+if (/* declaración lógica */) {
     // construir
 }
 ```
@@ -113,7 +113,7 @@ $x = 3;
 > **`2. Dos puntos y endif;`**
 
 ```php
-if (výraz):
+if (/* expresión */):
     konstrukt;
     konstrukt;
     konstrukt;
@@ -130,11 +130,15 @@ Ocasionalmente es útil hacer una simple comparación en línea con alguna otra 
 
 ```php
 $x = 5;
-$xJeVetsiNezDva = ($x > 2 ? TRUE : FALSE);
+$isBiggerThanTwo = ($x > 2 ? true : false);
 
 // o incluso más corto:
 
-$xJeVetsiNezDva = ($x > 2);
+$isBiggerThanTwo = ($x > 2);
+
+// o sin paréntesis:
+
+$isBiggerThanTwo = $x > 2;
 ```
 
 Tablas de operadores
