@@ -1,0 +1,262 @@
+-
+	id: '02d93aa8-ed83-460a-ab97-4de21118f019'
+	name: 生产服务器管理
+	description: null
+	parentId: b6d0932e-7588-46a4-abb2-7d8f47088168
+
+-
+	id: '0743dd02-12d0-4766-ba42-8fd7e9c4ae8a'
+	name: 从用户那里获得数据
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1'
+	name: 文体和惯例
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '0e39aee9-2818-480c-8081-e0c2d039bb24'
+	name: 变量
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '561b0614-e152-4a62-a634-1f2d605d39d9'
+	name: 康斯坦丁
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: f930abc9-c635-4758-bd88-9749eb262b55
+	name: 一般页面
+	description: 这个类别包含一般的和信息性的网页，可能对网站访问者进一步联系有用。
+	parentId: null
+
+-
+	id: '0eeab3a7-a54b-46db-a253-ca6100145648'
+	name: 文件
+	description: null
+	parentId: null
+
+-
+	id: '17545205-215b-4962-b910-0d67ad1e933a'
+	name: 新版本
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+	name: 算法
+	description: '''
+		算法是解决特定问题的指令。在一个基本的层面上，我们可以把算法看作是一本食谱，因为它相当精确地描述了如何从输入的原料中生产出一道成品菜肴的步骤。
+
+		在编程中，有整个系列的算法，对解决不同类型的问题很有用。但是，如果您正在寻找关于如何解决应用程序整体设计的教程，您需要接触更强大的工具，例如<a href="/category-design-patterns">设计模式</a>。
+	'''
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
+	name: 来自实践的经验
+	description: 自2009年以来，我一直在积累编程和网络开发方面的经验。本节包含我在实践中经历的各种情况的文章和描述。我相信你会发现它们很有用。
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '28a2aef7-7490-43a9-add7-80d8a051f8a9'
+	name: 测试
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '2a1ef8bc-14aa-438a-87e7-5b3f9643f325'
+	name: HTTP
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+	name: 教程
+	description: 本页是作为一个关于如何正确使用 PHP 编程的善意建议的集合而创建的。在10年的编程生涯中，我尝试了许多错误的道路，得出了大量的结论，这些结论都是我花了很长时间才决定的。这个网站主要是为了让你不必这样做，你也不妨好好编程。如果你在寻找定义，请查看文档。
+	parentId: null
+
+-
+	id: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
+	name: 安全问题
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '3e45c55a-a4cd-4745-b1bb-0332702fefbf'
+	name: PHP中的OOP系列
+	description: 这个系列将带领你从最基本的（什么是OOP）到OOP的所有主要特点和好处，再到如何使用OOP的高级方法。我们将使用真实世界的例子演示所有的选项。
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: '4f1d7d70-c5b0-45f1-b1d2-d03c22aa4154'
+	name: 服务器管理
+	description: null
+	parentId: b6d0932e-7588-46a4-abb2-7d8f47088168
+
+-
+	id: '59874540-664b-4474-9869-7e6742ab6051'
+	name: 场地
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '5a538abc-5464-4707-9211-ea86885c80d4'
+	name: 便捷的功能
+	description: PHP包含了大量令人惊讶的各种方便的功能，这些功能尤其受到高级开发者的赞赏。本页提供了一个基本概述和它们的使用实例。
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '5bf11342-01a0-47e1-a6a8-c8c22bf92af9'
+	name: 用变量进行操作
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
+	name: 基本知识
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '818d311a-0f58-4df7-a9a4-da7d21489dd6'
+	name: 理论
+	description: Doctrine是一个优雅的面向对象的数据库（ORM），具有高度的抽象性。要使用Doctrine，你需要知道如何使用面向对象编程。
+	parentId: da2213d4-a5f9-41b3-a8b3-26a6fc240001
+
+-
+	id: '8598ac8d-7a70-4e2a-be9a-9f4f9ecee935'
+	name: 其他
+	description: null
+	parentId: null
+
+-
+	id: '95374429-e651-46bd-9149-15aa716f8207'
+	name: 性能优化
+	description: null
+	parentId: a6176cc1-e734-45c2-be52-70a5019dd9d0
+
+-
+	id: a0143f3c-ac75-46dc-a514-d3c9417ded4e
+	name: API
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: a23332c0-a233-4093-abd7-85b1b00a383b
+	name: 表格
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: a6176cc1-e734-45c2-be52-70a5019dd9d0
+	name: 权力
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: ab12b253-41a0-4bf3-9019-956608d7d534
+	name: 内存管理
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: ae4c1c70-11b3-433e-b1d0-e590155bb8b9
+	name: 设计模式
+	description: '''
+		如果你长期从事编程工作，你也会注意到，许多代码和开发原则都在不断地重复。
+
+		当涉及到封闭式逻辑问题时，解决这些部分的应用可以被称为<a href="/algorithms">算法</a>。但是，你如何以一种更普遍的方式解决应用设计的整体问题，而不仅仅是关注具体的部分？这就是**设计模式**的作用，它描述了软件设计中的架构思想和最佳实践。
+
+		设计模式的目的是将应用程序的大块内容正规化，并设定一些界限，使你能够完成甚至是复杂的应用程序，并将工作委托给许多团队成员。
+	'''
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: b6d0932e-7588-46a4-abb2-7d8f47088168
+	name: 网络服务器
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+	name: PHP中的面向对象编程
+	description: '''
+		面向对象的编程（简称OOP）是一种编程范式，它带来了开发工作的显著简化。
+
+		OOP的主要优点是将代码划分为单独的部分（对象和方法），可以在项目之间轻松转移（抽象和封装），以建立可重复使用的应用程序。OOP还首次引入了新的技术，如继承和多态性。
+
+		该网站的整个部分以广泛的方式描述了OOP开发的好处。你很快就会发现，尽管OOP也有它的问题，但如果你关心代码的可重用性和对你已经写好的应用程序的长期支持，它实际上是构建东西的最佳方法。
+	'''
+	parentId: null
+
+-
+	id: c2134b23-9b10-46b3-aa54-e3996707255e
+	name: 数学
+	description: '因为编程和数学的关系非常密切，我在学习期间非常注重数学。除了一些有价值的文章外，我还写了一整个<a href="https://github.com/mathematicator-core">数学框架</a>，用于解决各种类型的问题。整个网站的这一部分描述了各种有趣的思想、想法、设计模式和在PHP中使用数学的方法。'
+	parentId: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+
+-
+	id: '367f936c-073f-44bd-b399-30738e93137a'
+	name: 互联网搜索引擎的算法
+	description: 每秒钟都有500万个新网页被添加到互联网上，而且这个速度还在不断增加。这个系列将描述搜索信息的方法。
+	parentId: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+
+-
+	id: c241de47-8e01-4d93-bebd-db71ada44cc3
+	name: 问题介绍
+	description: null
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: c5cec8c4-2a75-4f51-87c7-4d3acac0616f
+	name: 与文件一起工作
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: da2213d4-a5f9-41b3-a8b3-26a6fc240001
+	name: 数据库
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: e45491db-b548-471d-97b4-3e23610c5da9
+	name: 数据结构
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: f1b0be9b-de09-4c8a-8338-dc285bed95ec
+	name: 链条的处理
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
+	name: 技巧和窍门
+	description: 在超过10年的发展中，我收集了许多有趣的简单和高级问题的解决方案。该网站的这一部分描述了其优雅解决方案的可能性。
+	parentId: null
+
+-
+	id: f4a34087-1b51-4761-8128-4459dfe83d8a
+	name: 初学者的PHP在线课程
+	description: null
+	parentId: null
+
+-
+	id: f611e5d3-ed7b-4fe9-84ca-9271fc2bd2e3
+	name: 职能
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+	name: 数据处理
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
