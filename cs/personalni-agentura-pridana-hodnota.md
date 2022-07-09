@@ -4,7 +4,7 @@ Jakou má personální agentura přidanou hodnotu pro byznys IT zákazníka?
 > id: "2a40bf73-bd33-4db7-abcf-f45f3a807656"
 > slug:
 >   cs: personalni-agentura-pridana-hodnota
-> 
+>
 > publicationDate: "2022-07-09 17:30:00"
 > mainCategoryId: "483db7b7-5699-41fb-ba0b-d2b653bacd1f"
 
@@ -16,7 +16,7 @@ Já osobně jsem jednou takovou personální agenturou prošel. Seznámil jsem s
 
 Následující texty psala přímo Anna Lišková, která mě celým procesem hledání a získání práce provázela.
 
-Mé začátky v recruitmentu:
+Mé začátky v recruitmentu
 -------------------------
 
 K práci recruitera jsem se dostala opravdu náhodou. Hledala jsem částečný úvazek ke škole, byla jsem si jistá tím, že mou nejsilnější zbraní je komunikativnost a empatie. Poslala jsem proto svůj životopis do 2 personálních agentur. Neměla jsem žádné zkušenosti v oboru, nečekaně mi tedy odepsala jen jedna. Začátky „učení“ veškerých technologií, frameworků a zkratek byl křest ohněm. Pamatuji si to, jakoby to bylo včera. Mou první pozicí, kterou jsem obsazovala, byl C# developer - v mém podání hashtag developer - ale zvládla jsem to! A to za pomoci kolegů a bezpochyby kandidátů, kteří byli shovívaví a především mě mnoho naučili. Stále se mám co učit, ale každý to známe. Začátky jsou náročné v každém odvětví a vždy je prostor pro posun.
@@ -37,7 +37,7 @@ V okamžiku, kdy nalezneme vhodného kandidáta, probíhá tzv. prescreeningový
 Proč hledat práci přes agenturu?
 --------------------------------
 
-- Jednoduše, ušetříme Vám spoustu času a nervy 😊 Nemluvě o podpoře během hiringu.
+- Jednoduše, ušetříme Vám spoustu času a nervy, a to nemluvě o podpoře během hiringu.
 - Klienta urgujeme, aby poslal co nejdříve zpětnou vazbu, která bude hodnotná a kandidát si z toho něco odnesl – nejen strohá odpověď. Zpětnou vazbu navíc často doplníme o další zákulisní informace, které byste jinak nezískali, což vám pomůže získat nejlepší možnou nabídku na dané pozici.
 - Obsazujeme pracovní místa i do společností, které nemají aktivní inzertní nábor. Máme přehled o nabídkách, a v případě, že nedopadne pohovor u jednoho klienta, existují i další možnosti/ varianty, a snažíme se co nejdříve najít jinou vhodnou pozici, která bude kandidáta dlouhodobě naplňovat. Častokrát dokážeme vyjednat lepší podmínky, než kdybyste se přihlásili sami na inzerát.
 - Mimo pracovní nabídky poskytujeme kandidátům i konzultaci o aktuálním stavu na trhu. Mnoho kandidátů se během aktuální situace bálo změnit zaměstnavatele – dvouměsíční zkušební doba pro ně byla risk. Avšak dokážeme kandidáty ujistit, že klient je stabilní (to platí pro IT obory obzvlášť!) a nehrozí mu tak téměř žádná rizika při změně zaměstnavatele.
@@ -47,4 +47,3 @@ Na čem si opravdu zakládáme, je, že nástupem kandidáta pro nás vztah s ka
 Avšak nerada bych z nás dělala superhrdiny. Jak se říká, nikdo není dokonalý, my to víme a naše nedokonalosti zlepšujeme a aktivně řešíme, pomáhají nám v tom různé vzdělávací programy a jiné. I já sama udělala mnoho chyb - některé byly úsměvné, jiné náročnější na nápravu.
 
 Ať se to třeba nezdá, tato práce je vcelku psychicky náročná. Od některých kandidátů je cítit negativní energie, a na nás je, je přesvědčit, že nejsme tuctovou agenturou, která "náhodně" volá už třicátému kandidátovi z databáze v pořadí. Ale vždy mám radost, když sám kandidát "přepne" a uzná, že opravdu volám vybraně jemu. Většina našich telefonátů, jsou ale již domluvená. Nejsme přece jen call centrum.
-
