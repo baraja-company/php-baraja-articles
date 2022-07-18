@@ -117,3 +117,16 @@ Důvod je ten, že funkce `md5()` je extrémně rychlá a na běžné počítač
 Druhý důvod je spíše teorie, a to možnost narazit na tzv. kolizi. Pokud budeme heslo opakovaně hashovat, časem se může stát, že se trefíme do hashe, který už útočník zná a díky tomu bude moci heslo promolit pomocí databáze.
 
 Lepší je proto použít pomalou bezpečnou hashovací funkci a provádět hashování pouze jednou, přičemž se finální výstup ještě ošetří solením.
+
+Mimořádně bezpečné porovnávání dvou hashů / řetězců
+---------------------------------------------------
+
+Věděli jste, že operátor === není pro porovnání hashů při ověřování hesla nejbezpečnější volba?
+
+Při porovnávání řetězců se prochází oba řetězce znak po znaku, dokud se nedojde na konec (úspěch, jsou stejné), nebo nenastane rozdíl (stringy jsou různé).
+
+A toho se dá při útoku využít. Když budete dostatečně přesně měřit čas, lze odhadnout, kolik znaků ještě zbývá doplnit, abyste měli přesnou shodu a došlo se na konec, resp. lze odhadnout, jak daleko se při porovnání řetězců došlo.
+
+Řešením je použít funkci hash_equals() všude, kde se porovnávají řetězce a vadilo by, kdyby útočník mohl zjistit pozici, kde porovnání selhalo.
+
+A jak to funkce dělá? Zajistí, aby porovnání libovolných 2 řetězců trvalo vždy stejně, takže nelze měřením času zjistit, kde došlo k rozdílu. Některé typy útoků mi přijdou opravdu velmi nepravděpodobné a těžko proveditelné. Tohle zrovna patří mezi ně.
