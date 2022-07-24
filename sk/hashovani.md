@@ -6,10 +6,13 @@ Hashovanie reťazcov a hesiel
 > 	cs: hashovani
 > 	sk: hashovanie-retazcov-a-hesiel
 > 
-> perex: 'Hash není šifra! Metody hashování dat a hesel. MD5, SHA1, Bcrypt. Ověření hesla.'
+> perex:
+> 	- 'Hash není šifra! Metody hashování dat a hesel. MD5, SHA1, Bcrypt. Ověření hesla.'
+> 	- 'Hash nie je šifra! Metódy hašovania údajov a hesiel. MD5, SHA1, Bcrypt. Overenie hesla.'
+> 
 > publicationDate: '2019-09-11 10:13:30'
 > mainCategoryId: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
-> sourceContentHash: '5d1e289fd93e18ad73eb23ee1bbba8ee'
+> sourceContentHash: f6ea0b06d6ace3c41684a49938f7ce8e
 
 Proces hašovania (na rozdiel od šifrovania) vytvára zo vstupu výstup, z ktorého už nemožno odvodiť pôvodný reťazec.
 
@@ -30,16 +33,16 @@ Hashing
 -----------
 
 ```php
-$password = 'secret-password';
+$password = 'tajné heslo';
 
 echo password_hash($password); // Bcrypt
 echo md5($password);
 echo sha1($password);
 ```
 
-> **Varning:** Ani `md5()`, ani `sha1()` nie sú vhodné na hashovanie hesiel, pretože je výpočtovo jednoduché zistiť pôvodné heslo alebo aspoň vopred vypočítať heslá. Oveľa lepšie je použiť `bcrypt`, ktorý bol vyvinutý na hashovanie hesiel.
+> **Varning:** Ani `md5()`, ani `sha1()` nie sú vhodné na hashovanie hesiel, pretože je výpočtovo jednoduché zistiť pôvodné heslo alebo aspoň vopred vypočítať heslá. Oveľa lepšie je použiť `bcrypt`, ktorý bol vytvorený na hashovanie hesiel.
 >
-> Webová stránka <a href="https://www.md5cracker.com/">md5cracker.com</a> obsahuje databázu kontrolných súčtov (hashov), skúste vyhľadať hash: `79c2b46ce2594ecbcb5b73e928345492`, ako môžete vidieť, takže čistý `md5()` nie je pre bežné slová a heslá až taký bezpečný.
+> Webová stránka <a href="https://www.md5cracker.com/">md5cracker.com</a> má databázu kontrolných súm (hashov), skúste vyhľadať hash: `79c2b46ce2594ecbcb5b73e928345492`, ako vidíte, takže čistý `md5()` nie je pre bežné slová a heslá až taký bezpečný.
 
 Jediné správne riešenie: `Bcrypt + soľ`
 --------------------------------------
@@ -57,7 +60,7 @@ $password = 'hash';
 echo password_hash($password, PASSWORD_BCRYPT);
 
 // Alternatívne s vyššou zložitosťou (predvolená hodnota je 10):
-echo password_hash($password, PASSWORD_BCRYPT, ["náklady => 12]);
+echo password_hash($password, PASSWORD_BCRYPT, ['náklady' => 12]);
 ```
 
 Výhodou systému Bcryp je najmä jeho rýchlosť a automatické solenie.
@@ -86,8 +89,8 @@ Zabezpečenie je založené na myšlienke, že útočník nebude môcť použiť
 Napríklad:
 
 ```php
-$password = 'secret_password';
-$salt = 'fghjgtzjjhg';
+$password = 'secret_passport';
+$salt = 'fghjgtzjhg';
 
 $hash = md5($password . $salt);
 
@@ -119,3 +122,16 @@ Dôvodom je, že funkcia `md5()` je extrémne rýchla a na bežnom počítači d
 Druhý dôvod je skôr teoretický, a to možnosť, že dôjde k tzv. kolízii. Ak heslo hashujeme opakovane, môže sa stať, že časom narazíme na hash, ktorý útočník už pozná, a to mu umožní hashovať heslo pomocou databázy.
 
 Preto je lepšie použiť pomalú bezpečnú hašovaciu funkciu a vykonať hašovanie iba raz, pričom konečný výstup sa stále ošetruje solením.
+
+Extrémne bezpečné porovnanie dvoch hashov/reťazcov
+---------------------------------------------------
+
+Vedeli ste, že operátor === nie je najbezpečnejšou voľbou pre porovnávanie hash pri overovaní hesiel?
+
+Pri porovnávaní reťazcov sa oba reťazce prechádzajú znak po znaku, až kým sa nedosiahne koniec (úspech, sú rovnaké) alebo sa nezistí rozdiel (reťazce sú rozdielne).
+
+A to sa dá využiť pri útoku. Ak meriate čas dostatočne presne, môžete odhadnúť, koľko znakov ešte zostáva pridať, aby ste dosiahli presnú zhodu a dosiahli koniec, alebo môžete pri porovnávaní reťazcov odhadnúť, ako ďaleko sa reťazce dostali.
+
+Riešením je použitie funkcie hash_equals() všade tam, kde sa porovnávajú reťazce, pričom by záležalo na tom, či by útočník mohol zistiť pozíciu, kde porovnanie zlyhalo.
+
+A ako to funkcia robí? Zabezpečuje, aby porovnanie ľubovoľných 2 reťazcov trvalo vždy rovnako dlho, takže meraním času nemôžete zistiť, kde vznikol rozdiel. Niektoré typy útokov považujem za naozaj veľmi nepravdepodobné a ťažko realizovateľné. Toto je jeden z nich.

@@ -6,10 +6,13 @@ Hachage de chaînes de caractères et de mots de passe
 > 	cs: hashovani
 > 	fr: hachage-de-chaines-de-caracteres-et-de-mots-de-passe
 > 
-> perex: 'Hash není šifra! Metody hashování dat a hesel. MD5, SHA1, Bcrypt. Ověření hesla.'
+> perex:
+> 	- 'Hash není šifra! Metody hashování dat a hesel. MD5, SHA1, Bcrypt. Ověření hesla.'
+> 	- 'Le hachage n''est pas un chiffrement ! Méthodes de hachage des données et des mots de passe. MD5, SHA1, Bcrypt. Vérification du mot de passe.'
+> 
 > publicationDate: '2019-09-11 10:13:30'
 > mainCategoryId: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
-> sourceContentHash: '5d1e289fd93e18ad73eb23ee1bbba8ee'
+> sourceContentHash: f6ea0b06d6ace3c41684a49938f7ce8e
 
 Le processus de hachage (par opposition au cryptage) produit une sortie à partir de l'entrée, à partir de laquelle la chaîne originale ne peut plus être dérivée.
 
@@ -37,9 +40,9 @@ echo md5($password);
 echo sha1($password);
 ```
 
-**Avertissement:** Ni `md5()` ni `sha1()` ne conviennent pour le hachage de mots de passe, car il est facile de découvrir le mot de passe original, ou du moins de précalculer les mots de passe. Il est bien mieux d'utiliser `bcrypt`, qui a été créé pour le hachage de mots de passe.
+**Avertissement:** Ni `md5()` ni `sha1()` ne conviennent pour le hachage de mots de passe, car il est facile de découvrir le mot de passe original, ou du moins de précalculer les mots de passe. Il est bien mieux d'utiliser `bcrypt`, qui a été développé pour le hachage de mots de passe.
 >
-> Le site web <a href="https://www.md5cracker.com/">md5cracker.com</a> contient une base de données de sommes de contrôle (hashs), essayez de rechercher le hash : `79c2b46ce2594ecbcb5b73e928345492`, comme vous pouvez le voir, le `md5()` pur n'est donc pas si sûr pour les mots courants et les mots de passe.
+> Le site <a href="https://www.md5cracker.com/">md5cracker.com</a> possède une base de données de sommes de contrôle (hashs), essayez de rechercher le hash : `79c2b46ce2594ecbcb5b73e928345492`, comme vous pouvez le voir, le `md5()` pur n'est donc pas si sûr pour les mots et mots de passe courants.
 
 La seule solution correcte : `Bcrypt + salt`.
 --------------------------------------
@@ -60,7 +63,7 @@ echo password_hash($password, PASSWORD_BCRYPT);
 echo password_hash($password, PASSWORD_BCRYPT, ['coût' => 12]);
 ```
 
-L'avantage de la Bcryp réside principalement dans sa rapidité et son salage automatique.
+L'avantage du Bcryp réside principalement dans sa rapidité et son salage automatique.
 
 Le fait qu'il soit **long** à générer, disons 100 ms, fait qu'il est très coûteux pour un attaquant de tester de nombreux mots de passe.
 
@@ -118,4 +121,17 @@ La raison en est que la fonction `md5()` est extrêmement rapide et peut calcule
 
 La deuxième raison relève davantage de la théorie, à savoir la possibilité de se heurter à une soi-disant collision. Si nous hachons un mot de passe à plusieurs reprises, il se peut qu'au fil du temps nous tombions sur un hachage que l'attaquant connaît déjà, ce qui lui permettra de hacher le mot de passe en utilisant la base de données.
 
-Par conséquent, il est préférable d'utiliser une fonction de hachage lente et sûre et de n'effectuer le hachage qu'une seule fois, tout en continuant à traiter la sortie finale par salage.
+Par conséquent, il est préférable d'utiliser une fonction de hachage sécurisée lente et de n'effectuer le hachage qu'une seule fois, tout en continuant à traiter la sortie finale par salage.
+
+Comparaison extrêmement sûre de deux hachages/chaînes de caractères
+---------------------------------------------------
+
+Saviez-vous que l'opérateur === n'est pas le choix le plus sûr pour la comparaison de hachages dans la vérification de mots de passe ?
+
+Lorsqu'il compare des chaînes de caractères, il parcourt les deux chaînes caractère par caractère jusqu'à ce qu'il arrive à la fin (succès, elles sont identiques) ou qu'il n'y ait pas de différence (les chaînes sont différentes).
+
+Et cela peut être exploité lors d'une attaque. Si vous mesurez le temps avec suffisamment de précision, vous pouvez estimer combien de caractères il reste à ajouter pour obtenir une correspondance exacte et atteindre la fin, ou vous pouvez estimer le chemin parcouru par les chaînes de caractères lorsque vous les comparez.
+
+La solution consiste à utiliser la fonction hash_equals() chaque fois que des chaînes de caractères sont comparées, et il serait important qu'un attaquant puisse trouver la position où la comparaison a échoué.
+
+Et comment la fonction fait-elle cela ? Il s'assure que la comparaison de deux cordes prend toujours le même temps, de sorte que vous ne pouvez pas savoir en mesurant le temps où la différence s'est produite. Je trouve certains types d'attaques vraiment très improbables et difficiles à mettre en œuvre. C'est l'un d'entre eux.

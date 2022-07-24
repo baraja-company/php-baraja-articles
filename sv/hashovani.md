@@ -12,13 +12,13 @@ Hashing av strängar och lösenord
 > 
 > publicationDate: '2019-09-11 10:13:30'
 > mainCategoryId: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
-> sourceContentHash: '5d1e289fd93e18ad73eb23ee1bbba8ee'
+> sourceContentHash: f6ea0b06d6ace3c41684a49938f7ce8e
 
 Hashingprocessen (till skillnad från kryptering) producerar en utgång från indata från vilken den ursprungliga strängen inte längre kan härledas.
 
 Den är därför väl lämpad för att skydda känsliga strängar, lösenord och kontrollsummor.
 
-En annan trevlig egenskap hos hashfunktioner är att de alltid genererar utdata av samma längd, och en liten förändring i indata ändrar alltid hela utdata fullständigt.
+En annan trevlig egenskap hos hashfunktioner är att de alltid genererar utdata av samma längd, och en liten förändring i indata ändrar alltid hela utdata.
 
 Hashing-funktioner
 ----------------
@@ -42,7 +42,7 @@ echo sha1($password);
 
 > **Varning:** Varken `md5()` eller `sha1()` är lämpliga för hashning av lösenord, eftersom det är lätt att ta reda på det ursprungliga lösenordet, eller åtminstone att förberäkna lösenorden. Det är mycket bättre att använda `bcrypt`, som utvecklades för hashning av lösenord.
 >
-> Webbplatsen <a href="https://www.md5cracker.com/">md5cracker.com</a> innehåller en databas med kontrollsummor (hash), prova att söka efter hash: `79c2b46ce2594ecbcbcb5b73e928345492`, som du kan se, så ren `md5()` är inte så säker för vanliga ord och lösenord.
+> Webbplatsen <a href="https://www.md5cracker.com/">md5cracker.com</a> har en databas med kontrollsummor (hash), prova att söka efter hash: `79c2b46ce2594ecbcbcb5b73e928345492`, som du kan se är ren `md5()` inte så säker för vanliga ord och lösenord.
 
 Den enda korrekta lösningen: `Bcrypt + salt`.
 --------------------------------------
@@ -63,7 +63,7 @@ echo password_hash($password, PASSWORD_BCRYPT);
 echo password_hash($password, PASSWORD_BCRYPT, ['kostnad' => 12]);
 ```
 
-Fördelen med Bcrip är främst dess hastighet och automatiska saltning.
+Fördelen med Bcryp är främst dess hastighet och automatiska saltning.
 
 Det faktum att det tar **lång** tid att generera, till exempel 100 ms, gör det mycket dyrt för en angripare att testa många lösenord.
 
@@ -82,7 +82,7 @@ if (password_verify($password, $hash)) {
 Saltning av lösenord
 ------------
 
-För att göra det svårare att knäcka hashkoder är det en bra idé att infoga ytterligare en sträng i den ursprungliga inmatningen. Helst en slumpmässig. Denna process kallas **password salting**.
+För att göra det svårare att knäcka en hash är det en bra idé att lägga in ytterligare en sträng i den ursprungliga inmatningen. Helst en slumpmässig. Denna process kallas **password salting**.
 
 Säkerheten bygger på idén att en angripare inte kan använda en förberäknad tabell med lösenord och hash-koder, eftersom han inte känner till saltet och måste knäcka lösenorden individuellt.
 
@@ -122,3 +122,16 @@ Anledningen är att funktionen `md5()` är extremt snabb och kan beräkna över 
 Det andra skälet är mer en teori, nämligen risken för att stöta på en så kallad kollision. Om vi hashar ett lösenord upprepade gånger kan det med tiden hända att vi hittar en hash som angriparen redan känner till, vilket gör att han kan hasha lösenordet med hjälp av databasen.
 
 Därför är det bättre att använda en långsam och säker hashfunktion och utföra hashningen endast en gång, samtidigt som den slutliga utgången behandlas med saltning.
+
+Extremt säker jämförelse av två hashes/strängar
+---------------------------------------------------
+
+Visste du att operatorn === inte är det säkraste valet för hash-jämförelse vid lösenordskontroll?
+
+När strängar jämförs går den igenom de två strängarna tecken för tecken tills den når slutet (framgång, de är samma) eller det inte finns någon skillnad (strängarna är olika).
+
+Detta kan utnyttjas i en attack. Om du mäter tiden tillräckligt noggrant kan du uppskatta hur många tecken som återstår att lägga till för att få en exakt matchning och nå slutet, eller så kan du uppskatta hur långt strängarna har kommit när du jämför strängar.
+
+Lösningen är att använda funktionen hash_equals() när strängar jämförs, och det skulle spela roll om en angripare kunde ta reda på var jämförelsen misslyckades.
+
+Och hur gör funktionen detta? Den ser till att jämförelsen av två strängar alltid tar lika lång tid, så att du inte kan se genom att mäta tiden var skillnaden uppstått. Jag anser att vissa typer av attacker är mycket osannolika och svåra att genomföra. Detta är en av dem.

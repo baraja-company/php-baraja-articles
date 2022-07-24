@@ -12,7 +12,7 @@ Hashing von Zeichenketten und Passwörtern
 > 
 > publicationDate: '2019-09-11 10:13:30'
 > mainCategoryId: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
-> sourceContentHash: '5d1e289fd93e18ad73eb23ee1bbba8ee'
+> sourceContentHash: f6ea0b06d6ace3c41684a49938f7ce8e
 
 Das Hashing-Verfahren (im Gegensatz zur Verschlüsselung) erzeugt aus der Eingabe eine Ausgabe, aus der die ursprüngliche Zeichenfolge nicht mehr abgeleitet werden kann.
 
@@ -47,7 +47,7 @@ echo sha1($password);
 Die einzig richtige Lösung: "Bcrypt + salt".
 --------------------------------------
 
-In dem Vortrag <a href="https://www.youtube.com/watch?v=F58_A5TM-Sc">Wie man es in der Zielebene nicht vermasselt</a> sprach David Grudl über Möglichkeiten, Passwörter richtig zu hacken und zu speichern.
+In dem Vortrag <a href="https://www.youtube.com/watch?v=F58_A5TM-Sc">Wie man es in der Zielebene nicht vermasselt</a> sprach David Grudl über Möglichkeiten, Passwörter korrekt zu hacken und zu speichern.
 
 Die einzig richtige Lösung ist: "Bcrypt + Salt".
 
@@ -84,7 +84,7 @@ Passwort-Saling
 
 Um das Knacken von Hashes zu erschweren, ist es eine gute Idee, eine zusätzliche Zeichenfolge in die ursprüngliche Eingabe einzufügen. Idealerweise eine zufällige. Dieser Vorgang wird **Passwortsalzen** genannt.
 
-Die Sicherheit basiert auf der Idee, dass ein Angreifer nicht in der Lage sein wird, eine vorberechnete Tabelle von Passwörtern und Hashes zu verwenden, da er das Salt nicht kennt und die Passwörter einzeln knacken muss.
+Die Sicherheit basiert auf der Idee, dass ein Angreifer nicht in der Lage sein wird, eine vorberechnete Tabelle von Passwörtern und Hashes zu verwenden, da er den Salt nicht kennt und die Passwörter einzeln knacken muss.
 
 Zum Beispiel:
 
@@ -119,6 +119,19 @@ Paradoxerweise ist die Schwierigkeit des Durchbruchs geringer oder bleibt fast g
 
 Der Grund dafür ist, dass die Funktion `md5()` extrem schnell ist und auf einem normalen Computer mehr als eine Million Hashes pro Sekunde berechnen kann, so dass das Ausprobieren eines Kennworts nach dem anderen nicht viel langsamer ist.
 
-Der zweite Grund ist eher eine Theorie, nämlich die Möglichkeit einer so genannten Kollision. Wenn wir ein Kennwort wiederholt hashen, kann es passieren, dass wir auf einen Hash stoßen, den der Angreifer bereits kennt, und der es ihm ermöglicht, das Kennwort mithilfe der Datenbank zu hashen.
+Der zweite Grund ist eher eine Theorie, nämlich die Möglichkeit einer so genannten Kollision. Wenn wir ein Kennwort wiederholt hashen, kann es passieren, dass wir auf einen Hash stoßen, den der Angreifer bereits kennt und der es ihm ermöglicht, das Kennwort mithilfe der Datenbank zu hashen.
 
 Daher ist es besser, eine langsame, sichere Hashing-Funktion zu verwenden und das Hashing nur einmal durchzuführen, während die endgültige Ausgabe weiterhin mit Salting behandelt wird.
+
+Extrem sicherer Vergleich von zwei Hashes/Strings
+---------------------------------------------------
+
+Wussten Sie, dass der Operator === nicht die sicherste Wahl für den Hash-Vergleich bei der Kennwortüberprüfung ist?
+
+Beim Vergleich von Zeichenketten werden die beiden Zeichenketten Zeichen für Zeichen durchlaufen, bis das Ende erreicht ist (Erfolg, sie sind gleich) oder es keinen Unterschied gibt (die Zeichenketten sind unterschiedlich).
+
+Und das kann bei einem Angriff ausgenutzt werden. Wenn Sie die Zeit genau genug messen, können Sie abschätzen, wie viele Zeichen noch hinzugefügt werden müssen, um eine exakte Übereinstimmung zu erzielen und das Ende zu erreichen, oder Sie können abschätzen, wie weit die Zeichenfolgen beim Vergleich der Zeichenfolgen gekommen sind.
+
+Die Lösung besteht darin, die Funktion hash_equals() überall dort zu verwenden, wo Zeichenketten verglichen werden, und es wäre von Bedeutung, wenn ein Angreifer die Position herausfinden könnte, an der der Vergleich fehlgeschlagen ist.
+
+Und wie macht die Funktion das? Es stellt sicher, dass der Vergleich von 2 beliebigen Zeichenketten immer die gleiche Zeit in Anspruch nimmt, so dass man durch Messung der Zeit nicht feststellen kann, wo der Unterschied aufgetreten ist. Ich finde einige Arten von Angriffen wirklich sehr unwahrscheinlich und schwer umzusetzen. Dies ist einer von ihnen.

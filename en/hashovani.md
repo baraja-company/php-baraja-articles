@@ -6,10 +6,13 @@ Hashing strings and passwords
 > 	cs: hashovani
 > 	en: hashing-strings-and-passwords
 > 
-> perex: 'Hash není šifra! Metody hashování dat a hesel. MD5, SHA1, Bcrypt. Ověření hesla.'
+> perex:
+> 	- 'Hash není šifra! Metody hashování dat a hesel. MD5, SHA1, Bcrypt. Ověření hesla.'
+> 	- 'Hash is not a cipher! Methods of hashing data and passwords. MD5, SHA1, Bcrypt. Password verification.'
+> 
 > publicationDate: '2019-09-11 10:13:30'
 > mainCategoryId: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
-> sourceContentHash: '5d1e289fd93e18ad73eb23ee1bbba8ee'
+> sourceContentHash: f6ea0b06d6ace3c41684a49938f7ce8e
 
 The hashing process (as opposed to encryption) produces an output from the input from which the original string can no longer be derived.
 
@@ -37,14 +40,14 @@ echo md5($password);
 echo sha1($password);
 ```
 
-> **Warning:** Neither `md5()` nor `sha1()` is suitable for hashing passwords because it is computationally easy to crack the original password, or at least precompute the passwords. It is much better to use `bcrypt`, which was created for password hashing.
+> **Warning:** Neither `md5()` nor `sha1()` is suitable for password hashing, because it is computationally easy to discover the original password, or at least to precompute the passwords. It is much better to use `bcrypt`, which was developed for password hashing.
 >
-> The website <a href="https://www.md5cracker.com/">md5cracker.com</a> contains a database of checksums (hashes), try searching for hash: `79c2b46ce2594ecbcb5b73e928345492`, as you can see, so pure `md5()` is not that secure for common words and passwords.
+> The <a href="https://www.md5cracker.com/">md5cracker.com</a> website has a database of checksums (hashes), try searching for hash: `79c2b46ce2594ecbcb5b73e928345492`, as you can see, so pure `md5()` is not that secure for common words and passwords.
 
 The only correct solution: `Bcrypt + salt`
 --------------------------------------
 
-In the talk <a href="https://www.youtube.com/watch?v=F58_A5TM-Sc">How not to mess up in the target plane</a>, David Grudl addressed ways to properly hash and store passwords.
+In the talk <a href="https://www.youtube.com/watch?v=F58_A5TM-Sc">How not to mess up in the target plane</a>, David Grudl addressed ways to hash and store passwords correctly.
 
 The only correct solution is: `Bcrypt + salt`.
 
@@ -56,11 +59,11 @@ $password = 'hash';
 // Generates a secure hash
 echo password_hash($password, PASSWORD_BCRYPT);
 
-// Alternatively, with a higher complexity (default is 10):
+// Alternatively with higher complexity (default is 10):
 echo password_hash($password, PASSWORD_BCRYPT, ['cost' => 12]);
 ```
 
-The advantage of Bcryp is mainly in its speed and automatic salting.
+The advantage of Bcrip is mainly in its speed and automatic salting.
 
 The fact that it takes **long** to generate, say 100 ms, makes it very expensive for an attacker to test many passwords.
 
@@ -70,7 +73,7 @@ Therefore, we will not be able to verify the correctness of the password by repe
 
 ```php
 if (password_verify($password, $hash)) {
-    // The password is correct
+    // Password is correct
 } else {
     // Password is incorrect
 }
@@ -86,13 +89,13 @@ The security is based on the idea that an attacker will not be able to use a pre
 For example:
 
 ```php
-$password = 'secret_password';
-$salt = 'fghjgtzjjhg';
+$password = 'secret_passport';
+$salt = 'fghjgtzjhg';
 
 $hash = md5($password . $salt);
 
 echo $password; // prints the original password
-echo $hash; // print password hash including salt
+echo $hash;     // prints password hash including salt
 ```
 
 Compound hash functions
@@ -109,13 +112,26 @@ for ($i = 0; $i <= 1000; $i++) {
     $password = md5($password);
 }
 
-echo $password; // hashed 1000 times via md5()
+echo $password; // 1000x hashed via md5()
 ```
 
-This procedure paradoxically reduces the difficulty of cracking, or stays almost the same.
+Paradoxically, the difficulty of breaking through is reduced or remains almost the same.
 
-The reason is that the `md5()` function is extremely fast and can compute over a million hashes per second on a regular computer, so trying passwords one by one doesn't slow down much.
+The reason is that the `md5()` function is extremely fast and can compute over a million hashes per second on a regular computer, so trying passwords one by one does not slow down much.
 
 The second reason is more of a theory, namely the possibility of running into a so-called collision. If we hash a password repeatedly, over time it may happen that we hit a hash that the attacker already knows, and this will allow him to hash the password using the database.
 
 Therefore, it is better to use a slow secure hashing function and perform the hashing only once, while still treating the final output with salting.
+
+Extremely secure comparison of two hashes/strings
+---------------------------------------------------
+
+Did you know that the === operator is not the most secure choice for hash comparison in password verification?
+
+When comparing strings, it goes through the two strings character by character until it reaches the end (success, they are the same) or there is no difference (the strings are different).
+
+And this can be exploited in an attack. If you measure the time accurately enough, you can estimate how many more characters are left to be added to get an exact match and reach the end, or you can estimate how far the strings have come when comparing strings.
+
+The solution is to use the hash_equals() function wherever strings are compared, and it would matter if an attacker could find out the position where the comparison failed.
+
+And how does the function do this? It makes sure that the comparison of any 2 strings always takes the same amount of time, so you can't tell by measuring the time where the difference occurred. I find some types of attacks really very unlikely and hard to implement. This is one of them.

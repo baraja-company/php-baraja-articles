@@ -12,7 +12,7 @@ Cadenas y contraseñas de Hashing
 > 
 > publicationDate: '2019-09-11 10:13:30'
 > mainCategoryId: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
-> sourceContentHash: '5d1e289fd93e18ad73eb23ee1bbba8ee'
+> sourceContentHash: f6ea0b06d6ace3c41684a49938f7ce8e
 
 El proceso de hashing (a diferencia de la encriptación) produce una salida a partir de la entrada de la que ya no se puede derivar la cadena original.
 
@@ -122,3 +122,16 @@ La razón es que la función `md5()` es extremadamente rápida y puede calcular 
 La segunda razón es más bien una teoría, a saber, la posibilidad de encontrarse con una supuesta colisión. Si hacemos un hash de una contraseña repetidamente, con el tiempo puede ocurrir que demos con un hash que el atacante ya conoce, y esto le permitirá hacer un hash de la contraseña utilizando la base de datos.
 
 Por lo tanto, es mejor utilizar una función de hashing segura y lenta y realizar el hashing una sola vez, sin dejar de tratar la salida final con salting.
+
+Comparación extremadamente segura de dos hashes/cadenas
+---------------------------------------------------
+
+¿Sabías que el operador === no es la opción más segura para la comparación de hash en la verificación de contraseñas?
+
+Al comparar cadenas, se recorren las dos cadenas carácter por carácter hasta llegar al final (éxito, son iguales) o hay una diferencia (las cadenas son diferentes).
+
+Y esto puede ser explotado en un ataque. Si se mide el tiempo con suficiente precisión, se puede estimar cuántos caracteres más quedan por añadir para conseguir una coincidencia exacta y llegar al final, o se puede estimar hasta dónde han llegado las cadenas al compararlas.
+
+La solución es utilizar la función hash_equals() en todos los casos en que se comparan las cadenas, y sería importante si un atacante pudiera averiguar la posición en la que falló la comparación.
+
+¿Y cómo lo hace la función? Se asegura de que la comparación de 2 cadenas cualesquiera siempre lleva la misma cantidad de tiempo, por lo que no se puede saber midiendo el tiempo dónde se ha producido la diferencia. Algunos tipos de ataques me parecen realmente muy improbables y difíciles de aplicar. Este es uno de ellos.
