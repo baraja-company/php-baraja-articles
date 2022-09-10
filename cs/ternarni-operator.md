@@ -44,7 +44,7 @@ echo 'Je ' . ($a > $b ? 'větší' : 'menší');
 Obecně se ternární operátor zapisuje za pomoci 3 částí (proto se jmenuje "ternární"):
 
 ```php
-(podmínka ? pokud je pravda : pokud není pravda)
+(condition ? 'yes' : 'no')
 ```
 
 Ternární operátory se v praxi používají opravdu často, třeba k označení sudých řádků v tabulce:
@@ -85,7 +85,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ? funkce($a, $b) : $default;
+$c = my_function($a, $b) ? my_function($a, $b) : $default;
 ```
 
 Tento způsob volání je velice neefektivní vzhledem k systémovým prostředkům. Nejprve se totiž musí funkce zavolat, a pokud existuje, tak se volá znovu, pro získání hodnoty, která se uloží do proměnné `$c`.
@@ -95,10 +95,10 @@ To by šlo lépe vyřešit přes pomocnou proměnnou:
 ```php
 $a = 5;
 $b = 3;
-$pomocnaPromenna = funkce($a, $b);
+$helper = my_function($a, $b);
 $default = 42;
 
-$c = $pomocnaPromenna ? $pomocnaPromenna : $default;
+$c = $helper ? $helper : $default;
 ```
 
 Nevhodné použití
@@ -146,7 +146,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ?: $default;
+$c = my_function($a, $b) ?: $default;
 ```
 
 Nejprve se zavolá `funkce($a, $b)`, poté se otestuje její hodnota a když není prázdná, tak se ihned předá do proměnné `$c`, jinak bude použita proměnná `$default`.
