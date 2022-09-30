@@ -12,9 +12,9 @@ Operadores ternarios en PHP (?:) - condición en una línea
 > 
 > publicationDate: '2019-11-26 11:59:18'
 > mainCategoryId: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
-> sourceContentHash: '491dbbbaeceba356a030e2501f5c0e2b'
+> sourceContentHash: '20ff690401289869eae2a2584fae7568'
 
-El operador ternario permite acortar una condición simple a una sola línea en un lugar donde el análisis sintáctico es innecesario, complejo o directamente inapropiado.
+El operador ternario permite acortar una condición simple en una sola línea en un lugar donde el análisis sintáctico es innecesario, complejo o directamente inapropiado.
 
 TL;DR
 ------
@@ -49,7 +49,7 @@ echo 'Es' . ($a > $b ? 'más grande' : 'más pequeño');
 Generalmente, el operador ternario se escribe utilizando 3 partes (por eso se llama "ternario"):
 
 ```php
-(podmínka ? pokud je pravda : pokud není pravda)
+(condition ? 'sí' : 'de')
 ```
 
 Los operadores ternarios se utilizan muy a menudo en la práctica, por ejemplo para denotar filas pares en una tabla:
@@ -90,7 +90,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ? funkce($a, $b) : $default;
+$c = my_function($a, $b) ? my_function($a, $b) : $default;
 ```
 
 Este método de llamada es muy ineficiente en términos de recursos del sistema. Primero hay que llamar a la función, y si existe, se llama de nuevo para obtener el valor, que se almacena en la variable `$c`.
@@ -100,10 +100,10 @@ Esto podría manejarse mejor a través de una variable de ayuda:
 ```php
 $a = 5;
 $b = 3;
-$pomocnaPromenna = funkce($a, $b);
+$helper = my_function($a, $b);
 $default = 42;
 
-$c = $pomocnaPromenna ? $pomocnaPromenna : $default;
+$c = $helper ? $helper : $default;
 ```
 
 Uso inadecuado
@@ -151,7 +151,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ?: $default;
+$c = my_function($a, $b) ?: $default;
 ```
 
 Primero se llama a la `función($a, $b)`, luego se comprueba su valor y si no está vacío, se pasa inmediatamente a la variable `$c`, en caso contrario se utiliza la variable `$default`.

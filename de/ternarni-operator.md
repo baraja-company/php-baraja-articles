@@ -4,7 +4,7 @@ Ternäre Operatoren in PHP (?:) - Bedingung in einer Zeile
 > id: '1191be9b-ff9d-4725-b0b4-17b60de2b935'
 > slug:
 > 	cs: ternarni-operator
-> 	de: ternaere-operatoren-in-php---bedingung-in-einer-zeile
+> 	de: ternaere-operatoren-in-php-bedingung-in-einer-zeile
 > 
 > perex:
 > 	- Ternární operátor umožňuje zapsat jednoduchou podmínku do jednoho řádku jako výraz.
@@ -12,9 +12,9 @@ Ternäre Operatoren in PHP (?:) - Bedingung in einer Zeile
 > 
 > publicationDate: '2019-11-26 11:59:18'
 > mainCategoryId: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
-> sourceContentHash: '491dbbbaeceba356a030e2501f5c0e2b'
+> sourceContentHash: '20ff690401289869eae2a2584fae7568'
 
-Mit dem ternären Operator können Sie eine einfache Bedingung an einer Stelle, an der das Parsing unnötig, kompliziert oder schlichtweg unpassend ist, auf eine einzige Zeile verkürzen.
+Mit dem ternären Operator können Sie eine einfache Bedingung in einer einzigen Zeile abkürzen, wenn das Parsing unnötig, kompliziert oder schlichtweg unpassend ist.
 
 TL;DR
 ------
@@ -49,7 +49,7 @@ echo 'Sie ist' . ($a > $b ? 'größer' : 'kleiner');
 Im Allgemeinen wird der ternäre Operator mit 3 Teilen geschrieben (daher der Name "ternär"):
 
 ```php
-(podmínka ? pokud je pravda : pokud není pravda)
+(condition ? 'ja' : 'von')
 ```
 
 Ternäre Operatoren werden in der Praxis sehr häufig verwendet, zum Beispiel um gerade Zeilen in einer Tabelle zu kennzeichnen:
@@ -70,7 +70,7 @@ for ($i = 0; $pole[$i]; $i++) {
 Beispiel für die Verwendung des ternären Operators
 ------------------------------------
 
-Oft müssen wir das Vorhandensein eines Variablenwerts überprüfen und ihn bei Bedarf sofort verwenden. Wenn sie nicht vorhanden ist, soll der Standardwert zurückgegeben werden.
+Oft müssen wir das Vorhandensein eines Variablenwerts überprüfen und ihn gegebenenfalls sofort verwenden. Wenn sie nicht vorhanden ist, soll der Standardwert zurückgegeben werden.
 
 Der klassische Ansatz ist dieser:
 
@@ -90,7 +90,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ? funkce($a, $b) : $default;
+$c = my_function($a, $b) ? my_function($a, $b) : $default;
 ```
 
 Diese Art des Aufrufs ist sehr ineffizient in Bezug auf die Systemressourcen. Zuerst muss die Funktion aufgerufen werden, und wenn sie existiert, wird sie erneut aufgerufen, um den Wert zu erhalten, der in der Variablen "$c" gespeichert wird.
@@ -100,10 +100,10 @@ Dies könnte besser über eine Hilfsvariable gehandhabt werden:
 ```php
 $a = 5;
 $b = 3;
-$pomocnaPromenna = funkce($a, $b);
+$helper = my_function($a, $b);
 $default = 42;
 
-$c = $pomocnaPromenna ? $pomocnaPromenna : $default;
+$c = $helper ? $helper : $default;
 ```
 
 Ungeeignete Verwendung
@@ -131,7 +131,7 @@ Mit ein wenig Übung vielleicht, aber das ist nicht die richtige Antwort. :)
 
 Die ternären Operatoren sind am leistungsfähigsten bei der routinemäßigen Überprüfung des (Nicht-)Vorhandenseins von Werten und der Verwendung anderer Standardwerte.
 
-Wir wollen z. B. prüfen, ob für einen Artikel eine Hauptkategorie existiert, und wenn nicht, eine Ersatzmeldung ausgeben:
+Wir wollen zum Beispiel prüfen, ob für einen Artikel eine Hauptkategorie existiert und wenn nicht, eine Ersatzmeldung ausgeben:
 
 ```php
 echo $mainCategory ?? 'Die Kategorie existiert nicht';
@@ -142,7 +142,7 @@ Der Operator `??` (zwei Fragezeichen) prüft, ob die Variable `$mainCategory` ex
 Validierung der Leere eines Wertes
 -----------------------------
 
-Ein sehr oft nützliches Konstrukt, um zu überprüfen, ob der Ausgabewert nicht leer ist (d.h. nicht `null`, `0`, `false` oder `''*(Leerstring)*).
+Ein sehr oft nützliches Konstrukt, um zu überprüfen, dass der Ausgabewert nicht leer ist (d.h. nicht `null`, `0`, `false` oder `''*(Leerstring)*).
 
 Dies kann wie folgt geschrieben werden:
 
@@ -151,7 +151,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ?: $default;
+$c = my_function($a, $b) ?: $default;
 ```
 
 Zuerst wird die `Funktion($a, $b)` aufgerufen, dann wird ihr Wert getestet und wenn er nicht leer ist, wird er sofort an die Variable `$c` übergeben, andernfalls wird die Variable `$default` verwendet.

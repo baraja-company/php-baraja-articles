@@ -4,52 +4,52 @@ Operatory trójdzielne w PHP (?:) - warunek w jednej linii
 > id: '1191be9b-ff9d-4725-b0b4-17b60de2b935'
 > slug:
 > 	cs: ternarni-operator
-> 	pl: operatory-trojdzielne-w-php---warunek-w-jednej-linii
+> 	pl: operatory-trojdzielne-w-php-warunek-w-jednej-linii
 > 
 > perex:
 > 	- Ternární operátor umožňuje zapsat jednoduchou podmínku do jednoho řádku jako výraz.
-> 	- Operator trójskładnikowy umożliwia zapisanie prostego warunku w jednym wierszu jako wyrażenia.
+> 	- Operator trójdzielny pozwala na zapisanie prostego warunku w jednej linii jako wyrażenie.
 > 
 > publicationDate: '2019-11-26 11:59:18'
 > mainCategoryId: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
-> sourceContentHash: '491dbbbaeceba356a030e2501f5c0e2b'
+> sourceContentHash: '20ff690401289869eae2a2584fae7568'
 
-Operator trójskładnikowy pozwala skrócić prosty warunek do jednego wiersza w miejscu, w którym parsowanie jest niepotrzebne, skomplikowane lub wręcz niewłaściwe.
+Operator trójskładnikowy pozwala na skrócenie prostego warunku do jednej linii w miejscu, gdzie parsowanie jest niepotrzebne, skomplikowane lub wręcz niewłaściwe.
 
 TL;DR
 ------
 
-Operatory trójskładnikowe są skrótem dla warunków `jeśli` i `jeśli`, więc nie trzeba ich używać. Są one przydatne w przypadku stale powtarzających się fragmentów logiki weryfikacyjnej. Zawsze używaj formatu `(warunek ? logika pozytywna : logika negatywna)` z nawiasami. Użyj do krótkiej weryfikacji, aby kod był bardziej przejrzysty i krótszy.
+Operatory trójskładnikowe są skrótem dla warunków `if` i `else`, więc nie musisz ich używać. Są one przydatne do wiecznie powtarzających się fragmentów logiki weryfikacyjnej. Zawsze używaj formatu `(warunek ? logika pozytywna : logika negatywna)` łącznie z nawiasami. Użyj do krótkiej weryfikacji, aby kod był bardziej przejrzysty i krótszy.
 
 Podstawowe definicje
 ------------------
 
-Często mamy do czynienia z warunkiem w postaci np:
+Często mamy warunek w postaci np:
 
 ```php
 $a = 5;
 $b = 3;
 
 if ($a > $b) {
-     echo 'Jest większy';
+     echo 'To jest większe';
 } else {
      echo 'Jest mniejszy';
 }
 ```
 
-Jeśli więc chcemy napisać tylko jedno proste zdanie, musimy użyć 4 wierszy kodu, które można by zredukować do jednego.
+Jeśli więc chcemy napisać tylko jedno proste zdanie, musimy użyć 4 linii kodu, które można by zredukować do jednej.
 
 ```php
 $a = 5;
 $b = 3;
 
-echo 'Jest to' . ($a > $b ? 'większa' : 'mniejszy');
+echo 'To jest' . ($a > $b ? 'większa' : 'mniejszy');
 ```
 
-Ogólnie rzecz biorąc, operator trójskładnikowy zapisuje się z trzech części (stąd jego nazwa "trójskładnikowy"):
+Generalnie operator trójskładnikowy zapisuje się za pomocą 3 części (dlatego nazywa się "trójskładnikowy"):
 
 ```php
-(podmínka ? pokud je pravda : pokud není pravda)
+(condition ? 'tak' : 'z')
 ```
 
 Operatory trójdzielne są bardzo często używane w praktyce, na przykład do oznaczania parzystych wierszy w tabeli:
@@ -63,16 +63,16 @@ for ($i = 0; $pole[$i]; $i++) {
           // To jest w jakiś sposób praca z arkuszem kalkulacyjnym...
           // na przykład: echo '<td>' . $field[$i] . '</td>';
 
-     echo '</tr>.';
+     echo '</tr>';
 }
 ```
 
-Przykład użycia operatora trójskładnikowego
+Przykład użycia operatora trójdzielnego
 ------------------------------------
 
-Często trzeba sprawdzić istnienie wartości zmiennej i w razie potrzeby natychmiast jej użyć. Jeśli nie istnieje, chcemy zwrócić wartość domyślną.
+Dość często musimy sprawdzić istnienie wartości zmiennej i w razie potrzeby natychmiast jej użyć. Jeśli nie istnieje, chcemy zwrócić wartość domyślną.
 
-Klasyczne podejście polega na wykonaniu tej czynności w następujący sposób:
+Klasycznym podejściem jest zrobienie tego w ten sposób:
 
 ```php
 $a = 5;
@@ -81,35 +81,35 @@ $b = 8;
 $c = $a ? $a : $b;
 ```
 
-Jeśli zmienna `$a` istnieje, jako wartości użyj `$a`, w przeciwnym razie `$b`.
+Jeśli zmienna `$a` istnieje, użyj `$a` jako wartości, w przeciwnym razie `$b`.
 
-Czasami jednak wartość jest pobierana z funkcji:
+Czasami jednak otrzymujemy wartość z funkcji:
 
 ```php
 $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ? funkce($a, $b) : $default;
+$c = my_function($a, $b) ? my_function($a, $b) : $default;
 ```
 
-Ta metoda wywoływania jest bardzo nieefektywna pod względem wykorzystania zasobów systemowych. Najpierw musi zostać wywołana funkcja, a jeśli istnieje, to jest wywoływana ponownie, aby uzyskać wartość, która jest przechowywana w zmiennej `$c`.
+Ten sposób wywoływania jest bardzo nieefektywny pod względem zasobów systemowych. Najpierw należy wywołać funkcję, a jeśli istnieje, to wywołuje się ją ponownie, aby uzyskać wartość, która jest przechowywana w zmiennej `$c`.
 
-Można to lepiej rozwiązać za pomocą zmiennej pomocniczej:
+To może być lepiej obsługiwane przez zmienną pomocniczą:
 
 ```php
 $a = 5;
 $b = 3;
-$pomocnaPromenna = funkce($a, $b);
+$helper = my_function($a, $b);
 $default = 42;
 
-$c = $pomocnaPromenna ? $pomocnaPromenna : $default;
+$c = $helper ? $helper : $default;
 ```
 
 Niewłaściwe użycie
 ------------------
 
-Nie zawsze warto używać operatora trójdzielnego, ponieważ może on powodować zamieszanie podczas pisania skomplikowanych i zagnieżdżonych warunków.
+Nie zawsze warto używać operatora trójdzielnego, ponieważ ma on tendencję do powodowania zamieszania podczas pisania skomplikowanych i zagnieżdżonych warunków.
 
 Zobaczcie sami przykład:
 
@@ -122,27 +122,27 @@ $x = $valid
      : ($lang === 'Francuski' ? 'nie' : 'z');
 ```
 
-Czy od razu wiedziałbyś, że zmienna `$x` będzie zawierała wartość `oui`?
+Czy na pierwszy rzut oka wiedziałbyś, że zmienna `$x` będzie zawierała wartość `oui`?
 
-Po odrobinie wprawy można, ale to nie jest właściwa odpowiedź. :)
+Po odrobinie praktyki możesz, ale to nie jest właściwa odpowiedź. :)
 
-Sprawdzanie (nie)istnienia wartości i stosowanie wartości domyślnej
+Sprawdzenie (nie)istnienia wartości i użycie domyślnej
 --------------------
 
-Operatory trójskładnikowe są najbardziej wydajne w rutynowej weryfikacji (nie)istnienia wartości i stosowania innych wartości domyślnych.
+Operatory trójskładnikowe są najpotężniejsze w rutynowym sprawdzaniu (nie)istnienia wartości i używaniu innych domyślnych wartości.
 
-Na przykład chcemy sprawdzić, czy dla danego artykułu istnieje kategoria główna, a jeśli nie, wyświetlić komunikat zastępczy:
+Na przykład, chcemy sprawdzić, czy istnieje główna kategoria dla artykułu i jeśli nie, wyprowadzić komunikat zastępczy:
 
 ```php
 echo $mainCategory ?? 'Kategoria nie istnieje';
 ```
 
-Operator `??` (dwa znaki zapytania) sprawdza, czy zmienna `$mainCategory` istnieje i nie jest `null`. Działa ona w taki sam sposób jak funkcja `isset()`.
+Operator `??` (dwa znaki zapytania) sprawdza czy zmienna `$mainCategory` istnieje i nie jest `null`. Działa ona w taki sam sposób jak funkcja `isset()`.
 
-Walidacja pustej wartości
+Walidacja pustki wartości
 -----------------------------
 
-Bardzo często przydatna konstrukcja do sprawdzania, czy wartość wyjściowa nie jest pusta (tzn. nie jest `null`, `0`, `false` lub `''*(pusty łańcuch)*).
+Bardzo często przydatna konstrukcja do sprawdzania, czy wartość wyjściowa nie jest pusta (tzn. nie jest `null`, `0`, `false` lub `''*(empty string)*).
 
 Można to zapisać w następujący sposób:
 
@@ -151,17 +151,17 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ?: $default;
+$c = my_function($a, $b) ?: $default;
 ```
 
-Najpierw wywoływana jest `funkcja($a, $b)`, następnie testowana jest jej wartość i jeśli nie jest pusta, jest natychmiast przekazywana do zmiennej `$c`, w przeciwnym razie używana jest zmienna `$default`.
+Najpierw wywoływana jest `funkcja($a, $b)`, następnie testowana jest jej wartość i jeśli nie jest pusta, to od razu przekazywana jest do zmiennej `$c`, w przeciwnym razie używana jest zmienna `$default`.
 
-Operator `?:` działa jak operator `!=` w warunku (fałsz niezależnie od typu danych) i można go zapamiętać, wyglądając na przykład jak uśmiechnięta buźka z włosami Elvisa.
+Operator `?:` działa jak operator `!=` w warunkowym (fałsz niezależnie od typu danych), a można go zapamiętać wyglądając np. jak uśmiechnięta buźka z włosami Elvisa.
 
 Wsparcie dla starszych wersji PHP
 ----------------------------
 
-Operator `?:` działa od PHP 7. W starszych wersjach musimy zadowolić się warunkiem `if (...)`, który pozwala osiągnąć to samo zachowanie. Pamiętaj, że operatory trójdzielne są tak naprawdę skrótem do pisania tego samego, co jest obsługiwane przez warunki.
+Operator `?:` działa od PHP 7. W starszych wersjach musimy zadowolić się warunkiem `if (...)`, który pozwala osiągnąć to samo zachowanie. Pamiętaj, że operatory trójskładnikowe są tak naprawdę tylko skrótem do napisania tego samego, co jest obsługiwane przez warunki.
 
 Nieistnienie wartości można sprawdzić za pomocą funkcji `isset()`, która sprawdza, czy zmienna istnieje i nie jest pusta (`null`).
 
@@ -183,4 +183,4 @@ $b = 3;
 $c = isset($a) && $a ?? $b;
 ```
 
-> **Ostrzeżenie:** Kolejność `isset()` i samej zmiennej ma znaczenie. Gdybyśmy odwrócili kolejność, a zmienna nie istniała, zostałby zgłoszony błąd dostępu do nieistniejącej zmiennej.
+> **Ostrzeżenie:** Kolejność `isset()` i samej zmiennej ma znaczenie. Gdybyśmy odwrócili kolejność i zmienna nie istniała, podniosłaby błąd dostępu do nieistniejącej zmiennej.

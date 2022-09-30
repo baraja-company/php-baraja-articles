@@ -12,7 +12,7 @@ PHP中的三元运算符(?:) - 一行中的条件
 > 
 > publicationDate: '2019-11-26 11:59:18'
 > mainCategoryId: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
-> sourceContentHash: '491dbbbaeceba356a030e2501f5c0e2b'
+> sourceContentHash: '20ff690401289869eae2a2584fae7568'
 
 三元运算符允许你将一个简单的条件缩短为一行，在一个没有必要、复杂或完全不合适的地方进行解析。
 
@@ -49,7 +49,7 @@ echo '它是' . ($a > $b ? '较大的' : '较小的');
 一般来说，三元运算符用3个部分来写（这就是它被称为 "三元 "的原因）。
 
 ```php
-(podmínka ? pokud je pravda : pokud není pravda)
+(condition ? '是' : '从')
 ```
 
 三元运算符在实践中非常常用，例如，表示表格中的偶数行。
@@ -90,7 +90,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ? funkce($a, $b) : $default;
+$c = my_function($a, $b) ? my_function($a, $b) : $default;
 ```
 
 这种调用方法在系统资源方面是非常低效的。首先，必须调用该函数，如果该函数存在，则再次调用该函数以获得数值，该数值被存储在`$c'变量中。
@@ -100,10 +100,10 @@ $c = funkce($a, $b) ? funkce($a, $b) : $default;
 ```php
 $a = 5;
 $b = 3;
-$pomocnaPromenna = funkce($a, $b);
+$helper = my_function($a, $b);
 $default = 42;
 
-$c = $pomocnaPromenna ? $pomocnaPromenna : $default;
+$c = $helper ? $helper : $default;
 ```
 
 不适当的使用
@@ -134,7 +134,7 @@ $x = $valid
 例如，我们想检查一篇文章是否存在一个主类别，如果没有，就输出一个替换信息。
 
 ```php
-echo $mainCategory ?? '该类别不存在';
+echo $mainCategory ?? '该类别并不存在';
 ```
 
 操作符`??`（两个问号）检查变量`$mainCategory`是否存在并且不是`null`。它的工作方式与`isset()`函数相同。
@@ -151,7 +151,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ?: $default;
+$c = my_function($a, $b) ?: $default;
 ```
 
 首先调用`function($a, $b)`，然后测试它的值，如果它不是空的，就立即传递给`$c`变量，否则就使用`$default`变量。

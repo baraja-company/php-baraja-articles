@@ -4,14 +4,17 @@ Ternárne operátory v PHP (?:) - podmienka v jednom riadku
 > id: '1191be9b-ff9d-4725-b0b4-17b60de2b935'
 > slug:
 > 	cs: ternarni-operator
-> 	sk: ternarne-operatory-v-php---podmienka-v-jednom-riadku
+> 	sk: ternarne-operatory-v-php-podmienka-v-jednom-riadku
 > 
-> perex: Ternární operátor umožňuje zapsat jednoduchou podmínku do jednoho řádku jako výraz.
+> perex:
+> 	- Ternární operátor umožňuje zapsat jednoduchou podmínku do jednoho řádku jako výraz.
+> 	- Operátor ternárnych operátorov umožňuje zapísať jednoduchú podmienku do jedného riadku ako výraz.
+> 
 > publicationDate: '2019-11-26 11:59:18'
 > mainCategoryId: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
-> sourceContentHash: '491dbbbaeceba356a030e2501f5c0e2b'
+> sourceContentHash: '20ff690401289869eae2a2584fae7568'
 
-Operátor ternárneho typu umožňuje skrátiť jednoduchú podmienku na jeden riadok v mieste, kde je rozbor zbytočný, zložitý alebo úplne nevhodný.
+Operátor ternárneho typu umožňuje skrátiť jednoduchú podmienku do jedného riadku na mieste, kde je rozbor zbytočný, zložitý alebo úplne nevhodný.
 
 TL;DR
 ------
@@ -28,9 +31,9 @@ $a = 5;
 $b = 3;
 
 if ($a > $b) {
-     echo "Je to väčšie;
+     echo 'Je väčší';
 } else {
-     echo "Je to menšie;
+     echo 'Je menší';
 }
 ```
 
@@ -40,13 +43,13 @@ Ak teda chceme napísať len jednu jednoduchú vetu, musíme použiť 4 riadky k
 $a = 5;
 $b = 3;
 
-echo "Je . ($a > $b ? "väčšie : "minor);
+echo 'Je to' . ($a > $b ? 'väčšie' : 'menšie');
 ```
 
 Všeobecne sa ternárny operátor zapisuje pomocou 3 častí (preto sa nazýva "ternárny"):
 
 ```php
-(podmínka ? pokud je pravda : pokud není pravda)
+(condition ? 'áno' : 'z adresy')
 ```
 
 Ternárne operátory sa v praxi používajú veľmi často, napríklad na označenie párnych riadkov v tabuľke:
@@ -55,7 +58,7 @@ Ternárne operátory sa v praxi používajú veľmi často, napríklad na označ
 $pole = [3, 1, 4, 1, 5, 9, 2];
 
 for ($i = 0; $pole[$i]; $i++) {
-     echo '<tr class=" . ($i % 2 ? "zvláštne : 'even') . '">';
+     echo '<tr class=""' . ($i % 2 ? 'z adresy' : 'aj') . '">';
 
           // Toto je nejakým spôsobom práca s tabuľkou...
           // napríklad: echo '<td>' . $field[$i] . '</td>';
@@ -80,14 +83,14 @@ $c = $a ? $a : $b;
 
 Ak existuje premenná `$a`, použije sa ako hodnota `$a`, inak `$b`.
 
-Niekedy však hodnotu získame z funkcie:
+Niekedy však získame hodnotu z funkcie:
 
 ```php
 $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ? funkce($a, $b) : $default;
+$c = my_function($a, $b) ? my_function($a, $b) : $default;
 ```
 
 Tento spôsob volania je z hľadiska systémových zdrojov veľmi neefektívny. Najprv sa musí zavolať funkcia, a ak existuje, zavolá sa znova, aby sa získala hodnota, ktorá sa uloží do premennej `$c`.
@@ -97,10 +100,10 @@ To by sa dalo lepšie riešiť pomocou pomocnej premennej:
 ```php
 $a = 5;
 $b = 3;
-$pomocnaPromenna = funkce($a, $b);
+$helper = my_function($a, $b);
 $default = 42;
 
-$c = $pomocnaPromenna ? $pomocnaPromenna : $default;
+$c = $helper ? $helper : $default;
 ```
 
 Nevhodné používanie
@@ -112,11 +115,11 @@ Pozrite si príklad:
 
 ```php
 $valid = true;
-$lang = "francúzsky;
+$lang = 'Francúzsky';
 
 $x = $valid
-     ? ($lang === "francúzsky ? "oui : "áno)
-     : ($lang === "francúzsky ? "non : "nie);
+     ? ($lang === 'Francúzsky' ? 'oui' : 'áno')
+     : ($lang === 'Francúzsky' ? 'nie' : 'z adresy');
 ```
 
 Vedeli by ste na prvý pohľad, že premenná `$x` bude obsahovať hodnotu `oui`?
@@ -131,7 +134,7 @@ Ternárne operátory sú najsilnejšie pri rutinnom overovaní (ne)existencie ho
 Napríklad chceme skontrolovať, či pre článok existuje hlavná kategória, a ak nie, vypísať náhradnú správu:
 
 ```php
-echo $mainCategory ?? "Kategória neexistuje;
+echo $mainCategory ?? 'Kategória neexistuje';
 ```
 
 Operátor `??` (dva otázniky) kontroluje, či premenná `$mainCategory` existuje a nie je `null`. Funguje rovnako ako funkcia `isset()`.
@@ -148,7 +151,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ?: $default;
+$c = my_function($a, $b) ?: $default;
 ```
 
 Najprv sa zavolá `funkcia($a, $b)`, potom sa otestuje jej hodnota a ak nie je prázdna, okamžite sa odovzdá premennej `$c`, inak sa použije premenná `$default`.

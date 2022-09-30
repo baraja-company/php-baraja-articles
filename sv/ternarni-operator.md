@@ -4,7 +4,7 @@ Tärnära operatörer i PHP (?:) - villkor på en rad
 > id: '1191be9b-ff9d-4725-b0b4-17b60de2b935'
 > slug:
 > 	cs: ternarni-operator
-> 	sv: taernaera-operatoerer-i-php---villkor-pa-en-rad
+> 	sv: taernaera-operatoerer-i-php-villkor-pa-en-rad
 > 
 > perex:
 > 	- Ternární operátor umožňuje zapsat jednoduchou podmínku do jednoho řádku jako výraz.
@@ -12,7 +12,7 @@ Tärnära operatörer i PHP (?:) - villkor på en rad
 > 
 > publicationDate: '2019-11-26 11:59:18'
 > mainCategoryId: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
-> sourceContentHash: '491dbbbaeceba356a030e2501f5c0e2b'
+> sourceContentHash: '20ff690401289869eae2a2584fae7568'
 
 Med den ternära operatorn kan du förkorta ett enkelt villkor till en enda rad på en plats där analysering är onödig, komplex eller helt olämplig.
 
@@ -49,7 +49,7 @@ echo 'Det är' . ($a > $b ? 'större' : 'mindre');
 I allmänhet skrivs den ternära operatören med tre delar (det är därför den kallas "ternär"):
 
 ```php
-(podmínka ? pokud je pravda : pokud není pravda)
+(condition ? 'ja' : 'från')
 ```
 
 Ternära operatorer används mycket ofta i praktiken, till exempel för att ange jämna rader i en tabell:
@@ -90,7 +90,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ? funkce($a, $b) : $default;
+$c = my_function($a, $b) ? my_function($a, $b) : $default;
 ```
 
 Denna metod är mycket ineffektiv när det gäller systemresurser. Först måste funktionen anropas, och om den finns anropas den igen för att få fram värdet, som lagras i variabeln `$c`.
@@ -100,10 +100,10 @@ Detta skulle kunna hanteras bättre med hjälp av en hjälpvariabel:
 ```php
 $a = 5;
 $b = 3;
-$pomocnaPromenna = funkce($a, $b);
+$helper = my_function($a, $b);
 $default = 42;
 
-$c = $pomocnaPromenna ? $pomocnaPromenna : $default;
+$c = $helper ? $helper : $default;
 ```
 
 Olämplig användning
@@ -151,7 +151,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ?: $default;
+$c = my_function($a, $b) ?: $default;
 ```
 
 Först anropas `function($a, $b)`, sedan testas dess värde och om det inte är tomt överförs det omedelbart till variabeln `$c`, annars används variabeln `$default`.

@@ -12,7 +12,7 @@ PHPの三項演算子（？
 > 
 > publicationDate: '2019-11-26 11:59:18'
 > mainCategoryId: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
-> sourceContentHash: '491dbbbaeceba356a030e2501f5c0e2b'
+> sourceContentHash: '20ff690401289869eae2a2584fae7568'
 
 三項演算子を使うと、解析が不要、複雑、あるいは全く不適切な場所で、単純な条件を1行に短縮することができます。
 
@@ -49,7 +49,7 @@ echo 'です。' . ($a > $b ? '大きめ' : 'より小さい');
 一般に三項演算子は3つの部分を使って記述します（だから "ternary "と呼ばれるのです）。
 
 ```php
-(podmínka ? pokud je pravda : pokud není pravda)
+(condition ? 'は' : 'から')
 ```
 
 三項演算子は、表の偶数行を表すなど、実際には非常によく使われる。
@@ -90,7 +90,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ? funkce($a, $b) : $default;
+$c = my_function($a, $b) ? my_function($a, $b) : $default;
 ```
 
 この呼び出し方は、システムリソースの面で非常に非効率的です。まず、関数を呼び出す必要があります。関数が存在する場合は、もう一度呼び出して値を取得し、その値を `$c` 変数に格納します。
@@ -100,10 +100,10 @@ $c = funkce($a, $b) ? funkce($a, $b) : $default;
 ```php
 $a = 5;
 $b = 3;
-$pomocnaPromenna = funkce($a, $b);
+$helper = my_function($a, $b);
 $default = 42;
 
-$c = $pomocnaPromenna ? $pomocnaPromenna : $default;
+$c = $helper ? $helper : $default;
 ```
 
 不適切な使用
@@ -137,7 +137,7 @@ $x = $valid
 echo $mainCategory ?? 'カテゴリが存在しない';
 ```
 
-演算子(クエスチョンマーク2つ)は、変数 `$mainCategory` が存在し、かつ `null` でないかどうかをチェックします。これは `isset()` 関数と同じように動作します。
+演算子 `??` (二つの疑問符) は、変数 `$mainCategory` が存在し、かつ `null` でないかどうかをチェックします。これは `isset()` 関数と同じように動作します。
 
 価値の空しさを検証する
 -----------------------------
@@ -151,7 +151,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ?: $default;
+$c = my_function($a, $b) ?: $default;
 ```
 
 まず `function($a, $b)` が呼ばれ、その値がテストされ、空でなければ直ちに `$c` 変数に渡され、そうでなければ `$default` 変数が使われることになります。

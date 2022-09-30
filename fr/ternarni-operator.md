@@ -4,12 +4,15 @@ Opérateurs ternaires en PHP (? :) - condition en une ligne
 > id: '1191be9b-ff9d-4725-b0b4-17b60de2b935'
 > slug:
 > 	cs: ternarni-operator
-> 	fr: operateurs-ternaires-en-php---condition-en-une-ligne
+> 	fr: operateurs-ternaires-en-php-condition-en-une-ligne
 > 
-> perex: Ternární operátor umožňuje zapsat jednoduchou podmínku do jednoho řádku jako výraz.
+> perex:
+> 	- Ternární operátor umožňuje zapsat jednoduchou podmínku do jednoho řádku jako výraz.
+> 	- L'opérateur ternaire vous permet d'écrire une condition simple sur une ligne sous forme d'expression.
+> 
 > publicationDate: '2019-11-26 11:59:18'
 > mainCategoryId: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
-> sourceContentHash: '491dbbbaeceba356a030e2501f5c0e2b'
+> sourceContentHash: '20ff690401289869eae2a2584fae7568'
 
 L'opérateur ternaire vous permet de raccourcir une condition simple en une seule ligne à un endroit où l'analyse syntaxique est inutile, complexe ou carrément inappropriée.
 
@@ -46,7 +49,7 @@ echo 'Il est' . ($a > $b ? 'plus grand' : 'plus petit');
 En général, l'opérateur ternaire est écrit en 3 parties (c'est pourquoi il est appelé "ternaire") :
 
 ```php
-(podmínka ? pokud je pravda : pokud není pravda)
+(condition ? 'oui' : 'de')
 ```
 
 Les opérateurs ternaires sont très souvent utilisés dans la pratique, par exemple pour désigner les lignes paires d'un tableau :
@@ -67,7 +70,7 @@ for ($i = 0; $pole[$i]; $i++) {
 Exemple d'utilisation de l'opérateur ternaire
 ------------------------------------
 
-Très souvent, nous devons vérifier l'existence de la valeur d'une variable et l'utiliser immédiatement si nécessaire. S'il n'existe pas, nous voulons retourner la valeur par défaut.
+Très souvent, nous devons vérifier l'existence de la valeur d'une variable et l'utiliser immédiatement si nécessaire. S'il n'existe pas, nous voulons renvoyer la valeur par défaut.
 
 L'approche classique consiste à procéder comme suit :
 
@@ -87,7 +90,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ? funkce($a, $b) : $default;
+$c = my_function($a, $b) ? my_function($a, $b) : $default;
 ```
 
 Cette méthode d'appel est très inefficace en termes de ressources système. D'abord, la fonction doit être appelée, et si elle existe, elle est appelée à nouveau pour obtenir la valeur, qui est stockée dans la variable `$c`.
@@ -97,10 +100,10 @@ Cela pourrait être mieux géré via une variable d'aide :
 ```php
 $a = 5;
 $b = 3;
-$pomocnaPromenna = funkce($a, $b);
+$helper = my_function($a, $b);
 $default = 42;
 
-$c = $pomocnaPromenna ? $pomocnaPromenna : $default;
+$c = $helper ? $helper : $default;
 ```
 
 Utilisation inappropriée
@@ -148,7 +151,7 @@ $a = 5;
 $b = 3;
 $default = 42;
 
-$c = funkce($a, $b) ?: $default;
+$c = my_function($a, $b) ?: $default;
 ```
 
 D'abord la `fonction($a, $b)` est appelée, puis sa valeur est testée et si elle n'est pas vide, elle est immédiatement passée à la variable `$c`, sinon la variable `$default` est utilisée.
