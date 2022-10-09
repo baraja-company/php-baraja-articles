@@ -1,0 +1,262 @@
+-
+	id: '02d93aa8-ed83-460a-ab97-4de21118f019'
+	name: Forvaltning af produktionsservere
+	description: null
+	parentId: b6d0932e-7588-46a4-abb2-7d8f47088168
+
+-
+	id: '0743dd02-12d0-4766-ba42-8fd7e9c4ae8a'
+	name: Få data fra brugeren
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '0d2bed76-dcd2-4ceb-a4d7-174b74d96cc1'
+	name: Stilistik og konventioner
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '0e39aee9-2818-480c-8081-e0c2d039bb24'
+	name: Variabler
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '561b0614-e152-4a62-a634-1f2d605d39d9'
+	name: Konstanty
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: f930abc9-c635-4758-bd88-9749eb262b55
+	name: Generelle sider
+	description: 'Denne kategori indeholder generelle og informative sider, som kan være nyttige for besøgende på webstedet med henblik på yderligere kontakt.'
+	parentId: null
+
+-
+	id: '0eeab3a7-a54b-46db-a253-ca6100145648'
+	name: Dokumentation
+	description: null
+	parentId: null
+
+-
+	id: '17545205-215b-4962-b910-0d67ad1e933a'
+	name: Nye versioner
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+	name: Algoritmer
+	description: '''
+		Algoritmer er instruktioner til løsning af specifikke problemer. På et grundlæggende niveau kan vi betragte en algoritme som en kogebog, fordi den beskriver trinene for at fremstille en færdig ret ud fra de indgående ingredienser ret præcist.
+
+		Inden for programmering findes der hele familier af algoritmer, som er nyttige til at løse forskellige typer problemer. Men hvis du leder efter vejledninger om, hvordan du griber appdesignet som helhed an, skal du bruge mere effektive værktøjer som <a href="/category-design-patterns">designmønstre</a>.
+	'''
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
+	name: Erfaring fra praksis
+	description: 'Jeg har samlet erfaring med programmering og webudvikling siden 2009. Denne sektion indeholder artikler og beskrivelser af forskellige situationer, som jeg oplever i min praksis. Jeg tror, at du kan finde dem nyttige.'
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '28a2aef7-7490-43a9-add7-80d8a051f8a9'
+	name: Prøver
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '2a1ef8bc-14aa-438a-87e7-5b3f9643f325'
+	name: HTTP
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+	name: Vejledninger
+	description: 'Denne side blev oprettet som en samling velmenende råd om, hvordan man programmerer korrekt i PHP. I 10 års programmering har jeg prøvet mange forkerte veje og er kommet frem til en lang række konklusioner, som det tog lang tid for mig at beslutte mig. Dette websted er primært beregnet til at du ikke behøver at gøre det, og du kan lige så godt programmere godt. Hvis du leder efter definitioner, skal du se i dokumentationen.'
+	parentId: null
+
+-
+	id: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
+	name: Sikkerhed
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '3e45c55a-a4cd-4745-b1bb-0332702fefbf'
+	name: Serie om OOP i PHP
+	description: 'Denne serie vil tage dig med fra det helt grundlæggende (hvad er OOP) gennem alle de vigtigste funktioner og fordele ved OOP til avancerede metoder til at bruge OOP. Vi demonstrerer alle mulighederne med konkrete eksempler.'
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: '4f1d7d70-c5b0-45f1-b1d2-d03c22aa4154'
+	name: Serveradministration
+	description: null
+	parentId: b6d0932e-7588-46a4-abb2-7d8f47088168
+
+-
+	id: '59874540-664b-4474-9869-7e6742ab6051'
+	name: Område
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '5a538abc-5464-4707-9211-ea86885c80d4'
+	name: Praktiske funktioner
+	description: 'PHP indeholder et overraskende stort antal praktiske funktioner af alle slags, som især avancerede udviklere sætter pris på. Denne side giver en grundlæggende oversigt og eksempler på deres anvendelse.'
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '5bf11342-01a0-47e1-a6a8-c8c22bf92af9'
+	name: Manipulation med variabler
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: '6cbbbf59-9bbd-4ca3-a6c3-eb204a2f8070'
+	name: Grundlæggende viden
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: '818d311a-0f58-4df7-a9a4-da7d21489dd6'
+	name: Doktrin
+	description: 'Doctrine er en elegant objektorienteret database (ORM) med et højt abstraktionsniveau. For at kunne bruge Doctrine skal du vide, hvordan man bruger objektorienteret programmering.'
+	parentId: da2213d4-a5f9-41b3-a8b3-26a6fc240001
+
+-
+	id: '8598ac8d-7a70-4e2a-be9a-9f4f9ecee935'
+	name: Andre
+	description: null
+	parentId: null
+
+-
+	id: '95374429-e651-46bd-9149-15aa716f8207'
+	name: Optimering af ydeevne
+	description: null
+	parentId: a6176cc1-e734-45c2-be52-70a5019dd9d0
+
+-
+	id: a0143f3c-ac75-46dc-a514-d3c9417ded4e
+	name: API
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: a23332c0-a233-4093-abd7-85b1b00a383b
+	name: Blanketter
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: a6176cc1-e734-45c2-be52-70a5019dd9d0
+	name: Strøm
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: ab12b253-41a0-4bf3-9019-956608d7d534
+	name: Hukommelsesstyring
+	description: null
+	parentId: '0eeab3a7-a54b-46db-a253-ca6100145648'
+
+-
+	id: ae4c1c70-11b3-433e-b1d0-e590155bb8b9
+	name: Designmønstre
+	description: '''
+		Hvis du har programmeret i lang tid, har du også bemærket, at meget af koden og udviklingsprincipperne gentages igen og igen.
+
+		Når det drejer sig om lukkede logikproblemer, kan løsningen af disse dele af applikationen kaldes <a href="/algoritmer">algoritmer</a>. Men hvordan kan man tage fat på applikationsdesignet som helhed på en meget mere generel måde og ikke kun fokusere på specifikke dele? Det er derfor **design patterns**, som beskriver arkitektoniske ideer og bedste praksis inden for softwaredesign, er til.
+
+		Formålet med designmønstre er at formalisere store dele af applikationen og sætte nogle grænser, der gør det muligt at færdiggøre selv komplicerede applikationer og uddelegere arbejdet til mange teammedlemmer.
+	'''
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: b6d0932e-7588-46a4-abb2-7d8f47088168
+	name: Webserver
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+	name: Objektorienteret programmering i PHP
+	description: '''
+		Objektorienteret programmering (forkortet OOP) er et programmeringsparadigme, som medfører en betydelig forenkling af udviklingsarbejdet.
+
+		De vigtigste fordele ved OOP er opdelingen af kode i individuelle dele (objekter og metoder), som let kan overføres mellem projekter (abstraktion og indkapsling) for at opbygge genanvendelige applikationer. OOP introducerer også nye teknikker som arv og polymorfi for første gang.
+
+		Hele dette afsnit af webstedet beskriver fordelene ved OOP-udvikling på en omfattende måde. Du vil hurtigt opdage, at selv om OOP også har sine problemer, er det faktisk den bedste metode til at bygge noget, hvis du går op i genanvendelighed af kode og langsigtet support for programmer, du allerede har skrevet.
+	'''
+	parentId: null
+
+-
+	id: c2134b23-9b10-46b3-aa54-e3996707255e
+	name: Matematik
+	description: 'Da programmering og matematik er meget tæt forbundet, fokuserede jeg meget på matematik under min uddannelse. Ud over en række værdifulde artikler har jeg skrevet en hel <a href="https://github.com/mathematicator-core">matematisk ramme</a> til løsning af forskellige typer af problemer. Hele denne sektion af webstedet beskriver forskellige interessante tanker, idéer, designmønstre og måder at arbejde med matematik i PHP på.'
+	parentId: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+
+-
+	id: '367f936c-073f-44bd-b399-30738e93137a'
+	name: Algoritme for søgemaskiner på internettet
+	description: 'Der tilføjes 5 millioner nye sider til internettet hvert sekund, og denne hastighed stiger hele tiden. I denne serie beskrives metoder til at søge i oplysningerne.'
+	parentId: '1f73dcfa-92a9-4738-ab30-8cbfb00ad23b'
+
+-
+	id: c241de47-8e01-4d93-bebd-db71ada44cc3
+	name: Indledning til emnet
+	description: null
+	parentId: b7ee485b-e3be-4f71-a536-dbe81fe0131e
+
+-
+	id: c5cec8c4-2a75-4f51-87c7-4d3acac0616f
+	name: Arbejde med filer
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: da2213d4-a5f9-41b3-a8b3-26a6fc240001
+	name: Database
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: e45491db-b548-471d-97b4-3e23610c5da9
+	name: Datastrukturer
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: f1b0be9b-de09-4c8a-8338-dc285bed95ec
+	name: Behandling af kæder
+	description: null
+	parentId: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+
+-
+	id: f46a0d80-fbe4-4be8-a5e4-04a8d29b0afc
+	name: Tips og tricks
+	description: I mere end 10 års udvikling har jeg samlet mange interessante løsninger på enkle og avancerede problemer. Denne del af webstedet beskriver mulighederne i deres elegante løsninger.
+	parentId: null
+
+-
+	id: f4a34087-1b51-4761-8128-4459dfe83d8a
+	name: PHP onlinekursus for begyndere
+	description: null
+	parentId: null
+
+-
+	id: f611e5d3-ed7b-4fe9-84ca-9271fc2bd2e3
+	name: Funktioner
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
+-
+	id: fbf79f0a-2287-4ca4-a9f5-97b0a0ec21a1
+	name: Databehandling
+	description: null
+	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
+
