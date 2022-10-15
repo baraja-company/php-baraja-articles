@@ -10,8 +10,8 @@ Asynchronní pohled na svět
 
 Už docela dlouho si všímám, že náš svět má asynchronní a decentralizovanou povahu. Když si to uvědomíte, a začnete přemýšlet, jak to využít pro váš prospěch, může snadno vzniknout celá velká koncepce, jak se dívat na řešení složitých problémů. V tomto příspěvku bych rád vysvětlil některé myšlenky, které už teď používám. Nemám je z žádného konkrétního zdroje, jde spíše o kombinaci více zkušeností a vlastní nápady. Tyto principy nefungují pro všechny případy.
 
-1. Definice prostředí a cílů
-----------------------------
+Definice prostředí a cílů
+-------------------------
 
 Skoro všechny projekty, které jsem kdy řešil (ať už sám nebo v týmu) měly poměrně konkrétně definovaný cíl. Tento přístup dává obrovský smysl, protože je důležité vědět, co chceme. Na druhou stranu věřím, že definovat konkrétní cíl v komplexním prostředí nelze, a často během implementace zjistíme, že chceme dojít vlastně někam jinam.
 
@@ -31,8 +31,8 @@ Hodně důležité také je říct, že pro podobný mindset musíte mít poměr
 
 Princip by se dal přirovnat tomu, jak fungují například výpočty při paralelním programování. Zkrátka rozložíte úkoly na jednotlivá vlákna, která najednou řeší různé pod-úlohy, a jakmile získáte všechny odpovědi, můžete složit řešení.
 
-2. Vysazování nových verzí softwaru
------------------------------------
+Vysazování nových verzí softwaru
+--------------------------------
 
 S tímhle hodně bojuju všude.
 
@@ -48,8 +48,8 @@ Hodně to souvisí s myšlenkou, kterou mi předali v LMC - "Funkce, kterou posk
 
 Na frameworku Next.js (postavený na Rectu) a Vercelu se mi hodně líbí princip, že si spojíte GitHub repositář přímo s Vercelem, a s každým commitem proběhne automatický build, testy, a když je vše ok, tak vysazení do produkce. Vývojář se proto nemusí o nic starat, a aplikace se s nulovým úsilím vysazuje klidně každou hodinu. Je velmi důležité rutinní věci formalizovat a pak automatizovat.
 
-3. Publikace obsahu
--------------------
+Publikace obsahu
+----------------
 
 Mám rozepsány vyšší desítky témat a příspěvků u sebe v Apple Notes. Ke každému tématu mě průběžně napadají nové myšlenky, které si poznamenávám, a řadím je podle štítků. Když k jednomu tématu vznikne víc poznámek, převádím je na kapitoly, a skupinu kapitol pak na články a FB příspěvky.
 
@@ -66,8 +66,8 @@ Spoustu obsahu vydávám nejprve tiše na webu, aby se toho nejprve všiml Googl
 
 U hodně témat vím, že vás nebudou zajímat a spíše budou obtěžovat. Zároveň je ale chci mít online, protože je může někdo v budoucnu hledat. V takovém případě zůstává článek jenom na webu. Příkladem těchto článků jsou různé vykrývací články, které spojují celou tematickou oblast, abych měl na webu pokryto co největší tematické celky. Vykrývací články bývají často odbornější a nudné. Nebo to jsou strojově generované kategorie, kde jenom organizuji víc článků do témat, a pokrývám tak co nejvíc klíčových slov, co pak může někdo chtít hledat.
 
-4. Poznání, vzdělávání, testování
----------------------------------
+Poznání, vzdělávání, testování
+------------------------------
 
 Rád si hraju s technologiemi, u kterých není od začátku jasné, k čemu to bude jednou dobré.
 
@@ -75,8 +75,8 @@ Třeba strojový překlad. Na první pohled nedává smysl přeložit desítky �
 
 Obecně nikdo nevíme, jak bude budoucnost vypadat. Dává mi proto obrovský smysl pokrývat co největší množinu možností, které chcete aspoň povrchně rozumět a v budoucnu možná řešit. Je dobré o krocích nepřemýšlet jenom jako o vyřešeném úkolu, ale jako o nikdy nekončícím vývojovém procesu, který nemá finální destinaci.
 
-5. Funguje tento přístup pro dodávání zakázkových projektů?
------------------------------------------------------------
+Funguje tento přístup pro dodávání zakázkových projektů?
+--------------------------------------------------------
 
 Většinou ne.
 
