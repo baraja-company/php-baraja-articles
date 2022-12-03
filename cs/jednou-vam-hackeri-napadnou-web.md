@@ -32,7 +32,7 @@ Bohužel **neexistuje jeden správný univerzální postup**, jak útok poznat. 
 
 Co se mi za poslední dobu nejvíc osvědčilo:
 
-- **Když útočník neví, kde máte fyzicky servery**, má mnohem složitější pozici. Informace o fyzické architektuře lze velmi dobře mlžit službou [Clouflare](https://www.cloudflare.com/), která proxuje (a obousměrně šifruje) veškerou síťovou komunikaci. Má i řadu dalších výhod, jako je například rychlejší načítání ze zahraničí, automatická ochrana proti DDOS útokům, komprimaci assetů a v neposlední řadě automatickou blokaci nečestných návštěvníků. Cloudflare používám pro všechny své weby (a to skoro každý projekt využívá jiné technologie).
+- **Když útočník neví, kde máte fyzicky servery**, má mnohem složitější pozici. Informace o fyzické architektuře lze velmi dobře mlžit službou [Cloudflare](https://www.cloudflare.com/), která proxuje (a obousměrně šifruje) veškerou síťovou komunikaci. Má i řadu dalších výhod, jako je například rychlejší načítání ze zahraničí, automatická ochrana proti DDOS útokům, komprimaci assetů a v neposlední řadě automatickou blokaci nečestných návštěvníků. Cloudflare používám pro všechny své weby (a to skoro každý projekt využívá jiné technologie).
 - **Logování chyb**. Vždycky a všechno. Je velká pravděpodobnost, že vaše aplikace obsahuje hodně chyb, které spáchal váš programátor. Ať už to jsou [nezachycené výjimky](https://php.baraja.cz/vyjimky), aplikační chyby, SQL injection a podobně. Pokud programujete v PHP a logování moc nerozumíte, tak dost problémů zachytí [Tracy](https://tracy.nette.org/) (a případně i jiné nástroje, jako je například [Sentry](https://sentry.io/)) a access logy na samotném serveru. Logování chyb není nice to have, je to povinnost. Chyby loguji na všech webech, které aktivně spravuji a informace o nových chybách si nechávám posílat na mail, abych o tom ihned věděl.
 - **Bezpečná a aktualizovaná platforma**. Máte na webu WordPress? Umíte ho správně aktualizovat? Znáte všechna rizika, která vám hrozí? Když je něco zadarmo, prakticky vždy to bývá na úkor nečeho jiného. Osobně pro vývoj aplikací používám [Nette framework](https://nette.org/cs/) ve verzi 3, který každý týden aktualizuji a aktivně vyhledávám bezpečnostní zranitelnosti, které opravuji. Stejně jako necháváte pravidelně servisovat své auto, tak je potřeba pravidelně servisovat svůj web a to minimálně jednou měsíčně. Údržba webu zahrnuje aktualizaci všech externích knihoven a důsledné sledování logů. Pokud používáte starou verzi knihovny, je velmi pravděpodobné, že o zranitelnosti útočník ví a pokusí se ji využít.
 Otázka je kdy
@@ -45,13 +45,13 @@ Otázka totiž není, jestli vám někdy někdo prolomí web. Otázka je, kdy to
 Co dělat, když se stane průšvih
 -------------------------------
 
-V okamžiku, kdy se o práci hackera dozvíte, je obvykle pozdě a hacker udělal vše, co potřeboval. Velmi pravděpodobně umístil do celého serveru mallware a má nad strojem aspoň částečnou kontrolu.
+V okamžiku, kdy se o práci hackera dozvíte, je obvykle pozdě a hacker udělal vše, co potřeboval. Velmi pravděpodobně umístil do celého serveru malware a má nad strojem aspoň částečnou kontrolu.
 
 Jedná se o **chaotický typ problému a je potřeba jednat rychle**.
 
 Protože se jedná o poslední fázi napadení, osobně doporučuji webový server úplně odpojit od internetu a začít postupně zjišťovat, co vše se stalo. Navíc nikdy nebudeme přesně vědět, jestli server neukrývá ještě něco dalšího. Útočník má vždycky značný náskok.
 
-Pokud se rozhodneme na server vrátit poslední funkční zálohu, tak útočníkovi velmi pomůžeme. Ten totiž už zná způsob, jak prolomit váš server a nic mu nebrání v tom, aby to udělal za několik hodin znovu. Navíc záloha pravděpodobně obsahuje mallware nebo jiný typ viru.
+Pokud se rozhodneme na server vrátit poslední funkční zálohu, tak útočníkovi velmi pomůžeme. Ten totiž už zná způsob, jak prolomit váš server a nic mu nebrání v tom, aby to udělal za několik hodin znovu. Navíc záloha pravděpodobně obsahuje malware nebo jiný typ viru.
 
 Ačkoli to je mezi mými klienty velmi nepopulární varianta, tak osobně vždy jako první doporučuji **úplně smazat WordPress weby**, resp. všechny systémy, které klient neaktualizuje a které mají hodně bezpečnostních hrozeb. Pokud například na jednom serveru hostujete 30 webů se stářím více než 2 roky, máte prakticky jistotu, že minimálně jeden obsahuje nějakou formu zranitelnosti.
 
@@ -71,7 +71,7 @@ Protože se na mě obrací firmy i jednotlivci v různých fázích technologick
 - **FTP pro komunikaci se serverem nedává smysl**. Jde o nezabezpečený protokol, který se ovládá heslem. Pokud chcete někomu dát přístup, musí znát heslo a může to samé, co vy. Pokud mu chcete odebrat přístup, tak to nejde, jedině změnit heslo. Lepší je kompletně přejít na SSH a používat RSA klíče. Docela často se divím, že i takový problém firmy v dnešní době řeší. Nikdy si nedělejte jednu tabulku všech hesel. A už vůbec nikdy sdílenou na celý tým!
 - **Zdrojové kódy patří do Gitu**, data do databáze a statický obsah (obrázky, PDF, ...) do souborů na disk. Výběr špatného datového úložiště zhoršuje návrh aplikace a také bezpečnost. URL na PDF (například s fakturou) by měl obsahovat náhodně vygenerovaný obsah, který zná jen příjemce. U extrémně citlivého obsahu (třeba výpis z bankovních účtů) je důležité obsah na disku šifrovat a poskytnout jen po přihlášení.
 - Neveřejné části webu musí obsahovat META hlavičku `noindex` a `nofollow`, aby to nezaindexoval Google. Citlivý obsah, který nesmí znát vaše konkurence musí být zabezpečen heslem.
-- Na serveru si vypněte [listování obsahů adresářů](https://www.simplified.guide/apache/disable-directory-listing). Nevhodným nastavením lze strojově projít celý web a najít citlivé soubory.
+- Na serveru si vypněte [listování obsahu adresářů](https://www.simplified.guide/apache/disable-directory-listing). Nevhodným nastavením lze strojově projít celý web a najít citlivé soubory.
 - Project root! Ke konfiguračním souborů nesmí nikdy existovat přímá URL. Třeba [Nette to dělá správně](https://doc.nette.org/cs/3.0/quickstart/getting-started#toc-obsah-web-projectu) hned od prvního tutoriálu. To samé platí pro [veřejně dostupné gitové repositáře](https://smitka.me/open-git/). Tento typ zranitelnosti je extrémně lehké podcenit a důsledky bývají tragické.
 - Bug může vzniknout i nedopatřením při vývoji. Velmi důležité je pro každou změnu dělat codereview živým člověkem. Hodně chyb odhalí [PHPStan](https://github.com/phpstan/phpstan) nebo podobné nástroje ještě předtím, než kód uvidí člověk.
 - Nikdy [neposílejte hesla v čitelné podobě e-mailem](https://www.lupa.cz/clanky/reset-a-poslani-hesla-v-citelne-podobe-e-mailem-nebezpecna-praktika/), vždycky to jde vyřešit jinak.
@@ -84,7 +84,7 @@ Bezpečnostní techniky jsou jako plasty v oceánu - prostě na vždycky. Zvykej
 Akční a reakční princip přírody
 -------------------------------
 
-Určitě jste si také všimli, že příroda používá praticky vždycky reakční princip. To znamená, že se něco v určitém prostředí stane a okolní organismy na to různě reagují. Tento přístup má řadu výhod, ale jednu obrovskou nevýhodu - vždycky budete pozadu.
+Určitě jste si také všimli, že příroda používá prakticky vždy reakční princip. To znamená, že se něco v určitém prostředí stane a okolní organismy na to různě reagují. Tento přístup má řadu výhod, ale jednu obrovskou nevýhodu - vždycky budete pozadu.
 
 Jako myslící člověk (projekťák, vývojář, konzultant) máte skvělou výhodu, a to být akční - tedy znát předem určitou část velkých rizik a aktivně zabránit tomu, aby se vůbec nestaly. Sice nikdy nezabráníte všem průšvihům, ale můžete následky aspoň zmírnit, nebo vybudovat takové kontrolní mechanismy, které problémy včas odhalí, abyste získali čas reagovat.
 
