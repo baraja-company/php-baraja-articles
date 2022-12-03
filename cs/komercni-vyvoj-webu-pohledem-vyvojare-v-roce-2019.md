@@ -8,7 +8,7 @@ Komerční vývoj webu pohledem vývojáře v roce 2019
 > publicationDate: "2020-07-26 12:00:00"
 > mainCategoryId: "483db7b7-5699-41fb-ba0b-d2b653bacd1f"
 
-Po pěti letech na volné noze a vývoji nejrůznějších webů jak přes agentury, doporučení, klienty získanými z historie nebo jen náhodou se dostávám do pozice určité flustrace. Pochopil jsem, že pokud chcete dodávat **kvalitní weby, není to jen o validním HTML** a šabloně, často je za tím mnohem víc. Tento článek popisuje konkrétní faktory, na které si na základě zkušeností dávám velký pozor a jak razantně zvýšit svoji hodnotu na trhu práce. Článek chápejte spíše jako sbírku postřehů a doporučení, *použití je na vlastní nebezpečí* a jsem otevřen další diskusi.
+Po pěti letech na volné noze a vývoji nejrůznějších webů jak přes agentury, doporučení, klienty získanými z historie nebo jen náhodou se dostávám do pozice určité frustrace. Pochopil jsem, že pokud chcete dodávat **kvalitní weby, není to jen o validním HTML** a šabloně, často je za tím mnohem víc. Tento článek popisuje konkrétní faktory, na které si na základě zkušeností dávám velký pozor a jak razantně zvýšit svoji hodnotu na trhu práce. Článek chápejte spíše jako sbírku postřehů a doporučení, *použití je na vlastní nebezpečí* a jsem otevřen další diskusi.
 
 Začátky komerční spolupráce přes agentury
 -----------------------------------------
