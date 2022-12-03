@@ -29,7 +29,7 @@ Závěrem rozhodně není, že spolupráce s agenturou nedává smysl — zále�
 Vlastní projekty s klienty napřímo
 ----------------------------------
 
-Během života jsem získal několik stálých klientů, kterým spravuji dlouhodobě weby a jsou za to relativně slušné poplatky. Proti spolupráce s agenturou zde chybí jistota měsíčního příjmu, protože se úpravy provádí zpravidla jednou za čas, když klient zrovna něco potřebuje a vývojář musí řešit mnoho omezení.
+Během života jsem získal několik stálých klientů, kterým spravuji dlouhodobě weby a jsou za to relativně slušné poplatky. Oproti spolupráci s agenturou zde chybí jistota měsíčního příjmu, protože se úpravy provádí zpravidla jednou za čas, když klient zrovna něco potřebuje a vývojář musí řešit mnoho omezení.
 
 Zkušenost ukazuje, že existuje mnoho faktorů, na které si musím dávat pozor. Ty nejdůležitější:
 
