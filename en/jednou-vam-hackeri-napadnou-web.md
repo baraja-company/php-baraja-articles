@@ -8,18 +8,18 @@ One day hackers will attack your website
 > 
 > publicationDate: '2020-08-04 12:00:00'
 > mainCategoryId: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
-> sourceContentHash: a74c964823fb0c4231b711d113055a24
+> sourceContentHash: '0f0ac4c091115e9c1f0833d318f34f5d'
 
 That's not gonna happen to you? :DDDDDDD
 
-While managing more than 300 websites, I get various emergencies from time to time. Sometimes they are quite heated, but often it is a complete triviality. If, like me, you have been tempted by programming in the past, and you also know that [programming is a pain](http://borisovo.cz/programming-sucks-cz.html), you will definitely agree with me.
+While managing more than 300 websites, I get various emergencies from time to time. Sometimes they are quite heated, but often it is a complete triviality. If, like me, you have been tempted by programming in the past, and you also know that [programming is a pain](http://borisovo.cz/programming-sucks-cz.html), you will surely agree with me.
 
 In the grip of evil hackers
 ----------------------
 
 When a web application becomes popular, it becomes a tempting target for hackers. Their motivation is usually not to bring down the entire website, quite the opposite. In fact, **hackers want you, as the server administrator, to be completely unaware of them**. A good hacker waits for months, watching the web server and getting the most valuable thing - your data.
 
-To protect your users, it's imperative to encrypt all data and have multiple layers of protection. For passwords, use one of the slow functions such as [Bcrypt + salt](https://php.baraja.cz/hashovani), Argon2, PBKDF2 or Scrypt. Michal Spacek has already written about [security rating](https://pulse.michalspacek.cz/passwords/storages/rating#slow-hashes), and I thank him for adding to the article. As a site owner, you must insist on proper password hashing when discussing with a programmer. Otherwise, you are going to cry, just like many people before you who also deluded themselves into thinking it didn't concern them.
+To protect your users, it's imperative to encrypt all data and have multiple layers of protection. For passwords, use one of the slow functions such as [Bcrypt + salt](https://php.baraja.cz/hashovani), Argon2, PBKDF2, or Scrypt. Michal Špaček has already written about [security rating](https://pulse.michalspacek.cz/passwords/storages/rating#slow-hashes), and I thank him for adding to the article. As a site owner, you must insist on proper password hashing when discussing with a programmer. Otherwise, you are going to cry, just like many people before you who also deluded themselves that it didn't concern them.
 
 Can you tell when you're under attack?
 ---------------------------------
@@ -34,7 +34,7 @@ Unfortunately, there's no one-size-fits-all way to recognize an attack. But ther
 
 What's worked best for me lately:
 
-- **When an attacker doesn't know where your servers are physically**, they have a much more difficult position. Physical architecture information can be obfuscated very well with [Clouflare](https://www.cloudflare.com/), which proxies (and bi-directionally encrypts) all network communication. It also has a number of other advantages, such as faster retrieval from abroad, automatic protection against DDOS attacks, asset compression, and last but not least, automatic blocking of rogue visitors. I use Cloudflare for all my websites (and almost every project uses different technologies).
+- **When an attacker doesn't know where your servers are physically**, they have a much more difficult position. Physical architecture information can be obfuscated very well with [Cloudflare](https://www.cloudflare.com/), which proxies (and bi-directionally encrypts) all network communication. It also has a number of other advantages, such as faster retrieval from abroad, automatic protection against DDOS attacks, asset compression, and last but not least, automatic blocking of rogue visitors. I use Cloudflare for all my websites (and almost every project uses different technologies).
 - **Error logging**. Always and everything. Chances are your application contains a lot of bugs committed by your programmer. Be it [uncaught exceptions](https://php.baraja.cz/vyjimky), application errors, SQL injection, and so on. If you're programming in PHP and don't understand logging, there are enough problems that [Tracy](https://tracy.nette.org/) (and possibly other tools like [Sentry](https://sentry.io/)) and access logs on the server itself will catch. Error logging is not a nice to have, it's a must. I log bugs on all the sites I actively maintain, and have information about new bugs sent to my email so I know about it immediately.
 - **Secure and updated platform**. Do you have WordPress on your site? Do you know how to update it properly? Do you know all the risks you face? When something is free, it's almost always at the expense of something else. Personally, I use [Nette framework](https://nette.org/cs/) version 3 for application development, which I update weekly and actively look for security vulnerabilities to patch. Just like you have your car serviced regularly, you need to have your website serviced regularly and at least once a month. Site maintenance includes updating all external libraries and consistently monitoring logs. If you are using an old version of a library, it is very likely that an attacker knows about the vulnerability and will try to exploit it.
 The question is when
@@ -47,13 +47,13 @@ The question is not whether someone will ever break your website. The question i
 What to do when trouble happens
 -------------------------------
 
-By the time you find out about the hacker's work, it's usually too late and the hacker has done everything they needed to do. He has very likely placed mallware all over the server and has at least partial control over the machine.
+By the time you find out about the hacker's work, it's usually too late and the hacker has done everything they needed to do. He has very likely placed malware all over the server and has at least partial control over the machine.
 
 This is a **chaotic type of problem and you need to act fast**.
 
-Since this is the last stage of the attack, I personally recommend disconnecting the web server from the internet completely and start to gradually figure out what all happened. Plus, we will never know exactly if the server is hiding something else. The attacker always has a significant head start.
+Since this is the last stage of the attack, I personally recommend disconnecting the web server completely from the internet and start to gradually figure out what all happened. Plus, we will never know exactly if the server is hiding something else. The attacker always has a significant head start.
 
-If we decide to put the last working backup back on the server, we will be helping the attacker a lot. He already knows how to break into your server and there is nothing stopping him from doing it again in a few hours. In addition, the backup probably contains mallware or some other type of virus.
+If we decide to put the last working backup back on the server, we will be helping the attacker a lot. He already knows how to break into your server and there is nothing stopping him from doing it again in a few hours. In addition, the backup probably contains malware or some other type of virus.
 
 Although this is a very unpopular option among my clients, I personally always recommend **completely deleting WordPress sites** first, or any systems that the client doesn't update that have a lot of security threats. For example, if you host 30 sites on one server that are more than 2 years old, you are virtually guaranteed that at least one of them contains some form of vulnerability.
 
@@ -75,8 +75,8 @@ Since I am approached by companies and individuals at various stages of technolo
 - Non-public parts of the site must contain the META header `noindex` and `nofollow` to avoid being indexed by Google. Sensitive content that your competitors must not know must be password protected.
 - Disable [directory content listing](https://www.simplified.guide/apache/disable-directory-listing) on your server. If set inappropriately, the entire site can be machine crawled to find sensitive files.
 - Project root! There must never be a direct URL to configuration files. For example, [Nette does it right](https://doc.nette.org/cs/3.0/quickstart/getting-started#toc-obsah-web-projectu) right from the first tutorial. The same goes for [publicly available git repositories](https://smitka.me/open-git/). This type of vulnerability is extremely easy to underestimate and the consequences tend to be tragic.
-- The bug can also be caused by an inadvertent development oversight. It is very important to do a codereview by a live human for each change. Many bugs are discovered by [PHPStan](https://github.com/phpstan/phpstan) or similar tools before a human sees the code.
-- Never [send passwords in readable form via email](https://www.lupa.cz/clanky/reset-a-poslani-hesla-v-citelne-podobe-e-mailem-nebezpecna-praktika/), there's always another way to handle it.
+- The bug can also arise from an inadvertent development mistake. It is very important to do a codereview by a live human for each change. Many bugs are discovered by [PHPStan](https://github.com/phpstan/phpstan) or similar tools before a human sees the code.
+- Never [send passwords in readable form by email](https://www.lupa.cz/clanky/reset-a-poslani-hesla-v-citelne-podobe-e-mailem-nebezpecna-praktika/), there's always another way to solve it.
 - Security problems in old versions of libraries and software. Robots crawl the internet every second and attack known security holes (SQL injection, XSS, CSRF, ...). A lot of known holes have older versions of WordPress.
 
 There are many more vulnerabilities and the problems vary from project to project. If you need to do a quick server audit, I recommend using [Maldet](https://www.rfxn.com/projects/linux-malware-detect/) and then hiring a suitable specialist to help you do a [full site audit](https://baraja.cz/audit-webu), and not just for security reasons.
@@ -86,8 +86,8 @@ Security engineers are like plastic in the ocean - just forever. Get used to it.
 The action and reaction principle of nature
 -------------------------------
 
-You must have also noticed that nature always uses the reactionary principle. This means that something happens in a certain environment and the surrounding organisms react to it in different ways. This approach has many advantages, but one huge disadvantage - you will always be left behind.
+You will also have noticed that nature almost always uses the reactionary principle. This means that something happens in a particular environment and the surrounding organisms react to it in different ways. This approach has many advantages, but one huge disadvantage - you will always be left behind.
 
-As a thinking person (designer, developer, consultant) you have a great advantage, and that is to be actionable - that is, to know in advance a certain part of the big risks and actively prevent them from happening in the first place. You may never prevent all screw-ups, but you can at least mitigate the consequences, or build control mechanisms that detect problems early so you have time to react.
+As a thinking person (designer, developer, consultant) you have a great advantage, and that is to be actionable - that is, to know in advance a certain portion of the big risks and actively prevent them from happening in the first place. You may never prevent all screw-ups, but you can at least mitigate the consequences, or build control mechanisms that detect problems early so you have time to react.
 
 Most attacks take place over a long period of time, and if you log, you will usually have enough time to detect the problem.

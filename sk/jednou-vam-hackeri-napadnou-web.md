@@ -8,7 +8,7 @@ Jedného dňa hackeri zaútočia na vaše webové stránky
 > 
 > publicationDate: '2020-08-04 12:00:00'
 > mainCategoryId: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
-> sourceContentHash: a74c964823fb0c4231b711d113055a24
+> sourceContentHash: '0f0ac4c091115e9c1f0833d318f34f5d'
 
 To sa vám nestane? :DDDDDDD
 
@@ -34,9 +34,9 @@ Nanešťastie neexistuje univerzálny spôsob, ako rozpoznať útok. Existujú v
 
 Čo sa mi v poslednej dobe najviac osvedčilo:
 
-- **Keď útočník nevie, kde sa vaše servery fyzicky nachádzajú**, má oveľa ťažšiu pozíciu. Informácie o fyzickej architektúre možno veľmi dobre zakryť pomocou nástroja [Clouflare](https://www.cloudflare.com/), ktorý sprostredkúva (a obojsmerne šifruje) všetku sieťovú komunikáciu. Má aj množstvo ďalších výhod, napríklad rýchlejšie načítanie zo zahraničia, automatickú ochranu pred útokmi DDOS, kompresiu aktív a v neposlednom rade automatické blokovanie nepoctivých návštevníkov. Cloudflare používam pre všetky svoje webové stránky (a takmer každý projekt používa iné technológie).
+- **Keď útočník nevie, kde sa vaše servery fyzicky nachádzajú**, má oveľa ťažšiu pozíciu. Informácie o fyzickej architektúre možno veľmi dobre zakryť pomocou služby [Cloudflare](https://www.cloudflare.com/), ktorá sprostredkúva (a obojsmerne šifruje) všetku sieťovú komunikáciu. Má aj množstvo ďalších výhod, napríklad rýchlejšie načítanie zo zahraničia, automatickú ochranu pred útokmi DDOS, kompresiu aktív a v neposlednom rade automatické blokovanie nepoctivých návštevníkov. Cloudflare používam pre všetky svoje webové stránky (a takmer každý projekt používa iné technológie).
 - **Zaznamenávanie chýb**. Vždy a všetko. Je pravdepodobné, že vaša aplikácia obsahuje veľa chýb, ktoré spáchal váš programátor. Či už ide o [uncaught exceptions](https://php.baraja.cz/vyjimky), chyby aplikácie, SQL injection a podobne. Ak programujete v PHP a nerozumiete logovaniu, existuje dosť problémov, ktoré zachytí [Tracy](https://tracy.nette.org/) (a prípadne ďalšie nástroje ako [Sentry](https://sentry.io/)) a logy prístupu na samotnom serveri. Zaznamenávanie chýb nie je príjemné, ale nevyhnutné. Chyby zaznamenávam na všetkých stránkach, ktoré aktívne spravujem, a informácie o nových chybách si nechávam posielať na svoj e-mail, aby som o nich okamžite vedel.
-- **Bezpečná a aktualizovaná platforma**. Máte na svojej stránke WordPress? Viete, ako ho správne aktualizovať? Poznáte všetky riziká, ktorým čelíte? Keď je niečo zadarmo, takmer vždy je to na úkor niečoho iného. Osobne používam na vývoj aplikácií [Nette framework](https://nette.org/cs/) verziu 3, ktorú týždenne aktualizujem a aktívne hľadám bezpečnostné chyby, ktoré treba opraviť. Tak ako pravidelne vykonávate servis svojho auta, musíte pravidelne a aspoň raz mesačne vykonávať servis svojej webovej stránky. Údržba lokality zahŕňa aktualizáciu všetkých externých knižníc a dôsledné monitorovanie protokolov. Ak používate starú verziu knižnice, je veľmi pravdepodobné, že útočník o zraniteľnosti vie a pokúsi sa ju zneužiť.
+- **Bezpečná a aktualizovaná platforma**. Máte na svojej stránke WordPress? Viete, ako ho správne aktualizovať? Poznáte všetky riziká, ktorým čelíte? Keď je niečo zadarmo, takmer vždy je to na úkor niečoho iného. Osobne používam na vývoj aplikácií [Nette framework](https://nette.org/cs/) verziu 3, ktorú týždenne aktualizujem a aktívne hľadám bezpečnostné chyby, ktoré treba opraviť. Tak ako pravidelne vykonávate servis svojho auta, musíte pravidelne, aspoň raz za mesiac, vykonávať servis svojej webovej stránky. Údržba lokality zahŕňa aktualizáciu všetkých externých knižníc a dôsledné monitorovanie protokolov. Ak používate starú verziu knižnice, je veľmi pravdepodobné, že útočník o zraniteľnosti vie a pokúsi sa ju zneužiť.
 Otázkou je, kedy
 Veľké množstvo ľudí v mojom okolí neuveriteľným spôsobom podceňuje bezpečnosť a vystavuje na internete obsah, ktorý je veľmi ľahké prelomiť a zneužiť.
 
@@ -47,17 +47,17 @@ Otázkou nie je, či niekto niekedy rozbije vašu webovú stránku. Otázkou je,
 Čo robiť, keď sa vyskytnú problémy
 -------------------------------
 
-V čase, keď sa o práci hackera dozviete, je už zvyčajne neskoro a hacker urobil všetko, čo potreboval. Veľmi pravdepodobne umiestnil mallware po celom serveri a má nad počítačom aspoň čiastočnú kontrolu.
+V čase, keď sa o práci hackera dozviete, je už zvyčajne neskoro a hacker urobil všetko, čo potreboval. Veľmi pravdepodobne umiestnil škodlivý softvér na celý server a má nad ním aspoň čiastočnú kontrolu.
 
 Ide o **chaotický typ problému a musíte konať rýchlo**.
 
 Keďže ide o poslednú fázu útoku, osobne odporúčam webový server úplne odpojiť od internetu a začať postupne zisťovať, čo všetko sa stalo. Navyše sa nikdy presne nedozvieme, či server neskrýva niečo iné. Útočník má vždy značný náskok.
 
-Ak sa rozhodneme vrátiť na server poslednú funkčnú zálohu, veľmi tým pomôžeme útočníkovi. Už vie, ako sa vlámať do vášho servera, a nič mu nebráni v tom, aby to za niekoľko hodín urobil znova. Okrem toho záloha pravdepodobne obsahuje mallware alebo iný typ vírusu.
+Ak sa rozhodneme vrátiť na server poslednú funkčnú zálohu, veľmi tým pomôžeme útočníkovi. Už vie, ako sa vlámať do vášho servera, a nič mu nebráni v tom, aby to za niekoľko hodín urobil znova. Okrem toho záloha pravdepodobne obsahuje škodlivý softvér alebo iný typ vírusu.
 
 Aj keď je to medzi mojimi klientmi veľmi nepopulárna možnosť, osobne vždy odporúčam najprv **úplne odstrániť stránky WordPress** alebo akékoľvek systémy, ktoré klient neaktualizuje a ktoré majú veľa bezpečnostných hrozieb. Ak napríklad na jednom serveri hostíte 30 lokalít starších ako 2 roky, máte prakticky istotu, že aspoň jedna z nich obsahuje nejakú formu zraniteľnosti.
 
-Ak problému nerozumiete, radšej sa včas obráťte na vhodného odborníka, ktorý má hlboké znalosti o vašom probléme a chápe veci v širšom kontexte.
+Ak problému nerozumiete, radšej sa hneď na začiatku obráťte na vhodného odborníka, ktorý má hlboké znalosti o vašom probléme a chápe veci v širšom kontexte.
 
 **Etická poznámka:**
 
@@ -75,8 +75,8 @@ Keďže sa na mňa obracajú spoločnosti a jednotlivci v rôznych fázach techn
 - Neverejné časti stránky musia obsahovať hlavičku META `noindex` a `nofollow`, aby ich Google neindexoval. Citlivý obsah, ktorý nesmie poznať vaša konkurencia, musí byť chránený heslom.
 - Zakázanie [výpisu obsahu adresára](https://www.simplified.guide/apache/disable-directory-listing) na vašom serveri. Pri nevhodnom nastavení môže byť celá lokalita strojovo prehľadávaná s cieľom nájsť citlivé súbory.
 - Projekt root! Nikdy nesmie existovať priama adresa URL na konfiguračné súbory. Napríklad [Nette to robí správne](https://doc.nette.org/cs/3.0/quickstart/getting-started#toc-obsah-web-projectu) hneď v prvom návode. To isté platí aj pre [verejne dostupné repozitáre git](https://smitka.me/open-git/). Tento typ zraniteľnosti je veľmi ľahké podceniť a následky bývajú tragické.
-- Chyba môže byť spôsobená aj neúmyselným nedopatrením pri vývoji. Je veľmi dôležité, aby každú zmenu preskúmal živý človek. Mnoho chýb sa odhalí pomocou [PHPStan](https://github.com/phpstan/phpstan) alebo podobných nástrojov skôr, ako kód uvidí človek.
-- Nikdy [neposielajte heslá v čitateľnej podobe e-mailom](https://www.lupa.cz/clanky/reset-a-poslani-hesla-v-citelne-podobe-e-mailem-nebezpecna-praktika/), vždy existuje iný spôsob, ako to vyriešiť.
+- Chyba môže vzniknúť aj v dôsledku neúmyselnej chyby pri vývoji. Je veľmi dôležité, aby každú zmenu preskúmal živý človek. Mnoho chýb sa odhalí pomocou [PHPStan](https://github.com/phpstan/phpstan) alebo podobných nástrojov skôr, ako kód uvidí človek.
+- Nikdy [neposielajte heslá v čitateľnej podobe e-mailom](https://www.lupa.cz/clanky/reset-a-poslani-hesla-v-citelne-podobe-e-mailem-nebezpecna-praktika/), vždy existuje iný spôsob riešenia.
 - Bezpečnostné problémy v starých verziách knižníc a softvéru. Roboty prehľadávajú internet každú sekundu a útočia na známe bezpečnostné diery (SQL injection, XSS, CSRF, ...). Veľa známych dier má staršie verzie WordPress.
 
 Zraniteľných miest je oveľa viac a problémy sa líšia od projektu k projektu. Ak potrebujete urobiť rýchly audit servera, odporúčam použiť [Maldet](https://www.rfxn.com/projects/linux-malware-detect/) a potom si najať vhodného odborníka, ktorý vám pomôže urobiť [úplný audit webu](https://baraja.cz/audit-webu), a to nielen z bezpečnostných dôvodov.
@@ -86,8 +86,8 @@ Bezpečnostní inžinieri sú ako plast v oceáne - jednoducho navždy. Zvyknite
 Princíp akcie a reakcie v prírode
 -------------------------------
 
-Určite ste si tiež všimli, že príroda vždy využíva princíp reakcie. To znamená, že sa niečo deje v určitom prostredí a okolité organizmy na to reagujú rôznymi spôsobmi. Tento prístup má mnoho výhod, ale jednu obrovskú nevýhodu - vždy zostanete pozadu.
+Určite ste si všimli, že príroda takmer vždy využíva princíp reakcie. To znamená, že sa niečo deje v určitom prostredí a okolité organizmy na to reagujú rôznymi spôsobmi. Tento prístup má mnoho výhod, ale jednu obrovskú nevýhodu - vždy zostanete pozadu.
 
 Ako mysliaci človek (dizajnér, vývojár, konzultant) máte veľkú výhodu, a tou je akcieschopnosť - to znamená, že vopred poznáte určitú časť veľkých rizík a aktívne im predchádzate. Možno nikdy nezabránite všetkým chybám, ale môžete aspoň zmierniť ich následky alebo vytvoriť kontrolné mechanizmy, ktoré včas odhalia problémy, aby ste mali čas reagovať.
 
-Väčšina útokov sa odohráva počas dlhého časového obdobia, a ak sa prihlásite, zvyčajne budete mať dostatok času na zistenie problému.
+Väčšina útokov sa odohráva počas dlhého časového obdobia, a ak sa prihlásite, zvyčajne budete mať dostatok času na odhalenie problému.
