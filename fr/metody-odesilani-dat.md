@@ -6,12 +6,15 @@ Méthodes d'envoi des données (GET et POST)
 > 	cs: metody-odesilani-dat
 > 	fr: methodes-d-envoi-des-donnees-get-et-post
 > 
-> perex: 'Metoda GET a POST, získávání dat z formuláře a URL. Komunikace přes API a zpracování dat.'
+> perex:
+> 	- 'Metoda GET a POST, získávání dat z formuláře a URL. Komunikace přes API a zpracování dat.'
+> 	- 'Méthode GET et POST, récupération de données à partir d''un formulaire et d''une URL, communication API et traitement des données.'
+> 
 > publicationDate: '2019-11-26 11:38:32'
 > mainCategoryId: '2a1ef8bc-14aa-438a-87e7-5b3f9643f325'
-> sourceContentHash: '2282538597ebfe95877ae0e005ddd352'
+> sourceContentHash: '81b5f92d7ee05563b6ece295ed5958d3'
 
-En plus des variables normales, nous avons aussi des variables dites **superglobales** en PHP, qui portent des informations sur la page actuellement appelée et les données que nous passons.
+En plus des variables normales, nous avons également des variables dites "superglobales" en PHP, qui contiennent des informations sur la page actuellement appelée et les données que nous transmettons.
 
 Typiquement, nous avons un formulaire sur une page que l'utilisateur remplit et nous voulons transférer ces données au serveur web où nous les traitons en PHP.
 
@@ -30,7 +33,7 @@ L'adresse de la page de réception pourrait ressembler à ceci :
 
 `https://____________.com/script.php?promenna=obsah&promenna2=obsah`
 
-En PHP, nous pouvons alors, par exemple, écrire la valeur du paramètre `variable` comme suit :
+En PHP, on peut alors, par exemple, écrire la valeur du paramètre `variable` comme suit :
 
 ```php
 echo $_GET['promenade'];	// imprime "contenu".
@@ -127,7 +130,7 @@ if (isset($_GET['x']) && isset($_GET['y'])) {
 Traitement des données reçues par la méthode POST
 --------------------------------------
 
-Si les données sont reçues par POST, l'URL du script à traiter ressemblera toujours à ceci :
+Si les données sont reçues par la méthode POST, l'URL du script à traiter ressemblera toujours à ceci :
 
 `https://________.com/script.php`
 
@@ -143,3 +146,64 @@ Traitement des requêtes ajax
 Dans certains cas, lors du traitement des requêtes ajax, il peut s'avérer difficile de récupérer les données. Cela s'explique par le fait que les bibliothèques ajax envoient généralement des données sous forme de données utiles `json`, alors que la variable superglobale `$_POST` ne contient que des données de formulaire.
 
 Les données sont toujours accessibles, j'ai décrit les détails dans l'article <a href="/ajax-post">Gestion des requêtes POST ajax</a>.
+
+Obtenir des données brutes
+-----------------------------
+
+Il peut arriver qu'un utilisateur envoie une demande en utilisant une méthode HTTP inappropriée et qu'il y ajoute ses propres données. Ou, par exemple, envoie un fichier binaire, ou de mauvais en-têtes HTTP.
+
+Pour un tel cas, il est bon d'utiliser l'entrée native, qui est obtenue en PHP comme suit :
+
+```php
+$input = file_get_contents('php://entrée');
+```
+
+Lors de la mise en œuvre de la bibliothèque REST API, j'ai également rencontré un certain nombre de cas particuliers où différents types de serveurs web décidaient de manière incorrecte des en-têtes HTTP d'entrée, ou l'utilisateur soumettait de manière incorrecte les données du formulaire, etc.
+
+Pour ce cas, j'ai pu implémenter cette fonction qui résout presque tous les cas (l'implémentation dépend de `Nette\Http\RequestFactory`, mais vous pouvez remplacer cette dépendance par autre chose dans votre projet spécifique) :
+
+```php
+/**
+ * Obtenir les données POST directement à partir de l'en-tête HTTP, ou essayer d'analyser les données à partir de la chaîne.
+ * Certains clients traditionnels envoient des données au format json, qui est une chaîne de caractères de base, ce qui rend obligatoire la conversion des champs en tableaux.
+ *
+ * @return array<string|int, mixed>
+ */
+private function getBodyParams(string $method): array
+{
+	if ($method === 'GET' || $method === 'DELETE') {
+		return [];
+	}
+
+	$request = (new RequestFactory())->fromGlobals();
+	$return = array_merge((array) $request->getPost(), $request->getFiles());
+	try {
+		$post = array_keys($_POST)[0] ?? '';
+		if (str_starts_with($post, '{') && str_ends_with($post, '}')) { // support pour les anciens clients
+			$json = json_decode($post, true, 512, JSON_THROW_ON_ERROR);
+			if (is_array($json) === false) {
+				throw new LogicException('Json n'est pas un tableau valide.');
+			}
+			unset($_POST[$post]);
+			foreach ($json as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Le silence est d'or.
+	}
+	try {
+		$input = (string) file_get_contents('php://entrée');
+		if ($input !== '') {
+			$phpInputArgs = (array) json_decode($input, true, 512, JSON_THROW_ON_ERROR);
+			foreach ($phpInputArgs as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Le silence est d'or.
+	}
+
+	return $return;
+}
+```

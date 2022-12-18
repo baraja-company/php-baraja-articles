@@ -12,7 +12,7 @@ Dataoverførselsmetoder (GET og POST)
 > 
 > publicationDate: '2019-11-26 11:38:32'
 > mainCategoryId: '2a1ef8bc-14aa-438a-87e7-5b3f9643f325'
-> sourceContentHash: '2282538597ebfe95877ae0e005ddd352'
+> sourceContentHash: '81b5f92d7ee05563b6ece295ed5958d3'
 
 Ud over de almindelige variabler har vi også såkaldte **superglobale variabler** i PHP, som indeholder oplysninger om den aktuelle side og de data, som vi videregiver.
 
@@ -27,7 +27,7 @@ Der er 3 metoder, der oftest anvendes til dette:
 GET-metode - `$_GET`
 --------------------
 
-De data, der sendes med GET-metoden, er synlige i URL'en (som parametre efter spørgsmålstegnet), og den maksimale længde er 1024 tegn i Internet Explorer (andre browsere begrænser det *næsten* ikke, men større tekster bør ikke sendes på denne måde). Fordelen ved denne metode er især enkelheden (du kan se, hvad du sender) og muligheden for at give et link til resultatet af behandlingen. Dataene sendes til en variabel.
+Data, der sendes med GET-metoden, er synlige i URL'en (som parametre efter spørgsmålstegnet), og den maksimale længde er 1024 tegn i Internet Explorer (andre browsere begrænser det *næsten* ikke, men større tekster bør ikke sendes på denne måde). Fordelen ved denne metode er især enkelheden (du kan se, hvad du sender) og muligheden for at give et link til resultatet af behandlingen. Dataene sendes til en variabel.
 
 Adressen på den modtagende side kan se således ud:
 
@@ -58,7 +58,7 @@ Kontrol af, at de indsendte data findes
 Før vi behandler data, bør vi først kontrollere, at dataene faktisk er blevet sendt, ellers ville vi få adgang til
  til en ikke-eksisterende variabel, hvilket ville give en fejlmeddelelse.
 
-Funktionen `isset()` bruges til at verificere eksistensen af en variabel.
+Funktionen `isset()` bruges til at kontrollere, om en variabel findes.
 
 ```php
 if (isset($_GET['Navn'])) {
@@ -130,11 +130,11 @@ if (isset($_GET['x']) && isset($_GET['y'])) {
 Behandling af data, der er modtaget ved POST-metoden
 --------------------------------------
 
-Hvis data modtages via POST, ser URL'en for det script, der skal behandles, altid således ud:
+Hvis data modtages ved hjælp af POST-metoden, vil URL-adressen til det script, der skal behandles, altid se således ud:
 
 `https://________.com/script.php`
 
-Og aldrig på anden måde. Nej, bare nej. Dataene er skjult i HTTP-anmodningen, og vi kan ikke se dem.
+Og aldrig på anden måde. Bare nej. Dataene er skjult i HTTP-anmodningen, og vi kan ikke se dem.
 
 > Den skjulte POST-metode er nødvendig for at sende brugernavne og adgangskoder af sikkerhedshensyn.
 >
@@ -146,3 +146,64 @@ Håndtering af ajax-forespørgsler
 I nogle tilfælde er det ikke altid let at hente dataene, når der behandles Ajax-forespørgsler. Det skyldes, at Ajax-biblioteker normalt sender data som `json payload`, mens den superglobale variabel `$_POST` kun indeholder formulardata.
 
 Dataene kan stadig tilgås, jeg beskrev detaljerne i artiklen <a href="/ajax-post">Håndtering af ajax POST-forespørgsler</a>.
+
+Få rå input
+-----------------------------
+
+Nogle gange kan det ske, at en bruger sender en anmodning ved hjælp af en uhensigtsmæssig HTTP-metode og tilføjer sit eget input oven i den. Eller f.eks. sender en binær fil eller dårlige HTTP-headere.
+
+I et sådant tilfælde er det godt at bruge native input, som fås i PHP på følgende måde:
+
+```php
+$input = file_get_contents('php://input');
+```
+
+Under implementeringen af REST API-biblioteket stødte jeg også på en række specielle tilfælde, hvor forskellige typer webservere fejlagtigt afgjorde input-HTTP-headere, eller hvor brugeren indsendte formulardata forkert osv.
+
+I dette tilfælde kunne jeg implementere denne funktion, som løser næsten alle tilfælde (implementeringen afhænger af `Nette\Http\RequestFactory`, men du kan erstatte denne afhængighed med noget andet i dit specifikke projekt):
+
+```php
+/**
+ * Får POST-data direkte fra HTTP-headeren eller forsøger at analysere dataene fra strengen.
+ * Nogle ældre klienter sender data som json, som er i base string-format, så det er obligatorisk at omdanne felter til array.
+ *
+ * @return array<string|int, mixed>
+ */
+private function getBodyParams(string $method): array
+{
+	if ($method === 'GET' || $method === 'DELETE') {
+		return [];
+	}
+
+	$request = (new RequestFactory())->fromGlobals();
+	$return = array_merge((array) $request->getPost(), $request->getFiles());
+	try {
+		$post = array_keys($_POST)[0] ?? '';
+		if (str_starts_with($post, '{') && str_ends_with($post, '}')) { // understøttelse af ældre klienter
+			$json = json_decode($post, true, 512, JSON_THROW_ON_ERROR);
+			if (is_array($json) === false) {
+				throw new LogicException('Json er ikke et gyldigt array.');
+			}
+			unset($_POST[$post]);
+			foreach ($json as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Tavshed er guld værd.
+	}
+	try {
+		$input = (string) file_get_contents('php://input');
+		if ($input !== '') {
+			$phpInputArgs = (array) json_decode($input, true, 512, JSON_THROW_ON_ERROR);
+			foreach ($phpInputArgs as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Tavshed er guld værd.
+	}
+
+	return $return;
+}
+```

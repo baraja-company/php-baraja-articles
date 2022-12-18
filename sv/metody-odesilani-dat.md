@@ -12,9 +12,9 @@ Metoder för dataöverföring (GET och POST)
 > 
 > publicationDate: '2019-11-26 11:38:32'
 > mainCategoryId: '2a1ef8bc-14aa-438a-87e7-5b3f9643f325'
-> sourceContentHash: '2282538597ebfe95877ae0e005ddd352'
+> sourceContentHash: '81b5f92d7ee05563b6ece295ed5958d3'
 
-Förutom vanliga variabler har vi också så kallade **superglobala variabler** i PHP, som innehåller information om den aktuella sidan och de data vi skickar.
+Förutom de vanliga variablerna har vi också så kallade **superglobala variabler** i PHP, som innehåller information om den aktuella sidan och de data vi skickar.
 
 Vanligtvis har vi ett formulär på en sida som användaren fyller i och vi vill överföra dessa data till webbservern där vi bearbetar dem i PHP.
 
@@ -22,12 +22,12 @@ Det finns tre metoder som oftast används för att göra detta:
 
 - `GET` ~ data skickas i URL:en som parametrar
 - `POST` ~ data skickas i hemlighet tillsammans med sidans begäran.
-- <a href="/ajax-post">Ajax POST</a> ~ asynkron javascript-bearbetning
+- <a href="/ajax-post">Ajax POST</a> ~ asynkron javascriptbehandling
 
 GET-metoden - `$_GET`.
 --------------------
 
-De data som skickas med GET-metoden är synliga i URL:en (som parametrar efter frågetecknet), den maximala längden är 1024 tecken i Internet Explorer (andra webbläsare har *nästan* inga begränsningar, men större texter bör inte skickas på detta sätt). Fördelen med denna metod är främst enkelheten (du kan se vad du skickar) och möjligheten att tillhandahålla en länk till resultatet av behandlingen. Uppgifterna skickas till en variabel.
+Data som skickas med GET-metoden är synliga i URL:en (som parametrar efter frågetecknet), den maximala längden är 1024 tecken i Internet Explorer (andra webbläsare har *nästan* inga begränsningar, men större texter bör inte skickas på detta sätt). Fördelen med denna metod är framför allt enkelheten (du kan se vad du skickar) och möjligheten att tillhandahålla en länk till resultatet av behandlingen. Uppgifterna skickas till en variabel.
 
 Adressen till den mottagande sidan kan se ut så här:
 
@@ -48,14 +48,14 @@ echo $_GET['Promenad'];	// skriver ut "innehåll"
 POST-metoden - `$_POST`.
 ----------------------
 
-De data som skickas med POST-metoden syns inte i URL:en, vilket löser problemet med maximal längd på de data som skickas. POST-metoden bör alltid användas för att skicka formulärfält, eftersom detta säkerställer att t.ex. lösenord inte är synliga och att en länk inte kan ges till den sida som behandlar resultatet av en viss inmatning.
+De data som skickas med POST-metoden syns inte i URL:en, vilket löser problemet med den maximala längden på de data som skickas. POST-metoden bör alltid användas för att skicka formulärfält, eftersom detta säkerställer att t.ex. lösenord inte är synliga och att en länk inte kan ges till den sida som behandlar resultatet av en viss inmatning.
 
 Uppgifterna finns i variabeln `$_POST` och användningen är densamma som för GET-metoden.
 
-Kontroll av att de inlämnade uppgifterna finns.
+Kontroll av att de skickade uppgifterna finns.
 --------------------------------
 
-Innan vi behandlar några uppgifter bör vi först kontrollera att uppgifterna faktiskt har skickats, annars skulle vi få tillgång till
+Innan vi behandlar uppgifter bör vi först kontrollera att uppgifterna faktiskt har skickats, annars skulle vi få tillgång till
  till en icke-existerande variabel, vilket skulle ge ett felmeddelande.
 
 Funktionen `isset()` används för att kontrollera att en variabel finns.
@@ -143,6 +143,67 @@ Och aldrig på annat sätt. Nej, helt enkelt inte. Uppgifterna är dolda i HTTP-
 Hantering av ajax-förfrågningar
 ------------------------------
 
-I vissa fall kan det vara svårt att hämta data när Ajax-begäranden behandlas. Detta beror på att ajax-bibliotek vanligtvis skickar data som `json payload`, medan den superglobala variabeln `$_POST` endast innehåller formulärdata.
+I vissa fall kan det vara svårt att hämta data när Ajax-begäranden behandlas. Anledningen är att ajax-bibliotek vanligtvis skickar data som `json payload`, medan den superglobala variabeln `$_POST` endast innehåller formulärdata.
 
 Det går fortfarande att få tillgång till data, jag beskrev detaljerna i artikeln <a href="/ajax-post">Bearbetning av ajax POST-förfrågningar</a>.
+
+Att få in råmaterial
+-----------------------------
+
+Ibland kan det hända att en användare skickar en begäran med en olämplig HTTP-metod och lägger till sin egen inmatning ovanpå den. Eller, till exempel, skickar en binär fil eller dåliga HTTP-rubriker.
+
+I ett sådant fall är det bra att använda inhemsk indata, som erhålls i PHP på följande sätt:
+
+```php
+$input = file_get_contents('php://input');
+```
+
+När jag implementerade REST API-biblioteket stötte jag också på ett antal specialfall där olika typer av webbservrar felaktigt beslutade om HTTP-huvuden för inmatning, eller där användaren felaktigt skickade in formulärdata osv.
+
+I det här fallet kunde jag implementera den här funktionen som löser nästan alla fall (implementationen är beroende av `Nette\Http\RequestFactory`, men du kan ersätta detta beroende med något annat i ditt specifika projekt):
+
+```php
+/**
+ * Hämtar POST-data direkt från HTTP-huvudet eller försöker analysera data från strängen.
+ * Vissa äldre klienter skickar data som json, som är i bassträngformat, så det är obligatoriskt att kasta fältet till en array.
+ *
+ * @return array<string|int, mixed>
+ */
+private function getBodyParams(string $method): array
+{
+	if ($method === 'GET' || $method === 'DELETE') {
+		return [];
+	}
+
+	$request = (new RequestFactory())->fromGlobals();
+	$return = array_merge((array) $request->getPost(), $request->getFiles());
+	try {
+		$post = array_keys($_POST)[0] ?? '';
+		if (str_starts_with($post, '{') && str_ends_with($post, '}')) { // stöd för äldre klienter
+			$json = json_decode($post, true, 512, JSON_THROW_ON_ERROR);
+			if (is_array($json) === false) {
+				throw new LogicException('Json är inte en giltig matris.');
+			}
+			unset($_POST[$post]);
+			foreach ($json as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Tystnad är guld.
+	}
+	try {
+		$input = (string) file_get_contents('php://input');
+		if ($input !== '') {
+			$phpInputArgs = (array) json_decode($input, true, 512, JSON_THROW_ON_ERROR);
+			foreach ($phpInputArgs as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Tystnad är guld.
+	}
+
+	return $return;
+}
+```

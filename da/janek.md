@@ -1,0 +1,35 @@
+Hvad den bedste holdleder Ján Regeš lærte mig
+=============================================
+
+> id: dc107cc6-69f5-45d9-ad5f-26adb7e2cf33
+> slug:
+> 	- null
+> 	da: hvad-den-bedste-holdleder-jan-reges-laerte-mig
+> 
+> cs: janek
+> publicationDate: '2022-12-18 13:30:00'
+> mainCategoryId: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
+> sourceContentHash: '20de340bfd4b1d0bfad881c3c9a556dc'
+
+Ján Regeš, en kollega, ven og især et fantastisk menneske, har arbejdet på det digitale bureau SiteOne i over 15 år. Han var min første teamleader, da jeg begyndte at programmere. Jeg husker vores samarbejde med stor glæde, fordi han altid formåede at videregive en masse nyttig viden, som jeg skrev ned og først forstod flere år senere.
+
+Det lykkedes mig at interviewe Janek for et stykke tid siden og spørge ham om, hvordan han opfatter arbejdet med juniorer, og hvordan man gør tingene rigtigt. Jeg har for længst forstået forskellen mellem det, jeg troede for mange år siden, og den måde, jeg opfatter tingene på i dag. Det handler om samarbejde, ydmyghed (over for mennesker, over for teknologi, over for virksomheder), ... kort sagt, Janek har skrevet det smukt.
+
+Her er hans indsigt:
+
+- Du er ung, intelligent og meget dygtig, men efter min mening for selvsikker, både inden for programmering og forretning - du har utvivlsomt taget et stort skridt fremad med hensyn til viden, men du har brug for at udforske mere.
+- Accepter din nuværende viden, viden og endda mulige kontakter med ydmyghed og giv dig selv et par år mere til bevidst at udforske verden (teknologi, forretning, personligheder...). Du vil ikke gå glip af nogen tog. Når du skal træffe større og sværere beslutninger, har du flere data, erfaring og et mere raffineret instinkt til at træffe dem.
+- Få styr på, hvilke af dine færdigheder eller teknologier du er mest dygtig til eller ønsker at udvikle mest, og vælg din næste arbejdsgiver i overensstemmelse hermed.
+- Du skal ikke gå efter pengene, men efter den gode følelse af at have udført et stykke arbejde, beriget et team, leveret værdi eller opfyldt et behov. Det er en kliché, men penge går hånd i hånd med det, hvis du fokuserer på det rigtige i din professionalisme.
+- Hvis du starter et sted, skal du kortlægge og forstå, hvem dit arbejdsmiljø leverer til, og hvad din "kvalitet" og "værdi" faktisk opfattes af dem, der bestiller og betaler for projektet. Lær at fokusere og levere høj kvalitet og værdi, ikke bare "god kode". Der er virksomheder og projekter, hvor din leverance handler om et lille stykke kode, som skal være perfekt, grundigt testet og kendt for at kunne køre de næste 10-15 år. Men der er projekter, der løber 2-3-4 år, og hvor den forventede kvalitet og værdi er helt anderledes, end programmøren tror. Lær at opfatte dette, skelne og om nødvendigt stille spørgsmål som dette til dine kolleger eller kunden.
+- Indrøm for dig selv, at hvis du hvert par år kigger på din kode fra 2-3 år siden, vil den altid være ubrugelig, selv om du førhen mente, at den var topmoderne. Det er bedre og mere lovende at fokusere på den resulterende kvalitet, som "kunden" opfatter den - uanset om den er intern eller ekstern. Det er de mest positive ting, der vil forblive og genoplade dig og de medarbejdere eller kunder, du tidligere har arbejdet sammen med, i fremtiden.
+- Giv dit hjerte til dit nye miljø - forstå, hvad deres "problem" er, hvad der vil hjælpe dem mest med dine særlige færdigheder, kommunikér det til din chef, og gør det med et kvalitetsresultat for øje, ikke kvalitetskode. Måske har miljøet brug for andre styrker end programmering.
+- Hjælp, men altid med ydmyghed - respekter og forsøg at forstå perspektiver og holdninger fra andre, der har et reelt ansvar og er parat til at bære succeser og risici ved deres beslutninger i mange år fremover. I forbindelse med en programmør omfatter dette teknologibeslutninger, valg af stack eller retning og langsigtet strategi.
+- Som programmør skal du altid indsende et grundigt testet arbejde. Læs hver linje af din kode i diff'en før hvert commit. Test den forberedte brugergrænseflade i X forskellige scenarier, og prøv selv at spille en masse enkle, men sofistikerede brugere. Du skal ikke stole på testere eller eksterne CR - det er blot en god støttebonus, når teamet har disse processer i orden.
+- Husk KISS-reglen, og pas på, at du ikke over-engineerer. Hvis man gør tingene enkelt, men effektivt, fejlfrit, sikkert og med klare grænser, er det bedre end at opfinde et supermodulært atomkraftværk og en arkitektur. Det afhænger af, hvad du laver, men imho er det i de fleste tilfælde bedre at vælge den enklere løsning.
+- Om du har truffet gode arkitektoniske beslutninger, vil altid vise sig efter mange års drift og implementering af fremtidige funktioner. Desværre er virkeligheden snarere den, at de fleste af nutidens programmører skifter job ret hurtigt og ikke har nogen idé om de positive eller negative virkninger af deres tidligere beslutninger, og derfor ikke ved, om de var gode eller dårlige.
+- Lær at genkende og arbejde med fornuftige og retfærdige mennesker, der ikke kun handler om forretning, men også om den reelle værdi af det, de gør, og for hvem de gør det.
+- Lev og arbejd på en sådan måde, at når nogen i din familie spørger dig, hvad du arbejder med, er dit svar ærligt og handler mere om at hjælpe dine kunder med at opfylde deres behov eller drømme i internetverdenen, men ikke om at være en perfekt programmør og skrive perfekt kode. Der findes ikke noget som perfekt kode, men det eneste bevis på, at du har haft god kode, er, når ejeren eller samarbejdspartneren til et af dine projekter/produkter år senere komplimenterer dig for, at det var godt at arbejde med hele tiden, eller at det var behageligt at udvide det yderligere.
+- Lad dig ikke gå ned på grund af det, og tænk på dit fysiske og mentale helbred. Arbejd kun 8-10 timer om dagen. Hvis du vælger at bruge tid på pc'en efter arbejdstid eller i weekenden, bør du ikke kalde det arbejde, du "var nødt til" at gøre. Sørg for at fortælle dig selv i bakspejlet, at det var en god beslutning. Jeg bruger selv meget tid på arbejdet, men det er kun fordi de ting, jeg laver efter arbejdstid, ikke stresser mig, gør mig glad, forbedrer det professionelle klima for vores team eller mig selv, og selv efter mange år fortryder jeg ikke den tid, jeg har investeret i det. Jeg gør kun så meget, som jeg har lyst til, og så meget som min familie tillader mig at gøre. Jeg føler mig fri og jeg ved det. Selv om jeg har gjort det i over 16 år.
+- Jeg skrev det foregående punkt primært fordi det er klart for mig, at du giver det omtrent lige så meget tid som jeg, men i bakspejlet vurderer du ofte, at det ikke var den bedste udnyttelse af din tid (typisk ved at arbejde for de forkerte mennesker eller projekter). Vær forsigtig og vælg dine samarbejder bevidst og med klart aftalte vilkår.
+- Kend, opfatter og opfylder din livsmission. Selv hvis du oplever vanskelige tider i forbindelse med opfyldelsen af den, vil du i det mindste ikke være i tvivl om, hvorvidt du er på rette vej, men du vil fokusere på at overvinde forhindringer undervejs i stedet for at gruble over nonsens.

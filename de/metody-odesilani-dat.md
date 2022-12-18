@@ -12,16 +12,16 @@ Datenübertragungsmethoden (GET und POST)
 > 
 > publicationDate: '2019-11-26 11:38:32'
 > mainCategoryId: '2a1ef8bc-14aa-438a-87e7-5b3f9643f325'
-> sourceContentHash: '2282538597ebfe95877ae0e005ddd352'
+> sourceContentHash: '81b5f92d7ee05563b6ece295ed5958d3'
 
-Neben den regulären Variablen gibt es in PHP auch sogenannte **superglobale Variablen**, die Informationen über die aktuell aufgerufene Seite und die übergebenen Daten enthalten.
+Zusätzlich zu den regulären Variablen gibt es in PHP auch sogenannte **superglobale Variablen**, die Informationen über die aktuell aufgerufene Seite und die übergebenen Daten enthalten.
 
 Normalerweise haben wir ein Formular auf einer Seite, das der Benutzer ausfüllt, und wir wollen diese Daten an den Webserver übertragen, wo wir sie in PHP verarbeiten.
 
-Hierfür gibt es 3 Methoden, die am häufigsten verwendet werden:
+Dazu gibt es 3 Methoden, die am häufigsten verwendet werden:
 
 - `GET` ~ die Daten werden in der URL als Parameter übergeben
-- POST" ~ die Daten werden verdeckt mit der Seitenanforderung übergeben
+- `POST` ~ die Daten werden verdeckt mit der Seitenanforderung übergeben
 - <a href="/ajax-post">Ajax POST</a> ~ asynchrone Javascript-Verarbeitung
 
 GET-Methode - `$_GET`
@@ -50,12 +50,12 @@ POST-Methode - `$_POST`
 
 Die mit der POST-Methode gesendeten Daten sind in der URL nicht sichtbar, wodurch das Problem der maximalen Länge der gesendeten Daten gelöst wird. Für die Übermittlung von Formularfeldern sollte immer die POST-Methode verwendet werden, da auf diese Weise sichergestellt wird, dass z. B. Passwörter nicht sichtbar sind und dass kein Link zu der Seite bereitgestellt werden kann, die das Ergebnis einer bestimmten Eingabe verarbeitet.
 
-Die Daten sind in der Variablen "$_POST" verfügbar, und die Verwendung ist dieselbe wie bei der GET-Methode.
+Die Daten stehen in der Variablen "$_POST" zur Verfügung, und die Verwendung ist dieselbe wie bei der Methode GET.
 
-Überprüfung des Vorhandenseins der gesendeten Daten
+Überprüfung des Vorhandenseins der übermittelten Daten
 --------------------------------
 
-Bevor wir Daten verarbeiten, sollten wir uns vergewissern, dass die Daten auch tatsächlich gesendet wurden, da wir sonst auf die
+Bevor wir Daten verarbeiten, sollten wir uns vergewissern, dass die Daten tatsächlich gesendet wurden, da wir sonst auf
  auf eine nicht existierende Variable, was zu einer Fehlermeldung führen würde.
 
 Die Funktion `isset()` wird verwendet, um das Vorhandensein einer Variablen zu überprüfen.
@@ -90,7 +90,7 @@ Die nächsten 2 Zeilen sind einfache Formularelemente, beachten Sie das Attribut
 
 Es folgen die Schaltfläche zum Übermitteln der Daten (obligatorisch) und der abschließende HTML-Tag des Formulars (obligatorisch, damit der Browser weiß, was noch zu übermitteln ist und was nicht).
 
-> Wir können beliebig viele Formulare auf einer Seite haben, und sie können nicht verschachtelt werden. Bei einer Verschachtelung wird immer das am stärksten verschachtelte Formular gesendet, die übrigen werden ignoriert.
+> Wir können beliebig viele Formulare auf einer Seite haben, und sie können nicht verschachtelt werden. Bei einer Verschachtelung wird immer das am weitesten verschachtelte Formular gesendet, die übrigen werden ignoriert.
 
 Formularverarbeitung auf dem Server
 -------------------------------
@@ -138,7 +138,7 @@ Und niemals anders. Einfach nein. Die Daten sind in der HTTP-Anfrage versteckt u
 
 > Die versteckte POST-Methode ist aus Sicherheitsgründen erforderlich, um Benutzernamen und Kennwörter zu senden.
 >
-**Sicherheit:** Wenn Sie auf Ihrer Website mit Passwörtern arbeiten, sollte das Anmelde- und Registrierungsformular über HTTPS gehostet werden, und Sie müssen die Passwörter entsprechend hacken (z. B. mit BCrypt).
+**Sicherheit:** Wenn Sie auf Ihrer Website mit Passwörtern arbeiten, sollten das Anmelde- und das Registrierungsformular über HTTPS gehostet werden, und Sie müssen die Passwörter in geeigneter Weise hacken (z. B. mit BCrypt).
 
 Handhabung von Ajax-Anfragen
 ------------------------------
@@ -146,3 +146,64 @@ Handhabung von Ajax-Anfragen
 In manchen Fällen kann es bei der Verarbeitung von Ajax-Anfragen schwierig sein, die Daten abzurufen. Der Grund dafür ist, dass Ajax-Bibliotheken in der Regel Daten als "json payload" senden, während die superglobale Variable "$_POST" nur Formulardaten enthält.
 
 Auf die Daten kann weiterhin zugegriffen werden, die Details habe ich im Artikel <a href="/ajax-post">Handling ajax POST requests</a> beschrieben.
+
+Eingabe von Rohdaten
+-----------------------------
+
+Manchmal kann es vorkommen, dass ein Benutzer eine Anfrage mit einer ungeeigneten HTTP-Methode sendet und seine eigenen Eingaben hinzufügt. Oder er sendet zum Beispiel eine Binärdatei oder fehlerhafte HTTP-Header.
+
+In einem solchen Fall ist es sinnvoll, die native Eingabe zu verwenden, die in PHP wie folgt ermittelt wird:
+
+```php
+$input = file_get_contents('php://eingabe');
+```
+
+Bei der Implementierung der REST-API-Bibliothek bin ich auch auf eine Reihe von Sonderfällen gestoßen, bei denen verschiedene Arten von Webservern Eingabe-HTTP-Header falsch entschieden haben oder der Benutzer Formulardaten falsch übermittelt hat usw.
+
+Für diesen Fall konnte ich diese Funktion implementieren, die fast alle Fälle löst (die Implementierung hängt von `Nette\Http\RequestFactory` ab, aber Sie können diese Abhängigkeit in Ihrem spezifischen Projekt durch etwas anderes ersetzen):
+
+```php
+/**
+ * Ruft POST-Daten direkt aus dem HTTP-Header ab oder versucht, die Daten aus der Zeichenkette zu parsen.
+ * Einige Legacy-Clients senden Daten als json, die im Base-String-Format vorliegen, so dass ein Feld-Casting in ein Array erforderlich ist.
+ *
+ * @return array<string|int, mixed>
+ */
+private function getBodyParams(string $method): array
+{
+	if ($method === 'GET' || $method === 'DELETE') {
+		return [];
+	}
+
+	$request = (new RequestFactory())->fromGlobals();
+	$return = array_merge((array) $request->getPost(), $request->getFiles());
+	try {
+		$post = array_keys($_POST)[0] ?? '';
+		if (str_starts_with($post, '{') && str_ends_with($post, '}')) { // Unterstützung für ältere Clients
+			$json = json_decode($post, true, 512, JSON_THROW_ON_ERROR);
+			if (is_array($json) === false) {
+				throw new LogicException('Json ist kein gültiges Array.');
+			}
+			unset($_POST[$post]);
+			foreach ($json as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Schweigen ist Gold.
+	}
+	try {
+		$input = (string) file_get_contents('php://eingabe');
+		if ($input !== '') {
+			$phpInputArgs = (array) json_decode($input, true, 512, JSON_THROW_ON_ERROR);
+			foreach ($phpInputArgs as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Schweigen ist Gold.
+	}
+
+	return $return;
+}
+```

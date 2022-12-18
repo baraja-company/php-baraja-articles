@@ -1,0 +1,35 @@
+Czego nauczył mnie najlepszy teamleader Ján Regeš
+=================================================
+
+> id: dc107cc6-69f5-45d9-ad5f-26adb7e2cf33
+> slug:
+> 	- null
+> 	pl: czego-nauczyl-mnie-najlepszy-teamleader-jan-reges
+> 
+> cs: janek
+> publicationDate: '2022-12-18 13:30:00'
+> mainCategoryId: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
+> sourceContentHash: '20de340bfd4b1d0bfad881c3c9a556dc'
+
+Ján Reges, kolega, przyjaciel, a przede wszystkim wspaniały człowiek, pracuje w agencji cyfrowej SiteOne od ponad 15 lat. Był moim pierwszym teamleaderem, gdy zaczynałem programować. Naszą współpracę wspominam bardzo miło, bo zawsze potrafił przekazać wiele przydatnego know-how, które zapisałem i zrozumiałem dopiero po latach.
+
+Udało mi się jakiś czas temu przeprowadzić wywiad z Jankiem i zapytać go z perspektywy czasu, jak postrzega pracę z juniorami i jak robić to naprawdę dobrze. Już dawno zrozumiałem różnicę między tym, co myślałem przed laty, a tym, jak postrzegam sprawy dzisiaj. Chodzi o współpracę, pokorę (wobec ludzi, wobec technologii, wobec firm), ... krótko mówiąc Janek pięknie to napisał.
+
+Oto jego spostrzeżenia:
+
+- Jesteś młody, inteligentny i bardzo zdolny, ale imho zbyt pewny siebie, zarówno w programowaniu, jak i w biznesie - niewątpliwie zrobiłeś duży krok naprzód w wiedzy, ale musisz zgłębiać ją dalej.
+- Przyjmij z pokorą swoją obecną wiedzę, znajomości, a nawet ewentualne kontakty i daj sobie jeszcze kilka lat na świadome poznawanie świata (technologii, biznesu, osobowości...). Nie przegapisz żadnego pociągu. Kiedy będziesz musiał podejmować większe i trudniejsze decyzje, będziesz miał do nich więcej danych, doświadczenia i bardziej wyrafinowany instynkt.
+- Zorientuj się, w których umiejętnościach lub technologiach jesteś najbardziej biegły lub chcesz się najbardziej rozwinąć i odpowiednio wybierz swojego następnego pracodawcę.
+- Nie idź po pieniądze, ale po dobre samopoczucie związane z wykonaną pracą, wzbogaconym zespołem, dostarczoną wartością lub zaspokojoną potrzebą. To banał, ale pieniądze będą szły w parze, jeśli skupisz się na właściwej rzeczy swojego profesjonalizmu.
+- Jeśli gdzieś zaczynasz, zmapuj i zrozum, do kogo dostarcza Twoje środowisko pracy i jaka jest faktycznie postrzegana Twoja "jakość" i "wartość" przez tych, którzy zlecają i płacą za projekt. Naucz się skupiać i dostarczać wysoką jakość i wartość, a nie tylko "dobry kod". Są firmy i projekty, w których twoja dostawa dotyczy małego kawałka kodu, który musi być doskonały, rygorystycznie przetestowany i wiadomo, że będzie działał przez następne 10-15 lat. Ale są projekty, które będą trwały 2-3-4 lata, a w których oczekiwana jakość i wartość jest zupełnie inna niż myśli programista. Naucz się to dostrzegać, rozróżniać, a w razie potrzeby zadawać takie pytania współpracownikom lub klientowi.
+- Przyznaj się przed sobą, że co kilka lat, jeśli spojrzysz na swój kod sprzed 2-3 lat, zawsze będzie on beznadziejny, nawet jeśli wcześniej uważałeś, że jest najnowocześniejszy. Lepiej i bardziej obiecująco jest skupić się na jakości wynikowej postrzeganej przez "klienta" - czy to wewnętrznego, czy zewnętrznego. To najbardziej pozytywne rzeczy, które pozostaną i naładują Ciebie i współpracowników lub klientów, z którymi pracowałeś w przeszłości w przyszłości.
+- Oddaj serce swojemu nowemu środowisku - zrozum, gdzie jest ich "problem", co pomoże im najbardziej z twoich wyróżniających się umiejętności, przekaż to swojemu przełożonemu i zrób to z myślą o wyniku jakości, a nie o jakości kodu. Może środowisko potrzebuje Twoich mocnych stron innych niż programowanie.
+- Pomagaj, ale zawsze z pokorą - szanuj i staraj się zrozumieć perspektywy i opinie innych, którzy ponoszą realną odpowiedzialność i są gotowi przez lata ponosić sukcesy i ryzyko swoich decyzji. W kontekście programisty obejmuje to decyzje technologiczne, wybór stosu, czy kierunek i strategię długoterminową.
+- Jako programista, zawsze przedkładaj rygorystycznie przetestowaną pracę. Przeczytaj każdą linię swojego kodu w diffie przed każdym commitem. Przetestuj przygotowany interfejs UI na X różnych scenariuszach i spróbuj odegrać w sobie wiele prostych, ale wyrafinowanych userów. Nie polegaj na testerach lub ekstrane CR - to tylko dobry bonus wspierający, gdy zespół ma te procesy działające.
+- Pamiętaj o zasadzie KISS i uważaj na nadmierną inżynierię. Jeśli robisz rzeczy prosto, ale sprawnie, bezbłędnie, bezpiecznie i z wyraźnymi granicami, to jest to lepsze niż wymyślenie super-modułowej elektrowni atomowej i architektury. To zależy od tego, co robisz, ale imho w większości przypadków lepiej wybrać prostsze rozwiązanie.
+- To, czy podjąłeś dobre decyzje architektoniczne, zawsze będzie widoczne po latach eksploatacji i wdrażania przyszłych funkcjonalności. Niestety, rzeczywistość jest raczej taka, że większość dzisiejszych programistów dość szybko zmienia pracę i nie ma pojęcia, jakie są pozytywne lub negatywne skutki ich wcześniejszych decyzji, a więc czy były one dobre czy złe.
+- Naucz się rozpoznawać i pracować z rozsądnymi i uczciwymi ludźmi, którym nie chodzi tylko o biznes, ale także o prawdziwą wartość tego, co robią i dla kogo to robią.
+- Żyj i pracuj tak, że gdy ktoś z Twoich bliskich pyta Cię nad czym pracujesz, Twoja odpowiedź jest szczera i bardziej dotyczy pomocy Twoim klientom w spełnianiu ich potrzeb lub marzeń w świecie internetu, ale nie dotyczy bycia doskonałym programistą i pisania doskonałego kodu. Nie ma czegoś takiego jak idealny kod, ale jedynym świadectwem tego, że miałeś dobry kod jest to, że po latach właściciel lub współpracownik jednego z twoich projektów/produktów pochwali cię, że dobrze się z nim pracowało przez cały czas, albo że ładnie się rozbudował.
+- Nie pozwól, by Cię to dopadło i pomyśl o swoim zdrowiu fizycznym i psychicznym. Pracuj tylko 8-10 godzin dziennie. Jeśli zdecydujesz się spędzić trochę czasu przy komputerze po godzinach lub w weekendy, nie powinieneś nazywać tego pracą, którą "musiałeś" wykonać. Upewnij się, że z perspektywy czasu powiesz sobie, że to była świetna decyzja. Sam poświęcam pracy ogromną ilość czasu, ale to tylko dlatego, że rzeczy, które robię po godzinach nie stresują mnie, sprawiają mi radość, poprawiają klimat zawodowy naszego zespołu lub mnie samego i nawet po wielu latach nie żałuję czasu, który w to zainwestowałem. Robię tylko tyle, na ile mam ochotę i na ile pozwala mi rodzina. Czuję się wolny i wiem. Mimo że robię to od ponad 16 lat.
+- Poprzedni punkt napisałem głównie dlatego, że jest dla mnie jasne, że poświęcasz mu mniej więcej tyle samo czasu co ja, ale z perspektywy czasu często oceniasz, że nie było to najlepsze wykorzystanie Twojego czasu (zazwyczaj praca dla niewłaściwych ludzi lub projektów). Bądź ostrożny i wybieraj współpracę świadomie i z jasno ustalonymi warunkami.
+- Poznaj, dostrzeż i wypełnij swoją życiową misję. Nawet jeśli doświadczysz trudnych chwil w jego spełnianiu, przynajmniej nie będziesz miał wątpliwości, czy jesteś na właściwej ścieżce, ale skupisz się na pokonywaniu przeszkód po drodze, zamiast ruminować nad bzdurami.

@@ -6,12 +6,15 @@ Data sending methods (GET and POST)
 > 	cs: metody-odesilani-dat
 > 	en: data-sending-methods-get-and-post
 > 
-> perex: 'Metoda GET a POST, získávání dat z formuláře a URL. Komunikace přes API a zpracování dat.'
+> perex:
+> 	- 'Metoda GET a POST, získávání dat z formuláře a URL. Komunikace přes API a zpracování dat.'
+> 	- 'GET and POST method, retrieving data from form and URL. API communication and data processing.'
+> 
 > publicationDate: '2019-11-26 11:38:32'
 > mainCategoryId: '2a1ef8bc-14aa-438a-87e7-5b3f9643f325'
-> sourceContentHash: '2282538597ebfe95877ae0e005ddd352'
+> sourceContentHash: '81b5f92d7ee05563b6ece295ed5958d3'
 
-In addition to regular variables, we also have so-called **superglobal variables** in PHP, which carry information about the currently called page and the data we pass.
+In addition to the regular variables, we also have so-called **superglobal variables** in PHP, which carry information about the currently called page and the data we are passing.
 
 Typically, we have a form on a page that the user fills in and we want to transfer that data to the web server where we process it in PHP.
 
@@ -24,7 +27,7 @@ There are 3 methods most commonly used to do this:
 GET method - `$_GET`
 --------------------
 
-The data sent by the GET method is visible in the URL (as parameters after the question mark), the maximum length is 1024 characters in Internet Explorer (other browsers *almost* do not restrict it, but larger texts should not be passed this way). The advantage of this method is mostly simplicity (you can see what you are sending) and the possibility to provide a link to the result of the processing. The data is sent to a variable.
+Data sent by the GET method is visible in the URL (as parameters after the question mark), the maximum length is 1024 characters in Internet Explorer (other browsers *almost* don't restrict it, but larger texts should not be passed this way). The advantage of this method is mostly simplicity (you can see what you are sending) and the possibility to provide a link to the result of the processing. The data is sent to a variable.
 
 The address of the receiving page might look like this:
 
@@ -33,10 +36,10 @@ The address of the receiving page might look like this:
 In PHP, we can then, for example, write the value of the `variable` parameter as follows:
 
 ```php
-echo $_GET['variable']; // prints the "contents"
+echo $_GET['promenade'];	// prints "content"
 ```
 
-> **Strong warning:** This method of outputting data directly to an HTML page is not safe, because we can pass, for example, HTML code in the URL that would be written to the page and then executed.
+> **Strong warning:** This method of writing data directly to the HTML page is not secure, because we can pass, for example, HTML code in the URL that would be written to the page and then executed.
 >
 > We must **always** treat the data before any output to the page, the `htmlspecialchars()` function is used for this.
 >
@@ -58,10 +61,10 @@ Before processing any data, we should first verify that the data has actually be
 The `isset()` function is used to verify the existence of a variable.
 
 ```php
-if (isset($_GET['name'])) {
-    echo 'Your name: ' . htmlspecialchars($_GET['name']);
+if (isset($_GET['Name'])) {
+    echo 'Your name:' . htmlspecialchars($_GET['Name']);
 } else {
-    echo 'No name was entered.';
+    echo 'No name has been entered.';
 }
 ```
 
@@ -74,16 +77,16 @@ For an example, we can use a form to receive 2 numbers, sent by the GET method:
 
 ```html
 <form action="script.php" method="get">
-    First number: <input type="text" name="x">
-    Second number: <input type="text" name="y">
+    První číslo: <input type="text" name="x">
+    Druhé číslo: <input type="text" name="y">
 
-    <input type="submit" value="Add numbers">
+    <input type="submit" value="Sečíst čísla">
 </form>
 ```
 
-In the first line you can see where the data will be sent, and by what method.
+In the first line you can see where the data will be sent and by what method.
 
-The next 2 lines are simple form elements, note the **name=""** attribute, this is where you write the name of the variable that will hold what is now in the form.
+The next 2 lines are simple form elements, note the **name=""** attribute, there is the name of the variable that will hold what is now in the form.
 
 Next comes the button to submit the data (mandatory) and the form's closing HTML tag (mandatory so the browser knows what else to submit and what not).
 
@@ -99,20 +102,20 @@ Now we have a finished HTML form and we send it to `script.php`, which receives 
 **script.php**
 
 ```php
-$x = $_GET['x']; // 5
-$y = $_GET['y']; // 3
+$x = $_GET['x'];	// 5
+$y = $_GET['y'];	// 3
 
-echo $x + $y; // prints 8
+echo $x + $y;		// prints 8
 ```
 
-Correctly, we should first verify that both form fields have been filled, this is done with the `isset()` function:
+Correctly, we should first verify that both form fields have been filled in, this is done with the `isset()` function:
 
 ```php
 if (isset($_GET['x']) && isset($_GET['y'])) {
-    $x = $_GET['x']; // 5
-    $y = $_GET['y']; // 3
+    $x = $_GET['x'];	// 5
+    $y = $_GET['y'];	// 3
 
-    echo $x + $y; // print 8
+    echo $x + $y;		// prints 8
 } else {
     echo 'The form was not filled in correctly.';
 }
@@ -140,6 +143,67 @@ And never otherwise. Just no. The data is hidden in the HTTP request and we can'
 Handling ajax requests
 ------------------------------
 
-In some cases, when processing ajax requests, it may not be easy to retrieve the data. The reason is that ajax libraries usually send data as `json payload`, while the superglobal variable `$_POST` contains only form data.
+In some cases, when processing ajax requests, it may not be easy to retrieve the data. This is because ajax libraries usually send data as `json payload`, while the superglobal variable `$_POST` contains only form data.
 
-The data can still be accessed, I described the details in the article <a href="/ajax-post">Handling ajax POST requests</a>.
+The data can still be accessed, I described the details in the article <a href="/ajax-post">Processing ajax POST requests</a>.
+
+Getting raw input
+-----------------------------
+
+Sometimes it can happen that a user sends a request using an inappropriate HTTP method, and adds their own input on top of it. Or, for example, sends a binary file, or bad HTTP headers.
+
+For such a case, it is good to use native input, which is obtained in PHP as follows:
+
+```php
+$input = file_get_contents('php://input');
+```
+
+While implementing the REST API library, I also encountered a number of special cases where different types of web servers would incorrectly decide input HTTP headers, or the user would incorrectly submit form data, etc.
+
+For this case, I was able to implement this function which solves almost all cases (the implementation depends on `Nette\Http\RequestFactory`, but you can replace this dependency with something else in your specific project):
+
+```php
+/**
+ * Gets POST data directly from the HTTP header, or tries to parse the data from the string.
+ * Some legacy clients send data as json, which is in base string format, so field casting to array is mandatory.
+ *
+ * @return array<string|int, mixed>
+ */
+private function getBodyParams(string $method): array
+{
+	if ($method === 'GET' || $method === 'DELETE') {
+		return [];
+	}
+
+	$request = (new RequestFactory())->fromGlobals();
+	$return = array_merge((array) $request->getPost(), $request->getFiles());
+	try {
+		$post = array_keys($_POST)[0] ?? '';
+		if (str_starts_with($post, '{') && str_ends_with($post, '}')) { // support for legacy clients
+			$json = json_decode($post, true, 512, JSON_THROW_ON_ERROR);
+			if (is_array($json) === false) {
+				throw new LogicException('Json is not valid array.');
+			}
+			unset($_POST[$post]);
+			foreach ($json as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Silence is golden.
+	}
+	try {
+		$input = (string) file_get_contents('php://input');
+		if ($input !== '') {
+			$phpInputArgs = (array) json_decode($input, true, 512, JSON_THROW_ON_ERROR);
+			foreach ($phpInputArgs as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Silence is golden.
+	}
+
+	return $return;
+}
+```

@@ -12,53 +12,53 @@ Metodi di invio dei dati (GET e POST)
 > 
 > publicationDate: '2019-11-26 11:38:32'
 > mainCategoryId: '2a1ef8bc-14aa-438a-87e7-5b3f9643f325'
-> sourceContentHash: '2282538597ebfe95877ae0e005ddd352'
+> sourceContentHash: '81b5f92d7ee05563b6ece295ed5958d3'
 
-Oltre alle variabili regolari, abbiamo anche le cosiddette **variabili superglobali** in PHP, che portano informazioni sulla pagina attualmente chiamata e sui dati che stiamo passando.
+Oltre alle variabili normali, in PHP esistono anche le cosiddette **variabili superglobali**, che contengono informazioni sulla pagina correntemente chiamata e sui dati passati.
 
-Tipicamente, abbiamo un modulo su una pagina che l'utente compila e vogliamo trasferire quei dati al server web dove li elaboriamo in PHP.
+In genere, in una pagina abbiamo un modulo che l'utente compila e vogliamo trasferire i dati al server web, dove li elaboriamo in PHP.
 
-Ci sono 3 metodi più comunemente usati per farlo:
+I metodi più comunemente utilizzati per farlo sono tre:
 
-- `GET` ~ i dati sono passati nell'URL come parametri
-- `POST` ~ i dati sono passati segretamente insieme alla richiesta della pagina
+- `GET` ~ i dati vengono passati nell'URL come parametri
+- `POST` ~ i dati vengono passati di nascosto insieme alla richiesta di pagina
 - <a href="/ajax-post">Ajax POST</a> ~ elaborazione javascript asincrona
 
-Metodo GET - `$_GET`
+Metodo GET - `$_GET
 --------------------
 
-I dati inviati dal metodo GET sono visibili nell'URL (come parametri dopo il punto interrogativo), la lunghezza massima è di 1024 caratteri in Internet Explorer (altri browser *quasi* non lo limitano, ma i testi più grandi non dovrebbero essere passati in questo modo). Il vantaggio di questo metodo è soprattutto la semplicità (puoi vedere cosa stai inviando) e la possibilità di fornire un link al risultato dell'elaborazione. I dati vengono inviati a una variabile.
+I dati inviati con il metodo GET sono visibili nell'URL (come parametri dopo il punto interrogativo); la lunghezza massima è di 1024 caratteri in Internet Explorer (gli altri browser *quasi* non lo limitano, ma i testi più grandi non dovrebbero essere passati in questo modo). Il vantaggio di questo metodo è soprattutto la semplicità (si può vedere cosa si sta inviando) e la possibilità di fornire un link al risultato dell'elaborazione. I dati vengono inviati a una variabile.
 
-L'indirizzo della pagina di ricezione potrebbe essere così:
+L'indirizzo della pagina ricevente potrebbe essere il seguente:
 
 `https://____________.com/script.php?promenna=obsah&promenna2=obsah`
 
-In PHP, possiamo quindi, per esempio, scrivere il valore del parametro `variabile` come segue:
+In PHP, ad esempio, possiamo scrivere il valore del parametro `variabile` come segue:
 
 ```php
 echo $_GET['passeggiata'];	// stampa "contenuto"
 ```
 
-> **Avviso forte:** Questo metodo di scrivere dati direttamente nella pagina HTML non è sicuro, perché possiamo passare, per esempio, codice HTML nell'URL che verrebbe scritto nella pagina e poi eseguito.
+> Questo metodo di scrittura dei dati direttamente nella pagina HTML non è sicuro, perché si può passare, ad esempio, del codice HTML nell'URL che verrebbe scritto nella pagina e poi eseguito.
 >
-> Dobbiamo **sempre** trattare i dati prima di qualsiasi output alla pagina, la funzione `htmlspecialchars()` è usata per questo.
+> Dobbiamo **sempre** trattare i dati prima di qualsiasi output alla pagina; la funzione `htmlspecialchars()` è usata per questo.
 >
 > Per esempio: `echo htmlspecialchars($_GET['variabile']);`
 
-Metodo POST - `$_POST`
+Metodo POST - `$_POST
 ----------------------
 
-I dati inviati con il metodo POST non sono visibili nell'URL, il che risolve il problema della lunghezza massima dei dati inviati. Il metodo POST dovrebbe sempre essere usato per inviare i campi del modulo, in quanto questo assicura che, per esempio, le password non siano visibili e che non si possa fornire un link alla pagina che elabora il risultato di un particolare input.
+I dati inviati con il metodo POST non sono visibili nell'URL, il che risolve il problema della lunghezza massima dei dati inviati. Per l'invio dei campi dei moduli si dovrebbe sempre utilizzare il metodo POST, che garantisce che, ad esempio, le password non siano visibili e che non si possa fornire un link alla pagina che elabora il risultato di un determinato input.
 
 I dati sono disponibili nella variabile `$_POST` e l'uso è lo stesso del metodo GET.
 
 Verifica dell'esistenza dei dati inviati
 --------------------------------
 
-Prima di trattare qualsiasi dato, dovremmo prima verificare che i dati siano stati effettivamente inviati, altrimenti accederemmo a
- ad una variabile inesistente, che lancerebbe un messaggio di errore.
+Prima di elaborare qualsiasi dato, è necessario verificare che i dati siano stati effettivamente inviati, altrimenti si accederebbe a un'area di lavoro di un'azienda.
+ a una variabile inesistente, con conseguente messaggio di errore.
 
-La funzione `isset()` è usata per verificare l'esistenza di una variabile.
+La funzione `isset()` viene utilizzata per verificare l'esistenza di una variabile.
 
 ```php
 if (isset($_GET['Nome'])) {
@@ -71,9 +71,9 @@ if (isset($_GET['Nome'])) {
 Modulo di inserimento dati
 ------------------------
 
-Il modulo è fatto in HTML, non in PHP. Può essere su una semplice pagina HTML. Tutta la "magia" è gestita dallo script PHP che accetta i dati.
+Il modulo è realizzato in HTML, non in PHP. Può trovarsi in una semplice pagina HTML. Tutta la "magia" è gestita dallo script PHP che accetta i dati.
 
-Per esempio, possiamo usare un modulo per ricevere 2 numeri, inviati con il metodo GET:
+Ad esempio, possiamo utilizzare un modulo per ricevere 2 numeri, inviati con il metodo GET:
 
 ```html
 <form action="script.php" method="get">
@@ -84,18 +84,18 @@ Per esempio, possiamo usare un modulo per ricevere 2 numeri, inviati con il meto
 </form>
 ```
 
-Nella prima riga potete vedere dove i dati saranno inviati e con quale metodo.
+Nella prima riga si può vedere dove verranno inviati i dati e con quale metodo.
 
-Le prossime 2 linee sono semplici elementi del modulo, notate l'attributo **name=""**, c'è il nome della variabile che conterrà ciò che è ora nel modulo.
+Le 2 righe successive sono semplici elementi del form, si noti l'attributo **name=""**, che contiene il nome della variabile che conterrà ciò che è ora nel form.
 
-Poi viene il pulsante per inviare i dati (obbligatorio) e il tag HTML di chiusura del modulo (obbligatorio affinché il browser sappia cos'altro inviare e cosa no).
+Seguono il pulsante per l'invio dei dati (obbligatorio) e il tag HTML di chiusura del modulo (obbligatorio affinché il browser sappia cos'altro inviare e cosa no).
 
-> Possiamo avere un numero qualsiasi di moduli in una pagina, e non possono essere annidati. Se si verifica l'annidamento, la forma più annidata viene sempre inviata e le altre vengono ignorate.
+> Possiamo avere un numero qualsiasi di moduli in una pagina e non possono essere annidati. In caso di annidamento, viene sempre inviato il modulo più annidato e gli altri vengono ignorati.
 
-Elaborazione del modulo sul server
+Elaborazione dei moduli sul server
 -------------------------------
 
-Ora abbiamo un modulo HTML finito e lo inviamo a `script.php`, che riceve i dati usando il metodo GET. L'indirizzo della pagina richiesta potrebbe essere così:
+Ora abbiamo un modulo HTML finito e lo inviamo a `script.php`, che riceve i dati con il metodo GET. L'indirizzo della richiesta di pagina potrebbe essere simile a questo:
 
 `https://________.com/script.php?x=5&y=3`
 
@@ -108,7 +108,7 @@ $y = $_GET['y'];	// 3
 echo $x + $y;		// stampa 8
 ```
 
-Correttamente, dovremmo prima verificare che entrambi i campi del modulo siano stati compilati, questo viene fatto con la funzione `isset()`:
+Correttamente, dovremmo prima verificare che entrambi i campi del modulo siano stati compilati; questo viene fatto con la funzione `isset()`:
 
 ```php
 if (isset($_GET['x']) && isset($_GET['y'])) {
@@ -121,28 +121,89 @@ if (isset($_GET['x']) && isset($_GET['y'])) {
 }
 ```
 
-> **TIP:** Potete passare più parametri al costrutto `isset()` per verificare che esistano tutti.
+> **TIP:** È possibile passare più parametri al costrutto `isset()` per verificare che esistano tutti.
 >
-> Pertanto, invece di `isset($_GET['x']) && isset($_GET['y'])`, potete semplicemente specificare:
+> Pertanto, invece di `isset($_GET['x']) && isset($_GET['y'])`, si può semplicemente specificare:
 >
 > `isset($_GET['x'], $_GET['y'])`.
 
-Elaborazione dei dati ricevuti dal metodo POST
+Elaborazione dei dati ricevuti con il metodo POST
 --------------------------------------
 
-Se i dati vengono ricevuti tramite POST, l'URL dello script da elaborare sarà sempre così:
+Se i dati vengono ricevuti con il metodo POST, l'URL dello script da elaborare sarà sempre simile a questo:
 
 `https://________.com/script.php`
 
-E mai altrimenti. Proprio no. I dati sono nascosti nella richiesta HTTP e non possiamo vederli.
+E mai altrimenti. Semplicemente no. I dati sono nascosti nella richiesta HTTP e non possiamo vederli.
 
-> Il metodo POST nascosto è richiesto per inviare nomi utente e password per motivi di sicurezza.
+> Il metodo hidden POST è necessario per inviare nomi utente e password per motivi di sicurezza.
 >
-> **Sicurezza:** Se stai lavorando con le password sul tuo sito, il modulo di login e registrazione dovrebbe essere ospitato su HTTPS e devi fare un hash delle password in modo appropriato (per esempio, con BCrypt).
+> Se sul sito si utilizzano password, il modulo di login e di registrazione deve essere ospitato su HTTPS e le password devono essere sottoposte a un hash appropriato (ad esempio, con BCrypt).
 
-Gestire le richieste ajax
+Gestione delle richieste ajax
 ------------------------------
 
-In alcuni casi, quando si elaborano richieste ajax, potrebbe non essere facile recuperare i dati. Questo perché le librerie ajax di solito inviano dati come `json payload`, mentre la variabile superglobale `$_POST` contiene solo dati di modulo.
+In alcuni casi, durante l'elaborazione delle richieste ajax, potrebbe non essere facile recuperare i dati. Questo perché le librerie ajax di solito inviano i dati come `json payload`, mentre la variabile superglobale `$_POST` contiene solo i dati del modulo.
 
-Si può ancora accedere ai dati, ho descritto i dettagli nell'articolo <a href="/ajax-post">Gestione delle richieste ajax POST</a>.
+I dati sono comunque accessibili; ho descritto i dettagli nell'articolo <a href="/ajax-post">Elaborazione delle richieste ajax POST</a>.
+
+Ottenere input grezzi
+-----------------------------
+
+A volte può accadere che un utente invii una richiesta utilizzando un metodo HTTP non appropriato e aggiungendovi il proprio input. Oppure, ad esempio, invia un file binario o intestazioni HTTP errate.
+
+In questo caso, è bene utilizzare l'input nativo, che si ottiene in PHP come segue:
+
+```php
+$input = file_get_contents('php://ingresso');
+```
+
+Durante l'implementazione della libreria API REST, mi sono imbattuto in una serie di casi particolari in cui diversi tipi di server web decidevano in modo errato le intestazioni HTTP di input, oppure l'utente inviava in modo errato i dati del modulo, ecc.
+
+Per questo caso, sono riuscito a implementare questa funzione che risolve quasi tutti i casi (l'implementazione dipende da `Nette\Http\RequestFactory`, ma si può sostituire questa dipendenza con qualcos'altro nel proprio progetto specifico):
+
+```php
+/**
+ * Ottiene i dati POST direttamente dall'intestazione HTTP o cerca di analizzare i dati dalla stringa.
+ * Alcuni client legacy inviano i dati come json, che sono in formato stringa base, quindi la fusione dei campi in array è obbligatoria.
+ *
+ * @Ritorno array<stringa|int, misto>
+ */
+private function getBodyParams(string $method): array
+{
+	if ($method === 'GET' || $method === 'CANCELLARE') {
+		return [];
+	}
+
+	$request = (new RequestFactory())->fromGlobals();
+	$return = array_merge((array) $request->getPost(), $request->getFiles());
+	try {
+		$post = array_keys($_POST)[0] ?? '';
+		if (str_starts_with($post, '{') && str_ends_with($post, '}')) { // supporto per i client legacy
+			$json = json_decode($post, true, 512, JSON_THROW_ON_ERROR);
+			if (is_array($json) === false) {
+				throw new LogicException('Json non è un array valido.');
+			}
+			unset($_POST[$post]);
+			foreach ($json as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Il silenzio è d'oro.
+	}
+	try {
+		$input = (string) file_get_contents('php://ingresso');
+		if ($input !== '') {
+			$phpInputArgs = (array) json_decode($input, true, 512, JSON_THROW_ON_ERROR);
+			foreach ($phpInputArgs as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Il silenzio è d'oro.
+	}
+
+	return $return;
+}
+```

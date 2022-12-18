@@ -6,10 +6,13 @@ Metódy odosielania údajov (GET a POST)
 > 	cs: metody-odesilani-dat
 > 	sk: metody-odosielania-udajov-get-a-post
 > 
-> perex: 'Metoda GET a POST, získávání dat z formuláře a URL. Komunikace přes API a zpracování dat.'
+> perex:
+> 	- 'Metoda GET a POST, získávání dat z formuláře a URL. Komunikace přes API a zpracování dat.'
+> 	- 'Metóda GET a POST, načítanie údajov z formulára a adresy URL. Komunikácia API a spracovanie údajov.'
+> 
 > publicationDate: '2019-11-26 11:38:32'
 > mainCategoryId: '2a1ef8bc-14aa-438a-87e7-5b3f9643f325'
-> sourceContentHash: '2282538597ebfe95877ae0e005ddd352'
+> sourceContentHash: '81b5f92d7ee05563b6ece295ed5958d3'
 
 Okrem bežných premenných máme v PHP aj takzvané **superglobálne premenné**, ktoré nesú informácie o aktuálne volanej stránke a odovzdávaných údajoch.
 
@@ -33,7 +36,7 @@ Adresa prijímajúcej stránky môže vyzerať takto:
 V PHP potom môžeme napríklad zapísať hodnotu parametra `premenná` takto:
 
 ```php
-echo $_GET['variable'];	// vypíše "content"
+echo $_GET['promenáda'];	// vypíše "content"
 ```
 
 > **Dôrazné upozornenie:** Tento spôsob zápisu údajov priamo do stránky HTML nie je bezpečný, pretože v adrese URL môžeme odovzdať napríklad kód HTML, ktorý by sa zapísal do stránky a následne vykonal.
@@ -58,10 +61,10 @@ Pred spracovaním akýchkoľvek údajov by sme mali najprv overiť, či boli úd
 Funkcia `isset()` sa používa na overenie existencie premennej.
 
 ```php
-if (isset($_GET['name'])) {
-    echo "Vaše meno: . htmlspecialchars($_GET['name']);
+if (isset($_GET['Názov'])) {
+    echo 'Vaše meno:' . htmlspecialchars($_GET['Názov']);
 } else {
-    echo "Nebolo zadané žiadne meno.;
+    echo 'Nebolo zadané žiadne meno.';
 }
 ```
 
@@ -72,12 +75,14 @@ Formulár je vytvorený v jazyku HTML, nie v jazyku PHP. Môže to byť na obyč
 
 Ako príklad môžeme použiť formulár na prijatie 2 čísel odoslaných metódou GET:
 
+```html
 <form action="script.php" method="get">
     První číslo: <input type="text" name="x">
     Druhé číslo: <input type="text" name="y">
 
     <input type="submit" value="Sečíst čísla">
 </form>
+```
 
 V prvom riadku môžete vidieť, kam sa údaje odošlú a akou metódou.
 
@@ -112,7 +117,7 @@ if (isset($_GET['x']) && isset($_GET['y'])) {
 
     echo $x + $y;		// vytlačí 8
 } else {
-    echo "Formulár nebol vyplnený správne.;
+    echo 'Formulár nebol vyplnený správne.';
 }
 ```
 
@@ -125,7 +130,7 @@ if (isset($_GET['x']) && isset($_GET['y'])) {
 Spracovanie údajov prijatých metódou POST
 --------------------------------------
 
-Ak sa údaje prijímajú prostredníctvom POST, adresa URL spracovávaného skriptu bude vždy vyzerať takto:
+Ak sa údaje prijímajú metódou POST, adresa URL spracovávaného skriptu bude vždy vyzerať takto:
 
 `https://________.com/script.php`
 
@@ -138,6 +143,67 @@ A nikdy inak. Jednoducho nie. Údaje sú skryté v požiadavke HTTP a my ich nem
 Spracovanie požiadaviek ajax
 ------------------------------
 
-V niektorých prípadoch nemusí byť pri spracovaní požiadaviek ajax jednoduché získať údaje. Je to preto, že ajaxové knižnice zvyčajne posielajú údaje ako `json payload`, zatiaľ čo superglobálna premenná `$_POST` obsahuje iba údaje formulára.
+V niektorých prípadoch nemusí byť pri spracovaní požiadaviek ajax jednoduché získať údaje. Dôvodom je, že ajaxové knižnice zvyčajne posielajú údaje ako `json payload`, zatiaľ čo superglobálna premenná `$_POST` obsahuje iba údaje formulára.
 
-K údajom sa dá stále pristupovať, podrobnosti som popísal v článku <a href="/ajax-post">Obsluha ajaxových POST požiadaviek</a>.
+K údajom sa dá stále pristupovať, podrobnosti som popísal v článku <a href="/ajax-post">Zpracovanie ajaxových POST požiadaviek</a>.
+
+Získavanie nespracovaných vstupných údajov
+-----------------------------
+
+Niekedy sa môže stať, že používateľ odošle požiadavku pomocou nevhodnej metódy HTTP a pridá k nej vlastný vstup. Alebo napríklad odošle binárny súbor alebo zlé hlavičky HTTP.
+
+V takomto prípade je dobré použiť natívny vstup, ktorý sa v PHP získa takto:
+
+```php
+$input = file_get_contents('php://input');
+```
+
+Pri implementácii knižnice REST API som sa stretol aj s viacerými špeciálnymi prípadmi, keď rôzne typy webových serverov nesprávne rozhodovali o vstupných hlavičkách HTTP alebo používateľ nesprávne odosielal údaje formulára atď.
+
+Pre tento prípad sa mi podarilo implementovať túto funkciu, ktorá rieši takmer všetky prípady (implementácia závisí od `Nette\Http\RequestFactory`, ale vo vašom konkrétnom projekte môžete túto závislosť nahradiť inou):
+
+```php
+/**
+ * Získava údaje POST priamo z hlavičky HTTP alebo sa pokúša analyzovať údaje z reťazca.
+ * Niektorí starší klienti posielajú údaje vo formáte json, ktorý je vo formáte základného reťazca, preto je povinné preklopenie polí do poľa.
+ *
+ * @return array<string|int, mixed>
+ */
+private function getBodyParams(string $method): array
+{
+	if ($method === 'GET' || $method === 'DELETE') {
+		return [];
+	}
+
+	$request = (new RequestFactory())->fromGlobals();
+	$return = array_merge((array) $request->getPost(), $request->getFiles());
+	try {
+		$post = array_keys($_POST)[0] ?? '';
+		if (str_starts_with($post, '{') && str_ends_with($post, '}')) { // podpora starších klientov
+			$json = json_decode($post, true, 512, JSON_THROW_ON_ERROR);
+			if (is_array($json) === false) {
+				throw new LogicException('Json nie je platné pole.');
+			}
+			unset($_POST[$post]);
+			foreach ($json as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Ticho je zlaté.
+	}
+	try {
+		$input = (string) file_get_contents('php://input');
+		if ($input !== '') {
+			$phpInputArgs = (array) json_decode($input, true, 512, JSON_THROW_ON_ERROR);
+			foreach ($phpInputArgs as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Ticho je zlaté.
+	}
+
+	return $return;
+}
+```

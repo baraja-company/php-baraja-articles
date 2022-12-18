@@ -1,0 +1,35 @@
+Vad den bästa lagledaren Ján Regeš lärde mig
+============================================
+
+> id: dc107cc6-69f5-45d9-ad5f-26adb7e2cf33
+> slug:
+> 	- null
+> 	sv: vad-den-baesta-lagledaren-jan-reges-laerde-mig
+> 
+> cs: janek
+> publicationDate: '2022-12-18 13:30:00'
+> mainCategoryId: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
+> sourceContentHash: '20de340bfd4b1d0bfad881c3c9a556dc'
+
+Ján Regeš, en kollega, vän och framför allt en fantastisk person, har arbetat på den digitala byrån SiteOne i över 15 år. Han var min första gruppledare när jag började programmera. Jag minns vårt samarbete mycket väl, eftersom han alltid lyckades förmedla en hel del användbar kunskap som jag skrev ner och först förstod först år senare.
+
+Jag lyckades intervjua Janek för en tid sedan och frågade honom i efterhand hur han ser på att arbeta med juniorer och hur man gör saker och ting riktigt bra. Jag har för länge sedan förstått skillnaden mellan vad jag trodde för flera år sedan och hur jag uppfattar saker och ting i dag. Allt handlar om samarbete, ödmjukhet (gentemot människor, teknik och företag), ... kort sagt, Janek har skrivit det vackert.
+
+Här är hans insikter:
+
+- Du är ung, intelligent och mycket skicklig, men jag tror att du är för självsäker, både när det gäller programmering och affärer - du har utan tvekan tagit ett stort steg framåt i fråga om kunskap, men du behöver utforska mer.
+- Acceptera din nuvarande kunskap, dina kunskaper och även eventuella kontakter med ödmjukhet och ge dig själv några år till för att medvetet utforska världen (teknik, affärer, personligheter...). Du kommer inte att missa något tåg. När du behöver fatta större och svårare beslut har du mer data, erfarenhet och en bättre instinkt för att fatta dem.
+- Ta reda på vilka av dina färdigheter eller tekniker du är bäst på eller vill utveckla mest, och välj din nästa arbetsgivare därefter.
+- Gå inte för pengarna, utan för den goda känslan av ett utfört arbete, ett berikat team, ett levererat värde eller ett tillgodosett behov. Det är en klyscha, men pengarna kommer att gå hand i hand med dem om du fokuserar på rätt saker i din professionalism.
+- Om du börjar någonstans bör du kartlägga och förstå vem din arbetsmiljö levererar till och vad din "kvalitet" och ditt "värde" faktiskt uppfattas av dem som beställer och betalar för projektet. Lär dig att fokusera och leverera hög kvalitet och värde, inte bara "bra kod". Det finns företag och projekt där din leverans handlar om en liten bit kod som måste vara perfekt, noggrant testad och som ska fungera de kommande 10-15 åren. Men det finns projekt som kommer att pågå i 2-3-4 år och där den förväntade kvaliteten och värdet är helt annorlunda än vad programmeraren tror. Lär dig att uppfatta detta, gör skillnad och ställ vid behov sådana frågor till dina medarbetare eller kunden.
+- Erkänn att om du med några års mellanrum tittar på din kod från 2-3 år sedan kommer den alltid att vara dålig, även om du tyckte att den var toppmodern tidigare. Det är bättre och mer lovande att fokusera på den kvalitet som uppfattas av "kunden" - oavsett om det är en intern eller extern kund. Det är de mest positiva sakerna som kommer att finnas kvar och ladda dig och de medarbetare eller kunder som du har arbetat med tidigare i framtiden.
+- Ge ditt hjärta till din nya miljö - förstå var deras "problem" ligger, vad som kommer att hjälpa dem mest med dina särskilda färdigheter, kommunicera detta med din chef och gör det med ett kvalitetsresultat i åtanke, inte kvalitetskod. Kanske behöver miljön andra styrkor än programmering.
+- Hjälp, men alltid med ödmjukhet - respektera och försök förstå perspektiv och åsikter från andra som har ett verkligt ansvar och är beredda att bära framgångarna och riskerna med sina beslut under många år framöver. När det gäller en programmerare innefattar detta teknikbeslut, val av stack eller inriktning och långsiktig strategi.
+- Som programmerare ska du alltid lämna in ett noggrant testat arbete. Läs varje rad av din kod i diff-filen före varje överföring. Testa det förberedda gränssnittet i X olika scenarier och försök att spela många enkla men sofistikerade användare själv. Förlita dig inte på testare eller andra CR - detta är bara en bra stödbonus när teamet har dessa processer som fungerar.
+- Tänk på KISS-regeln och se upp för att inte överarbeta den. Om man gör saker enkelt men effektivt, felfritt, säkert och med tydliga gränser är det bättre än att uppfinna ett supermodulärt kärnkraftverk och arkitektur. Det beror på vad du gör, men i de flesta fall är det bättre att välja den enklare lösningen.
+- Om du har fattat bra arkitektoniska beslut kommer alltid att visa sig efter flera års drift och implementering av framtida funktioner. Tyvärr är verkligheten snarare den att de flesta av dagens programmerare byter jobb ganska snabbt och inte har någon aning om vilka positiva eller negativa effekter deras tidigare beslut har haft och därmed om de var bra eller dåliga.
+- Lär dig att känna igen och arbeta med rimliga och rättvisa människor som inte bara handlar om affärer utan också om det verkliga värdet av det de gör och för vem de gör det.
+- Lev och arbeta på ett sådant sätt att när någon i din familj frågar dig vad du arbetar med är ditt svar är ärligt och handlar mer om att hjälpa dina kunder att uppfylla sina behov eller drömmar i internetvärlden, men inte om att vara en perfekt programmerare och skriva perfekt kod. Det finns ingen perfekt kod, men det enda beviset på att du hade bra kod är när ägaren eller samarbetspartnern till ett av dina projekt/produkter flera år senare berömmer dig för att det var bra att arbeta med hela tiden eller att den expanderade fint.
+- Låt dig inte nedslås och tänk på din fysiska och psykiska hälsa. Arbeta endast 8-10 timmar per dag. Om du väljer att tillbringa lite tid på datorn efter arbetstid eller på helgerna ska du inte kalla det arbete du "var tvungen" att göra. Se till att du i efterhand säger till dig själv att det var ett bra beslut. Själv ägnar jag mycket tid åt mitt arbete, men det beror bara på att det jag gör efter arbetstid inte stressar mig, gör mig glad, förbättrar det professionella klimatet för vårt team eller mig själv, och även efter många år ångrar jag inte den tid jag investerade i det. Jag gör bara så mycket som jag vill göra och så mycket som min familj tillåter mig att göra. Jag känner mig fri och jag vet. Trots att jag har gjort det i över 16 år.
+- Jag skrev den föregående punkten främst för att det är tydligt för mig att du ger det ungefär lika mycket tid som jag, men i efterhand bedömer du ofta att det inte var den bästa användningen av din tid (vanligtvis arbetar du för fel personer eller projekt). Var försiktig och välj dina samarbeten medvetet och med klart överenskomna villkor.
+- Känn till, uppfatta och fullgör ditt livs uppdrag. Även om du har svårt att uppfylla den kommer du åtminstone inte att tvivla på om du är på rätt väg, utan du kommer att fokusera på att övervinna hindren på vägen i stället för att grubbla över nonsens.
