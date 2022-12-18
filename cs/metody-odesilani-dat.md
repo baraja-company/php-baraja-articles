@@ -141,3 +141,64 @@ Zpracování ajaxových požadavků
 V některých případech při zpracování ajaxových požadavků nemusí být jednoduché data získat. Důvod je ten, že ajaxové knihovny obvykle odesílají data jako tzv. `json payload`, zatímco superglobální proměnná `$_POST` obsahuje pouze data z formulářů.
 
 K datům se dá i přesto dostat, podrobnosti jsem popsal v článku <a href="/ajax-post">Zpracování ajaxových POST požadavků</a>.
+
+Získání surového (raw) vstupu
+-----------------------------
+
+Někdy se může stát, že uživatel pošle požadavek nevhodnou HTTP metodou, a ještě k tomu přidá vlastní vstup. Nebo například odešle binární soubor, nebo špatné HTTP hlavičky.
+
+Pro takový případ je dobré sáhnout po nativním vstupu, který v PHP získáme takto:
+
+```php
+$input = file_get_contents('php://input');
+```
+
+Při implementaci REST API knihovny jsem také narazil na řadu speciálních případů, kdy různé typy webových serverů špatně rozhodnou vstupní HTTP hlavičky, nebo uživatel špatně odešle formulářová data a podobně.
+
+Pro tento případ jsem dokázal implementovat tuto funkci, která řeší snad všechny případy (implementace je závislá na `Nette\Http\RequestFactory`, ale v konkrétním projektu můžete tuto závislost nahradit něčím jiným):
+
+```php
+/**
+ * Gets POST data directly from the HTTP header, or tries to parse the data from the string.
+ * Some legacy clients send data as json, which is in base string format, so field casting to array is mandatory.
+ *
+ * @return array<string|int, mixed>
+ */
+private function getBodyParams(string $method): array
+{
+	if ($method === 'GET' || $method === 'DELETE') {
+		return [];
+	}
+
+	$request = (new RequestFactory())->fromGlobals();
+	$return = array_merge((array) $request->getPost(), $request->getFiles());
+	try {
+		$post = array_keys($_POST)[0] ?? '';
+		if (str_starts_with($post, '{') && str_ends_with($post, '}')) { // support for legacy clients
+			$json = json_decode($post, true, 512, JSON_THROW_ON_ERROR);
+			if (is_array($json) === false) {
+				throw new LogicException('Json is not valid array.');
+			}
+			unset($_POST[$post]);
+			foreach ($json as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Silence is golden.
+	}
+	try {
+		$input = (string) file_get_contents('php://input');
+		if ($input !== '') {
+			$phpInputArgs = (array) json_decode($input, true, 512, JSON_THROW_ON_ERROR);
+			foreach ($phpInputArgs as $key => $value) {
+				$return[$key] = $value;
+			}
+		}
+	} catch (Throwable $e) {
+		// Silence is golden.
+	}
+
+	return $return;
+}
+```
