@@ -75,7 +75,7 @@ Tento případ může nastat například v okamžiku, kdy je routing na serveru 
 Takto se může chovat například služba **Cloudflare** a je potřeba si dávat pozor, jestli pracujeme s IP adresou skutečného uživatele, nebo proxy serveru. Za mě je nejlepší způsob stáhle použití funkce `getIp()`, která je uvedena na začátku článku. Detekci Cloudflare můžeme zajistit ověřením existence klíče `$_SERVER['HTTP_CF_CONNECTING_IP']`, který se v každém proxovaném requestu automaticky přenáší.
 
 Detekce VPN / Proxy
-===================
+-------------------
 
 Spolehlivá detekce použití proxy nebo VPN neexistuje, nicméně v reálném prostředí můžeme aspoň část provozu odfiltrovat.
 
