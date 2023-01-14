@@ -74,6 +74,23 @@ Tento případ může nastat například v okamžiku, kdy je routing na serveru 
 
 Takto se může chovat například služba **Cloudflare** a je potřeba si dávat pozor, jestli pracujeme s IP adresou skutečného uživatele, nebo proxy serveru. Za mě je nejlepší způsob stáhle použití funkce `getIp()`, která je uvedena na začátku článku. Detekci Cloudflare můžeme zajistit ověřením existence klíče `$_SERVER['HTTP_CF_CONNECTING_IP']`, který se v každém proxovaném requestu automaticky přenáší.
 
+Detekce VPN / Proxy
+===================
+
+Spolehlivá detekce použití proxy nebo VPN neexistuje, nicméně v reálném prostředí můžeme aspoň část provozu odfiltrovat.
+
+Je několik možností, jak to udělat: Vzít rozsah IP adres a porovnat IP adresu, ze které přišel požadavek.
+
+Od některých poskytovatelů VPN jsou seznamy IP adres dostupné neoficiálně (viz např. https://gist.github.com/JamoCA/eedaf4f7cce1cb0aeb5c1039af35f0b7), v případě Tor exit nodů oficiálně (https://blog.torproject.org/changes-tor-exit-list-service, ale Tor bridges tam nejsou).
+
+Další možností je udělat online dotaz někam, což jednak může zdržet načítání stránky pokud daná služba nefunguje a taky to "leakuje" IP adresy návštěvníků třetí straně. Od roku 2023 bych tento přístup výrazně nedoporučil, protože se začíná víc řešit ochrana dat uživatelů a manipulace s nimi.
+
+Tohle online dotazování může být "naivní" a jen se třeba podívat kdo daný rozsah vlastní nebo jestli je to proxy/VPN (některé služby to mohou vracet, standardně to ale součástí "IP info" např. z whois služby nebývá).
+
+(Nej)Častěji se používá nějaké reputační hodnocení, kdy z některých IP adres "chodí bordel" víc, než z jiných. Z různých proxy, VPN a Torů chodí statisticky bordel víc, než z domácích IP adres (tedy snad kromě "zavirovaných" domácích IP adres). Takové reputační hodnocení nabízí některé DNS Block Listy, viz nějaký random seznam, https://en.m.wikipedia.org/wiki/Comparison_of_DNS_blacklists a sloupec "Listing goal", nebo to rovnou poskytují firmy jako Cloudflare v podobě "bot managementu" apod.
+
+Hodně záleží co je cílem detekce.
+
 Ukládání IP adresy
 ------------------
 
