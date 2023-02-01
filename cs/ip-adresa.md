@@ -54,7 +54,7 @@ function getIp(): string
 Mnohem lepší tedy je:
 
 ```php
-echo 'Víte že, vaše IP adresa je ' . getIp() . '?';
+echo sprintf('Víte že, vaše IP adresa je %s?', getIp());
 ```
 
 Pokud se IP podaří zjistit rovnou, nebo je pouze IPv6, nebo jde o CLI režim (například cron), vrací se `127.0.0.1` (localhost).
