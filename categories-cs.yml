@@ -269,4 +269,10 @@
 	description: null
 	parentId: "2b04fefe-ea65-49d4-8505-8b385cac0bed"
 
+-
+	id: 8b6e2597-bee1-45d5-b0bf-48ccb2d0d94a
+	name: Senior vývojář
+	description: "V rámci víkendových retrospektiv jsem připravil desítky otázek a příběhů na zamyšlení. V této sekci naleznete příběhy a otázky, které jsem zažil, a kde můžete získat další zkušenost, nebo si vyzkoušet, jak o věcech přemýšlíte. Správné řešení nemusí být tak jak se zdá."
+	parentId: "483db7b7-5699-41fb-ba0b-d2b653bacd1f"
+
 
