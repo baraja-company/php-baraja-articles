@@ -1,36 +1,36 @@
-Uzyskiwanie adresu IP użytkownika w PHP
-=======================================
+Uzyskanie adresu IP użytkownika w PHP
+=====================================
 
 > id: '1d6d761e-c139-4624-8c32-b0f2c131a831'
 > slug:
 > 	cs: ip-adresa
-> 	pl: uzyskiwanie-adresu-ip-uzytkownika-w-php
+> 	pl: uzyskanie-adresu-ip-uzytkownika-w-php
 > 
 > perex:
 > 	- 'Zjištění IP adresy uživatele v PHP, ukládání IP adresy a ban uživatele. Ošetření VPN a uživatele za Proxy nebo NATem.'
-> 	- 'Uzyskanie adresu IP użytkownika w PHP, zapisanie adresu IP i zablokowanie użytkownika. Badanie sieci VPN i użytkownika za protokołem Proxy lub NAT.'
+> 	- 'Uzyskanie adresu IP użytkownika w PHP, zapisanie adresu IP i zbanowanie użytkownika. Badanie VPN i użytkownika za Proxy lub NAT.'
 > 
 > publicationDate: '2020-02-28 10:30:21'
 > mainCategoryId: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
-> sourceContentHash: '54a77b5e4cc431b354903e42a27682a6'
+> sourceContentHash: '284c4642c3fa98a026ce5a9e6625bb16'
 
-W PHP bardzo łatwo jest wykryć adres IP na poziomie podstawowym:
+W PHP bardzo łatwo jest wykryć adres IP na podstawowym poziomie:
 
 ```php
-echo 'Wiesz, że twój adres IP jest' . $_SERVER['REMOTE_ADDR'] . '?';
+echo 'Wiesz, twój adres IP to' . $_SERVER['REMOTE_ADDR'] . '?';
 ```
 
-> **Ostrzeżenie:** Uzyskanie adresu IP jako klucza pola `$_SERVER['REMOTE_ADDR']` jest możliwe tylko wtedy, gdy PHP zostało wywołane z przeglądarki. W trybie CLI (na przykład podczas uruchamiania z terminala za pomocą programu cron) adres IP nie jest dostępny (ma to sens, ponieważ nie jest wykonywane żadne żądanie sieciowe).
+> **Ostrzeżenie:** Uzyskanie adresu IP jako klucza pola `$_SERVER['REMOTE_ADDR']` jest możliwe tylko wtedy, gdy PHP zostało wywołane z przeglądarki. W trybie CLI (na przykład uruchomionym z Terminala za pomocą crona), adres IP nie jest dostępny (ma to sens, ponieważ nie jest wykonywane żadne żądanie sieciowe).
 
 Niezawodne wykrywanie adresów IP
 -----------------------------
 
-Po wielu latach rozwoju ostatecznie zdecydowałem się na tę implementację:
+Po wielu latach rozwoju, w końcu utknąłem z tą implementacją:
 
 ```php
 function getIp(): string
 {
-    if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) { // Obsługa Cloudflare
+    if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) { // Wsparcie Cloudflare
         $ip = $_SERVER['HTTP_CF_CONNECTING_IP'];
     } elseif (isset($_SERVER['REMOTE_ADDR']) === true) {
         $ip = $_SERVER['REMOTE_ADDR'];
@@ -56,45 +56,62 @@ function getIp(): string
 }
 ```
 
-A więc znacznie lepiej:
+O wiele lepiej:
 
 ```php
-echo 'Wiesz, że twój adres IP jest' . getIp() . '?';
+echo 'Wiesz, twój adres IP to' . getIp() . '?';
 ```
 
-Jeśli IP może być wykryte bezpośrednio, lub jest to tylko IPv6, lub jest to tryb CLI (np. cron), zwraca `127.0.0.1` (localhost).
+Jeśli IP może być wykryte bezpośrednio, lub jest tylko IPv6, lub jest w trybie CLI (np. cron), zwraca `127.0.0.1` (localhost).
 
-Implementacje uwzględniające nagłówki `X-Forwarded-For` i `X-Real-IP` są bardzo niebezpieczne bezpośrednio w PHP, ponieważ dane mogą być łatwo modyfikowane, a atakujący może wyłudzić fałszywy adres IP, aby na przykład wyświetlić administrację lub włączyć tryb Debug na stronie (Nette Tracy). Z drugiej strony, musimy akceptować niektóre żądania proxy (na przykład podczas proxyowania ruchu przez Cloudflare lub podczas uruchamiania Apache'a i Ngnixa na tym samym komputerze, gdy są one wywoływane lokalnie tuż po sobie).
+Implementacje uwzględniające nagłówki `X-Forwarded-For` i `X-Real-IP` są niezwykle niebezpieczne bezpośrednio w PHP, ponieważ dane mogą być łatwo modyfikowane, a atakujący może spoofować fałszywy adres IP, aby np. przejrzeć administrację lub aktywować tryb Debug strony (Nette Tracy). Z drugiej strony, musimy zaakceptować niektóre proxy (na przykład, gdy proxujemy ruch przez Cloudflare, lub gdy uruchamiamy Apache i Ngnix na tej samej maszynie, gdy są one wywoływane lokalnie zaraz po sobie).
 
-W przypadku bezpośredniego dostępu użytkownika do serwera istnieje tylko jedno poprawne rozwiązanie, a mianowicie zapewnienie w Apache (poprzez rozszerzenie `RemoteIP`) oraz w Nginx poprzez rozszerzenie `remote_ip`, że `X-Forwarded-For` jest ustawiony z rzeczywistego adresu IP odwiedzającego, oraz że adres IP nie może być ustawiony za pomocą nagłówka HTTP.
+W przypadku bezpośredniego dostępu użytkownika do serwera istnieje tylko jedno poprawne rozwiązanie, a jest nim zapewnienie na Apache (poprzez rozszerzenie `RemoteIP`) oraz na Nginx poprzez rozszerzenie `remote_ip`, że `X-Forwarded-For` jest ustawiony z rzeczywistego adresu IP odwiedzającego, oraz że adres IP nie może być ustawiony za pomocą nagłówka HTTP.
 
-Pole `$_SERVER['REMOTE_ADDR']` automatycznie pobiera poprawny adres IP (czyli adres IP, z którego żądanie przyszło bezpośrednio do PHP) i nie musimy się tym zajmować.
+Pole `$_SERVER['REMOTE_ADDR']` automatycznie pobiera prawidłowy adres IP (czyli adres IP, z którego żądanie przyszło bezpośrednio do PHP) i nie musimy się tym zajmować.
 
-Dostęp użytkownika przez serwer proxy
+Dostęp użytkownika przez proxy
 ----------------------------
 
-Często zdarza się, że użytkownik uzyskuje dostęp przez serwer proxy. Następnie rzeczywisty adres IP jest zapisywany w zmiennej `$_SERVER['HTTP_X_FORWARDED_FOR']`.
+Często zdarza się, że użytkownik uzyskuje dostęp przez proxy. Następnie rzeczywisty adres IP jest przechowywany w zmiennej `$_SERVER['HTTP_X_FORWARDED_FOR']`.
 
-Taki przypadek może wystąpić na przykład wtedy, gdy routing na serwerze jest rozwiązywany metodą `Ngnix -> Apache -> PHP`, gdzie `Ngnix` służy jako odwrotne proxy przed `Apache`. W tym przypadku PHP widzi tylko adres IP w sieci wewnętrznej (zwykle w postaci `127.0.0.*`).
+Przypadek ten może wystąpić np. gdy routing na serwerze rozwiązywany jest metodą `Ngnix -> Apache -> PHP`, gdzie `Ngnix` służy jako reverse proxy przed `Apache`. W tym przypadku PHP widzi tylko adres IP w obrębie sieci wewnętrznej (zwykle o postaci `127.0.0.*`).
 
-Na przykład usługa **Cloudflare** może zachowywać się w ten sposób i należy zwrócić uwagę na to, czy pracujemy z adresem IP rzeczywistego użytkownika czy serwera proxy. Dla mnie najlepszym sposobem jest użycie funkcji `getIp()` wspomnianej na początku tego artykułu. Możemy zapewnić wykrycie przez Cloudflare, sprawdzając istnienie klucza `$_SERVER['HTTP_CF_CONNECTING_IP']`, który jest automatycznie przesyłany w każdym żądaniu proxy.
+Na przykład usługa **Cloudflare** może zachowywać się w ten sposób i należy zwrócić uwagę, czy pracujemy z adresem IP rzeczywistego użytkownika czy proxy. Dla mnie najlepszym sposobem jest użycie funkcji `getIp()` wspomnianej na początku tego artykułu. Wykrywanie Cloudflare możemy zapewnić poprzez weryfikację istnienia klucza `$_SERVER['HTTP_CF_CONNECTING_IP']`, który jest automatycznie przekazywany w każdym żądaniu proxy.
 
-Zapisywanie adresu IP
+Wykrywanie VPN / Proxy
+-------------------
+
+Nie ma niezawodnego wykrywania użycia proxy lub VPN, ale w realnym środowisku możemy odfiltrować przynajmniej część ruchu.
+
+Można to zrobić na kilka sposobów: Weź zakres adresów IP i porównaj adres IP, z którego przyszło żądanie.
+
+U niektórych dostawców VPN listy adresów IP są dostępne nieoficjalnie (patrz np. https://gist.github.com/JamoCA/eedaf4f7cce1cb0aeb5c1039af35f0b7), w przypadku węzłów wyjściowych Tor oficjalnie (https://blog.torproject.org/changes-tor-exit-list-service, ale mostów Tor tam nie ma).
+
+Inną opcją jest złożenie gdzieś wniosku online, co może zarówno opóźnić ładowanie strony, jeśli usługa nie działa, jak i "wyciekać" adresy IP odwiedzających do strony trzeciej. Od 2023 r. zdecydowanie odradzam takie podejście, ponieważ zaczyna ono polegać bardziej na ochronie i manipulowaniu danymi użytkowników.
+
+To zapytanie online może być "naiwne" i wystarczy sprawdzić kto jest właścicielem zakresu lub czy jest to proxy/VPN (niektóre usługi mogą to zwrócić, ale domyślnie nie jest to częścią "IP info" np. z usługi whois).
+
+(Najczęściej) stosuje się jakiś rodzaj rankingu reputacji, gdzie niektóre adresy IP "śmiecą" bardziej niż inne. Statystycznie więcej syfu pochodzi z różnych proxy, VPNów i Tora niż z domowych adresów IP (no może poza "zainfekowanymi" domowymi adresami IP). Taka ocena reputacji jest oferowana przez niektóre DNS Block Lists, zobacz jakąś losową listę, https://en.m.wikipedia.org/wiki/Comparison_of_DNS_blacklists i kolumnę "Listing goal", lub jest dostarczana bezpośrednio przez firmy takie jak Cloudflare w postaci "bot management" itp.
+
+Wiele zależy od tego, jaki jest cel detekcji.
+
+Przechowywanie adresów IP
 ------------------
 
-Zależy to od tego, jaki adres IP masz do dyspozycji.
+To zależy od tego jaki adres IP masz dostępny.
 
-- Adres IPv4 IP może być przechowywany w 4 bajtach, służy do tego funkcja `ip2long`,
-- Jednak w przypadku adresu IPv6 musimy użyć 16 bajtów i nie ma funkcji konwersji.
+- Adres IPv4 może być przechowywany w 4 bajtach, służy do tego funkcja `ip2long`,
+- Jednak dla adresu IPv6 musimy użyć 16 bajtów i nie ma funkcji konwersji.
 
-Jeśli serwer bazy danych nie obsługuje bezpośrednio typu danych dla adresu IP, zalecam przechowywanie adresu IP jako `varchar(39)`, gdzie obie wersje zmieszczą się jako ciąg znaków i będą czytelne dla człowieka.
+Jeśli twój serwer bazy danych nie obsługuje bezpośrednio typu danych dla adresu IP, polecam przechowywanie adresu IP jako `varchar(39)`, gdzie obie wersje będą pasować jako ciąg i będą czytelne dla człowieka.
 
-> Przy przechowywaniu adresu IP należy rozważyć, czy ma sens przechowywanie również nazwy domeny wykrytej przez funkcję `gethostbyaddr`. Podczas notowania i wyszukiwania nie można ustalić nazwisk, ponieważ trwa to bardzo długo, a z czasem mogą one ulec zmianie.
+> Przy przechowywaniu adresu IP należy rozważyć, czy ma sens przechowywanie również nazwy domeny wykrytej przez funkcję `gethostbyaddr`. Przy notowaniu i wyszukiwaniu nie można poznać nazwisk, bo trwa to bardzo długo, a one z czasem mogą się zmieniać.
 
 Blokowanie adresu IP odwiedzającego
 -----------------------------
 
-Idealnym rozwiązaniem jest utworzenie listy zablokowanych adresów IP i porównywanie tej listy z bieżącym adresem IP przy każdym żądaniu. Jeśli adresy się zgadzają, żądanie zostanie natychmiast zatrzymane.
+Idealnym rozwiązaniem jest stworzenie listy zablokowanych adresów IP i porównanie tej listy z aktualnym adresem IP na każdym żądaniu. Jeśli adresy się zgadzają, żądanie zostanie natychmiast zatrzymane.
 
 ```php
 $blackList = [
@@ -103,14 +120,14 @@ $blackList = [
 ];
 
 if (\in_array(getIp(), $blackList, true) === true) {
-    echo 'Niestety Twój adres IP jest zablokowany :-(.';
+    echo 'Niestety twój adres ip jest zablokowany :-(.';
     die; // Zakończ żądanie
 }
 ```
 
-W przykładzie przyjęto implementację funkcji `getIp()` taką jak w przykładzie powyżej.
+Przykład zakłada implementację funkcji `getIp()` jak w przykładzie powyżej.
 
-Bardziej zaawansowanym rozwiązaniem jest sprawdzenie wystąpienia indeksu w tablicy:
+Bardziej wydajnym rozwiązaniem jest sprawdzenie wystąpienia indeksu w tablicy:
 
 ```php
 $blackList = [
@@ -119,7 +136,7 @@ $blackList = [
 ];
 
 if (isset($blackList[getIp()]) === true) {
-    echo 'Niestety Twój adres IP jest zablokowany :-(.';
+    echo 'Niestety twój adres ip jest zablokowany :-(.';
     die; // Zakończ żądanie
 }
 ```
@@ -129,7 +146,7 @@ Adres IP serwera i nazwa serwera
 
 Adres IP serwera jest zwykle przechowywany w polu `$_SERVER['SERVER_ADDR']`, a jego nazwę można uzyskać za pomocą konstrukcji `gethostbyaddr($_SERVER['SERVER_ADDR'])`.
 
-Jeśli jednak używana jest koncepcja `Ngnix -> Apache -> PHP`, a `Ngnix` pełni rolę odwrotnego proxy, prawdziwy adres IP serwera nie jest wyświetlany.
+Jeśli jednak wykorzystywana jest koncepcja `Ngnix -> Apache -> PHP`, a `Ngnix` występuje w roli reverse proxy, prawdziwy adres IP serwera nie jest wyświetlany.
 
 W tym przypadku nazwę serwera można znaleźć w polu `$_SERVER['SERVER_NAME']` lub za pomocą funkcji `php_uname('n')`. [Oficjalna dokumentacja funkcji uname](https://www.php.net/manual/en/function.php-uname.php).
 

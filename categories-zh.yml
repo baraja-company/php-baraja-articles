@@ -260,3 +260,9 @@
 	description: null
 	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
 
+-
+	id: '8b6e2597-bee1-45d5-b0bf-48ccb2d0d94a'
+	name: 高级开发员
+	description: 作为周末回顾的一部分，我已经准备了几十个问题和故事供大家思考。在这一部分，你会发现我所经历的故事和问题，在这里你可以获得进一步的经验或测试你对事物的思考。正确的解决方案可能不是它看起来的那样。
+	parentId: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
+

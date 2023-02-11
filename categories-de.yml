@@ -260,3 +260,9 @@
 	description: null
 	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
 
+-
+	id: '8b6e2597-bee1-45d5-b0bf-48ccb2d0d94a'
+	name: Senior Entwickler
+	description: 'Im Rahmen der Wochenend-Rückblicke habe ich Dutzende von Fragen und Geschichten zum Nachdenken vorbereitet. In diesem Abschnitt finden Sie Geschichten und Fragen, die ich erlebt habe, mit denen Sie weitere Erfahrungen sammeln oder Ihre Gedankengänge überprüfen können. Die richtige Lösung ist vielleicht nicht das, was sie zu sein scheint.'
+	parentId: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
+

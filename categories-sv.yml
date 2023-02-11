@@ -260,3 +260,9 @@
 	description: null
 	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
 
+-
+	id: '8b6e2597-bee1-45d5-b0bf-48ccb2d0d94a'
+	name: Senior utvecklare
+	description: 'Som en del av helgens tillbakablickar har jag förberett dussintals frågor och berättelser att fundera över. I det här avsnittet hittar du berättelser och frågor som jag har upplevt, där du kan få ytterligare erfarenhet eller testa dina tankar om saker och ting. Den rätta lösningen kanske inte är vad den verkar vara.'
+	parentId: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
+

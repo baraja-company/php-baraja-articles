@@ -6,15 +6,18 @@ Získanie IP adresy používateľa v jazyku PHP
 > 	cs: ip-adresa
 > 	sk: ziskanie-ip-adresy-pouzivatela-v-jazyku-php
 > 
-> perex: 'Zjištění IP adresy uživatele v PHP, ukládání IP adresy a ban uživatele. Ošetření VPN a uživatele za Proxy nebo NATem.'
+> perex:
+> 	- 'Zjištění IP adresy uživatele v PHP, ukládání IP adresy a ban uživatele. Ošetření VPN a uživatele za Proxy nebo NATem.'
+> 	- 'Získanie IP adresy používateľa v PHP, uloženie IP adresy a zakázanie používateľa. Skúmanie VPN a používateľa za proxy serverom alebo NAT.'
+> 
 > publicationDate: '2020-02-28 10:30:21'
 > mainCategoryId: '3666a8a6-f2a3-405d-8263-bd53c4301fb3'
-> sourceContentHash: '54a77b5e4cc431b354903e42a27682a6'
+> sourceContentHash: '284c4642c3fa98a026ce5a9e6625bb16'
 
 V jazyku PHP je veľmi jednoduché zistiť IP adresu na základnej úrovni:
 
 ```php
-echo "Viete, vaša IP adresa je . $_SERVER['REMOTE_ADDR'] . '?';
+echo 'Viete, vaša IP adresa je' . $_SERVER['REMOTE_ADDR'] . '?';
 ```
 
 > **Upozornenie:** Získanie IP adresy ako kľúča poľa `$_SERVER['REMOTE_ADDR']` je možné len vtedy, ak bolo PHP volané z prehliadača. V režime CLI (napríklad pri spustení z terminálu pomocou cronu) nie je IP adresa k dispozícii (to je logické, pretože sa nevykonáva žiadna sieťová požiadavka).
@@ -56,12 +59,12 @@ function getIp(): string
 Potom je to oveľa lepšie:
 
 ```php
-echo "Viete, vaša IP adresa je . getIp() . '?';
+echo 'Viete, vaša IP adresa je' . getIp() . '?';
 ```
 
 Ak je možné IP zistiť priamo, alebo je to len IPv6, alebo je v režime CLI (napr. cron), vráti `127.0.0.1` (localhost).
 
-Implementácie, ktoré zohľadňujú hlavičky `X-Forwarded-For` a `X-Real-IP`, sú priamo v jazyku PHP veľmi nebezpečné, pretože údaje sa dajú ľahko upraviť a útočník môže podvrhnúť falošnú IP adresu, napríklad na zobrazenie administrácie alebo aktiváciu režimu ladenia stránky (Nette Tracy). Na druhej strane musíme akceptovať niektoré proxované požiadavky (napríklad pri proxovaní prevádzky cez Cloudflare alebo pri spustení Apache a Ngnix na tom istom počítači, keď sú volané lokálne hneď po sebe).
+Implementácie, ktoré zohľadňujú hlavičky `X-Forwarded-For` a `X-Real-IP`, sú priamo v jazyku PHP veľmi nebezpečné, pretože údaje sa dajú ľahko upraviť a útočník môže podvrhnúť falošnú IP adresu, napríklad na zobrazenie administrácie alebo aktiváciu režimu Debug na stránke (Nette Tracy). Na druhej strane musíme akceptovať niektoré proxované požiadavky (napríklad pri proxovaní prevádzky cez Cloudflare alebo pri spustení Apache a Ngnix na tom istom počítači, keď sú volané lokálne hneď po sebe).
 
 V prípade priameho prístupu používateľa k serveru existuje len jedno správne riešenie, a to zabezpečiť v Apache (prostredníctvom rozšírenia `RemoteIP`) a v Nginx prostredníctvom rozšírenia `remote_ip`, aby sa `X-Forwarded-For` nastavil zo skutočnej IP adresy návštevníka a aby IP adresa nemohla byť nastavená pomocou hlavičky HTTP.
 
@@ -76,7 +79,24 @@ Tento prípad môže nastať napríklad vtedy, keď je smerovanie na serveri rie
 
 Takto sa môže správať napríklad služba **Cloudflare** a treba dbať na to, či pracujeme s IP adresou skutočného používateľa alebo proxy servera. Pre mňa je najlepším spôsobom použitie funkcie `getIp()` uvedenej na začiatku tohto článku. Detekciu Cloudflare môžeme zabezpečiť overením existencie kľúča `$_SERVER['HTTP_CF_CONNECTING_IP']`, ktorý sa automaticky prenáša v každej proxovanej požiadavke.
 
-Uloženie adresy IP
+Detekcia VPN / Proxy servera
+-------------------
+
+Neexistuje spoľahlivá detekcia používania proxy serverov alebo VPN, ale v reálnom prostredí môžeme odfiltrovať aspoň časť prevádzky.
+
+Existuje niekoľko spôsobov, ako to urobiť: Vezmite rozsah IP adries a porovnajte IP adresu, z ktorej prišla požiadavka.
+
+Od niektorých poskytovateľov VPN sú zoznamy IP adries dostupné neoficiálne (pozri napr. https://gist.github.com/JamoCA/eedaf4f7cce1cb0aeb5c1039af35f0b7), v prípade výstupných uzlov Tor oficiálne (https://blog.torproject.org/changes-tor-exit-list-service, ale mosty Tor tam nie sú).
+
+Ďalšou možnosťou je podať niekde online žiadosť, čo môže spôsobiť oneskorenie načítania stránky, ak služba nefunguje, a tiež "únik" IP adries návštevníkov tretej strane. Od roku 2023 by som tento prístup dôrazne neodporúčal, pretože sa začína viac zaoberať ochranou a manipuláciou s údajmi používateľov.
+
+Toto online dopytovanie môže byť "naivné" a stačí zistiť, kto vlastní rozsah alebo či ide o proxy/VPN (niektoré služby to môžu vrátiť, ale štandardne to nie je súčasťou "informácií o IP", napr. zo služby whois).
+
+(Najčastejšie) sa používa určitý druh hodnotenia reputácie, kde niektoré IP adresy "odpadávajú" viac ako iné. Podľa štatistík prichádza viac svinstva z rôznych proxy serverov, VPN a Tor ako z domácich IP adries (snáď okrem "infikovaných" domácich IP adries). Takéto posúdenie reputácie ponúkajú niektoré zoznamy blokovania DNS, pozri niektorý náhodný zoznam, https://en.m.wikipedia.org/wiki/Comparison_of_DNS_blacklists a stĺpec "Cieľ výpisu", alebo ho poskytujú priamo spoločnosti ako Cloudflare vo forme "správy botov" atď.
+
+Veľa závisí od toho, aký je cieľ detekcie.
+
+Ukladanie adries IP
 ------------------
 
 Záleží na tom, akú IP adresu máte k dispozícii.
@@ -86,7 +106,7 @@ Záleží na tom, akú IP adresu máte k dispozícii.
 
 Ak váš databázový server nepodporuje priamo dátový typ pre IP adresu, odporúčam ukladať IP adresu ako `varchar(39)`, pričom obe verzie sa zmestia do reťazca a budú čitateľné pre človeka.
 
-> Pri ukladaní IP adresy zvážte, či má zmysel ukladať aj názov domény zistený funkciou `gethostbyaddr`. Pri vytváraní zoznamov a vyhľadávaní nemôžete zistiť názvy, pretože to trvá veľmi dlho a časom sa môžu meniť.
+> Pri ukladaní IP adresy zvážte, či má zmysel ukladať aj názov domény zistený funkciou `gethostbyaddr`. Názvy sa nedajú zistiť pri listovaní a vyhľadávaní, pretože to trvá veľmi dlho a časom sa môžu meniť.
 
 Blokovanie IP adresy návštevníka
 -----------------------------
@@ -95,12 +115,12 @@ Ideálnym riešením je vytvorenie zoznamu blokovaných IP adries a porovnanie t
 
 ```php
 $blackList = [
-    "first-ip,
-    "druha-ip,
+    'first-ip',
+    'druha-ip',
 ];
 
 if (\in_array(getIp(), $blackList, true) === true) {
-    echo "Vaša ip adresa je bohužiaľ zablokovaná :-(;
+    echo 'Bohužiaľ, vaša IP adresa je zablokovaná :-(';
     die; // Žiadosť o ukončenie
 }
 ```
@@ -111,12 +131,12 @@ Výkonnejším riešením je kontrola výskytu indexu v poli:
 
 ```php
 $blackList = [
-    "first-ip => true,
-    "druha-ip => true,
+    'first-ip' => true,
+    'druha-ip' => true,
 ];
 
 if (isset($blackList[getIp()]) === true) {
-    echo "Vaša ip adresa je bohužiaľ zablokovaná :-(;
+    echo 'Bohužiaľ, vaša IP adresa je zablokovaná :-(';
     die; // Žiadosť o ukončenie
 }
 ```

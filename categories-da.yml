@@ -260,3 +260,9 @@
 	description: null
 	parentId: '2b04fefe-ea65-49d4-8505-8b385cac0bed'
 
+-
+	id: '8b6e2597-bee1-45d5-b0bf-48ccb2d0d94a'
+	name: Seniorudvikler
+	description: 'Som en del af weekendens retrospektiver har jeg forberedt snesevis af spørgsmål og historier, som du kan tænke over. I denne sektion finder du historier og spørgsmål, som jeg har oplevet, og hvor du kan få flere erfaringer eller afprøve din tankegang. Den rigtige løsning er måske ikke nødvendigvis, hvad den ser ud til at være.'
+	parentId: '483db7b7-5699-41fb-ba0b-d2b653bacd1f'
+
